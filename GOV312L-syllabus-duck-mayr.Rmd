@@ -1,5 +1,5 @@
 ---
-title: "GOV 312L, Issues and Policies in American Government:\\newline American institutions and policy and the US Constitution"
+title: "GOV 312L, Issues & Policies in American Government: Institutions, policy, and the US Constitution"
 date: "Fall 2024"
 classroom: "UTC 4.122"
 classhours: "T & Th, 3:30--5:00 p.m."
@@ -30,15 +30,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Course Description
 
-Analysis of underlying themes concerned with American political institutions and policies, including the United States Constitution.
+This course is about underlying themes concerned with American political institutions and policies, including the United States Constitution.
+We will examine some basics of constitutional law, including the underlying specifications of America's political institutions, methods of constitutional interpretation, and some major developments in American constitutional development.
+You will learn how America's institutions generate policy, both alone and through interaction with each other.
+Throughout the course, we will typically focus on theoretical and empirical research, giving you a broad overview of the current state of political science research on those topics.
 
 # Course Objectives
 
-When you complete the course, you will be able to:
+When you complete the course, you will:
 
-- A
-- B
-- C
+- Have a foundation of knowledge of American constitutional law
+- Understand how American political institutions (and the ways they interact) create policy
+- Be able to apply existing theory and evidence about American institutions and policy to analyze new situations
 
 # Required Readings
 
@@ -46,14 +49,44 @@ All required readings will be available on Canvas.
 
 # Course Assignments
 
-List and describe the required assignments.
+## Class Participation
+
+Students are expected to attend class and be prepared to discuss the reading assignments.
+In addition to posing questions to the class at large, for which anyone can contribute, I may also call on students to participate in discussion.
+I understand that from time to time there will be imperfect preparation, in which case I will be happy to move on to another student.
+Students will not be penalized for occasional lack of preparation; however, if a student is unprepared too frequently, their class participation grade will suffer.
+Due to the nature of the course, a substantial portion of our discussions may involve issues open to multiple valid interpretations.
+
+## Exams
+
+There will be four exams in the course, one after every major unit.
+The exams will not be explicitly cumulative, but may be implicitly cumulative;
+that is, I won't directly ask you about material from previous units,
+but understanding of the earlier material may be needed in analyzing the later material.
+Exams will be taken online through Canvas.
+Each exam will become available at 12:01 a.m. on the day of the exam, and submissions close at 11:59 p.m. that day, but it is entirely your choice on what time of day to take the exam or how long to spend on it (exams will take most students roughly the length of a class period or somewhat less to complete the exam).
+
+## Short paper
+
+You will write a short paper, 500-750 words (this is roughly 2-3 pages double spaced with 12 point font), on a contemporary issue in American politics.
+The issue and your analysis must be related to topics we cover in class.
+You must
+
+- Identify and briefly describe the issue
+- Briefly explain its connection to the course
+- Briefly discuss what the course content that directly relates to the issue tells you
+- And last but most certainly not least, offer your own novel and brief analysis on what you believe is the most likely outcome for the issue you've identified
 
 # Grading
 
 Course grades are determined using a weighted average of the following four components:
 
-- X%: Assignment 1
-- Y%: Assignment 2
+- 20%: Exam 1
+- 20%: Exam 2
+- 20%: Exam 3
+- 20%: Exam 4
+- 15%: Short paper
+- 5%: Class participation
 
 Letter grades will be awarded based on the following cutoffs:
 
@@ -81,6 +114,8 @@ I may choose to curve exam grades; if so, the curve will satisfy the following p
 - The rank ordering of individual grades will be preserved
 - Higher scoring students will not be helped more by the curve than lower scoring students
 
+\newpage
+
 # Course Policies
 
 ## Make-Up Exam Policy
@@ -100,11 +135,105 @@ This request must be submitted within one week of receiving your graded exam.
 
 # Course Schedule
 
+Reading assignments for each week are available on Canvas.
+
 1. Introduction to the United States Constitution
+
+   A. Week 1: A bird's eye view of the Constitution and its adoption
+   
+   B. Week 2: Constitutional interpretation and judicial review
+   
+   C. Week 3: Major moments in American constitutional development
+      
+      **Exam 1 (online) is on the last day of week 3**
+      
 2. Introduction to American political institutions
+
+   A. Week 4: The Congress
+   
+   B. Week 5: The Judiciary
+   
+   C. Week 6: The Executive
+   
+   D. Week 7: Parties and Press
+      
+      **Exam 2 (online) is on the last day of week 7**
+      
 3. Policy and American political institutions
+
+   A. Week 8: Who makes policy, and how?
+   
+   B. Week 9: Separation of powers and other concerns
+   
+   C. Week 10: Special topics on policy
+      
+      **Exam 3 (online) is on the last day of week 10**
+      
 4. New or emerging topics in constitutional law
+
+   A. Week 11: Executive power
+   
+   B. Week 12: Privacy and fundamental rights
+   
+   C. Week 13: First Amendment issues
+      
+      **Short paper is due on the last day of week 13**
+   
+   D. Week 14: Emerging topics and course review
+      
+      **Exam 4 (online) is on the last day of week 14**
 
 \newpage
 
 # University Policies
+
+For a list of important university policies and helpful resources that you may need as you engage with and navigate your courses and the university, see the [University Policies and Resources Students Canvas](https://utexas.instructure.com/enroll/TP964H) page.
+The page includes the information on, among other things,
+
+- the University Honor Code
+- how to receive support through the office of Disability & Access,
+- resources for your physical and mental health,
+- academic aid resources, and
+- Title IX legal requirements for Texas employees.
+
+Some of these are reproduced below for your convenience.
+
+## Academic Integrity Expectations
+
+Students who violate University rules on academic dishonesty are subject to disciplinary penalties, including the possibility of failure in the course and/or dismissal from the University.
+Since such dishonesty harms the individual, all students, and the integrity of the University, policies on academic dishonesty will be strictly enforced.
+For further information, please visit the Student Conduct and Academic Integrity website at: <http://deanofstudents.utexas.edu/conduct>.
+
+Plagiarism is taken very seriously at UT and is subject to academic disciplinary action, including failure of the course.
+To learn more about what plagiarism is and how to avoid it, see the [Avoiding Plagiarism tutorial](https://guides.lib.utexas.edu/c.php?g=539686&p=8083280) developed by the UT Libraries in partnership with the Writing Flag program and Student Judicial Services. 
+
+## Religious Holy Days
+
+By [UT Austin policy](https://catalog.utexas.edu/general-information/academic-policies-and-procedures/attendance/), you must notify me of your pending absence as far in advance as possible of the date of observance of a religious holy day.
+If you must miss a class, an examination, a work assignment, or a project in order to observe a religious holy day, you will be given an opportunity to complete the missed work within a reasonable time after the absence.
+
+## Disability & Access
+
+The university is committed to creating an accessible and inclusive learning environment consistent with university policy and federal and state law.
+Please let me know if you experience any barriers to learning so I can work with you to ensure you have equal opportunity to participate fully in this course.
+If you are a student with a disability, or think you may have a disability, and need accommodations please contact Disability & Access (D&A).
+Please refer to the D&A website for more information: <http://diversity.utexas.edu/disability/>.
+If you are already registered with D&A, please deliver your Accommodation Letter to me as early as possible in the semester so we can discuss your approved accommodations and needs in this course.
+
+## Sharing of Course Materials is Prohibited
+
+No materials used in this class, including, but not limited to, lecture hand-outs, videos, assessments (quizzes, exams, papers, projects, homework assignments), in-class materials, review sheets, and additional problem sets, may be shared online or with anyone outside of the class without explicit, written permission of the instructor. Unauthorized sharing of materials promotes cheating. The University is well aware of the sites used for sharing materials, and any materials found online that are associated with you, or any suspected unauthorized sharing of materials, will be reported to Student Conduct and Academic Integrity in the Office of the Dean of Students. These reports can result in sanctions, including failure of the course.
+
+## Getting Help with Technology
+
+Students needing help with technology in this course should contact the [ITS Service Desk](https://its.utexas.edu/contact).
+
+## Sanger Learning Center
+
+All students are welcome to take advantage of Sanger Center's classes and workshops, private learning specialist appointments, peer academic coaching, and tutoring for more than 70 courses in 15 different subject areas.
+For more information, please visit <https://ugs.utexas.edu/slc> or call 512-471-3614 (JES A332).
+
+## Other resources
+
+- Undergraduate Writing Center: <http://uwc.utexas.edu/>
+- UT Libraries: <http://www.lib.utexas.edu/>
