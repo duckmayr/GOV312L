@@ -1,0 +1,180 @@
+---
+title: "Adoption of the United States Constitution"
+author: "JBrandon Duck-Mayr"
+# date: "`r quack::american_date_format(Sys.Date())`"
+fontsize: 12pt
+# titlepage: true
+# abstract: "Abstract (typically should be 150 words or less)"
+output: quack::article
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The current US Constitution is actually not the United States' first constitution.
+Initially the country was governed by the "Articles of Confederation".
+However, this setup proved to be unworkable; under the Articles of Confederation, the federal government was too weak to properly function.
+For example, the federal government was unable to impose taxes (it could *request* funds from the state, requests that were typically ignored) or regulate foreign or interstate commerce, and any single state could veto amendments to the Articles.
+So, in February of 1787, the Confederation Congress called a convention to propose amendments to the Articles of Confederation.
+
+# The Constitutional Convention
+
+The delegates fairly quickly ascertained that the entire document must be replaced.
+They set out to draft a new document that would meet the needs of the nation.
+
+James Madison and Edmund Randolph, Virginia delegates, put forth a plan surprisingly called "the Virginia plan".
+It called for increased powers for the federal government and a bicameral (two house) federal legislature who appointed both the executive and the judges.
+In **both** houses, the number of representatives each state had would be determined by the state's population; in the "lower house", the representatives would be elected by the people while the "upper house" would be elected by the lower house (from candidates selected by the state legislature).
+Its provisions for judges, other than appointment process, were largely in line with what would ultimately be adopted by the Convention.
+The Virginia Plan clearly favored states with large populations.
+
+William Paterson, a delegate from New Jersey, offered an alternative plan, the New Jersey plan.
+This plan favored instead the states with smaller populations.
+It also featured an executive selected by the legislature, but in the New Jersey plan, there would be an executive council of multiple members rather than a single president only.
+Most importantly, the plan called for a unicameral (one house) legislature where each state had one vote.
+It also called for a judiciary that was more scaled back than in the Virginia plan.
+
+The delegates forged a compromise, often called the Great Compromise.
+The new Congress would have two houses as in the Virginia plan, but with some changes to compromise with the smaller states.
+In the lower house, the House of Representatives, each state's number of representatives would be determined by the state's population, with the representatives elected by the people.
+However, the upper house, the Senate, would have states all have the same number of votes, with the senators chosen by each state's legislature.
+
+As the convention unfolded and drew to a close, the delegates came to more compromises and innovations (though not without considerable debate and sometimes agitation).
+The executive would be selected by an electoral college and serve renewable four year terms.
+Judges would be appointed by the president with the advice and consent of the Senate---settling a debate that had arisen among the delegates as to whether the Senate or the president should appoint judges.
+
+# Ratification of the Constitution
+
+With a new Constitution drafted, the work turned to getting the states to ratify the document.
+A faction called the Federalists advocated for the ratification of the Constitution, eventually publishing a serious essays in newspapers starting in October 1787 presenting their arguments.
+Opponents called Anti-Federalists in turn published essays outlining what they considered to be major flaws in the document.
+
+One major point of contention between these factions was whether constitutional amendments specifying protected civil liberties were necessary.
+By early 1788, five of the required nine states had ratified the Constitution, but other states were worried about the lack of protections for civil liberties in the document.
+Eventually the Federalists conceded on this point, promising to put forward a collection of 10 amendments called Bill of Rights after ratification.
+This concession resulted in the remaining required states ratifying the Constitution by June of 1788; members of Congress and the President were elected and the new government took effect by March of 1789.
+
+Below are excerpts from some of the Federalist and Anti-Federalist essays highlighting some of the disagreements between the Federalists and Anti-Federalists---that is, the issues at the center of the debate about whether we should accept what we now know as our Constitution---and laying out each group's position and argument.
+
+## Necessity of civil liberties protections
+
+### The Anti-Federalists' Objections
+
+#### Anti-Federalist essay John DeWitt II
+
+...That the want of a Bill of Rights to accompany this proposed System, is a solid objection to it, provided there is nothing exceptionable in the System itself, I do not assert. — If, however, there is at any time, a propriety in having one, it would not have been amiss here. A people, entering into society, surrender such a part of their natural rights, as shall be necessary for the existence of that society. They are so precious in themselves, that they would never be parted with, did not the preservation of the remainder require it. They are entrusted in the hands of those, who are very willing to receive them, who are naturally fond of exercising of them, and whose passions are always striving to make a bad use of them. — They are conveyed by a written compact, expressing those which are given up, and the mode in which those reserved shall be secured. Language is so easy of explanation, and so difficult is it by words to convey exact ideas, that the party to be governed cannot be too explicit. The line cannot be drawn with too much precision and accuracy. The necessity of this accuracy and this precision encreases in proportion to the greatness of the sacrifice and the numbers who make it. — That a Constitution for the United States does not require a Bill of Rights, when it is considered, that a Constitution for an individual State would, I cannot conceive. — The difference between them is only in the numbers of the parties concerned they are both a compact between the Governors and Governed the letter of which must be adhered to in discussing their powers. That which is not expressly granted, is of course retained...
+
+#### Anti-Federalist essay Brutus II
+
+...The common good... is the end of civil government, and common consent, the foundation on which it is established. To effect this end, it was necessary that a certain portion of natural liberty should be surrendered in order that what remained should be preserved... But it is not necessary for this purpose that individuals should relinquish all their natural rights... in forming a government... the foundation should be laid... by expressly reserving to the people such of their essential natural rights as are not necessary to be parted with...
+
+This principle, which seems so evidently founded in the reason and nature of things, is confirmed by universal experience... I need say no more, I presume, to an American... [since all the state constitutions had bills of rights]
+
+...To set this matter in a clear light, permit me to instance some of the articles of the bills of rights of the individual states, and apply them to the case in question.
+
+For the security of life, in criminal prosecutions, the bills of rights of most of the states have declared, that no man shall be held to answer for a crime until he is made fully acquainted with the charge brought against him; he shall not be compelled to accuse, or furnish evidence against himself—the witnesses against him shall be brought face to face, and he shall be fully heard by himself or counsel... Are not provisions of this kind as necessary in the general government, as in that of a particular state? ...
+
+These provisions are as necessary under the general government as under that of the individual states; for the power of the former is as complete to the purpose of requiring bail, imposing fines, inflicting punishments, granting search warrants, and seizing persons, papers, or property, in certain cases, as the other...
+
+### The Federalists' Response
+
+#### Federalist 84 (Hamilton)
+
+...The most considerable of the remaining objections is that the plan of the convention contains no bill of rights. Among other answers given to this, it has been upon different occasions remarked that the constitutions of several of the States are in a similar predicament. I add that New York is of the number. And yet the opposers of the new system, in this State, who profess an unlimited admiration for its constitution, are among the most intemperate partisans of a bill of rights. To justify their zeal in this matter, they allege two things: one is that, though the constitution of New York has no bill of rights prefixed to it, yet it contains, in the body of it, various provisions in favor of particular privileges and rights, which, in substance amount to the same thing...
+
+Independent of those which relate to the structure of the government, we find the following: [Hamilton lists various provisions of the proposed constitution, including the right to petition for habeas corpus relief, trial by jury for crimes, and prohibition of ex post facto laws.]
+
+...But a minute detail of particular rights is certainly far less applicable to a Constitution... which is merely intended to regulate the general political interests of the nation...
+
+I go further, and affirm that bills of rights... are not only unnecessary in the proposed Constitution, but would even be dangerous. They would contain various exceptions to powers not granted; and, on this very account, would afford a colorable pretext to claim more than were granted. For why declare that things shall not be done which there is no power to do? Why, for instance, should it be said that the liberty of the press shall not be restrained, when no power is given by which restrictions may be imposed? ...it is evident that it would furnish, to men disposed to usurp, a plausible pretense for claiming that power...
+
+On the subject of the liberty of the press, as much as has been said, I cannot forbear adding a remark or two: in the first place, I observe, that there is not a syllable concerning it in the constitution of this State; in the next, I contend, that whatever has been said about it in that of any other State, amounts to nothing. What signifies a declaration, that "the liberty of the press shall be inviolably preserved''? What is the liberty of the press? Who can give it any definition which would not leave the utmost latitude for evasion? I hold it to be impracticable; and from this I infer, that its security, whatever fine declarations may be inserted in any constitution respecting it, must altogether depend on public opinion, and on the general spirit of the people and of the government...
+
+## The nature of the federal judiciary
+
+### The Anti-Federalists' Objections
+
+#### Anti-Federalist essay Brutus No. XI
+
+The nature and extent of the judicial power of the United States, proposed to be granted by this constitution, claims our particular attention.
+
+...This government is a complete system, not only for making, but for executing laws. And the courts of law, which will be constituted by it, are not only to decide upon the constitution and the laws made in pursuance of it, but by officers subordinate to them to execute all their decisions... They are to be rendered totally independent, both of the people and the legislature, both with respect to their offices and salaries. No errors they may commit can be corrected by any power above them, if any such power there be, nor can they be removed from office for making ever so many erroneous adjudications.
+
+The only causes for which they can be displaced, is, conviction of treason, bribery, and high crimes and misdemeanors.
+
+This part of the plan is so modelled, as to authorise the courts, not only to carry into execution the powers expressly given, but where these are wanting or ambiguously expressed, to supply what is wanting by their own decisions...
+
+#### Anti-Federalist essay Brutus No. XII
+
+In my last, I shewed, that the judicial power of the United States... would be authorized to explain the constitution, not only according to its letter, but according to its spirit and intention; and having this power, they would strongly incline to give it such a construction as to extend the powers of the general government, as much as possible, to the diminution, and finally to the destruction, of that of the respective states...
+
+It is obvious that these courts will have authority to decide upon the validity of the laws of any of the states, in all cases where they come in question before them. Where the constitution gives the general government exclusive jurisdiction, they will adjudge all laws made by the states, in such cases, void *ab initio*. Where the constitution gives them concurrent jurisdiction, the laws of the United States must prevail, because they are the supreme law. In such cases, therefore, the laws of the state legislatures must be repealed, restricted, or so construed, as to give full effect to the laws of the union on the same subject... The remaining objections to the judicial power shall be considered in a future paper.
+
+#### Anti-Federalist essay Brutus No. XV
+
+...the Supreme Court under this Constitution would be exalted above all other power in the government, and subject to no control... I question whether the world ever saw, in any period of it, a court of justice invested with such immense powers, and yet placed in a situation so little responsible...
+
+The judges in England, it is true, hold their offices during their good behavior, but then their determinations are subject to correction by the House of Lords; and their power is by no means so extensive as that of the proposed Supreme Court of the Union...
+
+The judges in England are under the control of the legislature, for they are bound to determine according to the laws passed by them. But the judges under this Constitution will control the legislature, for the Supreme Court are authorized in the last resort, to determine what is the extent of the powers of the Congress; they are to give the Constitution an explanation, and there is no power above them to set aside their judgment...
+
+I have said that the judges under this system will be independent in the strict sense of the word: To prove this I will show that there is no power above them that can control their decisions or correct their errors. There is no authority that can remove them from office for any errors or want of capacity, or lower their salaries, and in many cases their power is superior to that of the legislature.
+
+First. There is no power above them that can correct their errors or control their decisions. The adjudications of this court are final and irreversible, for there is no court above them to which appeals can lie...
+
+Second. They cannot be removed from office or suffer a diminution of their salaries, for any error in judgment or want of capacity...
+
+The only clause in the Constitution which provides for the removal of the judges from office, is that which declares that... civil officers, in which the judges are included, are removable only for crimes. Treason and bribery are named, and the rest are included under the general terms of high crimes and misdemeanors. Errors in judgment, or want of capacity to discharge the duties of the office, can never be supposed to be included in these words, high crimes and misdemeanors...
+
+Third. The power of this court is in many cases superior to that of the legislature...
+
+Perhaps nothing could have been better conceived to facilitate the abolition of the state governments than the constitution of the judicial. They will be able to extend the limits of the general government gradually, and by insensible degrees, and to accommodate themselves to the temper of the people. Their decisions on the meaning of the Constitution will commonly take place in cases which arise between individuals, with which the public will not be generally acquainted; one adjudication will form a precedent to the next, and this to a following one...
+
+### The Federalists' Response
+
+#### Federalist No. 78
+
+WE PROCEED now to an examination of the judiciary department of the proposed government.
+
+In unfolding the defects of the existing Confederation, the utility and necessity of a federal judicature have been clearly pointed out...
+
+The manner of constituting it seems to embrace these several objects: 1st. The mode of appointing the judges. 2d. The tenure by which they are to hold their places. 3d. The partition of the judiciary authority between different courts, and their relations to each other.
+
+First. As to the mode of appointing the judges; this is the same with that of appointing the officers of the Union in general, and has been so fully discussed in the two last numbers, that nothing can be said here which would not be useless repetition.
+
+Second. As to the tenure by which the judges are to hold their places; this chiefly concerns their duration in office; the provisions for their support; the precautions for their responsibility.
+
+According to the plan of the convention, all judges who may be appointed by the United States are to hold their offices DURING GOOD BEHAVIOR... in a republic it is [an] excellent barrier to the encroachments and oppressions of the representative body...
+
+Whoever attentively considers the different departments of power must perceive, that, in a government in which they are separated from each other, the judiciary, from the nature of its functions, will always be the least dangerous to the political rights of the Constitution; because it will be least in a capacity to annoy or injure them. The Executive not only dispenses the honors, but holds the sword of the community. The legislature not only commands the purse, but prescribes the rules by which the duties and rights of every citizen are to be regulated. The judiciary, on the contrary, has no influence over either the sword or the purse; no direction either of the strength or of the wealth of the society; and can take no active resolution whatever. It may truly be said to have neither FORCE nor WILL, but merely judgment; and must ultimately depend upon the aid of the executive arm even for the efficacy of its judgments...
+
+Some perplexity respecting the rights of the courts to pronounce legislative acts void, because contrary to the Constitution, has arisen from an imagination that the doctrine would imply a superiority of the judiciary to the legislative power. It is urged that the authority which can declare the acts of another void, must necessarily be superior to the one whose acts may be declared void...
+
+No legislative act... contrary to the Constitution, can be valid. To deny this, would be to affirm, that the deputy is greater than his principal; that the servant is above his master; that the representatives of the people are superior to the people themselves; that men acting by virtue of powers, may do not only what their powers do not authorize, but what they forbid.
+
+...The interpretation of the laws is the proper and peculiar province of the courts. A constitution is, in fact, and must be regarded by the judges, as a fundamental law. It therefore belongs to them to ascertain its meaning, as well as the meaning of any particular act proceeding from the legislative body. If there should happen to be an irreconcilable variance between the two, that which has the superior obligation and validity ought, of course, to be preferred; or, in other words, the Constitution ought to be preferred to the statute, the intention of the people to the intention of their agents.
+
+Nor does this conclusion by any means suppose a superiority of the judicial to the legislative power. It only supposes that the power of the people is superior to both; and that where the will of the legislature, declared in its statutes, stands in opposition to that of the people, declared in the Constitution, the judges ought to be governed by the latter rather than the former...
+
+#### Federalist No. 80
+
+To JUDGE with accuracy of the proper extent of the federal judicature, it will be necessary to consider, in the first place, what are its proper objects...
+
+...there ought always to be a constitutional method of giving efficacy to constitutional provisions. What, for instance, would avail restrictions on the authority of the State legislatures, without some constitutional mode of enforcing the observance of them? ...This power must either be a direct negative on the State laws, or an authority in the federal courts to overrule such as might be in manifest contravention of the articles of Union...
+
+The reasonableness of the agency of the national courts in cases in which the State tribunals cannot be supposed to be impartial, speaks for itself. No man ought certainly to be a judge in his own cause, or in any cause in respect to which he has the least interest or bias... And it ought to have the same operation in regard to some cases between citizens of the same State... The courts of neither of the granting States could be expected to be unbiased...
+
+#### Federalist No. 81
+
+...The arguments, or rather suggestions, upon which this charge is founded, are to this effect: "The authority of the proposed Supreme Court of the United States, which is to be a separate and independent body, will be superior to that of the legislature. The power of construing the laws according to the SPIRIT of the Constitution, will enable that court to mould them into whatever shape it may think proper; especially as its decisions will not be in any manner subject to the revision or correction of the legislative body. This is as unprecedented as it is dangerous...
+
+...the supposed danger of judiciary encroachments on the legislative authority, which has been upon many occasions reiterated, is in reality a phantom. Particular misconstructions and contraventions of the will of the legislature may now and then happen; but they can never be so extensive as to amount to an inconvenience, or in any sensible degree to affect the order of the political system. This may be inferred with certainty, from the general nature of the judicial power, from the objects to which it relates, from the manner in which it is exercised, from its comparative weakness, and from its total incapacity to support its usurpations by force. And the inference is greatly fortified by the consideration of the important constitutional check which the power of instituting impeachments in one part of the legislative body, and of determining upon them in the other, would give to that body upon the members of the judicial department...
+
+# Recommended further reading
+
+Students interested in this topic will find the following resources useful for learning more:
+
+- Vile, John. 2012. *The Writing and Ratification of the U.S. Constitution*. Amazon link: <https://a.co/d/8WRmr6H>
+- Scott, James Brown and James Madison. 1918 [1787]. *James Madison's Notes Of Debates In The Federal Convention Of 1787 And Their Relation To A More Perfect Society of Nations (1918)*. Amazon link: <https://a.co/d/2Yysxf0>
+- Hamilton, Alexander, James Madison, John Jay, and Patrick Henry, among others. 2014 [1787]. *The Complete Federalist and Anti-Federalist Papers*. Amazon link: <https://a.co/d/7SNNtwv>

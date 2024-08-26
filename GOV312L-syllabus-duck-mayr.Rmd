@@ -2,13 +2,13 @@
 title: "GOV 312L, Issues & Policies in American Government: Institutions, policy, and the US Constitution"
 date: "Fall 2024"
 classroom: "UTC 4.122"
-classhours: "T & Th, 3:30--5:00 p.m."
+classhours: "T & Th 3:30--5:00 p.m."
 
 author: "JB Duck-Mayr"
 instructorpronouns: "They/Them"
 email: "Use Canvas to email"
 office: "MEZ 3.128"
-officehours: "T & Th, 1:00--2:00 p.m. or by appointment"
+officehours: "T & Th 1:00--2:00 p.m. or by appointment"
 
 # TA: "Firstname Lastname"
 # TApronouns: "They/Them"
