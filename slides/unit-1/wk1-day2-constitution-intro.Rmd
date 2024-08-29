@@ -1,0 +1,220 @@
+---
+title: "Law and Society: Intro to the Court and the Constitution"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \usepackage{tikz}
+    - \usepackage{wrapfig}
+    - \setbeamertemplate{footline}{}
+    - \newcommand{\ssl}{\vspace*{3pt}}
+    - \providecommand{\tightlist}{}
+    - \renewcommand{\tightlist}{\setlength{\itemsep}{3pt}\setlength{\parskip}{0pt}}
+    - \newcommand{\fullpic}[2]{\includegraphics[width=\linewidth,height=#1\textheight,keepaspectratio]{#2}}
+output:
+    quack::presentation:
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The first American government
+
+. . .
+
+- Americans developed a number of grievances against the crown
+- In 1774 the colonists organized the First Continental Congress \ssl
+  + It petitioned the King for redress of grievances\onslide<5->{, but}
+  + were largely unsuccessful
+- In 1775 a Second Continental Congress met \ssl
+  + Authorized the Declaration of Independence
+  + Served as de facto government during & after the Revolution
+  + Drafted the Articles of Confederation
+- The Articles were formally ratified in 1781, becoming our first Constitution
+
+## The weakness of confederation
+
+. . .
+
+- However, the Articles of Confederation quickly proved unworkable
+- It was largely a loose agreement between independent states
+- The federal government could not \ssl
+  + Obligate the payment of taxes
+  + Draft soldiers
+  + Regulate foreign or interstate commerce
+
+## Shay's Rebellion
+
+\begin{figure}
+\includegraphics[height=0.8\textheight,keepaspectratio]{shays-rebellion.jpg}
+\end{figure}
+
+## The Constitutional Convention
+
+. . .
+
+- Quickly decided to replace the constitution wholesale
+- Opposing plans were put forward:
+
+\onslide<3->{
+\begin{table}
+\begin{tabular}{p{0.4\textwidth}p{0.4\textwidth}}
+\toprule
+\multicolumn{1}{c}{Virginia Plan} & \multicolumn{1}{c}{New Jersey Plan} \\
+\midrule
+Bicameral legislature & Unicameral legislature \\[0.1em]
+Population apportionment & Equal suffrage for states \\[0.1em]
+Single executive & Executive council \\[0.1em]
+Robust judiciary & Scaled-back judiciary \\[0.1em]
+\bottomrule
+\end{tabular}
+\end{table}
+}
+- A "Great Compromise" was reached \ssl
+  + Bicameral legislature with one house apportioned on population and the other with equal suffrage for states
+  + Single executive, but elected via Electoral College instead of appointed by Congress
+  + Judiciary closer to the Virginia Plan
+
+## Ratification
+
+. . .
+
+- The Constitution needed to be ratified by the states
+- Some quickly ratified it, but in others there was a fierce debate
+- Supporters were called Federalists, opponents called Anti-Federalists
+- Federalists & Anti-Federalists disagreed on many issues\onslide<6->{, like}\ssl
+  + Bill of Rights
+  + Federal judiciary
+- They each published essays making their case
+- Enough states ratified by September 1788, and the new government was elected in early 1789
+
+## Table of Contents to the Articles of the U.S. Constitution
+
+::: nonincremental
+
+1. Article I: The Legislature
+2. Article II: The Executive
+3. Article III: The Judiciary
+4. Article IV: States' Relations
+5. Article V: Amending the U.S. Constitution
+6. Article VI: Prior Debts, National Supremacy, Oaths of Office
+7. Article VII: Ratification
+
+:::
+
+## The Constitution's Underlying Principles
+
+- Provides for a strong(er) federal government,
+- while safeguarding a measure of power for the states,
+- and liberty for individuals.
+
+## The Constitution's Underlying Principles
+
+- Provides for a strong(er) federal government \ssl
+    + Limited government
+    + Separation of powers
+    + Checks and balances
+- Safeguards a measure of power for the states \ssl
+    + Federalism
+- Protects individual liberty
+
+## The Constitution's Underlying Principles: \newline A Strong(er) Federal Government
+
+- We needed a stronger federal government, but still a limited federal government
+- This was accomplished by creating the branches of the federal government and granting them power in a particular way \vspace*{0.5\baselineskip}
+    + Limited grants of power
+    + Separation of powers
+    + Checks and Balances
+
+## The Constitution's Underlying Principles: \newline Limited Powers
+
+. . .
+
+\begin{block}{Article I \S 1}
+All legislative Powers \textbf{\textcolor{BurntOrange}{herein granted}} shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.
+\end{block}
+
+. . .
+
+\begin{block}{Article I \S 8}
+The Congress shall have power to lay and collect taxes... \newline
+
+To borrow money on the credit of the United States; \newline
+
+To regulate commerce with foreign nations, and among the several states, and with the Indian tribes; \newline
+
+...To make all laws which shall be necessary and proper for carrying into execution the foregoing powers...
+\end{block}
+
+## The Constitution's Underlying Principles: \newline Separation of Powers
+
+. . .
+
+\begin{block}{Article I \S 1}
+    All legislative Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.
+\end{block}
+
+. . .
+
+\begin{block}{Article II \S 1}
+The executive Power shall be vested in a President of the United States of America....
+\end{block}
+
+. . .
+
+\begin{block}{Article III \S 1}
+The judicial Power of the United States, shall be vested in one supreme Court, and in such inferior Courts as the Congress may from time to time ordain and establish....
+\end{block}
+
+## The Constitution's Underlying Principles: \newline Separation of Powers
+
+How do these clauses **appropriately** empower the federal government?
+
+. . .
+
+- They create the branches of the federal government, and grant them power.
+- These grants are specific(ish) and separate \vspace*{0.5\baselineskip}
+    + Separate branches are independent of each other
+    + Limited grants of power
+    + Each branch is accountable for its domain
+    
+## The Constitution's Underlying Principles: \newline Checks and Balances
+
+- While our government is one of separated powers, it is also one of shared powers that provide checks and balances to prevent tyranny
+- The judiciary reviews the actions of the other branches
+- The president can veto legislation and appoints judges
+- The legislature can remove judges and the president, must consent to treaties and many appointments
+
+## The Constitution's Underlying Principles: \newline Federalism
+
+. . .
+
+\begin{block}{Article VI, The Supremacy Clause}
+This Constitution, and the Laws of the United States which shall be made in Pursuance thereof; and all Treaties made, or which shall be made, under the Authority of the United States, shall be the supreme Law of the Land; and the Judges in every State shall be bound thereby, any Thing in the Constitution or Laws of any State to the Contrary notwithstanding.
+\end{block}
+
+. . .
+
+\begin{block}{Amendment X}
+The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States respectively, or to the people.
+\end{block}
+
+## The Constitution's Underlying Principles: \newline Individual Liberty
+
+## The Constitution's Underlying Principles: \newline Individual Liberty---The Bill of Rights
+
+- Amendment I: Freedoms of speech, press, peaceable assembly, to petition the government, and free exercise of religion; prohibits establishment of religion
+- Amendment II: Right to keep and bear arms
+- Amendment III: Prohibits quartering of soldiers
+- Amendment IV: Prohibits unreasonable searches and seizures
+- Amendment V: Prohibits Double Jeopardy, takings without just compensation, and compelling self-incrimination; requires due process and indictment before charging certain crimes
+
+## The Constitution's Underlying Principles: \newline Individual Liberty---The Bill of Rights
+
+- Amendment VI: Provides several rights for criminal defendants such as the right to a speedy trial, assistance of counsel, a speedy trial, an impartial jury, and confronting their accuser.
+- Amendment VII: Right to a jury trial by jury in civil cases
+- Amendment VIII: Prohibits excessive bail and fines and cruel and unusual punishment
+- Amendment IX: Enumeration of rights in the Constitution does not deny the People unenumerated rights
+- Amendment X: Reserves non-delegated rights to the states or to the People
