@@ -1,0 +1,154 @@
+---
+title: "Judicial Review"
+author: "JBrandon Duck-Mayr"
+# date: "`r quack::american_date_format(Sys.Date())`"
+fontsize: 12pt
+# titlepage: true
+# abstract: "Abstract (typically should be 150 words or less)"
+output: quack::article
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Often the Supreme Court case *Marbury v. Madison* is considered the origin of judicial review in the United States.[^1]
+Quickly after the Constitution was put into operation, factions developed, with the Federalist party dominated early American politics and their opponents the Democratic-Republicans initially in the minority.
+However, President John Adams lost his reelection bid in 1800, so the Democratic-Republicans came into power on March 4, 1801.[^2]
+Adams appointed several judges just before the transfer of power.
+William Marbury was one such appointee, but the commission entitling him to the office was not delivered to him.
+Marbury sued the Secretary of State, James Madison, seeking to have his commission delivered.
+
+[^1]: Do you think this is true? Why or why not?
+[^2]: Inauguration Day used to be March 4; today it is January 20.
+
+\begin{center}
+\Large\textbf{Marbury v. Madison (1803)}
+\end{center}
+
+Mr. Chief Justice MARSHALL delivered the opinion of the court.
+
+...In the order in which the court has viewed this subject, the following questions have been considered and decided.
+
+1. Has the applicant a right to the commission he demands?
+2. If he has a right, and that right has been violated, do the laws of his country afford him a remedy?
+3. If they do afford him a remedy, is it a mandamus issuing from this court?
+
+The first object of inquiry is,
+
+1. Has the applicant a right to the commission he demands?
+
+His right originates in an act of congress passed in February 1801...
+
+It appears from the affidavits, that in compliance with this law, a commission for William Marbury as a justice of peace for the county of Washington was signed by John Adams, then president of the United States; after which the seal of the United States was affixed to it; but the commission has never reached the person for whom it was made out.
+
+In order to determine whether he is entitled to this commission, it becomes necessary to inquire whether he has been appointed to the office...
+
+The second section of the second article of the constitution declares, 'the president shall nominate, and, by and with the advice and consent of the senate, shall appoint ambassadors, other public ministers and consuls, and all other officers of the United States, whose appointments are not otherwise provided for.'
+
+The third section declares, that 'he shall commission all the officers of the United States.'
+
+...The acts of appointing to office, and commissioning the person appointed, can scarcely be considered as one and the same; since the power to perform them is given in two separate and distinct sections of the constitution...
+
+The last act to be done by the president, is the signature of the commission. He has then acted on the advice and consent of the senate to his own nomination. The time for deliberation has then passed. He has decided. His judgment, on the advice and consent of the senate concurring with his nomination, has been made, and the officer is appointed. This appointment is evidenced by an open, unequivocal act; and being the last act required from the person making it, necessarily excludes the idea of its being... an... incomplete transaction...
+
+The commission being signed, the subsequent duty of the secretary of state is prescribed by law, and not to be guided by the will of the president. He is to affix the seal of the United States to the commission, and is to record it...
+
+The discretion of the executive is to be exercised until the appointment has been made. But having once made the appointment, his power over the office is terminated in all cases, where by law the officer is not removable by him...
+
+Mr. Marbury, then, since his commission was signed by the president and sealed by the secretary of state, was appointed...
+
+To withhold the commission, therefore, is an act deemed by the court not warranted by law, but violative of a vested legal right.
+
+This brings us to the second inquiry; which is,
+
+2. If he has a right, and that right has been violated, do the laws of his country afford him a remedy? The very essence of civil liberty certainly consists in the right of every individual to claim the protection of the laws, whenever he receives an injury...
+
+In the third volume of his Commentaries, page 23, Blackstone states...
+
+'it is a general and indisputable rule, that where there is a legal right, there is also a legal remedy by suit or action at law whenever that right is invaded.'
+
+...The government of the United States has been emphatically termed a government of laws, and not of men. It will certainly cease to deserve this high appellation, if the laws furnish no remedy for the violation of a vested legal right.
+
+If this obloquy is to be cast on the jurisprudence of our country, it must arise from the peculiar character of the case...
+
+Is it in the nature of the transaction? Is the act of delivering or withholding a commission to be considered as a mere political act belonging to the executive department alone, for the performance of which entire confidence is placed by our constitution in the supreme executive; and for any misconduct respecting which, the injured individual has no remedy...
+
+If some acts be examinable, and others not, there must be some rule of law to guide the court in the exercise of its jurisdiction...
+
+By the constitution of the United States, the president is invested with certain important political powers, in the exercise of which he is to use his own discretion, and is accountable only to his country in his political character, and to his own conscience. To aid him in the performance of these duties, he is authorized to appoint certain officers, who act by his authority and in conformity with his orders.
+
+In such cases, their acts are his acts... [Subordinate executive officers are] the mere organ by whom that will is communicated. The acts of such an officer, as an officer, can never be examinable by the courts.
+
+...where the heads of departments are the political or confidential agents of the executive, merely to execute the will of the president, or rather to act in cases in which the executive possesses a constitutional or legal discretion, nothing can be more perfectly clear than that their acts are only politically examinable. But where a specific duty is assigned by law, and individual rights depend upon the performance of that duty, it seems equally clear that the individual who considers himself injured has a right to resort to the laws of his country for a remedy.
+
+If this be the rule, let us inquire how it applies to the case under the consideration of the court.
+
+The power of nominating to the senate, and the power of appointing the person nominated, are political powers, to be exercised by the president according to his own discretion. When he has made an appointment, he has exercised his whole power, and his discretion has been completely applied to the case...
+
+It is then the opinion of the court... That, having this legal title to the office, he has a consequent right to the commission; a refusal to deliver which is a plain violation of that right, for which the laws of his country afford him a remedy.
+
+It remains to be inquired whether,
+
+3. He is entitled to the remedy for which he applies. This depends on,
+
+<!-- -->
+
+1. The nature of the writ applied for. And,
+2. The power of this court.
+
+<!-- -->
+
+1. The nature of the writ.
+
+...This writ, if awarded, would be directed to an officer of government...
+
+...to render the mandamus a proper remedy, the officer to whom it is to be directed, must be one to whom, on legal principles, such writ may be directed; and the person applying for it must be without any other specific and legal remedy.
+
+1. With respect to the officer to whom it would be directed... it is not wonderful that in such a case as this, the assertion, by an individual, of his legal claims in a court of justice... should at first view be considered by some, as an attempt to intrude into the cabinet, and to intermeddle with the prerogatives of the executive.
+
+...The province of the court is, solely, to decide on the rights of individuals, not to inquire how the executive, or executive officers, perform duties in which they have a discretion. Questions, in their nature political, or which are, by the constitution and laws, submitted to the executive, can never be made in this court.
+
+But, if this be not such a question; if so far from being an intrusion into the secrets of the cabinet, it respects a paper... not depending on executive discretion, but on particular acts of congress and the general principles of law?
+
+If one of the heads of departments commits any illegal act, under colour of his office, by which an individual sustains an injury, it cannot be pretended that his office alone exempts him from being sued in the ordinary mode of proceeding, and being compelled to obey the judgment of the law...
+
+But where he is directed by law to do a certain act affecting the absolute rights of individuals, in the performance of which he is not placed under the particular direction of the president... it is not perceived on what ground the courts of the country are further excused from the duty of giving judgment, that right to be done to an injured individual...
+
+This, then, is a plain case of a mandamus... to deliver the commission... and it only remains to be inquired,
+
+Whether it can issue from this court.
+
+The act to establish the judicial courts of the United States authorizes the supreme court 'to issue writs of mandamus, in cases warranted by the principles and usages of law, to any courts appointed, or persons holding office, under the authority of the United States.'
+
+The secretary of state, being a person, holding an office under the authority of the United States, is precisely within the letter of the description; and if this court is not authorized to issue a writ of mandamus to such an officer, it must be because the law is unconstitutional, and therefore absolutely incapable of conferring the authority, and assigning the duties which its words purport to confer and assign.
+
+The constitution vests the whole judicial power of the United States in one supreme court, and such inferior courts as congress shall, from time to time, ordain and establish...
+
+In the distribution of this power it is declared that 'the supreme court shall have original jurisdiction in all cases affecting ambassadors, other public ministers and consuls, and those in which a state shall be a party. In all other cases, the supreme court shall have appellate jurisdiction.'
+
+...To enable this court then to issue a mandamus, it must be shown to be an exercise of appellate jurisdiction, or to be necessary to enable them to exercise appellate jurisdiction...
+
+It is the essential criterion of appellate jurisdiction, that it revises and corrects the proceedings in a cause already instituted, and does not create that case. Although, therefore, a mandamus may be directed to courts, yet to issue such a writ to an officer for the delivery of a paper, is in effect the same as to sustain an original action for that paper, and therefore seems not to belong to appellate, but to original jurisdiction...
+
+The authority, therefore, given to the supreme court, by the act establishing the judicial courts of the United States, to issue writs of mandamus to public officers, appears not to be warranted by the constitution; and it becomes necessary to inquire whether a jurisdiction, so conferred, can be exercised.
+
+...the people have an original right to establish... government... And as the authority, from which they proceed, is supreme, and can seldom act, they are designed to be permanent.
+
+This original and supreme will organizes the government, and assigns to different departments their respective powers. It may either stop here; or establish certain limits not to be transcended by those departments.
+
+The government of the United States is of the latter description. The powers of the legislature are defined and limited; and that those limits may not be mistaken or forgotten, the constitution is written... It is a proposition too plain to be contested, that the constitution controls any legislative act repugnant to it...
+
+...an act of the legislature repugnant to the constitution is void...
+
+If an act of the legislature, repugnant to the constitution, is void, does it, notwithstanding its invalidity, bind the courts and oblige them to give it effect?
+
+...It is emphatically the province and duty of the judicial department to say what the law is. Those who apply the rule to particular cases, must of necessity expound and interpret that rule. If two laws conflict with each other, the courts must decide on the operation of each.
+
+So if a law be in opposition to the constitution: if both the law and the constitution apply to a particular case, so that the court must either decide that case conformably to the law, disregarding the constitution; or conformably to the constitution, disregarding the law: the court must determine which of these conflicting rules governs the case. This is of the very essence of judicial duty...
+
+Why otherwise does it direct the judges to take an oath to support it? This oath certainly applies, in an especial manner, to their conduct in their official character. How immoral to impose it on them, if they were to be used as the instruments, and the knowing instruments, for violating what they swear to support!
+
+...Thus, the... constitution of the United States confirms and strengthens the principle, supposed to be essential to all written constitutions, that a law repugnant to the constitution is void, and that courts, as well as other departments, are bound by that instrument.
+
+The rule must be discharged.
