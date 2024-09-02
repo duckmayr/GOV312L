@@ -1,5 +1,5 @@
 ---
-title: "Law and Society: Intro to the Court and the Constitution"
+title: "Introduction to the US Constitution"
 author: "JBrandon Duck-Mayr"
 date: "`r quack::american_date_format(Sys.Date())`"
 urlcolor: Blue
