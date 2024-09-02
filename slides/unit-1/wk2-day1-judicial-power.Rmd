@@ -1,0 +1,317 @@
+---
+title: "The Judicial Power"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}{\setlength{\itemsep}{3pt}}
+    - \newcommand{\setskip}{\setlength{\parskip}{3pt}}
+    - \renewcommand{\tightlist}{\setsep\setskip}
+    - \usepackage{subcaption}
+    - \usepackage{mathtools}
+    - \newcommand*{\mimage}[1]{\vcenter{\hbox{\includegraphics[width=0.2\textwidth]{#1}}}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Vesting Power in the Court
+
+::: {.block}
+### Article III, Section 1
+The judicial power of the United States, shall be vested in one Supreme Court, and in such inferior courts as the Congress may from time to time ordain and establish...
+:::
+
+## Comparing to the Other Branches
+
+::: {.block}
+### Article I, Section 1
+All legislative powers \textcolor<2->{BurntOrange}{herein granted} shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.
+:::
+
+. . .
+
+. . .
+
+::: {.block}
+### Article I, Section 8
+The Congress shall have power to lay and collect taxes...
+
+&nbsp;
+
+To borrow money on the credit of the United States;
+
+&nbsp;
+
+To regulate commerce with foreign nations, and among the several states, and with the Indian tribes;
+
+&nbsp;
+
+...To make all laws which shall be necessary and proper for carrying into execution the foregoing powers...
+:::
+
+## Comparing to the Other Branches
+
+::: {.block}
+### Article II, Section 1
+The executive power shall be vested in a President of the United States of America...
+:::
+
+. . .
+
+::: {.block}
+### Article II, Section 2
+The President shall be commander in chief of the Army and Navy... and he shall have power to grant reprieves and pardons for offenses against the United States...
+
+&nbsp;
+
+He shall have power, by and with the advice and consent of the Senate, to make treaties... and by and with the advice and consent of the Senate, shall appoint ambassadors, other public ministers and consuls, judges of the Supreme Court, and all other officers of the United States...
+:::
+
+## Vesting Power in the Court
+
+But there's less guidance about what "the judicial power" is
+
+. . .
+
+::: {.block}
+### Article III, Section 1
+The judicial power of the United States, shall be vested in one Supreme Court, and in such inferior courts as the Congress may from time to time ordain and establish...
+:::
+
+::: {.block}
+### Article III, Section 2
+The judicial power shall extend to all cases... arising under this Constitution, the laws of the United States, and treaties... [and] to all cases affecting [various specific combinations of parties]
+:::
+
+. . .
+
+So we know what kinds of cases the courts can exercise "the judicial power" in, but what is "the judicial power"???
+
+. . .
+
+Let's talk about the case *Marbury v. Madison*  to find out...
+
+## *Marbury* Background: The Judiciary Act of 1789
+
+. . .
+
+::: {.block}
+### Article III, Section 2, Clause 2 (Distribution Clause)
+In all Cases affecting [certain specific parties], the supreme Court shall have original Jurisdiction. In all the other Cases before mentioned, the supreme Court shall have appellate Jurisdiction, both as to Law and Fact, \textcolor{BurntOrange}{with such Exceptions, and under such Regulations as the Congress shall make}.
+:::
+
+::: {.block}
+### The Judiciary Act of 1789, Section 13
+...The Supreme Court shall also have appellate jurisdiction from the circuit courts and courts of the several states, in the cases herein after specially provided for; and shall have power to issue writs of prohibition to the district courts... and writs of mandamus... to any courts appointed, or persons holding office, under the authority of the United States.
+:::
+
+## *Marbury* Background: Politics!
+
+At first, the Federalist party dominated U.S. politics
+
+. . .
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{0.22\textwidth}
+        \includegraphics[width=\linewidth]{washington.jpg}
+        \caption*{Washington\newline(1st President)}
+    \end{subfigure}
+    \pause
+    \begin{subfigure}{0.22\textwidth}
+        \includegraphics[width=\linewidth]{adams.jpg}
+        \caption*{John Adams\newline(2nd President)}
+    \end{subfigure}
+    \pause
+    \begin{subfigure}{0.25\textwidth}
+        \includegraphics[width=0.86\linewidth]{marshall.jpg}
+        \caption*{John Marshall\newline(Adams' Sec.~State)}
+    \end{subfigure}
+    \pause
+    \begin{subfigure}{0.22\textwidth}
+        \includegraphics[width=0.92\linewidth]{marbury.jpg}
+        \caption*{William Marbury\newline(Appointed as JP)}
+    \end{subfigure}
+\end{figure}
+
+## *Marbury* Background: Politics!
+
+...until Jefferson won the Presidency in the election of 1800, putting the Democratic-Republicans in power.
+
+. . .
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{0.25\textwidth}
+        \includegraphics[width=\linewidth]{jefferson.jpg}
+        \caption*{Thomas Jefferson (Third President)}
+    \end{subfigure}
+    \pause
+    \begin{subfigure}{0.25\textwidth}
+        \includegraphics[width=\linewidth]{madison.jpg}
+        \caption*{James Madison (TJ's Sec. State)}
+    \end{subfigure}
+\end{figure}
+
+## *Marbury* Background: Politics!
+
+Before Jefferson's inauguration, the Federalists created new circuit courts, put Marshall in as Chief Justice of the Supreme Court, and appointed a lot of Justices of the Peace for D.C., including Marbury.
+
+$\mimage{adams.jpg}\xrightarrow{\text{Appointed as JP}}\mimage{marbury.jpg}$
+
+## *Marbury* Background: Politics!
+
+The JP commissions were supposed to be delivered by Marshall (who was still acting as the Secretary of State). But, he ran out of time to deliver them to everyone.
+
+$\mimage{adams.jpg}\xrightarrow[\text{the Commissions}]{\text{Gave Marshall}}\mimage{marshall.jpg}\color{BurntOrange}{\xrightarrow[\text{\color{BurntOrange}{to Marbury}}]{\text{\color{BurntOrange}{Didn't Deliver}}}}\mimage{marbury.jpg}$
+
+## *Marbury* Background: Politics!
+
+When the Democratic-Republicans came into office, they
+
+. . .
+
+- nixed the new circuit courts,
+- refused to deliver the remaining JP commissions (including Marbury's),
+- and abolished the 1802 term of the Supreme Court.
+
+. . .
+
+Marbury filed suit in the Supreme Court asking for mandamus relief under \S 13 of the Judiciary Act (asking the Court to order Madison to deliver Marbury his commission).
+
+## *Marbury*: The Questions
+
+To resolve this case, Chief Justice Marshall broke down the issue into three questions:
+
+. . .
+
+1. Was Marbury entitled to his commission? \vspace{0.5\baselineskip}
+2. If so, was he entitled to mandamus relief? \vspace{0.5\baselineskip}
+3. If so, could the Supreme Court grant that relief here?
+
+## Was Marbury entitled to his commission?
+
+. . .
+
+\textbf{\textcolor{DarkGreen}{Yes.}}\vspace{0.5\baselineskip}
+
+\begin{block}{\textit{Marbury v. Madison}}
+Mr. Marbury, then, since his commission was
+signed by the President, and sealed by the
+secretary of state, was appointed; and as the
+law creating the office, gave the officer a right to
+hold for five years, independent of the
+Executive, the appointment was not revocable;
+but vested in the officer legal rights, which are
+protected by the laws of his country.
+\end{block}
+
+## Was Marbury entitled to mandamus relief?
+
+. . .
+
+\textbf{\textcolor{DarkGreen}{Yes.}}\vspace{0.5\baselineskip}
+
+. . .
+
+Mandamus does not issue for discretionary acts:
+
+\begin{block}{\textit{Marbury v. Madison}}
+Where the heads of departments... act in cases in which the
+Executive possesses a constitutional or legal
+discretion, nothing can be more perfectly clear
+than that their acts are only politically
+examinable.
+\end{block}
+
+. . .
+
+but it does for "ministerial" acts:
+
+\begin{block}{\textit{Marbury v. Madison}}
+But where a specific duty is
+assigned by law, and individual rights depend
+upon the performance of that duty, it seems
+equally clear that the individual who considers
+himself injured, has a right to resort to the laws
+of his country for a remedy.
+\end{block}
+
+## Could the Supreme Court grant that relief here?
+
+Marshall breaks down this third question into three sub-questions:
+
+. . .
+
+1. Did \S 13 give the Court original jurisdiction over cases like this?\vspace{0.5\baselineskip}
+2. If so, is that constitutional?\vspace{0.5\baselineskip}
+3. If not, what happens?
+
+## Did \S 13 give the Court original jurisdiction over cases like this?
+
+\begin{block}{Judiciary Act of 1789, \S 13}
+...The Supreme Court shall also have appellate jurisdiction from the circuit courts and courts of the several states, in the cases herein after specially provided for; and shall have power to issue writs of prohibition to the district courts, when proceeding as courts of admiralty and maritime jurisdiction, and writs of mandamus, in cases warranted by the principles and usages of law, to any courts appointed, or persons holding office, under the authority of the United States.
+\end{block}
+
+. . .
+
+\textbf{\textcolor{DarkGreen}{Yes.}} (according to Marshall)
+
+## Is that constitutional?
+
+\begin{block}{Article III \S 2, cl. 2 (Distribution Clause)}
+In all Cases affecting Ambassadors, other public Ministers and Consuls, and those in which a State shall be Party, the supreme Court shall have original Jurisdiction. In all the other Cases before mentioned, the supreme Court shall have appellate Jurisdiction, both as to Law and Fact, with such Exceptions, and under such Regulations as the Congress shall make.
+\end{block}
+
+. . .
+
+\textbf{\textcolor{BurntOrange}{No.}}
+
+\begin{block}{\textit{Marbury v. Madison}}
+If congress remains
+at liberty to give this court appellate jurisdiction, where the
+constitution has declared their jurisdiction shall be original; and
+original jurisdiction where the constitution has declared it shall
+be appellate; the distribution of jurisdiction, made in the
+constitution, is form without substance.
+\end{block}
+
+## So, what happens?
+
+\begin{block}{Article VI \S 2 (Supremacy Clause)}
+This Constitution, and the Laws of the United States which shall be made in Pursuance thereof; and all Treaties made, or which shall be made, under the Authority of the United States, shall be the supreme Law of the Land; and the Judges in every State shall be bound thereby, any Thing in the Constitution or Laws of any State to the Contrary notwithstanding.
+\end{block}
+
+\begin{block}{Article VI \S 3 (Oath of Office Clause)}
+The Senators and Representatives before mentioned, and the Members of the several State Legislatures, and all executive and judicial Officers, both of the United States and of the several States, shall be bound by Oath or Affirmation, to support this Constitution; but no religious Test shall ever be required as a Qualification to any Office or public Trust under the United States.
+\end{block}
+
+## So, what happens?
+
+. . .
+
+\textbf{\textcolor{BurntOrange}{Judges do not follow, apply, or enforce unconstitutional laws.}}
+
+\begin{block}{\textit{Marbury v. Madison}}
+\textbf<3>{It is emphatically the province and duty of the
+judicial department to say what the law is}....
+\textbf<4>{So if a law be in opposition to the constitution
+... and the constitution is superior to any
+ordinary act of the legislature; the constitution,
+and not such ordinary act, must govern the case
+to which they both apply.}
+\end{block}
+
+## The "Judicial Power"
+
+So, we see the federal courts have the power to:
+
+- Decide cases and controversies that arise under the Constitution or federal law (Article III \S 2)
+- "Say what the law is" (*Marbury*)
+- Declare actions of the other branches of government to be unconstitutional (in the course of deciding a case) (*Marbury*)
