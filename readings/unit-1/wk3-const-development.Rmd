@@ -1,0 +1,179 @@
+---
+title: "Moments in US Constitutional Develoment"
+author: "JBrandon Duck-Mayr"
+# date: "`r quack::american_date_format(Sys.Date())`"
+fontsize: 12pt
+header-includes:
+    - \usepackage{reading-fmts-cmds}
+    - \definecolor{Blue}{RGB}{0, 95, 134}
+urlcolor: Blue
+output: quack::article
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The U.S. Constitution as we've studied it so far has changed over the last 235 years, in some ways considerably so.
+Sometimes changes to our constitutional order were brought about by amendments to the Constitution, but some were not.
+We'll explore a few such changes and how they came to pass.
+
+# 11th Amendment: Overruling the Court
+
+In 1777, the state of Georgia purchased supplies for the Continental Army from Robert Farquhar.
+However, Georgia had failed to pay for the supplies Farquhar delivered even by the time he died in 1784.
+Alexander Chisholm was the executor of Farquhar's estate, and a citizen of South Carolina.[^1]
+Chisolm sued the state of Georgia in federal court, seeking payment.
+Initially the suit was dismissed for procedural reasons,[^2] so Chisholm refiled the suit directly at the Supreme Court, invoking the Court's original jurisdiction:
+
+[^1]: State citizenship is based on residency, or more precisely, domicile.
+[^2]: The lower court determined the Judiciary Act did not grant lower courts jurisdiction here.
+
+\begin{quote}
+\begin{center}
+\textbf{Article III, \S\ 2}
+\end{center}
+
+The judicial power shall extend\dots\ to controversies\dots\ between a state and citizens of another state\dots
+
+In all cases\dots\ in which a state shall be party, the Supreme Court shall have original jurisdiction.
+\end{quote}
+
+The Supreme Court, in an opinion by Chief Justice John Jay, held that Article III \S\ 2 means that the Supreme Court has original jurisdiction over any case between a state and a citizen of another state, including when the state is not the plaintiff.
+This surprised and angered many, who argued the clause should be interpreted to give the Court jurisdiction only over cases where a state was suing a citizen of another state, and not the other way around.
+Many saw the states as their own sovereign powers, meaning in part that they should enjoy sovereign immunity, a doctrine that limits the ability of people to sue the government.
+
+Congress quickly passed the Eleventh Amendment, and the states quickly ratified it.
+The amendment was designed, expressly, to undo the Supreme Court's decision in *Chisholm v. Georgia*.
+While the Court has the last say in how a constitutional provision is interpreted, the People always have the power to amend the Constitution so that the provisions say something else, including if the People think the Court's interpretation needs to be corrected.
+
+\begin{quote}
+\begin{center}
+\textbf{Eleventh Amendment to the U.S. Constitution}
+\end{center}
+
+The Judicial power of the United States shall not be construed to extend to any suit in law or equity, commenced or prosecuted against one of the United States by Citizens of another State, or by Citizens or Subjects of any Foreign State.
+\end{quote}
+
+After the ratification of the Eleventh Amendment, states could no longer be sued by citizens of other states in federal courts.
+The Court has subsequently interpreted the Amendment to additionally prohibit states from being sued by their own citizens.
+This affected the power of state governments, which is always an important development in the American constitutional order, but also significantly it was the first time Congress and the states have banded together to push back against the Supreme Court.
+The Court has also been overruled by other constitutional amendments, briefly described below.
+
+## Thirteenth & Fourteenth Amendments: *Dred Scott*
+
+Dred Scott was born into slavery.
+He was sold to a soldier in the US Army, who brought Scott with him as he was moved between postings, including spending several years in a free state.
+Scott sued for his freedom, arguing he became free when residing in free states.
+The Supreme Court ruled against Scott and held that any person descended from Africans were not US citizens.
+
+As further described in Section \@ref(sec:reconstruction), the Thirteenth, Fourteenth, and Fifteenth Amendments were ratified after the Civil War as part of Reconstruction.
+The Thirteenth and Fourteenth Amendments in particular overrule *Dred Scott*:
+
+\begin{quoteblock}{Thirteenth Amendment to the US Constitution, \S\ 1}
+Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist within the United States, or any place subject to their jurisdiction.
+\end{quoteblock}
+
+\begin{quoteblock}{Fourteenth Amendment to the US Constitution, \S\ 1}
+All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside\dots
+\end{quoteblock}
+
+## Sixteenth Amendment: *Pollock v. Farmers' Loan & Trust Co*
+
+In 1894, Congress imposed, among other things, an income tax in the Wilson-Gorman Tariff Act.
+Farmers' Loan & Trust Co announced it would comply with the act, and moreover give the government the names of all the people it was paying the income tax for.
+Charles Pollock was a shareholder who sued to prevent the company from taking those actions.
+The Supreme Court ruled the tax was unconstitutional, citing Article I \S\ 9, which reads in relevant part, "No capitation, or other direct, tax shall be laid, unless in proportion to the census or enumeration herein before directed to be taken."
+
+About 10 years later, when debating another tax bill, Congress proposed the Sixteenth Amendment which would overrule *Pollock*.
+Ratification by the states took almost five years, but eventually it was adopted.
+
+\begin{quoteblock}{Sixteenth Amendment to the US Constitution}
+The Congress shall have power to lay and collect taxes on incomes, from whatever source derived, without apportionment among the several States, and without regard to any census or enumeration.
+\end{quoteblock}
+
+## Nineteenth Amendment: *Minor v. Happersett*
+
+Originally, women did not have the right to vote in the US.
+Virginia Minor was a women's suffrage activist; she tried to register to vote in Saint Louis, Missouri in 1872, but was refused.
+She sued the registrar who refused her, Reese Happersett.
+She argued that the Fourteenth Amendment granted citizenship without respect to gender, and that the right to vote was a part of that citizenship.
+The US Supreme Court held the right to vote was not guaranteed by the Fourteenth Amendment, so the states could restrict women's right to vote.
+
+Women's suffrage advocates quickly called for a constitutional amendment guaranteeing women's right to vote.
+In 1878, Senator Aaron Sargent introduced such an amendment in Congress, but it did not succeed.
+Eventually Congress did pass an amendment in 1919 which was quickly ratified by the states.
+The Nineteenth Amendment guaranteed the right to vote could not be denied on account of sex, explicitly overruling *Minor*.
+
+\begin{quoteblock}{Nineteenth Amendment to the US Constitution}
+The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of sex\dots
+\end{quoteblock}
+
+## Twenty Sixth Amendment: *Oregon v. Mitchell*
+
+The Voting Rights Act of 1965 was designed to prevent racial discrimination in voting.
+It was amendment in 1970 to, among other things, expand the right to vote to citizens 18 years of age or older; previously the age was 21.
+This was largely prompted by the Vietnam War and drafting of citizens who could not vote because they were too young.
+The Supreme Court ruled this section of the Voting Rights Act was unconstitutional, noting several provisions protecting the right to vote for citizens with various characteristics (e.g. gender discrimination prohibited in the Nineteenth Amendment), implying that the right was not guaranteed based on any other restrictions.
+The Twenty Sixth Amendment was quickly introduced in Congress and ratified by the states, explicitly overruling *Mitchell*.
+
+\begin{quoteblock}{Twenty Sixth Amendment to the US Constitution \S\ 1}
+The right of citizens of the United States, who are eighteen years of age or older, to vote shall not be denied or abridged by the United States or by any State on account of age.
+\end{quoteblock}
+
+# 12th Amendment: Electoral College Problems
+
+Today, when the Electoral College meets, each elector casts a ballot for President and a ballot for Vice President, but Article II \S\ 1 originally had a different scheme.
+Each elector in the Electoral College would cast two votes for president, with the requirement that one of those votes couldn't be for someone from the elector's own state.
+The person with the most votes became President, if they had a majority of the votes; if not, the House of Representatives chooses between tied candidates if two candidates each get half of the votes, or from the top five candidates otherwise.
+The person with the second most number of votes became Vice President.
+
+In the 1796 presidential election, Federalist John Adams received a majority of votes in the Electoral College and thus was elected president.
+However, the person with the second most number of votes was Democratic-Republican Thomas Jefferson.
+As you might expect, a President of one party and a Vice President of the opposing party caused some friction.
+An amendment to fix the issue was proposed in Congress promptly but was not adopted.
+
+The election of 1800 was even worse.
+The Democratic-Republicans won decisively, but the Democratic-Republican electors in the Electoral College *each* cast one ballot for Thomas Jefferson, who they wanted as president, and one ballot Aaron Burr, who they wanted as Vice President.
+This resulted in a contingent election in the House of Representatives as described above, but it took **35** attempts before they reach a winner.
+This finally spurred the Twelfth Amendment, which is lengthy, but instituted the modern system of the electors voting for President and Vice President separately, avoiding these issues.
+
+# Reconstruction: A Fundamentally New Constitutional Order (13th, 14th, 15th Amendments) {#sec:reconstruction}
+
+For 60 years after the adoption of the Twelfth Amendment, the Constitution was not amended again.
+After the Civil War, we undertook [a Reconstruction effort](https://www.britannica.com/event/Reconstruction-United-States-history) to reassimilate the southern states into the Union.
+Southern states had adopted Black Codes restricting the rights of freedmen.
+Congress passed the Reconstruction Acts which dictated how the southern states would be readmitted to the Union, which required in part that they ratify the post Civil War amendments, the Thirteenth, Fourteenth, and Fifteenth Amendments.
+These amendments abolished slavery, ensured citizenship, Due Process, and Equal Protection of the laws for all people, and protected the right to vote from encroachments based on race.
+These amendments and the broader Reconstruction Effort they were a part of ushered in a fundamentally different constitutional order, abolishing slavery and prohibiting abridgment of rights based on race.
+
+\begin{quoteblock}{Thirteenth Amendment to the US Constitution, \S\ 1}
+Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist within the United States, or any place subject to their jurisdiction.
+\end{quoteblock}
+
+\begin{quoteblock}{Fourteenth Amendment to the US Constitution, \S\ 1}
+All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside. No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.
+\end{quoteblock}
+
+\begin{quoteblock}{Fifteenth Amendment to the US Constitution, \S\ 1}
+The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race, color, or previous condition of servitude.
+\end{quoteblock}
+
+# New Deal: A New Economic Order
+
+In response to [the Great Depression](https://www.britannica.com/event/Great-Depression), President Franklin Delano Roosevelt (typically called FDR) pushed the "New Deal" plan designed to help the economy recover and provide relief for the poor.
+FDR got several bills passed by Congress that instituted new government programs and created new government agencies, all with the objective of improving the devastated economy and helping those struggling in it.
+However, the Supreme Court repeatedly struck down those laws on various grounds, most commonly and most notably holding that Congress was impermissibly delegating too much authority to (these new) executive branch agencies and that some bills went farther than Congress' ability under the Constitution to regulate interstate commerce.
+
+So, on February 9, 1937, FDR announced his federal court reorganization plan, which included a plan to "pack the Court", or add seats on the Supreme Court to give him the ability to appoint additional justices so he could obtain favorable outcomes at the Court.
+It was initially unpopular, so on March 9, he made a direct appeal to the people via radio broadcast.
+Twenty days later, the Court upheld Washington state wage and working condition regulations 5-4 in *West Coast Hotel v. Parrish* (1937), signaling a shift.
+They continued ruling in favor of New Deal legislation, causing support for any court packing plan to wane.
+
+The New Deal plan and the Supreme Court precedents that were built to uphold it represented an important shift in the American constitutional order.
+The power of the federal government was *greatly* expanded, and the relationship between the Executive Branch and Congress was altered in an important way.
+The Court's new interpretation of the Commerce Clause (the clause in Article I \S\ 8 that gives Congress the power to regulate interstate commerce) has been the source of most expansions of federal power since.
+The Court's new interpretation of Congress' ability to delegate its power to others was essential to the creation of the federal bureaucracy.
+
+# The Warren Court: Expansion of Rights
+
