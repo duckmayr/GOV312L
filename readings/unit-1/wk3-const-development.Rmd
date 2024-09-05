@@ -6,7 +6,9 @@ fontsize: 12pt
 header-includes:
     - \usepackage{reading-fmts-cmds}
     - \definecolor{Blue}{RGB}{0, 95, 134}
+    - \definecolor{Teal}{RGB}{0, 169, 183}
 urlcolor: Blue
+linkcolor: Teal
 output: quack::article
 ---
 
@@ -112,7 +114,7 @@ The right of citizens of the United States to vote shall not be denied or abridg
 ## Twenty Sixth Amendment: *Oregon v. Mitchell*
 
 The Voting Rights Act of 1965 was designed to prevent racial discrimination in voting.
-It was amendment in 1970 to, among other things, expand the right to vote to citizens 18 years of age or older; previously the age was 21.
+It was amended in 1970 to, among other things, expand the right to vote to citizens 18 years of age or older; previously the age was 21.
 This was largely prompted by the Vietnam War and drafting of citizens who could not vote because they were too young.
 The Supreme Court ruled this section of the Voting Rights Act was unconstitutional, noting several provisions protecting the right to vote for citizens with various characteristics (e.g. gender discrimination prohibited in the Nineteenth Amendment), implying that the right was not guaranteed based on any other restrictions.
 The Twenty Sixth Amendment was quickly introduced in Congress and ratified by the states, explicitly overruling *Mitchell*.
@@ -131,20 +133,30 @@ The person with the second most number of votes became Vice President.
 In the 1796 presidential election, Federalist John Adams received a majority of votes in the Electoral College and thus was elected president.
 However, the person with the second most number of votes was Democratic-Republican Thomas Jefferson.
 As you might expect, a President of one party and a Vice President of the opposing party caused some friction.
-An amendment to fix the issue was proposed in Congress promptly but was not adopted.
+An amendment to fix the issue was promptly proposed in Congress but was not adopted.
 
 The election of 1800 was even worse.
 The Democratic-Republicans won decisively, but the Democratic-Republican electors in the Electoral College *each* cast one ballot for Thomas Jefferson, who they wanted as president, and one ballot Aaron Burr, who they wanted as Vice President.
 This resulted in a contingent election in the House of Representatives as described above, but it took **35** attempts before they reach a winner.
-This finally spurred the Twelfth Amendment, which is lengthy, but instituted the modern system of the electors voting for President and Vice President separately, avoiding these issues.
+This finally spurred the Twelfth Amendment, which is lengthy, but it instituted the modern system of the electors voting for President and Vice President separately, avoiding these issues.
 
 # Reconstruction: A Fundamentally New Constitutional Order (13th, 14th, 15th Amendments) {#sec:reconstruction}
 
-For 60 years after the adoption of the Twelfth Amendment, the Constitution was not amended again.
-After the Civil War, we undertook [a Reconstruction effort](https://www.britannica.com/event/Reconstruction-United-States-history) to reassimilate the southern states into the Union.
-Southern states had adopted Black Codes restricting the rights of freedmen.
-Congress passed the Reconstruction Acts which dictated how the southern states would be readmitted to the Union, which required in part that they ratify the post Civil War amendments, the Thirteenth, Fourteenth, and Fifteenth Amendments.
-These amendments abolished slavery, ensured citizenship, Due Process, and Equal Protection of the laws for all people, and protected the right to vote from encroachments based on race.
+For 60 years after the adoption of the Twelfth Amendment, the Constitution was not amended again, but multiple amendments were adopted in the wake of the Civil War.
+The Thirteenth Amendment abolished slavery and was adopted in 1865, right before the war's end.
+After the war, we had to wrestle with the issue of how to reintegrate the southern states back into the Union, a process called [Reconstruction](https://www.britannica.com/event/Reconstruction-United-States-history).
+Exactly how this should be done had been debated since the war began.
+
+President Lincoln was assassinated just days after the end of the Civil War, resulting in Andrew Johnson becoming president.
+President Johnson oversaw an initial Reconstruction effort from 1865 to 1866 that was very lax on the southern states.
+During this time, southern states adopted "Black Codes" restricting the rights of freedmen.
+In 1866, Congress proposed the Fourteenth Amendment, which ensured citizenship, Due Process, and Equal Protection of the laws for all people, but Johnson used his influence in the states to impede its ratification.
+
+The election of 1866 resulted in a decidedly less moderate Congress.
+In 1867 and 1868, Congress passed Reconstruction Acts outlining what southern states had to do to be readmitted to the Union.
+The Acts required southern states to, among other things, abolish the Black Codes and ratify the Fourteenth Amendment.
+This led to the Fourteenth Amendment's ratification in 1868.
+In 1870, we adopted the Fifteenth Amendment prohibited denying the right to vote based on race.
 These amendments and the broader Reconstruction Effort they were a part of ushered in a fundamentally different constitutional order, abolishing slavery and prohibiting abridgment of rights based on race.
 
 \begin{quoteblock}{Thirteenth Amendment to the US Constitution, \S\ 1}
@@ -177,3 +189,19 @@ The Court's new interpretation of Congress' ability to delegate its power to oth
 
 # The Warren Court: Expansion of Rights
 
+In 1953, President Dwight D. Eisenhower appointed California Governor Earl Warren to be Chief Justice of the US Supreme Court.
+Warren had no experience as a judge, but he had previously served as District Attorney of Alameda County in California and as the Attorney General of California.
+He was very active in Republican politics, chairing the Republican Part of California from 1932 to 1938; what he may or may not have lacked from having no judicial experience he made up for with political experience, having served as Governor of California for a decade.
+
+This appointment led to one of the greatest periods of expansion of liberty in the US.
+The Warren Court ended *de jure* segregation,[^3] applied liberties from the US Constitution against state governments like the Fourth Amendment freedom from unreasonable searches and seizures[^4] or the Sixth Amendment guarantee of assistance of counsel even if you can't afford a lawyer,[^5] and instituted the famous "*Miranda* warning".[^6]
+The Warren Court gave us a right to privacy[^7] in *Griswold v. Connecticut*, 381 U.S. 479 (1965), a case about whether the government could prohibit a married couple from buying contraception.
+In short, the Warren Court radically changed the relationship between government and the individual, a true shift to our constitutional order.
+
+[^3]: *De jure* means "in law", as opposed to *de facto*, or "in (actual) fact".
+      *Brown v. Board of Education* (1954) declared segregation unlawful, but considerable work was required over the next several years to make this a reality.
+[^4]: *Mapp v. Ohio*, 367 U.S. 643 (1961) prohibits state courts from using evidence obtained in violation of the Fourth Amendment.
+[^5]: Before *Gideon v. Wainwright*, 372 U.S. 335 (1963), the obligation of the government to pay for indigent defendants' lawyers only applied to federal cases.
+[^6]: *Miranda v. Arizona*, 384 U.S. 436 (1966), held that "unless other fully effective means are devised to inform accused persons of their [rights]... Prior to any questioning, the person must be warned that he has a right to remain silent, that any statement he does make may be used as evidence against him, and that he has a right to the presence of an attorney, either retained or appointed. The defendant may waive... these rights, provided the waiver is made voluntarily, knowingly and intelligently."
+[^7]: *Dobbs v. Jackson Women's Health Organization*, 597 U.S. 215 (2022), eliminated the federal right to abortion.
+      Some argue its reasoning would additionally apply to *any* of the Court's privacy precedents, though this is so far untested.
