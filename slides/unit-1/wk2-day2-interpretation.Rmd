@@ -1,0 +1,511 @@
+---
+title: "Court Cases and Constitutional Interpretation"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+    - \newcommand{\verytightlist}{\setsep{0pt}\setskip{0pt}}
+    - \newcommand{\tcbf}[2]{\textcolor{#1}{\textbf{#2}}}
+    - \usepackage{tikz}
+    - \usetikzlibrary{arrows.meta}
+    - \definecolor{firebrick3}{RGB}{205,38,38}
+    - \definecolor{dodgerblue4}{RGB}{16,78,139}
+    - \newcommand{\fullpic}[2]{\includegraphics[width=\linewidth,height=#1\textheight,keepaspectratio]{#2}}
+    - \usepackage{wrapfig}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+quack::attach_common_packages()
+theme_set(theme_bw())
+theme_update(axis.title = element_blank())
+theme_update(plot.caption = element_text(color = "#5f5f5f", hjust = 0))
+```
+
+## Beyond the Text
+
+- We've done a brief overview of the text of the Constitution, which outlines the structure and powers of the federal government
+- But, we will be studying a lot about judicial interpretations of the text.
+- Why do we care about anything other than the text? \vspace*{0.5\baselineskip}
+- Let's consider an example
+
+## Can A Sitting President Be Indicted?
+
+. . .
+
+\begin{block}{Article II \S 4}
+The President, Vice President and all civil Officers of the United States, shall be removed from Office on Impeachment for, and Conviction of, Treason, Bribery, or other high Crimes and Misdemeanors.
+\end{block}
+
+\begin{block}{Article I \S 3}
+Judgment in cases of impeachment shall not extend further than to removal from office, and disqualification to hold and enjoy any office of honor, trust or profit under the United States: but the party convicted shall nevertheless be liable and subject to indictment, trial, judgment and punishment, according to law.
+\end{block}
+
+. . .
+
+Does this answer our question?
+
+## The Importance of Interpretation
+
+. . .
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+\centering
+\includegraphics[width=0.48\textwidth]{humpty.jpg}
+\end{wrapfigure}
+
+"When **I** use a word," Humpty Dumpty said, in rather a scornful tone,
+"it means just what I choose it to mean — neither more nor less."
+
+"The question is," said Alice, "whether you **can** make words mean so many different things."
+
+"The question is," said Humpty Dumpty,
+"which is to be master — that's all.""
+
+\vfill
+
+*Through the Looking Glass*, \newline Lewis Carroll
+
+## So Where Do SCOTUS Cases Come From?
+
+- A lot happens before the Supreme Court interprets a provision of the Constitution: \vspace*{0.5\baselineskip}
+  - Something happens out of court that forms the basis of the lawsuit
+  - Usually the case is filed in a lower court and one or more appeals occur before the case comes to the Supreme Court
+  - Then, *if* the Court decides to hear the case, they review briefs and hear arguments before preparing the opinions we will read in this class
+- So, we'll do a brief overview of the court systems in the U.S. and how cases come to and are decided by the U.S. Supreme Court
+
+## Structure of Federal Judiciary
+
+. . .
+
+Basics:
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+    \node at (0, 0) {United States District Courts};
+    \onslide<3->{
+    \node at (0, 2) {United States Courts of Appeals};
+    \draw [-{Straight Barb}, thick] (0, 0.5)--(0, 1.5);
+    \node [left] at (-0.1, 1) {\footnotesize Appeal};
+    }
+    \onslide<4->{
+    \node at (0, 4) {Supreme Court of the United States};
+    \draw [-{Straight Barb}, thick] (0, 2.5)--(0, 3.5);
+    \node [left] at (-0.1, 3) {\footnotesize Petition};
+    }
+\end{tikzpicture}
+\end{figure}
+
+\onslide<5>{
+There are also specialized courts outside the basic structure
+}
+
+## Structure of Federal Judiciary
+
+\only<2>{
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{CourtBuilding}
+\end{figure}
+}
+
+\only<3>{
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{current-justices}
+\end{figure}
+}
+
+## Structure of Federal Judiciary
+
+::: {.block}
+### Article III, Section 1
+The judicial power of the United States, shall be vested in one Supreme Court, and in such inferior courts as the Congress may from time to time ordain and establish...
+:::
+
+. . .
+
+::: {.block}
+### Article I, Section 3
+The Senate shall have the sole power to try all impeachments... When the President of the United States is tried, the Chief Justice shall preside...
+:::
+
+## Structure of Federal Judiciary
+
+```{r number-of-justices, out.width = "90%", fig.height = 2.67, fig.width = 4, fig.align = "center"}
+dat = data.frame(
+    Year = c(1789, 1807, 1837, 1863, 1869),
+    Size = c(6, 7, 9, 10, 9)
+)
+dat = dat %>% complete(Year = 1789:2023) %>% fill(Size)
+ttl = "SCOTUS Seats Prescribed by Congress"
+ggplot(data = dat, mapping = aes(x = Year, y = Size)) +
+    geom_step(linewidth = 1, color = "#005f86") +
+    ggtitle(ttl) +
+    scale_y_continuous(breaks = seq(from = 2, to = 10, by = 2))
+```
+
+## Structure of Federal Judiciary
+
+\only<1>{
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{circuit-court-map}
+
+\textcolor{gray}{\footnotesize Image from the Administrative Office of the U.S. Courts}
+\end{figure}
+}
+
+\only<2>{
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{texasjudicialdistricts}
+
+\textcolor{gray}{\footnotesize Image from the State Bar of Texas}
+\end{figure}
+}
+
+\only<3>{
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{WDTX-Map}
+
+\textcolor{gray}{\footnotesize Image from the Department of Justice}
+\end{figure}
+}
+
+## Structure of Federal Judiciary
+
+. . .
+
+- One Supreme Court, with one Chief Justice and eight Associate Justices
+- 12 regional Courts of Appeals + the Federal Circuit Court of Appeals (so 13 total), with 179 total judgeships
+- 94 District Courts, each with multiple divisions, with 677 total judgeships
+- Some additional specialized courts and magistrate judges
+
+## Structure of Federal Judiciary
+
+. . .
+
+- The Judiciary Act of 1789 \vspace*{0.3em}
+  + 6 justice Supreme Court
+  + limited District Courts
+  + 3 Circuit Courts staffed by district judges & Supreme Court justices
+- Number of Circuits & Supreme Court justices increased in 1802 (to 6), 1807 (to 7), 1837 (to 9), and 1863 (to 10)
+- The Judiciary Act of 1869 reduced the number of Supreme Court justices to 9, created separate Circuit Court judgeships, & reduced circuit riding burden
+- The Judiciary Act of 1891 created the US Courts of Appeals and eliminated circuit riding (basic modern structure)
+
+## Process and Procedure at the US Supreme Court
+
+. . .
+
+- Generally, first a party *asks* the Court to hear their case
+- Decide to hear it or not by "Rule of Four"
+- If cert is granted, merits briefs filed
+- Oral argument
+- Conference & tentative vote
+- Draft opinions, memos, revisions
+- Announce the opinion of the Court
+
+## Paths to the Supreme Court
+
+. . .
+
+- Original jurisdiction
+  + Concurrent: cases involving public ministers, between the US & a state, and between a state & a citizen of another state
+  + Exclusive: cases between states ($\leftarrow$ SCOTUS *must* hear these)
+- Certified questions (rare)
+- Appeals ($\leftarrow$ SCOTUS *must* hear these; **very** rarely available)
+- Petitions ($\leftarrow$ almost everything they hear is through this)
+
+## The Supreme Court's Caseload
+
+. . .
+
+- Originally had to hear all appeals
+- Eventually the caseload was too much for one court
+- The Judiciary Act of 1891 made *some* of that discretionary
+- The Judiciary Act of 1925 made *most* of that discretionary
+- The Supreme Court Case Selections Act of 1988 made *almost all* of it discretionary
+
+## The Supreme Court's Caseload
+
+```{r full-hearing, out.width = "90%", fig.height = 2.67, fig.width = 4, fig.align = "center"}
+dat = read_csv("scotus-caseload.csv") %>%
+    filter(grepl("granted", category))
+ggplot(data = dat, mapping = aes(x = term, y = total)) +
+    geom_vline(xintercept = 1987, linetype = "dashed", alpha = 1/2) +
+    geom_line(linewidth = 1, color = "#005f86") +
+    scale_y_continuous(limits = c(0, NA)) +
+    ggtitle("# of cases given full hearing at SCOTUS")
+```
+
+## The Supreme Court's Caseload
+
+```{r grant-rate, out.width = "90%", fig.height = 2.67, fig.width = 4, fig.align = "center"}
+dat = read_csv("scotus-caseload.csv") %>%
+    filter(grepl("granted|Docketed", category)) %>% 
+    select(term, category, total) %>% 
+    mutate(category = ifelse(grepl("grant", category), "heard", "filed")) %>%
+    pivot_wider(names_from = "category", values_from = "total") %>% 
+    mutate(grant_rate = heard / filed)
+ggplot(data = dat, mapping = aes(x = term, y = grant_rate)) +
+    geom_vline(xintercept = 1987, linetype = "dashed", alpha = 1/2) +
+    geom_line(linewidth = 1, color = "#005f86") +
+    scale_y_continuous(limits = c(0, NA), labels = scales::percent) +
+    ggtitle("% of filings given full hearing")
+```
+
+## Deciding to Decide
+
+\only<2>{
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{deciding-to-decide}
+\end{figure}
+}
+
+\only<3->{
+\begin{itemize}
+\tightlist
+\item<3-> Cert pool
+\item<4-> About 30\% of cases go on ``discuss list''
+\item<5> The Court hears a case if at least four justices say they should
+\end{itemize}
+}
+
+## Deciding at the Court
+
+\begin{itemize}
+\verytightlist
+\item<2-> If the Court will hear the case, the parties (and sometimes other people or groups) file briefs to persuade the Court to decide one way or another
+\item<3-> Then the parties orally argue their case before the Court, where the justices also ask the attorneys questions about their arguments
+\item<4-> After the parties have argued their case, the Court meets in a private conference, discusses the case, takes an initial vote, and reaches a tentative outcome for the case
+\item<5-> Then either the Chief Justice, or the most senior Associate Justice if the Chief is in the minority, assigns a justice to write the opinion for the Court
+\item<6-> Drafts of the Court's opinion are circulated, commented on by other justices, and revised, and concurrences and dissents are circulated
+\item<7> Eventually final versions of the opinions are reached and announced by the Court
+\end{itemize}
+
+## Deciding at the Court
+
+- But *how* do the justices reach their conclusions -- how they vote, what they write in their opinions?
+- Some focus on legal factors, such as methods of constitutional interpretation
+- Others take a "realistic" approach focusing on factors such as the justices' political views
+
+## Methods of Constitutional Interpretation
+
+. . .
+
+- Textualism
+- Originalism
+    + Original Meaning
+    + Original Intent
+- *Stare Decisis*
+- Structural Analysis
+- Pragmatism
+
+. . .
+
+We'll look at each of these approaches to constitutional interpretation and how they apply to our earlier example.
+
+## Textualism
+
+Textualism focuses on the plain text of the Constitution.
+
+. . .
+
+\begin{block}{Article II \S 4}
+The President, Vice President and all civil Officers of the United States, shall be removed from Office on Impeachment for, and Conviction of, Treason, Bribery, or other high Crimes and Misdemeanors.
+\end{block}
+
+\begin{block}{Article I \S 3}
+Judgment in cases of impeachment shall not extend further than to removal from office, and disqualification to hold and enjoy any office of honor, trust or profit under the United States: but the party convicted shall nevertheless be liable and subject to indictment, trial, judgment and punishment, according to law.
+\end{block}
+
+. . .
+
+If "Judgment in cases of impeachment shall not extend further than to removal from office," how can a sitting president be indicted?
+
+## Originalism
+
+An original meaning focuses on what the words of the Constitution meant to those who ratified the Constitution, or what it meant at the time of ratification, while an original intent approach focuses on what the framers intended to accomplish.
+
+. . .
+
+\begin{block}{Article I \S 6}
+The Senators and Representatives shall receive a Compensation for their Services, to be ascertained by Law, and paid out of the Treasury of the United States. They shall in all Cases, except Treason, Felony and Breach of the Peace, be privileged from Arrest during their Attendance at the Session of their respective Houses, and in going to and returning from the same; and for any Speech or Debate in either House, they shall not be questioned in any other Place.
+\end{block}
+
+. . .
+
+The Framers clearly knew how to provide immunity for government officials. If they intended sitting presidents to be immune from being charged, why didn't they say so?
+
+## Originalism
+
+An original meaning approach focuses on what the words of the Constitution meant to those who ratified the Constitution, or what it meant at the time of ratification, while an original intent approach focuses on what the framers intended to accomplish.
+
+\begin{block}{Federalist 69 (Hamilton)}
+The President of the United States would be liable to be impeached, tried, and, upon conviction of treason, bribery, or other high crimes or misdemeanors, removed from office; and would afterwards be liable to prosecution and punishment in the ordinary course of law.
+\end{block}
+
+. . .
+
+Hamilton seems to say a president can't be charged until *after* removed from office. Is that what he meant? Was this the common understanding at the time?
+
+## Stare Decisis
+
+*Stare decisis*, or "to stand by things decided," means to respect the Court's prior decisions.
+
+. . .
+
+There are no Supreme Court cases directly on point for our question. However, there are some prior cases that could be informative.
+
+. . .
+
+*Nixon v. United States*: U.S. District Court Judge Walter Nixon was convicted for perjury but refused to resign as a judge. He was then removed from office through impeachment. He challenged the impeachment in this case, but not his criminal conviction.
+
+. . .
+
+The Court did not rule on, and was not asked, the question of whether the judge could be criminally charged before being removed from office. However, multiple judges have been criminally convicted before being impeached, and courts' silence on this issue may have meaning for us.
+
+## Stare Decisis
+
+*U.S. v. Nixon*: The Watergate special prosecutor sought audio recordings from President Nixon for use in prosecuting several of Nixon's aides. Nixon claimed he did not have to produce them because he was asserting executive privilege. The Court rejected the idea of an absolute, unqualified privilege.
+
+. . .
+
+Again, the Court did not reach the question of whether President Nixon could have been criminally charged. However, their ruling hinges on the idea that not even the president is above the law.
+
+## Stare Decisis
+
+*Fitzgerald v. Nixon*: Fitzgerald was a civilian employee of the U.S. Air Force. He was fired after testifying before Congress about inefficient use of funds and sued for unjust dismissal. The Court held that the president was immune from civil suit for his official acts.
+
+*Clinton v. Jones*: Paula Jones alleged President Clinton had sexually harassed her while he was the governor of Arkansas. Clinton argued he could not be sued while serving as president. The Court rejected this argument, ruling he must face suit.
+
+## Structural Analysis
+
+A structural analysis approach looks at overarching structures of principles of the Constitution, often separation of powers or federalism.
+
+. . .
+
+\begin{block}{Ankhil Amar (Yale Law School)}
+And so those people who actually think that he has obstructed justice, if you think so, actually, you're very welcome to vote for Democrats in off-year election, who if they control the House of Representatives may be more inclined to do oversight than Republicans. But again, it's a national election that is necessary in order to modify the results of the previous national election. We shouldn't let one state or one inferior officer undo what we all as a nation did in the last presidential election.
+\end{block}
+
+## Pragmatism
+
+Pragmatism focuses on the consequences of a particular interpretation of the Constitution.
+
+. . .
+
+What would be the consequence of interpreting the Constitution to allow indictment of a sitting president?
+
+. . .
+
+\begin{block}{1973 Justice Department Memo}
+It would ``hamstring the operation of the whole governmental apparatus, both in foreign and domestic affairs.''
+\end{block}
+
+\begin{block}{2000 Office of Legal Council Memo}
+The ``indictment or criminal prosecution of a sitting president would unconstitutionally undermine the capacity of the executive branch to perform its constitutionally assigned functions.''
+\end{block}
+
+## A Slight Tangent: *Trump v. US*
+
+. . .
+
+- Former President Donald Trump was indicted for crimes based on conduct while in office
+- Among other things, Trump argued he should be immune for any official act
+- In *Trump v. United States*, the Supreme Court partially agreed
+  + Total immunity for "exercise of his core constitutional powers"
+  + Presumptive immunity for other official acts
+  + No immunity for unofficial acts, including those done while in office
+
+## A Slight Tangent: *Trump v. US*
+
+\begin{center}
+    \fullpic{0.95}{trump-v-us-fn2}
+\end{center}
+
+## A Slight Tangent: *Trump v. US*
+
+\begin{center}
+    \fullpic{0.95}{trump-v-us-fn2-zoom}
+\end{center}
+
+## Pragmatism
+
+Pragmatism focuses on the consequences of a particular interpretation of the Constitution.
+
+What would be the consequence of interpreting the Constitution to allow indictment of a sitting president?
+
+\begin{block}{1973 Justice Department Memo}
+It would ``hamstring the operation of the whole governmental apparatus, both in foreign and domestic affairs.''
+\end{block}
+
+\begin{block}{2000 Office of Legal Council Memo}
+The ``indictment or criminal prosecution of a sitting president would unconstitutionally undermine the capacity of the executive branch to perform its constitutionally assigned functions.''
+\end{block}
+
+## Pragmatism
+
+Pragmatism focuses on the consequences of a particular interpretation of the Constitution.
+
+What would be the consequence of interpreting the Constitution to prohibit indictment of a sitting president?
+
+. . .
+
+\begin{block}{Jonathan Turley (George Washington Law)}
+``[D]ysfunctionality caused by presidential immunity should be a greater concern for citizens than the constitutional crisis brought on by an indictment. An indicted president is a terrible proposition. But so is the continuation of a presumed felon in office — one who clings to power as a shield from accountability.''
+\end{block}
+
+## Realism
+
+. . .
+
+\begin{center}
+    \fullpic{0.75}{robot.jpeg}
+\end{center}
+
+## Realism
+
+In reality, judges are not just legal automatons. They can also be influenced by other factors, such as:
+
+. . .
+
+- Political preferences
+
+## Realism
+
+\fullpic{1}{rbg-apology.jpg}
+
+## Realism
+
+In reality, judges are not just legal automatons. They can also be influenced by other factors, such as:
+
+>- Political preferences
+>- Strategic considerations
+
+## Realism
+
+\fullpic{1}{switch.png}
+
+## Realism
+
+In reality, judges are not just legal automatons. They can also be influenced by other factors, such as:
+
+>- Political preferences
+>- Strategic considerations
+>- Public opinion
+
+. . .
+
+and more.

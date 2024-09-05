@@ -1,0 +1,209 @@
+term,category,paid,unpaid,original,total
+2021,Docketed,1611,3288,1,4900
+2021,On docket,1996,3796,5,5797
+2021,Disposed of,1716,3354,1,5071
+2021,Plenary review granted,70,4,,74
+2020,Docketed,1828,3477,2,5307
+2020,On docket,2137,3982,10,6129
+2020,Disposed of,1752,3474,6,5232
+2020,Plenary review granted,69,3,,72
+2019,Docketed,1478,3930,3,5411
+2019,On docket,1818,4706,10,6534
+2019,Disposed of,1509,4201,2,5712
+2019,Plenary review granted,56,4,,60
+2018,Docketed,1593,4847,2,6442
+2018,On docket,1910,5703,9,7622
+2018,Disposed of,1583,4943,2,6528
+2018,Plenary review granted,77,9,,86
+2017,Docketed,1718,4595,2,6315
+2017,On docket,2062,5320,8,7390
+2017,Disposed of,1740,4465,1,6206
+2017,Plenary review granted,70,8,,78
+2016,Docketed,1550,4755,0,6305
+2016,On docket,1850,5477,7,7334
+2016,Disposed of,1505,4752,1,6258
+2016,Plenary review granted,70,5,,75
+2015,Docketed,1546,4926,3,6475
+2015,On docket,1839,5688,8,7535
+2015,Disposed of,1539,4966,1,6509
+2015,Plenary review granted,69,12,,81
+2014,Docketed,1544,5488,1,7033
+2014,On docket,1845,6215,6,8066
+2014,Disposed of,1552,5453,1,7006
+2014,Plenary review granted,63,8,,71
+2013,Docketed,1566,5808,2,7376
+2013,On docket,1869,6706,5,8580
+2013,Disposed of,1568,5979,0,7547
+2013,Plenary review granted,68,8,,76
+2012,Docketed,1503,6005,1,7509
+2012,On docket,1806,6997,3,8806
+2012,Disposed of,1503,6099,0,7602
+2012,Plenary review granted,83,10,,93
+2011,Docketed,1552,6160,1,7713
+2011,On docket,1867,7082,3,8952
+2011,Disposed of,1564,6090,1,7655
+2011,Plenary review granted,59,7,,66
+2010,Docketed,1558,6299,0,7857
+2010,On docket,1895,7167,4,9066
+2010,Disposed of,1580,6245,2,7827
+2010,Plenary review granted,76,14,,90
+2009,Docketed,1580,6576,3,8159
+2009,On docket,1908,7388,6,9302
+2009,Disposed of,1572,6520,2,8093
+2009,Plenary review granted,69,8,,77
+2008,Docketed,1596,6142,0,7738
+2008,On docket,1941,7021,4,8966
+2008,Disposed of,1612,6209,1,7822
+2008,Plenary review granted,78,9,,87
+2007,Docketed,1614,6627,0,8241
+2007,On docket,1969,7628,5,9602
+2007,Disposed of,1624,6749,1,8374
+2007,Plenary review granted,85,10,,95
+2006,Docketed,1723,7132,2,8857
+2006,On docket,2069,8181,6,10256
+2006,Disposed of,1714,7180,1,8895
+2006,Plenary review granted,62,15,,77
+2005,Docketed,1671,6846,4,8521
+2005,On docket,2025,7575,8,9608
+2005,Disposed of,1679,6526,4,8209
+2005,Plenary review granted,63,15,,78
+2004,Docketed,1741,5755,0,7496
+2004,On docket,2041,6543,4,8588
+2004,Disposed of,1687,5814,0,7501
+2004,Plenary review granted,69,11,,80
+2003,Docketed,1722,6092,0,7814
+2003,On docket,2058,6818,6,8882
+2003,Disposed of,1758,6030,2,7790
+2003,Plenary review granted,74,13,,87
+2002,Docketed,1869,6386,0,8255
+2002,On docket,2190,7209,7,9406
+2002,Disposed of,1853,6483,1,8337
+2002,Plenary review granted,83,8,,91
+2001,Docketed,1886,6037,1,7924
+2001,On docket,2210,6958,8,9176
+2001,Disposed of,1889,6135,1,8025
+2001,Plenary review granted,82,6,,88
+2000,Docketed,1954,5897,1,7852
+2000,On docket,2305,6651,9,8965
+2000,Disposed of,1981,5730,2,7713
+2000,Plenary review granted,85,14,,99
+1999,Docketed,2092,5282,3,7377
+1999,On docket,2413,6024,8,8445
+1999,Disposed of,2062,5270,0,7332
+1999,Plenary review granted,78,14,,92
+1998,Docketed,2061,5047,1,7109
+1998,On docket,2387,5689,7,8083
+1998,Disposed of,2066,4947,2,7015
+1998,Plenary review granted,72,9,,81
+1997,Docketed,2085,4694,2,6781
+1997,On docket,2432,5253,7,7692
+1997,Disposed of,2106,4611,1,6718
+1997,Plenary review granted,75,14,,89
+1996,Docketed,2055,4578,1,6634
+1996,On docket,2430,5165,7,7602
+1996,Disposed of,2083,4606,2,6691
+1996,Plenary review granted,74,13,,87
+1995,Docketed,2095,4500,2,6597
+1995,On docket,2456,5098,11,7565
+1995,Disposed of,2081,4511,5,6597
+1995,Plenary review granted,92,13,,105
+1994,Docketed,2138,4858,0,6996
+1994,On docket,2515,5574,11,8100
+1994,Disposed of,2154,4976,2,7132
+1994,Plenary review granted,83,10,,93
+1993,Docketed,2100,4796,1,6897
+1993,On docket,2442,5332,12,7786
+1993,Disposed of,2065,4616,1,6682
+1993,Plenary review granted,78,21,,99
+1992,Docketed,2062,4240,1,6303
+1992,On docket,2441,4792,12,7245
+1992,Disposed of,2099,4256,1,6366
+1992,Plenary review granted,83,14,,97
+1991,Docketed,2086,3779,1,5866
+1991,On docket,2451,4307,12,6770
+1991,Disposed of,2072,3755,1,5828
+1991,Plenary review granted,103,17,,120
+1990,Docketed,1986,3514,2,5502
+1990,On docket,2351,3951,14,6516
+1990,Disposed of,1986,3423,3,5412
+1990,Plenary review granted,114,27,,141
+1989,Docketed,2032,2885,1,4918
+1989,On docket,2416,3316,14,5746
+1989,Disposed of,2051,2879,2,4932
+1989,Plenary review granted,103,19,,122
+1988,Docketed,2141,2632,2,4775
+1988,On docket,2587,3056,14,5657
+1988,Disposed of,2203,2625,2,4830
+1988,Plenary review granted,129,18,,147
+1987,Docketed,2137,2352,4,4493
+1987,On docket,2577,2675,16,5268
+1987,Disposed of,2131,2251,5,4387
+1987,Plenary review granted,157,23,,180
+1986,Docketed,2071,2165,4,4240
+1986,On docket,2547,2564,12,5123
+1986,Disposed of,2104,2241,1,4349
+1986,Plenary review granted,152,15,,167
+1985,Docketed,2171,2239,3,4413
+1985,On docket,2571,2577,10,5158
+1985,Disposed of,2095,2178,2,4275
+1985,Plenary review granted,168,20,,188
+1984,Docketed,2036,2007,4,4047
+1984,On docket,2575,2416,15,5006
+1984,Disposed of,2175,2078,8,4261
+1984,Plenary review granted,167,19,,186
+1983,Docketed,2168,2050,4,4222
+1983,On docket,2688,2394,18,5100
+1983,Disposed of,2418,1985,7,4140
+1983,Plenary review granted,140,9,,149
+1982,Docketed,2165,2035,1,4201
+1982,On docket,2710,2352,17,5079
+1982,Disposed of,2190,2008,3,4201
+1982,Plenary review granted,169,10,,179
+1981,Docketed,2413,2004,5,4422
+1981,On docket,2935,2354,22,5311
+1981,Disposed of,2390,2037,6,4433
+1981,Plenary review granted,203,7,,210
+1980,Docketed,2222,1950,2,4174
+1980,On docket,2749,2371,24,5144
+1980,Disposed of,2227,2021,7,4255
+1980,Plenary review granted,167,17,,184
+1979,Docketed,2084,1899,2,3985
+1979,On docket,2509,2249,23,4781
+1979,Disposed of,1982,1828,1,3811
+1979,Plenary review granted,132,22,,158
+1978,Docketed,1949,1939,5,3893
+1978,On docket,2379,2335,17,4731
+1978,Disposed of,1954,1985,0,3939
+1978,Plenary review granted,144,19,,163
+1977,Docketed,1869,2015,6,3890
+1977,On docket,2341,2349,14,4704
+1977,Disposed of,1911,1953,3,3867
+1977,Plenary review granted,146,14,,160
+1976,Docketed,1872,2000,1,3873
+1976,On docket,2324,2398,8,4730
+1976,Disposed of,1852,2064,2,3918
+1976,Plenary review granted,147,22,,169
+1975,Docketed,1921,2013,5,3939
+1975,On docket,2352,2395,14,4761
+1975,Disposed of,1810,1989,7,3806
+1975,Plenary review granted,154,18,,172
+1974,Docketed,1656,1759,2,3417
+1974,On docket,2268,2340,12,4620
+1974,Disposed of,1837,1958,4,3799
+1974,Plenary review granted,154,18,,176
+1973,Docketed,2068,2118,1,4187
+1973,On docket,2480,2585,14,5079
+1973,Disposed of,1868,2004,4,3876
+1973,Plenary review granted,166,17,,183
+1972,Docketed,1741,2000,8,3749
+1972,On docket,2183,2436,21,4640
+1972,Disposed of,1617,1947,8,3572
+1972,Plenary review granted,133,21,,154
+1971,Docketed,1708,1930,5,3643
+1971,On docket,2070,2445,18,4533
+1971,Disposed of,1628,2009,8,3645
+1971,Plenary review granted,132,31,,163
+1970,Docketed,1578,1831,10,3419
+1970,On docket,1903,2289,20,4212
+1970,Disposed of,1613,1802,7,3422
+1970,Plenary review granted,120,41,,161
