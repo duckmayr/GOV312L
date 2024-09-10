@@ -317,8 +317,50 @@ It is difficult to say what makes a judge decide as he does. Public outcry again
 
 ## Example Exam Question: Multiple Choice
 
+\scriptsize
+
+Which of the following best summarizes Chief Justice Marshall's decision in \textit{Marbury v. Madison}?
+
+::: {.nonincremental}
+A.  \textcolor<2>{midgreen}{\textbf<2>{Marbury has a right to his appointment, and the laws of the U.S. afford him a remedy. Congress, in the Judiciary Act, entitled Marbury to bring suit on original jurisdiction, but the Constitution does not permit Congress to add to the Court's original jurisdiction. Unconstitutional laws may be struck down by the Court.}}
+B.  Marbury has a right to his appointment, and the laws of the U.S. afford him a remedy. Congress, in the Judiciary Act, entitled Marbury to bring suit on original jurisdiction, but the Constitution does not permit Congress to add to the Court's original jurisdiction. It's up to Congress or the President, not the Court, to invalidate federal laws.
+C.  Marbury has a right to his appointment, and the laws of the U.S. afford him a remedy. Congress, in the Judiciary Act, entitled Marbury to bring suit on appellate jurisdiction, but the Constitution does not permit Congress to allow mandamus cases to come to the Court on appellate jurisdiction. Unconstitutional laws may be struck down by the Court.
+D.  Marbury has a right to the appointment, though the laws of the U.S. may or may not afford him a remedy. Congress, in the Judiciary Act, entitled Marbury to bring suit on original jurisdiction, but the Constitution does not permit Congress to add to the Court's original jurisdiction. Unconstitutional laws may be struck down by the Court.
+:::
+
 ## Example Exam Question: Multiple Choice Cluster
+
+<!-- \scriptsize -->
+\footnotesize
+
+Congress passes the Right to Be Forgotten Act, which requires tech companies to remove personal information from their web searches (& etc) if you ask them to. The bill’s sponsors knew there were going to be constitutional challenges to the law, on First Amendment grounds at least (under the argument that the law abridges the tech companies’ freedom of speech). So, they included a provision that empowers anyone challenging the law to file suit directly at the US Supreme Court, invoking the Court’s original jurisdiction. Pat files the proper paperwork to require Google to remove Pat’s personal information. Google refuses, defending their decision by appealing to the First Amendment and freedom of speech values. Pat sues Google, filing suit directly at the US Supreme Court.
+
+## Example Exam Question: Multiple Choice Cluster
+
+::: {.nonincremental}
+1. When passing bills, Congress often includes a section explaining what provisions of the US Constitution they believe empowers them to pass the bill. Which of the following provisions would Congress likely cite for this bill?
+   a) The 10th Amendment’s reservation of power to the states and the people
+   b) \textbf<2>{\textcolor<2>{midgreen}{The Commerce Clause}}
+   c) The taxing provisions of Article I, Section 8 and the 16th Amendment
+:::
+
+## Example Exam Question: Multiple Choice Cluster
+
+\footnotesize
+
+::: {.nonincremental}
+2. Google challenges the bill on two fronts: First they claim the provision giving the Court original jurisdiction over the case is unconstitutional, and second they claim the law's requirements violate the First Amendment's right to free speech. How would the Court rule on the jurisdictional challenge?
+   a) \footnotesize Since Article III expressly allows Congress to make "exceptions... and regulations" to the Court's jurisdiction, the provision is constitutional.
+   b) \footnotesize \textbf<2>{\textcolor<2>{midgreen}{Article III's statement about exceptions and regulations only applies to the Court's appellate jurisdiction, so Congress cannot add cases to the Court's original jurisdiction and the provision is unconstitutional.}}
+   c) \footnotesize Since Article III does not directly address whether Congress can alter the Court's original jurisdiction, the Court must engage in further interpretation. The Court holds the provision is constitutional citing separation of powers principles
+:::
 
 ## Example Exam Question: Short Essay
 
+We have discussed several methods of constitutional interpretation. Which methods seemed particularly useful or persuasive, and which less so? Why? Be sure to compare and contrast multiple methods of interpretation, and discuss whether and how your preferences over methods of interpretation could be different in different circumstances.
 
+## The Debate
+
+- Tonight is the presidential debate between Kamala Harris and Donald Trump
+- It is at 8 p.m. Central time
+- You can watch on ABC, Disney+, Hulu, as well as several YouTube channels
