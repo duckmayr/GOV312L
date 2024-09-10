@@ -1,0 +1,324 @@
+---
+title: "Major Moments in American Constitutional Development"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+    - \definecolor{firebrick3}{RGB}{205,38,38}
+    - \definecolor{midgreen}{RGB}{69,139,0}
+    - \definecolor{dodgerblue4}{RGB}{16,78,139}
+    - \newcommand{\fullpic}[2]{\includegraphics[width=\linewidth,height=#1\textheight,keepaspectratio]{#2}}
+    - \usepackage{wrapfig}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+quack::attach_common_packages()
+theme_set(theme_bw())
+theme_update(axis.title = element_blank())
+theme_update(plot.caption = element_text(color = "#5f5f5f", hjust = 0))
+```
+
+## American Constitutional Development
+
+. . .
+
+- We have the longest continually operating constitution, but how it operates changes over time
+- Some of these changes are transformative
+- Examples
+  + Reconstruction Amendments
+  + The New Deal
+- Can come about via amendment... or not
+- Constitutional amendments are also a check on the Court
+  + The Court is the last word on how the constitution is interpreted
+  + But the People have the last word on what it says
+  + We can adopt an amendment to change the constitutional language to reverse a Court ruling
+
+## The New Deal
+
+. . .
+
+- In 1929, the US economy collapsed (the Great Depression)
+- Democrats won the 1932 election handily
+- FDR worked for economic recovery through the New Deal
+  + Increase regulation (including creating new agencies)
+  + Provide assistance to those suffering
+- This was a fundamental reordering of the American economy
+- But there were serious constitutional challenges to the plan...
+
+## The Commerce Clause
+
+::: {.block}
+### Article I \S\ 8
+The Congress shall have power to... regulate commerce... among the several states....
+:::
+
+## Origin of the Commerce Clause
+
+- The distribution of commercial regulation power was perhaps chief among the failings of the Articles of Confederation.
+    + States were almost entirely in charge
+    + Each state instituted policies designed to promote their own business, but the scheme as a whole proved disastrous
+- This defect was recognized by both Federalists and those that would go on to become Democratic-Republicans.
+
+## Origin of the Commerce Clause
+
+\begin{block}{Federalist 22 (Hamilton -- Founder of the Federalist Party)}
+In addition to the defects already enumerated in the existing federal system, there are others of not less importance, which concur in rendering it altogether unfit for the administration of the affairs of the Union.\vspace{0.5\baselineskip}
+
+The want of a power to regulate commerce is by all parties allowed to be of the number.
+\end{block}
+
+\begin{block}{Federalist 42 (Madison -- Co-founder of the Democratic-Republicans)}
+The defect of power in the existing Confederacy to regulate the commerce between its several members, is in the number of those which have been clearly pointed out by experience.
+\end{block}
+
+## Origin of the Commerce Clause
+
+::: {.nonincremental}
+- The distribution of commercial regulation power was perhaps chief among the failings of the Articles of Confederation.
+    + States were almost entirely in charge
+    + Each state instituted policies designed to promote their own business, but the scheme as a whole proved disastrous
+- This defect was recognized by both Federalists and those that would go on to become Democratic-Republicans.
+- It was dealt with in a number of constitutional provisions
+:::
+
+## Origin of the Commerce Clause
+
+\begin{block}{Article I \S 10}
+No state shall... coin money... [or] pass any... law impairing the obligation of contracts....\vspace{0.5\baselineskip}
+
+No state shall, without the consent of the Congress, lay any imposts or duties on imports or exports....\vspace{0.5\baselineskip}
+
+No state shall, without the consent of Congress, lay any duty of tonnage....
+\end{block}
+
+## Origin of the Commerce Clause
+
+\centering
+\begin{tabular}{p{0.3\textwidth} | p{0.3\textwidth} | p{0.3\textwidth}}
+Fed Prohibition & State Prohibition & Probited from both \\[0.5em]
+\hline
+Tax imports & \textcolor{firebrick3}{Tax imports \& exports} & Bills of Attainder \\[0.5em]
+\hline
+Change state boundaries & \textcolor{firebrick3}{Coin money} & Ex Post Facto Laws \\[0.5em]
+\hline
+& Treaties & Grant titles of nobility \\[0.5em]
+\hline
+& \textcolor{firebrick3}{Impair obligation of contracts} & Violate Bill of Rights, etc. \\[0.5em]
+\hline
+& & Religious tests
+\end{tabular}
+
+## Origin of the Commerce Clause
+
+\begin{block}{Article I \S 8}
+The Congress shall have power to lay and collect taxes, duties, imposts and excises...\vspace{0.5\baselineskip}
+
+To regulate commerce with foreign nations, and among the several states, and with the Indian tribes...\vspace{0.5\baselineskip}
+
+To coin money, regulate the value thereof, and of foreign coin, and fix the standard of weights and measures...\vspace{0.5\baselineskip}
+
+To make all laws which shall be necessary and proper for carrying into execution the foregoing powers, and all other powers vested by this Constitution in the government of the United States, or in any department or officer thereof.
+\end{block}
+
+## Origin of the Commerce Clause
+
+\centering
+\begin{tabular}{p{0.3\textwidth} | p{0.35\textwidth} | p{0.25\textwidth}}
+Exclusive Fed Power & Exclusive State Power & Concurrent \\[0.5em]
+\hline
+\textcolor{midgreen}{Coin money} & Run elections & Tax \\[0.5em]
+\hline
+\textcolor{midgreen}{\textbf<2->{Foreign \& interstate commerce}} & Intrastate commerce & Borrow money \\[0.5em]
+\hline
+\textcolor{midgreen}{Tax imports} & Establish republican \& local government & Charter banks \& corporations \\[0.5em]
+\hline
+Make treaties & Protect public health, safety, \& morals & Establish courts\\[0.5em]
+\hline
+Make all laws "necessary and proper" & All powers not delegated to the federal government or denied by the Constitution & Eminent domain\\[0.5em]
+\hline
+Make war & & Make \& enforce laws\\[0.5em]
+\hline
+Reg. postal system & &
+\end{tabular}
+
+## Importance of the Commerce Clause
+
+\begin{block}{Congressional Research Service 2014}
+The Commerce Clause (Art. I, §8, cl. 3) of the United States Constitution provides that the Congress shall have the power to regulate interstate and foreign commerce.... [T]he Commerce Clause has become the constitutional basis for a significant portion of the laws passed by Congress over the last 50 years, and it currently represents one of the broadest bases for the exercise of congressional powers.\vspace{0.5\baselineskip} 
+
+An examination of the United States Code shows that more than 700 statutory provisions 
+explicitly refer to either "interstate" or "foreign" commerce, covering a significant number of issues. These issues include agriculture, banking, antitrust, securities, business regulation, energy regulation, hazardous substances, consumer credit, sports regulation, the Internet, endangered species, civil rights, child support, child pornography, abortion, criminal law, controlled substances... [and many more cut for space].
+\end{block}
+
+## Changing Political Fortunes in the Great Depression
+
+. . .
+
+```{r election_plots, echo=FALSE, results='asis'}
+congress <- c((163+39)/(163+39+267+56), (216+47)/(216+47+218+48),
+              (313+59)/(313+59+36+117), (332+69)/(332+69+103+25),
+              (333+75)/(333+75+89+17))
+pres_ec <- c(87/(87+444), 472/(472+59), 523/(523+8))
+court <- c(3/9, 3/9, 4/9, 4/9, 4/9)
+years <- seq(1928, 1936, 2)
+year_sub <- seq(1928, 1936, 4)
+color_palette <- c("#e69f00", "#56b4e9", "#009e73", "#f0e442", "#0072b2")
+plot(years, rep(1, length(years)), type = "n", xlab = "Election",
+     ylab = "Proportion Dem", ylim = c(0, 1))
+abline(h = 0.5, lty = 2, col = "#80808080")
+abline(v = 1929, lty = 2, col = "#80808080")
+lines(
+    x = years, y = congress, type = "o",
+    col = color_palette[1], pch = 20, lwd = 2, cex = 2
+)
+lines(
+    x = year_sub, y = pres_ec, type = "o",
+    col = color_palette[2], pch = 20, lwd = 2, cex = 2
+)
+lines(
+    x = years, y = court, type = "o",
+    col = color_palette[3], pch = 20, lwd = 2, cex = 2
+)
+legend(
+    "bottom", bty = "n", horiz = TRUE,
+    lty = 1, pch = 20, col = color_palette[1:3], lwd = 2, pt.cex = 2,
+    legend = c("Congress", "President (EC)    ", "Court")
+)
+```
+
+## Conflict Between the Court and the "Political Branches"
+
+\centering
+
+The Four Horsemen
+
+\includegraphics[width=0.15\linewidth,height=0.18\linewidth]{butler.jpg}
+\includegraphics[width=0.15\linewidth,height=0.18\linewidth]{mcreynolds.jpg}
+\includegraphics[width=0.15\linewidth,height=0.18\linewidth]{sutherland.jpg}
+\includegraphics[width=0.15\linewidth,height=0.18\linewidth]{vandevanter.jpg}
+
+. . .
+
+vs.
+
+The Three Musketeers
+
+\includegraphics[width=0.15\linewidth,height=0.18\linewidth]{brandeis.jpg}
+\includegraphics[width=0.15\linewidth,height=0.18\linewidth]{cardozo.jpg}
+\includegraphics[width=0.15\linewidth,height=0.18\linewidth]{stone.jpg}
+
+## Conflict Between the Court and the "Political Branches"
+
+\centering
+\begin{tabular}{c >{\raggedright}p{0.25\textwidth} c p{0.5\textwidth}}
+Year & Case & Vote & Decision \\[0.5em]
+\hline \\[-0.25em]
+1935 & \textit{Panama Refining Co. v. Ryan} & 8-1 &
+Striking down some portions of NIRA as unconstitutional delegations of Congressional power \\[0.5em]
+1935 & \textit{Gold Clause Cases} & 5-4 &
+Upholding restrictions on the ownership of gold \\[0.5em]
+1935 & \textit{RRB v. Alton Railroad Co.} & 5-4 &
+Striking down Railroad Retirement Act of 1934 as exceeding Commerce Clause Powers \& violating Fifth Amendment \\[0.5em]
+\end{tabular}
+
+## Conflict Between the Court and the "Political Branches"
+
+\centering
+\begin{tabular}{c >{\raggedright}p{0.25\textwidth} c p{0.5\textwidth}}
+Year & Case & Vote & Decision \\[0.5em]
+\hline \\[-0.25em]
+1935 & \textit{A. L. A. Schecter Poultry Corp. v. United States} & 9-0 &
+Striking down some portions of NIRA as unconstitutional delegations of Congressional power \& exceeding Commerce Clause Powers via regulation of intrastate commerce \\[0.5em]
+1935 & \textit{Louisville Bank v. Radford} & 9-0 &
+Striking down Frazier-Lemke Act of 1934 as violation of Fifth Amendment \\[0.5em]
+1935 & \textit{Hopkins Savings Assoc. v. Cleary} & 9-0 &
+Striking down Home Owners Loan Act of 1933 as violation of Tenth Amendment \\[0.5em]
+\end{tabular}
+
+## Conflict Between the Court and the "Political Branches"
+
+\centering
+\begin{tabular}{c >{\raggedright}p{0.25\textwidth} c p{0.5\textwidth}}
+Year & Case & Vote & Decision \\[0.5em]
+\hline \\[-0.25em]
+1935 & \textit{United States v. Butler} & 6-3 &
+Striking down Agricultural Adjustment Act as taxing and spending power violations \\[0.5em]
+1936 & \textit{Ashwander v. TVA} & 8-1 &
+Upholding Congress' creation of TVA \\[0.5em]
+1936 & \textit{Carter v. Carter Coal Co.} & 5-4 &
+Striking down Bituminous Coal Conservation Act as unconstitutional delegations of Congressional power \& exceeding Commerce Clause Powers via regulation of intrastate commerce \\[0.5em]
+1936 & \textit{Ashton v. Cameron County District Court} & 5-4 &
+Striking down the Municipal Bankruptcy Act as violating Fifth and Tenth Amendments \\[0.5em]
+\end{tabular}
+
+## The "Sick Chickens" Case
+
+\begin{block}{A. L. A. Schecter Poultry Co. v. United States}
+Section 3 of the Recovery Act is without precedent. It supplies no standards for any trade, industry or activity. It does not undertake to prescribe rules of conduct to be applied to particular states of fact determined by appropriate administrative procedure. Instead of prescribing rules of conduct, it authorizes the making of codes to prescribe them. For that legislative undertaking, § 3 sets up no standards, aside from the statement of the general aims of rehabilitation, correction and expansion described in section one. In view of the scope of that broad declaration, and of the nature of the few restrictions that are imposed, the discretion of the President in approving or prescribing codes, and thus enacting laws for the government of trade and industry throughout the country, is virtually unfettered. We think that the code-making authority this conferred is an unconstitutional delegation of legislative power.
+\end{block}
+
+## The "Sick Chickens" Case
+
+\begin{block}{A. L. A. Schecter Poultry Co. v. United States}
+Were these transactions "in" interstate commerce? Much is made of the fact that almost all the poultry coming to New York is sent there from other States. But the code provisions, as here applied, do not concern the transportation of the poultry from other States to New York.... When defendants had made their purchases... at the West Washington Market in New York City... the poultry was trucked to their slaugterhouses in Brooklyn for local disposition. The interstate transactions in relation to that poultry then ended. Defendants held the poultry at their slaughterhouse markets for slaughter and local sale to retail dealers and butchers who, in turn, sold directly to consumers. Neither the slaughtering nor the sales by defendants were transactions in interstate commerce.
+\end{block}
+
+## The Switch in Time that Saved Nine
+
+- On February 9, 1937, FDR announced his federal court reorganization plan, which included a plan to "pack the Court"
+- It was unpopular, so on March 9, he made a direct appeal to the people via radio broadcast
+- Twenty days later, the Court upheld Washington state wage and working condition regulations 5-4 in *West Coast Hotel v. Parrish* (1937), signaling a shift
+- They followed it up with their decision in *NLRB v. Jones \& Laughlin Steel Corp.* (1937), cementing the lasting shift in orientation toward New Deal programs
+- Any momentum behind the Court packing plan was promptly deflated
+
+## The Switch in Time that Saved Nine?
+
+There are some reasons to doubt the popular account:
+
+. . .
+
+- The *West Coast Hotel* case was announced only 20 days after the broadcast; arguments and voting on the case happened before
+- Roberts was not a consistent supporter of the Four Horsemen, and many of the cases voting against New Deal programs were not 5-4
+- In 2012, confidential notes from a 1946 interview with Justice Roberts suggest that if there was potential political influence, it was not from FDR's plan:
+
+\onslide<4>{
+\begin{block}{Justice Owen Roberts (Interview by Merlo J. Pusey)}
+It is difficult to say what makes a judge decide as he does. Public outcry against an opinion is bound to have some effect on a man's thinking when it is a question of degree – of how far we can go.
+\end{block}
+} 
+
+## Exam Reminder
+
+. . .
+
+- The exam is this Thursday, September 12
+- The exam is online through Canvas
+- It is available from 12:01 a.m. to 11:59 p.m.
+  + There is no time limit, except it **must** be submitted by 11:59 p.m.
+  + You can start and stop and then restart if you need or want to
+  + It will likely take you 30--90 minutes
+- Open book, notes, etc, but you must do the work yourself
+
+## Studying for the Exam
+
+. . .
+
+- Suggestion: create an outline
+- Strong suggestion: go over the slides, readings, and your notes
+- Suggestion: think about how some of the things you've learned might apply to current events
+
+## Example Exam Question: Multiple Choice
+
+## Example Exam Question: Multiple Choice Cluster
+
+## Example Exam Question: Short Essay
+
+
