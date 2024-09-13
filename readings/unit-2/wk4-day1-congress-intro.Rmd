@@ -1,0 +1,184 @@
+---
+title: "Introduction to the US Congress"
+author: "JBrandon Duck-Mayr"
+# date: "`r quack::american_date_format(Sys.Date())`"
+fontsize: 12pt
+header-includes:
+    - \usepackage{reading-fmts-cmds}
+    - \usepackage{soul}
+    - \definecolor{Blue}{RGB}{0, 95, 134}
+    - \definecolor{Teal}{RGB}{0, 169, 183}
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{0pt}\setskip{0pt}}
+urlcolor: Blue
+linkcolor: Teal
+output: quack::article
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+As we enter into our unit going into a little more detail about each of various American political institution.
+First up is Congress.
+Below you will find excerpts of the US Constitution that relate to the structure and powers of Congress.
+As you go over them, think about how these provisions might apply in the real world.
+For example, many people often discuss implementing term limits for members of Congress; can you find any of the text relating to Congress below that relates to this issue?
+And there many be any number of similar issues that interest you.
+In class we'll discuss a few such issues as well as how the Supreme Court has interpreted some of these provisions.
+
+# Structure of Congress
+
+First, we know Congress is a *bicameral* legislature (meaning two chambers), where the two chambers are the House of Representatives and the Senate:
+
+\begin{quoteblock}{US Constitution, Article I \S\ 1}
+All legislative powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.
+\end{quoteblock}
+
+The Constitution then gives more detail about each of the individual chambers,\footnote{Just as Article I is Congress' article, Article II is the President's article, and Article III is the judiciary's article, Article I \S\ 2 is the House's section and \S\ 3 is the Senate's section.} starting with the House of Representatives.
+
+Seats in the House are apportioned among the states based on population, and Representatives are chosen by popular election and serve two year terms.
+The only qualifications for office listed are they have to be at least 25, have been a citizen for at least 7 years, and live in the state you'll be elected from.
+The House of Representatives chooses its own leadership, including the Speaker of the House, a very powerful position (as you'll learn).
+
+\begin{quoteblock}{US Constitution, Article I \S\ 2}
+The House of Representatives shall be composed of members chosen every second year by the people of the several states...
+
+No person shall be a Representative who shall not have attained to the age of twenty five years, and been seven years a citizen of the United States, and who shall not, when elected, be an inhabitant of that state in which he shall be chosen.
+
+Representatives... shall be apportioned among the several states... according to their respective numbers, which shall be determined by adding to the whole number of free persons, including those bound to service for a term of years, and excluding Indians not taxed, three fifths of all other Persons. The actual Enumeration shall be made within three years after the first meeting of the Congress of the United States, and within every subsequent term of ten years, in such manner as they shall by law direct. The number of Representatives shall not exceed one for every thirty thousand, but each state shall have at least one Representative; and [the Constitution lists an initial number of representatives per state until they can perform a census].
+
+When vacancies happen in the Representation from any state, the executive authority thereof shall issue writs of election to fill such vacancies.
+
+The House of Representatives shall choose their speaker and other officers...
+\end{quoteblock}
+
+The Senate is comprised of two Senators from each state chosen by popular election\footnote{Note this has changed; originally, Senators were chosen by the state legislatures, but the Seventeenth Amendment changed that to popular election.} who serve six year terms.
+The listed qualifications are being at least 30 years old, having been a citizen for at least 9 years, and living in the state you'd represent.
+The Vice President is the President of the Senate, but the Senators choose a president pro tempore and other officers.
+
+\begin{quoteblock}{US Constitution, Article I \S\ 3}
+The Senate of the United States shall be composed of two Senators from each state, \st{chosen by the legislature thereof, for six years;}\footnote{This was altered by the Seventeenth Amendment}elected by the people thereof, for six years; and each Senator shall have one vote.
+
+[One third of the Senators go up for reelection every two years] and \st{if vacancies happen by resignation, or otherwise, during the recess of the legislature of any state, the executive thereof may make temporary appointments until the next meeting of the legislature, which shall then fill such vacancies.}\footnote{This was altered by the Seventeenth Amendment}When vacancies happen in the representation of any State in the Senate, the executive authority of such State shall issue writs of election to fill such vacancies: Provided, That the legislature of any State may empower the executive thereof to make temporary appointments until the people fill the vacancies by election as the legislature may direct.
+
+No person shall be a Senator who shall not have attained to the age of thirty years, and been nine years a citizen of the United States and who shall not, when elected, be an inhabitant of that state for which he shall be chosen.
+
+The Vice President of the United States shall be President of the Senate, but shall have no vote, unless they be equally divided.
+
+The Senate shall choose their other officers, and also a President pro tempore, in the absence of the Vice President, or when he shall exercise the office of President of the United States...
+\end{quoteblock}
+
+Section 5 gives detail on a number of procedural issues; requiring a quorum, procedure for punishing members, and when they can adjourn.
+Importantly, \S\ 5 gives each chamber the power to "determine the rules of its proceedings", and congressional procedure can at times be very important.
+
+\begin{quoteblock}{US Constitution, Article I \S\ 5}
+Each House shall be the judge of the elections, returns and qualifications of its own members, and a majority of each shall constitute a quorum to do business; but a smaller number may adjourn from day to day, and may be authorized to compel the attendance of absent members...
+
+Each House may determine the rules of its proceedings, punish its members for disorderly behavior, and, with the concurrence of two thirds, expel a member...
+
+Neither House, during the session of Congress, shall, without the consent of the other, adjourn for more than three days...
+\end{quoteblock}
+
+Section 6 is most notable for the immunity provision for members of Congress while they're going to or from a session of Congress or for anything they say during congressional proceedings.
+It also prohibits anyone from serving both in Congress and in any other office of the United States.
+
+\vspace*{\baselineskip}
+\begin{quoteblock}{US Constitution, Article I \S\ 6}
+The Senators and Representatives shall receive a compensation for their services, to be ascertained by law, and paid out of the treasury of the United States. They shall in all cases, except treason, felony and breach of the peace, be privileged from arrest during their attendance at the session of their respective Houses, and in going to and returning from the same; and for any speech or debate in either House, they shall not be questioned in any other place.
+
+No Senator or Representative shall, during the time for which he was elected, be appointed to any civil office under the authority of the United States, which shall have been created, or the emoluments whereof shall have been increased during such time: and no person holding any office under the United States, shall be a member of either House during his continuance in office.
+\end{quoteblock}
+
+Section 7 is where the procedure for bills becoming laws is spelled out.
+First, there is a requirement of *bicameralism*, "Every bill which shall have passed the House of Representatives **and** the Senate" (emphasis added).
+Next, there is a requirement of *presentment*, "Every bill... shall, before it become a law, be presented to the President of the United States..."
+If the president signs the bill, it becomes law.
+If the president does not sign the bill and ten days pass, the bill becomes law, *unless* the president can't return it on the tenth day because Congress was adjourned---this is often called a "pocket veto".
+Finally, the president can send the bill back to Congress with their objections, and the bill does not become law---this is what you would normally consider to be a veto.
+If the President vetoes a bill, it can still become law though, if at least 2/3 of each chamber of Congress repass the bill after the veto.
+
+\begin{quoteblock}{US Constitution, Article I \S\ 7}
+All bills for raising revenue shall originate in the House of Representatives; but the Senate may propose or concur with amendments as on other Bills.
+
+Every bill which shall have passed the House of Representatives and the Senate, shall, before it become a law, be presented to the President of the United States; if he approve he shall sign it, but if not he shall return it, with his objections to that House in which it shall have originated, who shall enter the objections at large on their journal, and proceed to reconsider it. If after such reconsideration two thirds of that House shall agree to pass the bill, it shall be sent, together with the objections, to the other House, by which it shall likewise be reconsidered, and if approved by two thirds of that House, it shall become a law. [How members of Congress vote on bills must be recorded]. If any bill shall not be returned by the President within ten days (Sundays excepted) after it shall have been presented to him, the same shall be a law, in like manner as if he had signed it, unless the Congress by their adjournment prevent its return, in which case it shall not be a law.
+
+Every order, resolution, or vote to which the concurrence of the Senate and House of Representatives may be necessary (except on a question of adjournment) shall be presented to the President of the United States; and before the same shall take effect, shall be approved by him, or being disapproved by him, shall be repassed by two thirds of the Senate and House of Representatives, according to the rules and limitations prescribed in the case of a bill.
+\end{quoteblock}
+
+# Powers of Congress
+
+\begin{quoteblock}{US Constitution, Article I \S\ 1}
+All legislative powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.
+\end{quoteblock}
+
+Congress is a legislature with limited powers.
+Section 8 lists out all the things they can regulate (though we'll see how these have been stretched), and \S\ 9 lists things that Congress is prohibited from doing.
+
+\begin{quoteblock}{US Constitution, Article I \S\ 8 (list numbering added)}
+The Congress shall have power
+
+\begin{tightenumerate}
+    \item To lay and collect taxes, duties, imposts and excises, to pay the debts and provide for the common defense and general welfare of the United States...
+    \item To borrow money on the credit of the United States;
+    \item To regulate commerce with foreign nations, and among the several states, and with the Indian tribes;
+    \item To establish a uniform rule of naturalization,
+    \item and uniform laws on the subject of bankruptcies throughout the United States;
+    \item To coin money, regulate the value thereof, and of foreign coin, and fix the standard of weights and measures;
+    \item To provide for the punishment of counterfeiting...
+    \item To establish post offices and post roads;
+    \item To promote the progress of science and useful arts, by securing [intellectual property rights];
+    \item To constitute tribunals inferior to the Supreme Court;
+    \item To define and punish piracies and felonies committed on the high seas, and offenses against the law of nations;
+    \item To declare war, grant letters of marque and reprisal, and make rules concerning captures on land and water;
+    \item To raise and support armies, but no appropriation of money to that use shall be for a longer term than two years;
+    \item To provide and maintain a navy;
+    \item To make rules for the government and regulation of the land and naval forces;
+    \item To provide for calling forth the militia to execute the laws of the union, suppress insurrections and repel invasions;
+    \item To provide for organizing, arming, and disciplining, the militia, and for governing such part of them as may be employed in the service of the United States, [though the states retain power over training officer selection];
+    \item To exercise exclusive legislation\dots\ over [D.C.];--And
+    \item To make all laws which shall be necessary and proper for carrying into execution the foregoing powers, and all other powers vested by this Constitution in the government of the United States, or in any department or officer thereof.
+\end{tightenumerate}
+\end{quoteblock}
+
+\begin{quoteblock}{US Constitution, Article I \S\ 9 (list numbering added)}
+\begin{tightenumerate}
+    \item {[The states were guaranteed the right to import slaves until at least 1808].}
+    \item The privilege of the writ of habeas corpus shall not be suspended, unless when in cases of rebellion or invasion the public safety may require it.
+    \item No bill of attainder or ex post facto Law shall be passed.
+4 No capitation, or other direct, tax shall be laid, unless in proportion to the census or enumeration herein before directed to be taken. [this one is overriden by the Sixteenth Amendment]
+    \item No tax or duty shall be laid on articles exported from any state.
+    \item No preference shall be given by any regulation of commerce or revenue to the ports of one state over those of another: nor shall vessels bound to, or from, one state, be obliged to enter, clear or pay duties in another.
+    \item No money shall be drawn from the treasury, but in consequence of appropriations made by law; and a regular statement and account of receipts and expenditures of all public money shall be published from time to time.
+    \item No title of nobility shall be granted by the United States: and no person holding any [federal] office... shall, without the consent of the Congress, accept of any present, emolument, office, or title, of any kind whatever, from any king, prince, or foreign state.
+\end{tightenumerate}
+\end{quoteblock}
+
+Congress has the power to impeach Presidents, judges, and other federal officers, and remove them from office.
+Section 2 gives the House "the sole power of impeachment" and \S\ 3 gives the Senate "the sole power to try all impeachments"---they have very broad discretion in how those things work.
+The House passes Articles of Impeachment by a simple majority vote, which are essentially a charge against the president, a charge which will be tried in the Senate.
+If at least 2/3 of the Senators vote to convict, the impeached official is convicted and removed from office, and the Senate may also disqualify the person from holding federal office in the future.
+
+\begin{quoteblock}{US Constitution, Article I \S\ 2}
+...The House of Representatives... shall have the sole power of impeachment.
+\end{quoteblock}
+
+\begin{quoteblock}{US Constitution, Article I \S\ 3}
+...The Senate shall have the sole power to try all impeachments. When sitting for that purpose, they shall be on oath or affirmation. When the President of the United States is tried, the Chief Justice shall preside: And no person shall be convicted without the concurrence of two thirds of the members present.
+
+Judgment in cases of impeachment shall not extend further than to removal from office, and disqualification to hold and enjoy any office of honor, trust or profit under the United States: but the party convicted shall nevertheless be liable and subject to indictment, trial, judgment and punishment, according to law.
+\end{quoteblock}
+
+Finally, we get some powers of Congress from Article II, which typically refers to the president, but for these powers of Congress it makes more sense to group it with the executive provisions rather than the legislative ones.
+Congress determines the timing of the presidential election, and any treaties the President negotiates and most appointments Presidents make (including cabinet members and judges/justices) must be approved by the Senate.\footnote{In the case of treaties, it requires a 2/3 majority to ratify the treaty.}
+
+\begin{quoteblock}{US Constitution, Article II \S\ 1}
+...The Congress may determine the time of choosing the electors, and the day on which they shall give their votes; which day shall be the same throughout the United States...
+\end{quoteblock}
+
+\begin{quoteblock}{US Constitution, Article II \S\ 2}
+...[The President] shall have power, by and with the advice and consent of the Senate, to make treaties, provided two thirds of the Senators present concur; and he shall nominate, and by and with the advice and consent of the Senate, shall appoint ambassadors, other public ministers and consuls, judges of the Supreme Court, and all other officers of the United States, whose appointments are not herein otherwise provided for, and which shall be established by law: but the Congress may by law vest the appointment of such inferior officers, as they think proper, in the President alone, in the courts of law, or in the heads of departments.
+
+The President shall have power to fill up all vacancies that may happen during the recess of the Senate, by granting commissions which shall expire at the end of their next session.
+\end{quoteblock}
