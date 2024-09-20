@@ -1,0 +1,16 @@
+%% See https://tex.stackexchange.com/a/101127
+
+%% Setting up the colors:
+
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usetikzlibrary{shadings,shadows}
+    
+\newenvironment{sidebar}[2][teal]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=#1!25!white,colframe=#1,%
+    colbacklower=#1!10!white,%
+    title=#2]}%
+    {\endtcolorbox}
+

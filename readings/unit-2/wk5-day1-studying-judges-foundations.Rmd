@@ -1,0 +1,144 @@
+---
+title: "Studying Judicial Decision Making"
+author: "JBrandon Duck-Mayr"
+# date: "`r quack::american_date_format(Sys.Date())`"
+fontsize: 12pt
+header-includes:
+    - \usepackage{reading-fmts-cmds}
+    - \definecolor{Blue}{RGB}{0, 95, 134}
+    - \definecolor{Teal}{RGB}{0, 169, 183}
+    - \usepackage{sidebar}
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{0pt}\setskip{0pt}}
+urlcolor: Blue
+linkcolor: Teal
+output: quack::article
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The political science literature on judicial politics is vast, covering topics like theories of law, judges' motivations, agenda setting, the effects of institutions, and more.
+This set of readings will introduce you to theories of law and schools of thought as to judges' motivations, and later in the unit we'll do a survey of research on several main sub-literatures in the study of the American judiciary.
+
+# Theories of the Law
+
+There are different schools of thought about the nature of "the law".
+Natural law theory argues people have inherent rights that do not depend on legislation or constitutional provisions.
+Instead judges reason themselves into discovering the principles underlying these legal rights and duties.
+Legal positivism considers law to be any rule from a legally recognized authority, without respect to morality or natural law.
+Legal realism focuses on the law in application.
+
+## Natural Law
+
+\begin{sidebar}[Blue]{Hobbes (1651). \textit{Leviathan}}
+A law of nature... is a... Rule, found out by Reason, by which a man is forbidden to do, that, which is destructive of his life... and to omit, that, by which he thinketh it may be best preserved.
+\end{sidebar}
+
+\begin{center}
+\textbf{Thomas Jefferson: ``The Declaration of Independence" (1776)}\footnote{The full text is at \url{https://www.archives.gov/founding-docs/declaration-transcript}}
+\end{center}
+
+The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes necessary for one people... to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them...
+
+We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights... That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed...
+
+## Positivism
+
+\begin{center}
+\textbf{H.L.A. Hart: \textit{The Concept of Law} (1994 [1961])}\footnote{I am quoting from the 1994 2nd edition I have; its 1st edition is available through the UT library (\url{https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991039750239706011})}
+\end{center}
+
+...besides the moral question of obedience (Am I to do this evil thing?) there is Socrates' question of submission: Am I to submit to punishment for disobedience or make my escape? There is also the question which confronted the post-war German courts, 'Are we to punish those who did evil things when they were permitted by evil rules then in force?' These questions raise very different problems of morality and justice, which we need to consider independently of each other: they cannot be solved by a refusal, made once and for all, to recognize evil laws as valid for any purpose...
+
+A concept of law which allows the invalidity of law to be distinguished from its immorality, enables us to see the complexity and variety of these separate issues; whereas a narrow concept of law which denies legal validity to iniquitous rules may blind us to them...
+
+At least it can be claimed for the simple positivist doctrine that morally iniquitous rules may still be law, that this offers no disguise for the choice between evils which, in extreme circumstances, may have to be made...
+
+Wherever... a rule of recognition is accepted, both private persons and officials are provided with authoritative criteria for identifying primary rules of obligation...
+the criteria for identifying the law are multiple and commonly include a written constitution, enactment by a legislature, and judicial precedents.
+In most cases, provision is made for possible conflict by ranking these criteria in an order of relative subordination and primacy...
+
+To say that a given rule is valid is to recognize it as passing all the tests provided by the rule of recognition and so as a rule of the system.
+We can indeed simply say that the statement that a particular rule is valid means that it satisfies all the criteria provided by the rule of recognition...
+
+## American Legal Realism
+
+\begin{sidebar}[Blue]{Holmes (1881). \textit{The Common Law}}
+The life of the law has not been logic: it has been experience.
+\end{sidebar}
+
+\begin{center}
+\textbf{Oliver Wendell Holmes, Jr.: ``The Path of the Law" (1997 [1897])}\footnote{This is a speech Holmes gave while on the Massachusetts Supreme Court (he was appointed to the US Supreme Court in 1902). Its text was reprinted in \textit{Harvard Law Review}, Vol. 110, No. 5 (Mar., 1997), pages 991--1009, available at \url{https://www.jstor.org/stable/1342108}}
+\end{center}
+
+...The means of the study [of law] are... [books on opinions & statutes]... [containing] scattered prophecies... [about cases]...
+every new effort of legal thought is to make these prophecies more precise, and to generalize them...
+The process is... retaining only the facts of legal import...
+The reason why a lawyer does not mention [the hat] his client wore... when he made a contract... is that he forsees that [it won't affect the outcome]...
+One of the many evil effects of the confusion between [law and morality]... is that theory is apt... to consider the right or the duty as something existing... independent of the consequences of its breach, to which certain sanctions are added...
+But... a legal duty... is nothing but a prediction that if a man does or omits certain things he will be made to suffer in this or that way by judgment of the court...
+
+A man who cares nothing for an ethical rule which is believed and practised by his neighbors is likely nevertheless to care a good deal to avoid being made to pay money, and will want to keep out of jail if he can...
+
+...What constitutes the law?
+...if we take the view of our friend the bad man we shall find that he does not care two straws for the axioms or deductions, but that he does want to know what the... courts are likely to do in fact.
+I am much of his mind.
+The prophecies of what the courts will do in fact, and nothing more pretentious, are what I mean by the law...
+
+\begin{sidebar}[Blue]{Holmes (1897). ``The Path of the Law"}
+The prophecies of what the courts will do in fact, and nothing more pretentious, are what I mean by the law.
+\end{sidebar}
+
+You may assume... that all law emanates from the sovereign... [but] we should be interested none the less, still with a view to prediction, in discovering... some principle... for the rules which he laid down...
+a second fallacy... [is] the notion that the only force at work in the development of the law is logic...
+
+This... is... natural.
+The training of lawyers is a training in logic...
+The language of judicial decision is mainly the language of logic...
+Behind [it] lies a judgment as to the relative worth and importance of competing legislative grounds...
+
+I think that the judges themselves have failed adequately to recognize their duty of weighing... social advantage...
+the result of... judicial aversion to deal with such considerations is simply to leave... foundation of judgments inarticulate...
+people who no longer hope to control the legislatures... look to the courts as expounders of the Constitutions, and... in some courts new principles have been discovered outside the bodies of those instruments...
+I cannot but believe that if... [they considered] more definitely and explicitly the social advantage on which the rule they lay down must be justified, they sometimes would hesitate where now they are confident, and see that really they were taking sides upon debatable and often burning questions.
+
+So much for the fallacy of logical form...
+
+...in very many cases, if we want to know why a rule of law has taken its particular shape... we go to tradition...
+without it we cannot know the precise scope of rules... [and] it is the first step toward an enlightened scepticism...
+It is revolting to have no better reason for a... law than that so it was laid down in the time of Henry IV.
+It is still more revolting if [those reasons] have vanished long since, and the rule simply persists from blind imitation of the past...
+
+# Law, Ideology, and Strategy
+
+\begin{center}
+\textbf{Benjamin Alarie and Andrew J. Green: ``How Do Judges Decide?" (2017)}\footnote{``How Do Judges Decide?" is a chapter of their book, \textit{Commitment and Cooperation on High Courts: A Cross-Country Examination of Institutional Constraints on Judges}, available at \url{https://doi.org/10.1093/oso/9780199397594.003.0002}}
+\end{center}
+
+Judges may consider very different things in making their decisions, from the relevant statutes to their relationships with other judges...
+There are four main explanations of how judges decide---the legal model, the attitudinal model, the strategic model, and the labor-market model...
+
+According to [the legal model], a judge decides cases according to the law.
+She may locate the correct legal answer by relying on precedents, on statutes, on the Constitution, or on a combination...
+The key... is that the law decides the case without the judge attending to his or her own view of the best outcome.
+
+The attitudinal model... sees the judge as following her own personal views of the best outcome in each case...
+If a judge has ``liberal" policy preferences, he may be more likely to find in favor of an outcome... that encompasses a more expansive view of equality rights.
+The judge may consciously vote for the outcome that fits with his or her policy preferences or may unconsciously follow those preferences...
+Personal preferences may not be the sole determinant of judges' decisions but they are an important influence.
+Judges have been found to at least partially follow their personal views on the US Supreme Court...
+
+A third explanation for how judges decide is the strategic model, which is related to the attitudinal model...
+However, under the strategic model, the judge takes into account not only her preferred outcome in the particular appeal but also the likely reaction of others...
+The judge factors in these broader impacts of the decision to ensure that her personal preferences are met not just in the individual appeal but over all the decisions she cares about.
+
+These three models describe opposite ends of the spectrum for judicial decision-making---either law controls the decision (the legal model) or the judge decides according to his or her own policy preferences directly (the attitudinal model) or more indirectly (the strategic model).
+However, as Posner notes, none of these models seem to capture all that influences a judge's decision...
+
+Epstein, Landes, and Posner recently... [put forth] a labor market theory of judicial decision-making that takes account of how judges balance different factors...
+Judges take into account a wide range of factors including their job satisfaction... external satisfactions (such as reputation and power), leisure, wages... and promotion.
+There are cases in which ideology or values likely do not play a significant role, but there are others... where they almost certainly do.
+The labor market theory then views judges as concerned with an additional interesting set of considerations beyond either the law or policy preferences, such as the desire for leisure or collegiality...
