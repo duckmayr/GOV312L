@@ -1,0 +1,483 @@
+---
+title: "Introduction to the US Congress"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+    - \definecolor{firebrick3}{RGB}{205,38,38}
+    - \definecolor{midgreen}{RGB}{69,139,0}
+    - \definecolor{dodgerblue4}{RGB}{16,78,139}
+    - \newcommand{\fullpic}[2]{\includegraphics[width=\linewidth,height=#1\textheight,keepaspectratio]{#2}}
+    - \usepackage{wrapfig}
+    - \usepackage{subcaption}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+quack::attach_common_packages()
+theme_set(theme_bw())
+theme_update(axis.title = element_blank())
+theme_update(plot.caption = element_text(color = "#5f5f5f", hjust = 0))
+```
+
+<!-- Senate filibuster, what are high crimes and misdemeanors, extent of Commerce Clause power, hearings/oversight -->
+
+## Congress: Structure
+
+. . .
+
+- Bicameral legislature
+  + House of Representatives: States get seats by population
+  + Senate: All states get two seats
+- Choose their own leaders
+  + Speaker of the House
+  + Vice President as President of the Senate, President Pro Tempore
+- Make their own rules
+- Qualifications for office: age, citizenship, and residency
+
+## Congress: Power
+
+. . .
+
+- Limited powers: "All legislative powers **herein granted**..."
+- A list of the given powers is in Article I \S\ 8
+  + Commerce Clause + Necessary & Proper Clause are huge
+- Some things are prohibited to Congress in Article I \S\ 9
+- Some Amendments give Congress additional powers
+  + Ex: Voting Rights Act of 1965 relies on 14A's Enforcement Clause
+- Congress also has some inherent powers, like investigation
+
+## The Commerce Power
+
+. . .
+
+::: {.block}
+### Article I \S\ 8
+The Congress shall have power... To regulate commerce... among the several states...
+:::
+
+. . .
+
+So what *exactly* does this mean? \pause *Gibbons v. Ogden* (1824) lays the foundations
+
+## *Gibbons v. Ogden*: Facts and Procedure
+
+. . .
+
+- This case is about the right to run a ferry in the Hudson River
+- Ogden had a monopoly from New York to run a ferry in the New York part of the Hudson
+- Gibbons got a permit from Congress to ferry people between New York and New Jersey
+- Ogden sued Gibbons in New York state court seeking to enjoin Gibbons from operating his boat in New York waters
+- The New York court granted the injunction, which was affirmed by the state high court
+
+## *Gibbons v. Ogden*: Issue and Holding
+
+. . .
+
+- Did the Commerce Clause authorize Congress to grant Gibbons' license?
+
+## *Gibbons v. Ogden*: Issue and Holding
+
+- Did the Commerce Clause authorize Congress to grant Gibbons' license? \textcolor{midgreen}{Yes.}
+
+## *Gibbons v. Ogden*: Rationale
+
+. . .
+
+- What is commerce? It is commercial intercourse, which includes buying and selling, but also transportation and navigation
+- What does "commerce among the several states" mean?
+  + Any commercial intercourse that
+  + begins in one state and
+  + ends in another
+
+## The Necessary and Proper Clause
+
+. . .
+
+::: {.block}
+### Article I \S\ 8
+The Congress shall have power... To make all laws which shall be necessary and proper for carrying into execution the foregoing powers, and all other powers vested by this Constitution in the government of the United States
+:::
+
+. . .
+
+- So what does *that* mean?
+- *McCulloch v. Maryland* gives us some early guidance
+- But first, some political background
+
+## The *First* Bank of the United States: \newline Federalists vs. Democratic-Republicans
+
+. . .
+
+Democratic-Republicans: How can Congress create a bank? That's not *absolutely necessary* to excercise one of the enumerated powers.
+
+\vspace{\baselineskip}
+
+Federalists: Of course Congress can create a bank! We added the Necessary and Proper clause to give the government flexibility; Congress can do anything the Constitution doesn't forbid. 
+
+## The First Bank of the United States: \newline Hamilton vs. Jefferson
+
+\begin{block}{Thomas Jefferson, Secretary of State}
+To take a single step beyond the boundaries... specially drawn around the powers of Congress, is to take possesion of a boundless field of power, no longer susceptible of any definition. \vspace{0.5\baselineskip}
+
+The incorporation of a bank... [has] not, in my opinion, been delegated to the U.S. by the Constitution.... \vspace{0.5\baselineskip}
+
+[T]he constitution allows only the means which are "necessary" not those which are merely "convenient" for effecting the enumerated powers.
+\end{block}
+
+## The First Bank of the United States: \newline Hamilton vs. Jefferson
+
+\begin{block}{Alexander Hamilton, Secretary of the Treasury}
+[E]very power vested in a government is in its nature sovereign, and includes... a right to employ all the means requisite and fairly applicable to the attainment of the ends of such power, and which are not precluded by restrictions and exceptions specified in the Constitution.... \vspace{0.5\baselineskip}
+
+Necessary often means no more than needful, requisite, incidental, useful, or conducive to.
+\end{block}
+
+## The First Bank of the United States: \newline Hamilton vs. Jefferson
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\linewidth,height=0.6\textheight]{hamilton.jpg}
+        \caption*{Alexander Hamilton (Treasury)}
+    \end{subfigure}
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\linewidth,height=0.6\textheight]{jefferson.jpg}
+        \caption*{Thomas Jefferson (State)}
+    \end{subfigure}
+    \caption*{\href{https://www.youtube.com/watch?v=dSYW61XQZeo}{Hamilton vs. Jefferson: A Re-enactment}}
+\end{figure}
+
+## *McCulloch*: Facts
+
+. . .
+
+- Although the Democratic-Republicans let the First Bank expire, eventually they created a new one
+- This one didn't work out so well
+    + There were systemic problems and the bank negatively affected the economy
+    + Plus, individuals, like McCulloch, engaged in embezzlement and corruption
+- States started to regulate and tax the U.S. bank; Maryland instituted such a tax
+- McCulloch refused to pay the Maryland tax
+
+## *McCulloch*: Procedure
+
+- John James, a citizen of Maryland, filed suit in Maryland state court against McCulloch on behalf of the state under an informant statute
+- The state court ruled for Maryland, and the Maryland Court of Appeals affirmed
+
+## *McCulloch*: Issue and Holding
+
+. . .
+
+- Was creating the bank a constitutional excercise of legislative power?
+- Did Maryland have the power to tax the bank?
+
+## *McCulloch*: Issue and Holding
+
+- Was creating the bank a constitutional excercise of legislative power? \textcolor{midgreen}{Yes; Congress had the power to create the bank under the Necessary and Proper Clause of Article 1 \S 8}
+- \textcolor{lightgray}{Did Maryland have the power to tax the bank? (We'll talk about this later in the class)}
+
+## *McCulloch*: Rationale
+
+. . .
+
+- There's no enumerated power to create a bank
+- But, this is a valid excercise of implied power
+    + Congress has the power to "make all laws which shall be necessary and proper for carrying into execution the" enumerated powers
+    + "necessary" doesn't mean "absolutely necessary"
+        - The Framers knew how to say "absolutely necessary" (Art. 1 \S 10); that they didn't says something
+        - So, necessary means "convenient" or "useful"
+        - "we must never forget that it is a constitution we are expounding"
+    + "Let the end be legitimate, let it be within the scope of the
+Constitution, and all means which are appropriate, which are plainly
+adapted to that end, which are not prohibited, but consist with the
+letter and spirit of the constitution, are constitutional"
+
+## Applying The Necessary & Proper Clause
+
+\begin{block}{McCulloch v. Maryland (1819)}
+Let the end be legitimate, let it be within the scope of the
+Constitution, and all means which are appropriate, which are plainly
+adapted to that end, which are not prohibited, but consist with the
+letter and spirit of the constitution, are constitutional
+\end{block}
+
+. . .
+
+\begin{block}{United States v. Comstock (2010)}
+[I]n determining whether the Necessary and Proper Clause grants Congress the legislative authority to enact a particular federal statute, we look to see whether the statute constitutes a means that is rationally related to the implementation of a constitutionally enumerated power. 
+\end{block}
+
+## Multiple Links in the Chain: *US v Comstock* (2010)
+
+- The Adam Walsh Act allowed the U.S. to seek civil commitment of federal prisoners past their release date if they can show the prisoner was sexually dangerous.
+- A federal district court dismissed petitions for commitment and the Fourth Circuit affirmed, holding Congress did not have the power to pass the Act
+- What did the justices think?
+
+. . .
+
+- Majority: Valid exercise of power under the N&P clause
+  + Multiple logical links between enumerated power and N&P is OK
+- Kennedy (concurring): The number of links in the chain doesn't matter, the "strength of the chain does"
+- Alito (concurring): This is valid, but beware -- don't interpret this case to mean Congress' power is unlimited
+- Thomas and Scalia thought this was crazy
+
+## Back to the Commerce Clause
+
+. . .
+
+- As we discussed last week, the New Deal resulted in a new interpretation of the Constitution
+- We'll look at a landmark New Deal case about the Commerce Clause, and some of the subsequent developments
+
+## Wickard v. Filburn: Facts and Procedure
+
+. . .
+
+- Congress limited surplus wheat production in the Agricultural Adjustment Act of 1938
+- Farmer Filburn exceeded the limitations imposed on him, but not by growing extra to sell it -- the extra wheat was purely for his own consumption
+- He was fined for the overage
+- He sought an injunction prohibiting enforcement of the fine
+
+## Wickard v. Filburn: Issue and Holding
+
+- Did Congress have the power to pass the Act under the Commerce Clause?
+
+## Wickard v. Filburn: Issue and Holding
+
+- Did Congress have the power to pass the Act under the Commerce Clause? \textcolor{midgreen}{Yes.}
+
+## Wickard v. Filburn: Rationale
+
+\begin{block}{Wickard v. Filburn}
+[E]ven if appellee's activity be local, and though it may not be regarded as commerce, it may still, whatever its nature, be reached by Congress if it exerts a substantial economic effect on interstate commerce, and this irrespective of whether such effect is what might at some earlier time have been defined as "direct" or "indirect."
+\end{block}
+
+## Wickard v. Filburn: Rationale
+
+\begin{block}{Wickard v. Filburn}
+The maintenance by government regulation of a price for wheat undoubtedly can be accomplished as effectively by sustaining or increasing the demand as by limiting the supply. The effect of the statute before us is to restrict the amount which may be produced for market and the extent, as well, to which one may forestall resort to the market by producing to meet his own needs. That appellee's own contribution to the demand for wheat may be trivial by itself is not enough to remove him from the scope of federal regulation where, as here, his contribution, taken together with that of many others similarly situated, is far from trivial.\vspace{0.5\baselineskip}
+
+It is well established by decisions of this Court that the power to regulate commerce includes the power to regulate the prices at which commodities in that commerce are dealt in and practices affecting such prices.
+\end{block}
+
+## Gonzales v. Raich: Facts and Procedure
+
+. . .
+
+- Congress prohibited possession of marijuana in the Controlled Substances Act (CSA)
+- California passed the Compassionate Use Act (CUA), legalizing marijuana for medical use
+- Raich was terminally ill and used locally grown marijuana pursuant to the CUA
+- Monson also suffered a serious medical condition and used marijuana she grew herself pursuant to the CUA
+- The DEA seized Monson's marijuana
+- Monson and Raich sued the Attorney General and Administrator of the DEA seeking declaratory and injunctive relief
+- The district court denied the motion for an injunction, but the Ninth Circuit reversed
+
+## Gonzales v. Raich: Issue and Holding
+
+- Does the application of the CSA to intrastate growing and possession of medical marijuana exceed Congress' Commerce Clause power?
+
+## Gonzales v. Raich: Issue and Holding
+
+- Does the application of the CSA to intrastate growing and possession of medical marijuana exceed Congress' Commerce Clause power? \textcolor{firebrick3}{No.}
+
+## Gonzales v. Raich: Rationale
+
+. . .
+
+\begin{block}{Gonzales v. Raich}
+Cases decided during that "new era," which now spans more than a century, have identified three general categories of regulation in which Congress is authorized to engage under its commerce power. First, Congress can regulate the channels of interstate commerce. Second, Congress has authority to regulate and protect the instrumentalities of interstate commerce, and persons or things in interstate commerce. Third, Congress has the power to regulate activities that substantially affect interstate commerce. Only the third category is implicated in the case at hand.
+\end{block}
+
+## Gonzales v. Raich: Rationale
+
+\begin{block}{Gonzales v. Raich}
+In assessing the scope of Congress' authority under the Commerce Clause, we stress that the task before us is a modest one. We need not determine whether respondents' activities, taken in the aggregate, substantially affect interstate commerce in fact, but only whether a "rational basis" exists for so concluding.
+\end{block}
+
+## Gonzales v. Raich: Rationale
+
+\begin{block}{Gonzales v. Raich}
+ Our case law firmly establishes Congress' power to regulate purely local activities that are part of an economic "class of activities" that have a substantial effect on interstate commerce. As we stated in Wickard, "even if appellee’s activity be local and though it may not be regarded as commerce, it may still, whatever its nature, be reached by Congress if it exerts a substantial economic effect on interstate commerce." We have never required Congress to legislate with scientific exactitude. When Congress decides that the "total incidence" of a practice poses a threat to a national market, it may regulate the entire class.
+\end{block}
+
+## Gonzales v. Raich: Rationale
+
+\begin{block}{Gonzales v. Raich}
+ Our decision in Wickard is of particular relevance....\vspace{0.5\baselineskip}
+ 
+Wickard ... establishes that Congress can regulate purely intrastate activity that is not itself "commercial," in that it is not produced for sale, if it concludes that failure to regulate that class of activity would undercut the regulation of the interstate market in that commodity.
+\end{block}
+
+## Gonzales v. Raich: Rationale
+
+\begin{block}{Gonzales v. Raich}
+[A] primary purpose of the CSA is to control the supply and demand of controlled substances in both lawful and unlawful drug markets. In Wickard, we had no difficulty concluding that Congress had a rational basis for believing that, when viewed in the aggregate, leaving home-consumed wheat outside the regulatory scheme would have a substantial influence on price and market conditions. Here too, Congress had a rational basis for concluding that leaving home-consumed marijuana outside federal control would similarly affect price and market conditions.
+\end{block}
+
+## Gonzales v. Raich: Scalia's Concurrence
+
+\begin{block}{Gonzales v. Raich, Scalia, J., Concurring}
+[U]nlike the channels, instrumentalities, and agents of interstate commerce, activities that substantially affect interstate commerce are not themselves part of interstate commerce, and thus the power to regulate them cannot come from the Commerce Clause alone. Rather, as this Court has acknowledged... Congress’s regulatory authority over intrastate activities that are not themselves part of interstate commerce (including activities that have a substantial effect on interstate commerce) derives from the Necessary and Proper Clause.
+\end{block}
+
+## Gonzales v. Raich: O'Connor's Dissent
+
+\begin{block}{Gonzales v. Raich, O'Connor, J., Dissenting}
+One of federalism’s chief virtues, of course, is that it promotes innovation by allowing for the possibility that "a single courageous State may, if its citizens choose, serve as a laboratory; and try novel social and economic experiments without risk to the rest of the country." New State Ice Co. v. Liebmann, 285 U. S. 262, 311 (1932) (Brandeis, J., dissenting).\vspace{0.5\baselineskip}
+
+This case exemplifies the role of States as laboratories.
+\end{block}
+
+## The Commerce Clause
+
+. . .
+
+In addition to the channels of interstate commerce and the instrumentalities of interstate commerce, or persons or things in interstate commerce, (*Gibbons*, *Darby*, *Champion v. Ames*, etc.), Congress may regulate under the Commerce Clause
+
+. . .
+
+- economic (*Lopez*, *Morrison*, *Jones*)
+- activity (*NFIB*),
+- even intra-state, local activity (*Wickard*, *Raich*, etc.),
+- if there is a rational basis for concluding (e.g., *Raich*)
+- the economic activity, at least in the aggregate, substantially affects interstate commerce (*Wickard*, *Raich*, etc.).
+
+## Amendment-Enforcing Powers
+
+\begin{block}{Amendment XIII}
+Section 1. 
+     Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist within the United States, or any place subject to their jurisdiction.\vspace{\baselineskip}
+
+Section 2. 
+     Congress shall have power to enforce this article by appropriate legislation.
+\end{block}
+
+## Amendment-Enforcing Powers
+
+\begin{block}{Amendment XIV}
+Section 1. 
+     All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside. No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws. \vspace{\baselineskip}
+
+...\vspace{\baselineskip}
+
+Section 5. 
+     The Congress shall have the power to enforce, by appropriate legislation, the provisions of this article.
+\end{block}
+
+## Amendment-Enforcing Powers
+
+\begin{block}{Amendment XV}
+Section 1. 
+     The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race, color, or previous condition of servitude. \vspace{\baselineskip}
+
+Section 2. 
+     The Congress shall have the power to enforce this article by appropriate legislation. 
+\end{block}
+
+## Amendment-Enforcing Powers
+
+\fullpic{0.8}{VRA.png}
+
+## Amendment-Enforcing Powers
+
+Amendments with enforcement clauses:
+
+- Amendment XIII (Abolition of Slavery)
+- Amendment XIV (Privileges and Immunities, Due Process, Equal Protection, ...)
+- Amendment XV (Voting Rights Not to Be Denied on Account of Race)
+- Amendment XVIII (Prohibition -- Repealed by Amendment XXI)
+- Amendment XIX (Women's Right to Vote)
+- Amendment XXIII (Presidential Vote in D.C.)
+- Amendment XXIV (Prohibiting Poll Tax)
+- Amendment XXVI (Right to Vote at Age 18)
+
+## Congress' Power to Investigate
+
+. . .
+
+\fullpic{1}{benghazi.jpg}
+
+## Congress' Power to Investigate
+
+\fullpic{1}{zuckerberg.png}
+
+## Congress' Power to Investigate
+
+\fullpic{1}{impeachment-hearing.png}
+
+## Congress' Power to Investigate
+
+- We've all seen Congress' power to investigate in action
+- Congress has used it since 1790
+- But where does it come from?
+
+## Congress' Power to Investigate
+
+\begin{block}{Article I \S 1}
+All legislative powers \textcolor{firebrick3}{herein granted} shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.
+\end{block}
+
+## Congress' Power to Investigate
+
+\begin{block}{Article I \S 8}
+\scriptsize
+\begin{enumerate}
+\item The Congress shall have power to lay and collect taxes...
+\item To borrow money on the credit of the United States;
+\item To regulate commerce with foreign nations, and among the several states, and with the Indian tribes;
+\item To establish a uniform rule of naturalization, and ... bankruptcies...
+\item To coin money...
+\item To provide for the punishment of counterfeiting...
+\item To establish post offices and post roads;
+\item To promote the progress of science and useful arts [via intellectual property law]
+\item To constitute tribunals inferior to the Supreme Court;
+\item To define and punish piracies and felonies committed on the high seas...
+\item To declare war...
+\item To raise and support armies...
+\item To provide and maintain a navy;
+\item To make rules for the government and regulation of the land and naval forces;
+\item To provide for calling forth the militia to... suppress insurrections and repel invasions;
+\item To provide for organizing, arming, and disciplining, the militia...
+\item To exercise exclusive legislation... over... [DC]... and... [federal] buildings;--And
+\item To make all laws which shall be necessary and proper for carrying into execution the foregoing powers....
+\end{enumerate}
+\end{block}
+
+## Congress' Power to Investigate
+
+- We've all seen Congress' power to investigate in action
+- Congress has used it since 1792
+- But where does it come from?
+
+## Congress' Power to Investigate
+
+\begin{block}{\textit{McGrain v. Dougherty} (1927)}
+We are of the opinion, that the power of inquiry—with process to enforce it—is an essential and appropriate auxiliary to the legislative function.... A legislative body cannot legislate wisely or effectively in the absence of information respecting the conditions which the legislation is intended to affect or change; and where the legislative body does not itself possess the requisite information— which not infrequently is true—recourse must be had to others who possess it. Experience has taught that mere requests for such information often are unavailing, and also that information which is volunteered is not always accurate or complete; so some means of compulsion are essential to obtain what is needed. All this was true before and when the Constitution was framed and adopted. In that period the power of inquiry—with enforcing process—was regarded and employed as a necessary and appropriate attribute of the power to legislate— indeed, was treated as inhering in it.
+\end{block}
+
+## Congress' Power to Investigate
+
+- We've all seen Congress' power to investigate in action
+- Congress has used it since 1792
+- But where does it come from?
+    + Inherent in the vesting clause, and/or
+    + an implied power, and/or
+    + "inherited" from Parliament.
+
+## Congress' Power to Investigate
+
+- Congress can investigate when there's a possibility of legislation or the hearings fulfill an authorized congressional function
+- As part of its power to investigate, Congress can summon witness, and punish them if they do not answer
+- But, there are some limits to this power:
+    + Pertinency (*Watkins v. U.S.*, *Barenblatt v. U.S.*)
+    + Executive privilege (covered later)
+    + Fifth Amendment right not to "be compelled in any criminal case to be a witness against himself" *Watkins*, *Barenblatt*
+        - "The Bill of Rights is applicable to investigations as to all forms of governmental action...." *Watkins*
+    + First Amendment (limited) *Watkins*, *Barenblatt*
+    + Separation of power concerns *Trump v. Mazars*
