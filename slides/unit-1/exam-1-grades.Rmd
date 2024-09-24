@@ -1,0 +1,97 @@
+---
+title: "Exam One Grades"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+quack::attach_common_packages()
+```
+
+## Grade Distribution
+
+```{r}
+grades = readr::read_csv("curve.csv") %>% 
+    mutate(Exam_Percent = Exam1 * 5) %>%
+    rename(Curve = power_curve) %>% 
+    select(Student, Exam_Percent, Curve) %>% 
+    pivot_longer(cols = !Student, names_to = "Curved", values_to = "Grade") %>% 
+    mutate(Curve = ifelse(Curved == "Curve", "Yes", "No"))
+pal1 = c(Yes = "#d55e00", No = "#0072b2")
+pal2 = c(Yes = "#d55e0030", No = "#0072b230")
+mean1 = mean(grades$Grade[grades$Curve == "No"])
+mean2 = mean(grades$Grade[grades$Curve == "Yes"])
+median1 = median(grades$Grade[grades$Curve == "No"])
+median2 = median(grades$Grade[grades$Curve == "Yes"])
+ggplot(data = grades, mapping = aes(x = Grade, color = Curve, fill = Curve)) +
+    geom_density() +
+    geom_vline(xintercept = mean1, color = "#0072b2") +
+    geom_vline(xintercept = median1, color = "#0072b2", linetype = "dashed") +
+    geom_vline(xintercept = mean2, color = "#d55e00") +
+    geom_vline(xintercept = median2, color = "#d55e00", linetype = "dashed") +
+    scale_color_manual(name = "Curved?", values = pal1) +
+    scale_fill_manual(name = "Curved?", values = pal2) +
+    coord_cartesian(ylim = c(0, 0.05), expand = FALSE) +
+    theme_bw()
+```
+
+## Grade Distribution
+
+```{r}
+tbl_dat = grades %>% 
+    group_by(Curve) %>% 
+    summarize(
+        `1st quartile` = quantile(Grade, probs = 0.25),
+        Mean = mean(Grade),
+        Median = median(Grade),
+        `75th Percentile` =quantile(Grade, probs = 0.75)
+    ) %>% 
+    arrange(desc(Curve))
+kableExtra::kable(tbl_dat, digits = 0, booktabs = TRUE) %>%
+    kableExtra::kable_styling(position = "center")
+```
+
+## Hard Questions
+
+- Some questions were harder than others
+- I'll go over the most missed questions
+- The essays were good, minimal feedback needed
+
+## Hard Questions: Constitutional Change (Process)
+
+How do we change the United States Constitution?
+
+. . .
+
++ Formal amendment process
++ Precedent
++ Importance: Difficulties in amendment help shape institutions and policy
+
+## Hard Questions: Establishing the Judiciary
+
+True or False? Article III of the Constitution establishes the U.S. Supreme Court and the lower federal courts.
+
+. . .
+
++ It establishes the Supreme Court and lets Congress fill in the rest
++ Importance: Congress can add/remove courts, change # of justices, etc
+
+## Hard Questions: Change by the Court
+
+In no more than one or a few words, identify a constitutional development we discussed of each of these types:
+Supreme Court interpretation (not spurred by other actors)
+
+. . .
+
++ The Warren Court's expansion of liberty is a good answer
++ Importance: Most major constitutional developments are not the Court acting alone, but some are
