@@ -1,0 +1,392 @@
+---
+title: "Studying Judicial Decision Making"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+    - \definecolor{firebrick3}{RGB}{205,38,38}
+    - \definecolor{midgreen}{RGB}{69,139,0}
+    - \definecolor{dodgerblue4}{RGB}{16,78,139}
+    - \usepackage{tikz}
+    - \usetikzlibrary{arrows.meta}
+    - \usepackage{wrapfig}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+quack::attach_common_packages()
+```
+
+## Recap
+
+. . .
+
+- The judicial power is the power to "say what the law is"
+- The Constitution creates the Supreme Court and the office of Chief Justice
+  + Congress sets the structure of the lower courts
+    * Created a three tier system
+    * Made appellate courts "collegial" (more than one judge)
+  + Congress controls the number of seats & (in part) the Court's jurisdiction
+- The Court has used the judicial power to make big changes
+- Now we turn to the factors affecting these judges' decisions
+
+## Models of Judicial Decision Making
+
+. . .
+
+What are the factors that influences' judges decisions?
+
+- **Legal model**: judges apply legal principles, precedent, and techniques of statutory and constitutional interpretation to the facts of cases to make decisions
+- **Attitudinal model**: judges react purely according to their public policy preferences
+- **Strategic model**: attitudinal model + strategic considerations like preserving public support to maintain institutional strength to achieve long-term goals
+
+. . .
+
+::: {.block}
+### James L. Gibson, quoted in Baum (1997)
+Judges' decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do.
+:::
+
+## Modeling Judicial Decision Making: Techniques
+
+- How do we apply these ideas to analyze judges' behavior in various contexts?
+- How do we determine what judges' political preferences are?
+- How do we measure the influence of public opinion or other political constraints?
+- How do we determine the effect of precedent and other legal factors?
+
+## Measuring Preferences
+
+. . .
+
+```{r agreement, out.height = "90%", fig.height = 5, fig.width = 7, fig.align = "center"}
+scdb  = read_csv("SCDB_2023_01_justiceCentered_Citation.csv")
+votes = scdb %>% 
+    filter(term == 2022) %>% 
+    select(caseId, justiceName, majority) %>% 
+    pivot_wider(names_from = "caseId", values_from = "majority") %>% 
+    tibble::column_to_rownames("justiceName") %>% 
+    as.matrix()
+unanimous = apply(votes, 2, function(x) length(unique(na.omit(x))) == 1)
+votes = votes[ , !unanimous]
+justices = gsub("^[A-Z]+([A-Z][a-z]+)$", "\\1", rownames(votes))
+rownames(votes) = justices
+levs = c(
+    "Alito", "Thomas", "Gorsuch", "Barrett", "Roberts",
+    "Kavanaugh", "Jackson", "Kagan", "Sotomayor"
+)
+justices = factor(justices, levels = levs)
+dat = expand.grid(x = justices, y = justices)
+dat$agreement = 100 * sapply(1:nrow(dat), function(i) {
+    row1 = as.character(dat$x[i])
+    row2 = as.character(dat$y[i])
+    return(mean(votes[row1, ] == votes[row2, ], na.rm = TRUE))
+})
+ttl = "Agreement in non-unanimous cases (2022 term)"
+cap = "Data from the Supreme Court Database"
+map = aes(x = x, y = y, fill = agreement)
+ggplot(data = dat, mapping = map) +
+    geom_tile() +
+    labs(title = ttl, caption = cap) +
+    scale_fill_gradient2(
+        high = "#005f86",
+        low = "#bf5700",
+        midpoint = 50,
+        name = ""
+    ) +
+    theme(
+        axis.title = element_blank(),
+        plot.caption = element_text(hjust = 0, color = "#5f5f5f")
+    )
+```
+
+## Measuring Preferences: "Ideal points"
+
+```{r mq-scores, out.width = "90%", fig.height = 2, fig.width = 8, fig.align = "center"}
+mq = read_csv("justices.csv")
+dat = mq %>%
+    filter(term == 2022) %>% 
+    mutate(justiceName = gsub("^[A-Z]+([A-Z][a-z]+)$", "\\1", justiceName)) %>% 
+    arrange(post_mn) %>% 
+    mutate(
+        y = rep(c(-0.5, 0.5), length.out = 9),
+        h = c(0, 1, 0, 1, 0.75, 0.25, 0.25, 0.5, 0.5)
+    )
+ggplot(data = dat, mapping = aes(x = post_mn, y = y)) +
+    geom_hline(yintercept = 0, linewidth = 1) +
+    geom_point(aes(y = 0), size = 3) +
+    geom_text(aes(label = justiceName, hjust = h)) +
+    ylim(-1, 1) +
+    ggtitle("Martin-Quinn scores for 2022 term") +
+    theme_void() +
+    theme(plot.caption = element_text(hjust = 0, color = "#5f5f5f"))
+```
+
+## How do preferences turn into policy?
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+    \node (start) at (-3, 0) {};
+    \node (end) at (3, 0) {};
+    \draw[->, thick] (start)--(end);
+    \node[right] at (end.west) {More intrusive};
+    \node[below] at (-2, -1) {Judge 1};
+    \node[below] at ( 0, -1) {Judge 2};
+    \node[below] at ( 2, -1) {Judge 3};
+    \draw (-2, -0.75)--(-2, 0.75);
+    \draw ( 0, -0.75)--( 0, 0.75);
+    \draw ( 2, -0.75)--( 2, 0.75);
+    \only<2>{
+    \draw[fill = black] (-2.5, 0) circle (0.1);
+    }
+    \only<3-10>{
+    \draw[fill = Blue, draw = Blue] (-2.5, 0) circle (0.1);
+    }
+    \only<4>{
+    \draw[fill = black] (-1.5, 0) circle (0.1);
+    }
+    \only<5-10>{
+    \draw[fill = Blue, draw = Blue] (-1.5, 0) circle (0.1);
+    }
+    \only<6>{
+    \draw[fill = black] (1, 0) circle (0.1);
+    }
+    \only<7-10>{
+    \draw[fill = BurntOrange, draw = BurntOrange] (1, 0) circle (0.1);
+    }
+    \only<8>{
+    \draw[fill = black] (2.5, 0) circle (0.1);
+    }
+    \only<9-10>{
+    \draw[fill = BurntOrange, draw = BurntOrange] (2.5, 0) circle (0.1);
+    }
+    \only<10>{
+    \draw[fill = Blue, draw = Blue] (-1.00, 0) circle (0.1);
+    \draw[fill = Blue, draw = Blue] (-0.50, 0) circle (0.1);
+    \draw[fill = Blue, draw = Blue] (-0.75, 0) circle (0.1);
+    \draw[fill = BurntOrange, draw = BurntOrange] ( 0.50, 0) circle (0.1);
+    \draw[fill = BurntOrange, draw = BurntOrange] ( 1.50, 0) circle (0.1);
+    }
+    \only<11>{
+    \draw[fill = Blue, draw = Blue] (-3, 0.1) rectangle (0, -0.1);
+    \draw[fill = BurntOrange, draw = BurntOrange] (0, 0.1) rectangle (2.75, -0.1);
+    \draw (-2, -0.75)--(-2, 0.75);
+    \draw ( 0, -0.75)--( 0, 0.75);
+    \draw ( 2, -0.75)--( 2, 0.75);
+    }
+\end{tikzpicture}
+\end{figure}
+
+## A wrinkle: There's not just one kind of case!
+
+. . .
+
+[Clark and Lauderdale 2012](https://doi.org/10.1017/S0003055412000469):
+
+\only<2>{
+\begin{figure}
+\tiny
+\centering
+\includegraphics[height = 0.8\textheight]{many-medians}
+\end{figure}
+}
+
+\only<3>{
+\begin{figure}
+\centering
+\includegraphics[width = 0.95\textwidth]{many-medians2}
+\end{figure}
+}
+
+## Plus... are issues themselves multidimensional?!
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\only<2>{
+    \node (start) at (-3, 0) {};
+    \node (end) at (3, 0) {};
+    \draw[->, thick] (start)--(end);
+    \node[right] at (end.west) {More intrusive};
+}
+\only<4>{
+    \fill[fill = Blue] (0, 0)--(2.5, 0)--(0, 2.5)--cycle;
+    \fill[fill = BurntOrange] (2.5, 0)--(0, 2.5)--(0, 4.75)--(4.75, 0)--cycle;
+}
+\onslide<3->{
+    \draw[->, thick] (0, 0)--(5, 0);
+    \draw[->, thick] (0, 0)--(0, 5);
+    \node[below] at (2.5, -0.1) {Intrusiveness};
+    \node[left, rotate=90] at (-0.3, 4.5) {Evidence (decreasing)};
+}
+\end{tikzpicture}
+\end{figure}
+
+## Wait, *how* does the Court make policy again??
+
+. . .
+
+- The Court *does* make policy in the settings of cases...
+- But we don't **just** see the outcomes
+- They also give us opinions!
+  + These opinions explain **why** the case got the outcome it did
+  + Some write this off as post-hoc justification
+  + But don't be so hasty! Lower courts & others pay attention
+- So we can learn about policy from opinion content
+  + Dealing with the text for measurement is difficult, but ongoing
+- Theoretical work in this space gives us good reason to think the median *of the majority coalition* rather than the median of the Court has the most influence on opinion content ([Carrubba et al 2012](https://doi.org/10.1111/j.1540-5907.2011.00557.x))
+
+## Be careful---These models are abstractions
+
+::: {.block}
+### George E.P. Box
+All models are wrong; some models are useful.
+:::
+
+## And don't forget there are other factors...
+
+. . .
+
+- External constraints
+  + Public opinion
+  + Other branches
+- Internal constraints
+  + \textbf<8>{\textcolor<8>{BurntOrange}{Legal factors}}
+  + Hierarchy and collegiality
+
+\invisible<1-2, 4-8>{
+\begin{block}{Justice Owen Roberts (Interview by Merlo J. Pusey)}
+It is difficult to say what makes a judge decide as he does.
+Public outcry against an opinion is bound to have some effect on a man's thinking when it is a question of degree---of how far we can go.
+\end{block}
+}
+
+## One final note about ideal points...
+
+. . .
+
+- Ideology measures are (most) often derived from judges' votes
+- Sometimes we care about how ideology affects judges' votes
+- Can we use such measures as explanatory variables?
+- [Martin and Quinn (2005)](https://mqscores.lsa.umich.edu/media/resnote.pdf)
+
+## "Political jurisprudence"
+
+::: {.block}
+### C. Herman Pritchett
+\textcolor<2-3>{LightGray}{[P]olitical scientists who have done so much to put the "political" in "political jurisprudence" need to emphasize that it is still "jurisprudence."}
+\textcolor<1,3>{LightGray}{It is judging in a political context, but it is still judging; and judging is something different from legislating...
+Judges make choices, but they are not the "free" choices of Congressmen...}
+\textcolor<1-2>{LightGray}{Any accurate analysis of judicial behavior must have as a major purpose a full clarification of the unique limiting conditions under which judicial policy making proceeds.}
+:::
+
+## What kinds of "limiting conditions"?
+
+- Procedural
+  + "The judicial power shall extend to... cases... [and] controversies..." US Constitution, Article III \S 2
+  + Statutory limitations
+  + Aversion to *sua sponte* issue consideration
+- Substantive
+  + "Easy" vs. "hard" cases
+  + Power of the text
+  + *Stare decisis*
+
+## **Why** would judges care?
+
+## Cases and Controversies
+
+::: {.block}
+### US Constitution, Article III, \S 2
+The judicial power shall extend to all cases... arising under this Constitution, the laws of the United States, and treaties made... under their authority;--to all cases affecting [various parties];--to controversies [between various parties]...
+:::
+
+. . .
+
+- So federal judges only have the power to decide certain things
+- Some categories of things judges will therefore avoid:
+  + Advisory opinions
+  + Cases without a party with standing
+  + Cases that are moot or are not yet ripe
+  + "Political questions"
+
+## *Stare decisis*
+
+\only<2-6>{
+\begin{itemize}
+\tightlist
+\item<2-> A constraining role of law is somewhat controversial in political science
+\item<3-> Ideological variables are highly predictive of votes
+\item<4-> And some older studies show little respect for \textit{stare decisis}
+\item<5-> But we see intra-Court discussions about precedent
+\item<6-> And recent scholarship has shown renewed interest in the issue
+\end{itemize}
+}
+
+\only<7>{
+\begin{figure}
+\begin{columns}
+\column{0.3\linewidth}
+\href{https://doi.org/10.1017/S0003055409990049}{Bartels (2009)} Figure 1: Constraining Capacity of Legal Rules: (A) Legal Presumptions Model, and (B) Rights-Protectiveness Model
+\column{0.65\linewidth}
+\includegraphics[height = 0.8\textheight]{bartels1}
+\end{columns}
+\end{figure}
+}
+
+\only<8>{
+\begin{figure}
+\begin{columns}
+\column{0.3\linewidth}
+\href{https://doi.org/10.1017/S0003055409990049}{Bartels (2009)} Figure 4: Predicted Magnitudes of Ideological Voting for Each Free Expression Category Before and After the Grayned Doctrine: (A) Post-Grayned and (B) Pre-Grayned
+\column{0.65\linewidth}
+\includegraphics[height = 0.8\textheight]{bartels2}
+\end{columns}
+\end{figure}
+}
+
+\only<9>{
+Difficulty:
+
+\begin{figure}[htb]
+    \centering
+    \begin{tikzpicture}[thick,->]
+        \node (X1) at ( 0,  0) {\( \mathbf{x}_1 \)};
+        \node (L1) at ( 2,  2) {\( \lambda_1 \)};
+        \node (P1) at ( 2, -2) {\( \phi_1 \)};
+        \node (Y1) at ( 4,  0) {\( y_1 \)};
+        \path (X1) edge (L1);
+        \path (X1) edge (P1);
+        \path (L1) edge (Y1);
+        \path (P1) edge (Y1);
+        \node (X2) at ( 6,  0) {\( \mathbf{x}_2 \)};
+        \node (L2) at ( 8,  2) {\( \lambda_2 \)};
+        \node (P2) at ( 8, -2) {\( \phi_2 \)};
+        \node (Y2) at (10,  0) {\( y_2 \)};
+        \path (X2) edge (L2);
+        \path (X2) edge (P2);
+        \path (L2) edge (Y2);
+        \path (P2) edge (Y2);
+        \path (P1) edge (P2);
+        \path (L1) edge (L2);
+        \path[dashed] (Y1) edge (L2);
+    \end{tikzpicture}
+    \caption{
+        Directed acyclic graph for the influence on a justice's decisions.
+        \( \mathbf{x}_i \) denotes the facts of case \( i \),
+        \( y_i \) denotes the justice's decision in case \( i \),
+        \( \lambda_i \) denotes the predicted legal outcome in case \( i \),
+        and \( \phi_i \) represents the justice's policy preferences
+        in case \( i \).
+    }
+    \label{fig:dag}
+\end{figure}
+}
+
+## Legal constraints or political opportunities?
