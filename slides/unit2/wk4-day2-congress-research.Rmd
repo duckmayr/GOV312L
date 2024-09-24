@@ -1,0 +1,406 @@
+---
+title: "Political Science Research on Congress"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+    - \definecolor{firebrick3}{RGB}{205,38,38}
+    - \definecolor{midgreen}{RGB}{69,139,0}
+    - \definecolor{dodgerblue4}{RGB}{16,78,139}
+    - \usepackage{tikz}
+    - \usetikzlibrary{arrows.meta}
+    - \newcommand{\fullpic}[2]{\includegraphics[width=\linewidth,height=#1\textheight,keepaspectratio]{#2}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!-- - Introduction to political science research:   10 minutes -->
+
+## Intro to Political Science Research
+
+. . .
+
+-   Political science has developed a lot over the years
+-   Now it is mostly empirical and theoretical research
+-   Reading articles can tricky without methods training
+
+## Reading Political Science Articles
+
+. . .
+
+-   I recommend the following reading order for you:
+    -   Abstract
+    -   Introduction
+    -   Conclusion
+    -   Look at the figures
+    -   Skim the rest
+-   You'll get a sense of their findings & rough sense of methods
+
+## Reading Articles: Details of Interest
+
+. . .
+
+-   What question are they trying to answer?
+-   Can you tell what the prior literature said?
+-   What's can you understand about the data they're using & how?
+-   What are their results?
+-   What are some implications?
+    -   For the real world?
+    -   For future research?
+-   Is there anything you doubt about the study?
+
+## Final thoughts about political science research
+
+```{=tex}
+\only<1-4>{
+\begin{itemize}
+\tightlist
+\item<2-5> What \textit{is} published research? What is it for?
+\item<3-5> Peer review is not perfect
+\item<4> Open science initiatives
+\end{itemize}
+}
+```
+```{=tex}
+\only<5>{
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{open-science}
+\end{figure}
+}
+```
+<!-- - Members of Congress and Elections:            15 minutes -->
+
+## Members of Congress and Election
+
+. . .
+
+-   Before you can be a member of Congress, you have to be elected
+-   Constitutional issues
+-   Influence of the states
+-   Members' preferences/objectives
+-   The mass public
+
+<!-- US Term Limits Inc? -->
+
+## Congressional Elections: Constitutional Issues
+
+. . .
+
+-   Qualifications for office
+    -   Article I, \S\S 2, 3
+    -   *US Term Limits, Inc. v. Thornton*
+        -   Arkansas and 23 other states enacted term limits for those seeking to run for U.S. Congress in their state
+        -   Thornton, a sitting Representative, sued in state court, arguing the Arkansas amendment violated Article I of the U.S. Constitution
+        -   The US Supreme Court agreed, holding it impermissibly adds to the qualifications for office
+-   The Elections Clause
+
+<!-- States' influence -->
+
+## States' Influence on Congressional Elections
+
+. . .
+
+-   Districting
+-   Election administration
+
+<!-- Mayhew -->
+
+## "Single-Minded Seekers of Reelection"
+
+. . .
+
+-   Mayhew (1974): [*Congress: The Electoral Connection*](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991041511869706011)
+-   Reelection as a primary goal
+-   Advertizing
+-   Credit claiming
+-   Position taking
+
+<!-- Fenno -->
+
+## Connecting to Constituents
+
+. . .
+
+-   Fenno (1978): [*Home Style: House Members in Their Districts*](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991048657799706011)
+-   What is the constituency?
+    -   Geographic constituency
+    -   Reelection constituency (General election supporters)
+    -   Primary constituency (Primary election supporters)
+    -   Personal constituency (Friends, family, and close advisers)
+-   "Home Style"
+    -   Presentation of self
+    -   Allocation of resources
+    -   Explanation of DC activities
+-   Gaining trust
+    -   Qualification
+    -   Identification
+    -   Empathy
+
+## The Public
+
+. . .
+
+-   Zaller (1992): [*The Nature and Origins of Mass Opinion*](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991054445609706011)
+    -   "Receive-Accept-Sample" model
+    -   Effects of campaigns
+-   Jacobson and Carson (2019): [*The Politics of Congressional Elections*](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991058161542006011)
+
+<!-- - Ideology in Congress:                         10 minutes -->
+
+<!-- Ideology (NOMINATE vs GGUM) -->
+
+## Political Ideology
+
+. . .
+
+-   We're all familiar with a left-right political continuum
+-   But how would we measure it & place politicians in that space?
+-   Typical approach is to use voting data\only<5-6>{, a response matrix:}
+
+```{=tex}
+\only<2-3>{
+\vspace*{7.5\baselineskip}
+\begin{figure}
+\centering
+\begin{tikzpicture}
+    \node [left]  at (-2, 0) {Liberal};
+    \node [right] at ( 2, 0) {Conservative};
+    \draw [{Straight Barb}-{Straight Barb}, thick] (-1.8, 0)--(1.8, 0);
+\end{tikzpicture}
+\end{figure}
+}
+```
+```{=tex}
+\only<4-5>{
+\vspace*{3.25\baselineskip}
+}
+```
+```{=tex}
+\only<4-6>{
+\begin{table}
+\centering
+\begin{tabular}{lcccc}
+& Bill 1 & Bill 2 & $\dots$ & Bill m \\
+Member 1    & \only<4,6>{Nay}\only<5>{0} & \only<4,6>{Yea}\only<5>{1} & $\cdots$ & \only<4,6>{Yea}\only<5>{1} \\
+Member 2    & \only<4,6>{Yea}\only<5>{1} & \only<4,6>{Yea}\only<5>{1} & $\cdots$ & \only<4,6>{Nay}\only<5>{0} \\
+\multicolumn{1}{c}{$\vdots$}    & $\cdots$  & $\cdots$ & $\ddots$ & $\vdots$ \\
+Member n    & \only<4,6>{Yea}\only<5>{1} & \only<4,6>{Nay}\only<5>{0} & $\cdots$ & \only<4,6>{Nay}\only<5>{0}
+\end{tabular}
+\end{table}
+}
+```
+```{=tex}
+\only<6>{
+$$
+\Pr\left(\text{Member }i\text{ votes Yea on Bill }j\right) = f\left(\left[\text{All members' votes on all bills}\right]\right)
+$$
+}
+```
+## DW-NOMINATE
+
+. . .
+
+[Lewis et al (2024)](https://voteview.com/data)
+
+```{=tex}
+\only<2>{
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{NOMINATE}
+\end{figure}
+}
+```
+```{=tex}
+\only<3>{
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{VoteView1}
+\end{figure}
+}
+```
+```{=tex}
+\only<4>{
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{VoteViewAOC}
+\end{figure}
+}
+```
+
+## Alternate Models
+
+\only<2>{
+\href{https://jbduckmayr.com/publication/ggum/}{Duck-Mayr and Montgomery (2020)}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{ideo-comparison-2d}
+\end{figure}
+}
+
+\only<3>{
+\href{https://proceedings.mlr.press/v124/duck-mayr20a.html}{Duck-Mayr et al (2020)}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{gpirt-vs-nominate}
+\end{figure}
+}
+
+<!-- Krehbiel -->
+## So What?
+
+. . .
+
+- Members of Congress tend to care about policy
+- Many formal models and empirical analyses of Congress use left-right ideology
+- Many formal models and empirical analyses use left-right ideology in separation of powers research
+
+<!-- - Accountability and Representation:            15 minutes -->
+
+## Accountability and Representation
+
+. . .
+
+- We want a government that does what we want
+- How can we accomplish that?
+  + Representatives who represent us, or our interests
+  + Holding elected representatives to account
+ 
+<!-- Representation -->
+## Representation
+
+. . .
+
+- We elect Representatives; what does representation mean?
+- Trustee vs Delegate Model
+- Descriptive representation vs substantive representation
+- Dyadic representation vs Collective Representation
+- What does research say about these different models?
+
+## Trustee vs Delegate Model of Representation
+
+. . .
+
+- A "delegate" follows the wishes of their constituents while a "trustee" follows their own judgment [(Hill et al 2015, Chapter 1)](https://www-cambridge-org.ezproxy.lib.utexas.edu/core/books/representation-in-congress/08187CD0C236C734902414E4C2582551)
+- Members of Congress tend to use a trustee approach [(Cavanagh 1982)](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/447976?sid=primo&seq=2)
+
+## Descriptive vs Substantive Representation
+
+. . .
+
+- Descriptive representation occurs when representatives share your personal characteristics
+- Substantive representation occurs when your representatives faithfully represent your policy preferences
+- There's some evidence that descriptive representation $\rightarrow$ substantive representation [(Lowande et al 2019)](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/45132502?sid=primo)\only<5>{\dots}
+- ...but also evidence that descriptive representation reduces constituents perception of policy incongruence [(Jones 2016)](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/26612345?sid=primo)
+
+## Dyadic vs Collective Representation
+
+. . .
+
+- We often think about how *our* representative represents us
+- But in the aggregate, we could still be adequately represented [Weissberg (1978)](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/1954109)
+- There's some hope for dyadic representation as well, depending on the political context [Blumenau (2020)](https://onlinelibrary-wiley-com.ezproxy.lib.utexas.edu/doi/full/10.1111/lsq.12291)
+  
+<!-- Accountability -->
+## Accountability: Adverse Selection & Moral Hazard
+
+. . .
+
+- Electoral accountability requires ability to find someone better
+- Voters are faced with a *moral hazard* problem
+  + Once in office, can break campaign promises
+  + Sometimes able to conceal their actions
+- They are relatedly faced with an *adverse selection* problem
+  + Voters don't know politicians' true ideology
+  + This can make it hard to find better alternatives
+- There is a *vast* literature on modeling these problems
+  + Very technical but thorough review: [Duggan and Martinelli (2017)](https://drive.google.com/file/d/1A0SFDOsaj-PrEVewK3ZDrogJD0HlcvQN/view)
+  + Some optimistic results: Repeated elections mitigate commitment problems [(Duggan and Martinelli 2017)](https://drive.google.com/file/d/1A0SFDOsaj-PrEVewK3ZDrogJD0HlcvQN/view)
+  + Some pessimistic results: This falls apart with "last term effects" ([Duggan 2016](https://www-sciencedirect-com.ezproxy.lib.utexas.edu/science/article/pii/S0022053116301247); [Ferraz and Finan 2011](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/23045899?sid=primo))
+
+<!-- - Congressional Procedure:                      15 minutes -->
+## Congressional Procedure
+
+. . .
+
+- Congress sets its own procedural rules (Article I \S\ 5)
+- Parties can use procedure for agenda control [(Cox and McCubbins 2004)](https://ebookcentral.proquest.com/lib/utxa/detail.action?docID=321239&pq-origsite=primo)
+  + Put things on the agenda that they want
+  + Take things off the agenda to protect members
+- Can use procedure like conference committees to move policy [(Vander Wielen and Smith 2011)](https://www-tandfonline-com.ezproxy.lib.utexas.edu/doi/full/10.1080/07343469.2011.603018)
+- Can affect things other than outcome, like timing [(Smith et al 2013)](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/42703799?sid=primo&seq=24)
+- Development of procedural rules is important for understanding their operation ([Binder 1997](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991019252259706011); [Binder 2006](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/40263401?sid=primo))
+
+## Chamber Leaders
+
+. . .
+
+- Speaker of the House
+  + Speakers enjoy important agenda control powers
+  + Strong Speakers have spurred changes in congressional institutions [(Davidson 1998)](https://doi-org.ezproxy.lib.utexas.edu/10.4324/9780429499029)
+- Committees
+  + Investigations
+  + Involvement in policy
+    * Lesser role than the past
+    * But still play an important role [(Becker and Moscardelli 2008)](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/20452113?sid=primo&seq=2)
+
+## The Filibuster
+
+. . .
+
+- The filibuster is not constitutionally mandated <!-- add history -->
+- Some suggest it broadens winning coalitions, though there's some evidence to the contrary [(Madonna 2011)](https://onlinelibrary-wiley-com.ezproxy.lib.utexas.edu/doi/epdf/10.1111/j.1540-5907.2010.00491.x)
+- There is a **large** literature on the filibuster
+  + It plays a role in many models of policymaking [(e.g. Krehbiel 1998)](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991024531109706011)
+  + Many argue it prevents the Senate from doing its job ([Binder and Smith 1996](https://web-p-ebscohost-com.ezproxy.lib.utexas.edu/ehost/ebookviewer/ebook?sid=8cd63821-ba21-4ea9-9af9-1e51b94641a3%40redis&vid=0&format=EB); [Smith 2014](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991039271669706011))
+  + SCOTUS nomination changes has increased [(Bird and McGee 2023)](https://journals-sagepub-com.ezproxy.lib.utexas.edu/doi/full/10.1177/1532673X221109534)
+  
+## Broader Confirmation Literature
+
+. . .
+
+- Changes in confirmation votes over time [(Epstein et al 2006)](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/10.1111/j.1468-2508.2006.00407.x?sid=primo)
+- Strategic delay [(Binder and Maltzman 2002)](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/3088422)
+- Public opinion
+  + General [(Kastellec et al 2010)](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/10.1017/s0022381610000150?sid=primo)
+  + Polarization and substantive representation [(Kastellec et al 2015)](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/10.1086/681261?sid=primo)
+  + Descriptive representation [(Badas and Stauffer 2018)](https://www-jstor-org.ezproxy.lib.utexas.edu/stable/26600455?sid=primo)
+  + Legitimacy [(Rogowski and Stone 2021)](https://ezproxy.lib.utexas.edu/login?url=https://www.proquest.com/scholarly-journals/how-political-contestation-over-judicial/docview/2543259162/se-2?accountid=7118)
+
+<!-- - Additional topics and conclusion:              5 minutes -->
+
+## Addtional Topics
+
+. . .
+
+- Parties in Congress (covered later)
+- Lobbying
+- Congressional Approval
+- Interaction with other branches (covered later)
+- Network effects
+- Districting
+- Campaigns
+
+## Conclusion
+
+. . .
+
+- Congress has a limited grant of power
+  + **but** the Supreme Court's interpretation of the Commerce and Necessary & Proper Clauses is expansive
+  + can gain additional powers through amendment
+  + Congress also has the inherent power to investigate
+- The electoral connection is key to understanding Congress
+- Public opinion and Members' own ideology plays a huge role
+- There are limits to our ability to be represented and hold representatives to account, though there are also optimistic results
+- Members can use Congressional procedure powerfully to achieve their goals
