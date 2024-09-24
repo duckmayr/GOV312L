@@ -1,0 +1,152 @@
+---
+title: "Modern Research on the Judiciary"
+author: "Instructor: JBrandon Duck-Mayr"
+fontsize: 12pt
+header-includes:
+    - \usepackage{graphicx}
+output:
+    quack::article:
+        number_sections: false
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+There is a large empirical and theoretical literature on the judiciary.
+I will expose you to a small sample here.
+Some important sub-literatures in judicial politics focus on the structure of the courts themselves, like the fact that courts typically exist in a hierarchical structure, or that appellate (policy-making) courts are generally "collegial" (multi-member) courts that make decisions collectively.
+Below are excerpts from a study on collegiality to help give you a sense of these literatures.
+
+<!--
+# Hierarchy
+
+\begin{center}
+\href{https://doi.org/10.1111/j.1540-5907.2010.00465.x}{\textrm{Strategic Defiance and Compliance in the U.S. Courts of Appeals}}
+
+\textit{by Chad Westerland, Jeffrey Segal, Lee Epstein, Chuck Cameron, \& Scott Comparato}
+\end{center}
+
+In its landmark decision in *Bakke v. California* (1978), the U.S. Supreme Court ruled that universities may, under certain circumstances, take race and other factors into account when they make admissions decisions. But even before the justices had the opportunity to reconsider *Bakke* in *Grutter v. Bollinger* (2003), the U.S. Court of Appeals for the Fifth Circuit took matters into its own hands. In *Hopwood v. Texas*, it held "that the University of Texas School of Law may not use race as a factor in deciding which applicants to admit in order to achieve a diverse student body" (1996, 963). With these words, the judges of the Fifth Circuit, at least according to their colleagues in dissent, took the dramatic step of defying precedent established at the top of the judicial hierarchy, the Supreme Court of the United States.
+
+Scholars and journalists alike spilt much ink over *Hopwood*, as well as decisions by other courts overturning well-established Supreme Court precedents... And, yet, these decisions are merely the most striking instances of a more general phenomenon, lower court deviation from earlier precedents set by a higher court---a phenomenon that can take far subtler forms (e.g., distinguishing or limiting precedents)...
+
+This... raises a question that, depending on one's perspective, may be posed two different ways: Why do lower courts defy higher court precedent, or, given the minute percentage of lower court cases that are heard and reversed (currently well under 1%), why do lower courts comply with higher court precedent?
+
+Scholarly attempts to address these questions take several forms. One line of inquiry seeks to identify the circumstances that lead to deviations, subtle or overt. Baum (1978), for example, suggests that lower courts will be less responsive to the U.S. Supreme Court in controversial civil liberties cases, and that the clarity of the precedent, the perceived legitimacy of the Court's ruling, and perception by lower court judges of the chances of review also affect the likelihood of compliance... Another has focused on socialization and conformity to legal culture as the critical causal mechanism...
+
+More recently, scholarly efforts, conducted both by social scientists and legal academics, have shifted focus from individual socialization to structural incentives created by the design and operation of organizations... One powerful perspective on institutional design, especially of hierarchies, utilizes principal-agent theory...
+
+...we use agency theory to structure an empirical analysis of a random sample of 500 Supreme Court cases, yielding 10,198 subsequent treatments in the U.S. Courts of Appeals. We find that the actual practice of hierarchical interpretation in the federal judiciary affords considerable support for contemporary principal-agency theory. In particular, panels of lower court judges treat precedent much more harshly when the ideological makeup of the contemporary Supreme Court diverges from that of the enacting Supreme Court. Moreover, controlling for the ideological distance between the contemporary and enacting Supreme Courts, the ideological makeup of the panel itself does not affect its treatment of precedent. Hence, hierarchical control appears quite effective...
+
+## Theoretical Framework
+
+### Precedent and Judicial Principal-Agent Theory
+
+The basic issues in principal-agent relations arise from heterogeneous preferences. Consider a judicial "principal"---a High Court—that sets a policy... But policy may be... implemented by an "agent," for instance, a lower court with somewhat different preferences... In many situations, the principal can intervene and reverse "bad" decisions of the agent, at some cost to the agent. However, if the agent can take hidden actions or has private information... or if the principal faces such severe resource limitations that it cannot intervene, the agent may be able to... implement its preferred rule... rather than the principal's preferred rule... To prevent this eventuality, the principal can employ a variety of organizational devices to enhance its control of the agent...
+
+The logic of principal-agent relations has implications---some obvious, others less so---for the operation of legal precedent...
+
+Judicial principal-agent theorists have identified several devices through which a hierarchically superior court can extract conformity from a hierarchically subordinate contemporaneous court with different preferences. Among these are strategic auditing by the High Court (Cameron, Segal, and Songer 2000; Lax 2003; Spitzer and Talley 2000), whistleblowing by allies within a lower court panel of judges (Cross and Tiller 1998; Daughety and Reinganum 2006; Kastellec 2007), ...and en banc review of panels by lower courts (Clark 2009). Although each mechanism operates differently, all afford the High Court a degree of control over lower courts even absent many actual reversals.
+
+Rasmusen (1994) studies horizontal stare decisis by a succession of High Courts... The model starkly poses the fundamental dilemma of horizontal stare decisis... each High Court wants to annihilate and rewrite the opinions of its predecessors but desires immortality for its own opinions... Rasmusen shows the possibility of... equilibria [where] a future-minded court respects the opinions of earlier courts (at least to some degree), thereby upholding an implicit cross-generational deal...
+
+Two features of the "horizontal stare decisis" equilibrium stand out. First, adherence to precedent is less likely when the sitting court finds the precedent highly objectionable---in this sense, stare decisis is conditional. Defiance will be more likely if the policy preferences of the sitting court are distant from those of the enacting court. Second, adherence to precedent is less likely if the precedent is old. Essentially, the intergenerational log-roll involves a moving window: older precedents are discarded while younger ones are afforded respect, especially if they are not too objectionable. These two features seem likely to emerge in any model of horizontal stare decisis with actors whose policy preferences differ...
+
+The simultaneous operation of contemporary hierarchical conformity and conditional High Court horizontal stare decisis leads to perhaps the fundamental prediction about the relationship between the preferences of a contemporary lower court and those of an enacting High Court: a contemporary lower court should treat precedent more harshly as the contemporary Supreme Court becomes more ideologically distant from the enacting Supreme Court. In addition, if hierarchical control is as powerful as the models envisage, once one controls for the distance between the enacting and contemporary Supreme Courts, the distance between the contemporary lower court and the enacting court ought to have no influence on the lower court's treatments of precedent...
+
+## Data and Methods
+
+In order to explore the empirical implications of the principal-agent framework, we employ a four-step approach: (1) generate a random sample of U.S. Supreme Court cases; (2) track the responses of lower courts to the doctrine established in these cases (the dependent variable for all the hypotheses); (3) collect the data necessary to animate the independent variables; and (4) implement statistical models, testing for the influence of the suggested variables. Our focus throughout is the response of panels in the U.S. Courts of Appeals to precedent established by the U.S. Supreme Court.
+
+We drew a random sample... of 500 cases from all orally argued Supreme Court cases decided between the 1953 and 1990 terms. Next, following other studies, we employed Shepard's Citations to determine how circuit court panels responded to each U.S. Supreme Court case, through 2000 (Johnson 1987; Spaeth and Segal 1999; Spriggs and Hansford 2000, 2001). Shepard's... identifies every decision produced by a U.S. Court of Appeals that “treated” the Supreme Court cases. It also specifies the nature of the circuit court's treatment (e.g., “followed,” “explained,” or “criticized” the precedent)---thereby enabling us to capture compliance with and deviations from extant rules in ways widely recognized as reliable, valid, and accessible by legal practitioners and scholars.
+
+The random sample of 500 U.S. Supreme Court cases generated 10,244 citations distributed over the Shepard's treatment categories, or a mean of 20.5 circuit court citations per case. Following Spriggs and Hansford (2000), we collapsed the finely articulated Shepard's categories into three broader categories: “Deviate,” “Neutral,” and “Comply.” “Comply” was the modal response, though roughly one out of three responses fell into the “Deviate” category. Of these, most resulted from the Shepard's category “distinguished,” but “criticized” and “overruled” cases occurred as well. We code “Deviate” as the baseline category of 1, “Neutral” as 2, and “Positive” as 3. Therefore, negative coefficients indicate an increasing likelihood of a negative treatment, and positive coefficients indicate an increasing likelihood of a positive treatment...
+
+Somewhat more novel are our measures for assessing ideological distances, which are at the center of the agency-theoretic framework. To enable these comparisons, we adopt the approach in Epstein et al. (2007). In brief, Epstein and her colleagues developed a measurement strategy designed to place Supreme Court justices and Court of Appeals judges into a policy space, the “Judicial Common Space” (JCS). To assess the preferences of justices, the authors relied on the Martin-Quinn scores (Martin and Quinn 2005); for circuit court judges, they invoked the inferential measure developed by Giles, Hettinger, and Peppers (2001), based upon the Poole and Rosenthal Common Space scores for the judges’ senatorial sponsors. The final step taken by Epstein et al. was to transform the scale of the Martin-Quinn scores into that of the Common Space scores, thus resulting in a comparable metric for the ideology of Supreme Court justices and Court of Appeals judges.
+
+We employ these scores to measure ideological distances for the actors identified as critical in the agency-theoretic framework. More specifically, we attribute to the Enacting Supreme Court the JCS score of the median member of the majority coalition; for the Contemporary Supreme Court and the contemporary panel, we employ the score of the median member of the respective court or panel...
+
+## Empirical Analysis
+
+...[Our first empirical expectation] addressed the impact of high court horizontal relations on lower court behavior: if the Contemporary Supreme Court is increasingly estranged from an Enacting Supreme Court, the Contemporary Lower Court's behavior should increasingly reflect that estrangement. In other words, increased distance between the Contemporary High Court and the Enacting Supreme Court should translate into a reduced likelihood by the lower court of favorable treatments for the Enacting Court's precedents... the distance between the Contemporary and Enacting Supreme Courts is statistically significant and displays the expected sign...
+
+The second empirical expectation concerned direct vertical relations between the Enacting Supreme Court and the Contemporary Lower Court. Contemporary principal-agent models imply that the distance between the Enacting Supreme Court and the Contemporary Lower Court should have little or no impact on the lower court's behavior once one controls for the difference in distance between the Enacting Supreme Court and the Contemporary Supreme Court. This expectation is tested by the... variable... “Panel-Enacting SC Distance.” As predicted, the variable has no discernible impact on the lower court's probability of positive treatments of precedent.
+
+The third empirical expectation concerned hierarchical control between the Contemporary Supreme Court and the Contemporary Lower Court. Current PA models suggest that the distance between the two courts should have little impact on lower court treatment of precedents, once one controls for the distance between the Enacting and Contemporary Supreme Courts. This expectation is tested by the... variable... “Panel-Contemporary SC Distance.” Again as predicted, the variable appears to have no impact on the lower court's behavior. This finding, in tandem with the previous two findings, suggests effective hierarchical control in the federal judiciary...
+
+## Discussion and Conclusion
+
+What are the theoretical implications of the empirical findings? ...judicial principal-agent models imply that the “motor” driving the Contemporary Lower Court's treatment of earlier Supreme Court precedent is actually the Contemporary Supreme Court's preferred treatments of precedent. (Of course, the Contemporary Supreme Court's preferred treatments predictably reflect the high court's practice of horizontal stare decisis.) The “transmission belt” for the Supreme Court's preferences is the hierarchical relationship between the Contemporary Supreme Court and the Contemporary Lower Court. Current models portray this hierarchical relationship as quite strong; hence, the “transmission belt” should work effectively.
+
+Many of our empirical findings provide substantial support for this conception of the judicial hierarchy. Perhaps the central prediction is that ideological estrangement between the Contemporary and Enacting Supreme Courts should be reflected in harsher treatments of the Enacting Court's precedents by the Contemporary Lower Court...
+
+-->
+
+# Collegiality
+
+\begin{center}
+\href{https://doi.org/10.1086/692731}{\textrm{Panel Effects and Opinion Crafting in the US Courts of Appeals}}
+
+\textit{by Rachael K. Hinkle}
+\end{center}
+
+In recent years scholars have paid considerable attention to the way panel composition influences voting and outcomes in the US Courts of Appeals. Substantial evidence supports the conclusion that circuit judges are influenced by both ideological (Revesz 1997; Cross and Tiller 1998; Sunstein 2006) and personal characteristics (Farhang and Wawro 2004; Boyd, Epstein, and Martin 2010; Kastellec 2013) of their fellow panel members, a phenomenon known as panel effects. To date, this line of research has focused primarily on binary votes regarding who wins and loses a case. However, once a panel has agreed on a case outcome there is still important work left to be done. One judge is assigned to write the opinion explaining that result (Bowie, Songer, and Szmer 2014), and, if published, that opinion will become binding law within the circuit (Lee 2003). How the author crafts a published opinion plays a key role in developing the law of the circuit (Hume 2009; Haire, Moyer, and Treier 2013). The dynamic nature of law is such that the meaning of each precedent ebbs and flows on the basis of how it is used over time. Each new opinion provides the opportunity to continue shaping the law of the circuit by molding the way past circuit opinions are used. Since the author plays the central role in selecting which circuit precedents to discuss and how, she potentially wields disproportionate influence. This article investigates whether, and to what extent, the author's influence over such decisions is tempered by the need to craft each opinion with one's colleagues' preferences in mind.
+
+Ideological panel effects on case outcomes manifest as different rates of conservative (or liberal) rulings from split panels and unified panels dominated by the same party. I extend this analytical framework to further distinguish between split panel opinions authored by a member of the panel majority and those authored by what Kastellec (2011) dubs a "counterjudge," a judge who is the lone member of his party siting on a panel. Panel effects influence opinion crafting to the extent that an author's own ideology has a different impact on opinion content conditional on whether the relevant panel is unified, split but dominated by the author's party, or split and the author is the counterjudge. Authors should have the greatest leeway to draft their ideologically preferred opinion when sitting on a panel with two ideological allies and the least leeway when the panel includes no such allies...
+
+Using an original data set of search-and-seizure cases from 1953 to 2010, I provide evidence both that panel effects influence the use of precedent and that such decisions have a material impact on how circuit law develops.
+
+## Panel Effects and Precedent
+
+The vast majority of circuit law is established by three-judge panels. Panel assignments rotate on a regular basis, resulting in each judge working with various combinations of his circuit colleagues... This institutional feature creates interesting variation in the output from different panel configurations... Panels resolve cases by majority rule, yet empirical results consistently reveal patterns at odds with what the median voter theorem would predict (Kastellec 2007). The primary explanations for these findings are strategic dissent avoidance to circumvent external review (Cross and Tiller 1998; Kastellec 2011; Beim et al. 2016), strategic dissent avoidance to reduce workload and comply with a norm ofconsensus (Posner 2008; Epstein, Landes, and Posner 2011; Fischman 2015), and internal deliberation leading to incorporation of a broader range of information (Kim 2009; Spitzer and Talley 2013).
+
+Although the bulk of the literature on panel effects focuses on cases outcomes, there is some work that sheds light on the impact that panel configuration has on aspects of the opinion-drafting process. Haire et al. (2013) demonstrate that the presence of women and racial minorities on a panel can increase the number of legal issues discussed in the final opinion...
+
+Exploring the role of panel effects on opinion drafting is important because of the key role opinion content plays in legal development...
+
+Decisions that influence the subsequent use of a precedent are important to study because the use of a precedent reflects the impact it has on legal doctrine. The development of law is nuanced, complicated, and difficult to measure. But citations and treatment provide an opportunity to measure this key concept in a way that is useful, if not perfect...
+
+## Authors and the Impact of Other Panel Members
+
+...practical considerations and institutional norms dictate that the three members of a panel share opinion-writing duties equally across the subset of cases entrusted to the panel. As a result, over time almost all circuit judges will not only serve on both split and unified panels and find themselves in both the panel minority and majority, they will also be entrusted with authoring opinions under each possible panel configuration...
+
+While circuit judges possess a clear opportunity to exercise power when they draft an opinion, there are also very real limitations on that power. Most obvious is that the case outcome is generally determined in advance. Although the deliberative process is secret, we do know that it typically involves registering preliminary votes... Consequently, a major limitation on the parameters of how an author writes an opinion is that the outcome has been determined in advance... Another obvious limitation is that a judge is constrained to write about the facts of a case and the legal issues they raise. The following discussion focuses on the discretion an author can wield within these constraints.
+
+Even in the typical case in which votes on the outcome remain constant from the conference to the release of the finalized majority opinion, authors still exercise discretion about how to draft an opinion. As Kim (2009, 1343) notes, "the reasons that they [judges] give to justify their decisions are critical, for it is the content of opinions rather than the simple declaration of a winner that shapes the development of the law." These reasons are primarily crafted by the opinion author. Although the other two judges on a panel retain the power to ask for changes or withdraw their support of a draft opinion, there is reason to expect that circuit judges give a fairly high level of deference to the author, at least compared to the Supreme Court (Choi and Gulati 2007). The sheer magnitude of circuit court caseloads makes efficiency a necessity rather than a luxury... Furthermore, when an author includes a favorable citation to a binding precedent, legal doctrine may shield that decision from criticism. Beim and Kastellec (2014) note that counterjudges who are aligned with circuit law are in a stronger negotiating position...
+
+Although concerns about efficiency, effort aversion, and legal doctrine may result in deference to the author, they may also result in deference by the author to the preferences of her panel colleagues. A central element in the various explanations for panel effects is avoiding separate opinions. According to whistleblower theory, dissenting opinions are avoided to reduce the probability of external review (Cross and Tiller 1998; Kastellec 2011; Beim et al. 2016). Deliberative explanations incorporate judges' general unwillingness to openly disagree with colleagues as one of the reasons they are open to being persuaded (rather than writing separately; Haire et al. 2013; Spitzer and Talley 2013). Finally, internal strategic explanations emphasize the extra time and effort required by separate opinions (Posner 2008; Epstein et al. 2011; Fischman 2015). The shared element is the various benefits judges enjoy when they vote in a manner that prevents separate opinions. Panel effects on opinion writing may similarly be generated by authors working to avoid separate opinions.
+
+There are two ways authors may reduce the probability of separate opinions. First, authors may accommodate revisions requested by other panel members after the draft majority opinion is circulated. Second, the author may anticipate the preferences of the other panel members and initially draft an opinion that is designed to satisfy their concerns...
+
+...circuit judges discuss the fact that their initial drafts are constructed with the other panel members in mind (Bowie et al. 2014, 97-98). One interviewed judge reported that "if you are assigned to write the court opinion you will always take into account what the preferences of your colleagues are" (97)...
+
+An author seeking to shape circuit law in accordance with his own preferences will seek to favorably cite ideologically proximate precedents and ignore or negatively treat ideologically distant precedents. If panel effects constrain how an opinion is crafted, the effect of the author's ideology on citation and treatment decisions will be dampened when the panel is split compared to when the panel is unified. Such ideological dampening should be greatest when the author is the counterjudge because such a judge will be concerned about shaping an opinion amenable to two ideologically distant colleagues. A majority judge writing for a split panel will only have to accommodate the preferences of one such colleague. In short, if the way an author crafts an opinion is influenced by panel composition, each additional panel member from a party different from the author's should increasingly dampen the impact of the author's ideology...
+
+> HYPOTHESIS 1. The effect of an author's ideology on negative treatment and favorable citation decisions will have the largest magnitude when sitting on a unified panel and smallest when writing as a counterjudge.
+
+Panel effects on opinion crafting could take other forms in addition to ideological dampening. An author's deference to his panel colleagues may emerge on a personal level. Even after accounting for other factors, an author may be more deferential toward the precedents written by one of the other panel members. Evidence that an author is less likely to negatively treat, or more likely to favorably cite, such a precedent would indicate that the identity of the nonauthoring judges on a panel can influence the content of the opinion. Like ideological dampening, such a pattern may emerge as a result of either accommodation or anticipation... As a result, authors may tend to produce opinions that are disproportionately deferential toward the precedents written by their fellow panel members.
+
+> HYPOTHESIS 2. An author will be less likely to negatively treat, and more likely to favorably cite, a precedent written by a nonauthoring judge on the panel than one written by a nonpanel judge.
+
+...
+
+## Data and Research Design
+
+...[Following Hansford and Spriggs (2006), I refer to the analyzed cases as treatment cases to distinguish them from precedents. This] study focuses on... Fourth Amendment search-and-seizure [cases]... I identify relevant cases by locating all cases that cite the Fourth Amendment of the US Constitution. Using Lexis, I collected every such published circuit case from 1953 to 2010... the resulting data set contains 12,792 cases...
+
+The panel type for each treatment case is classified into three discrete categories using the binary proxy for ideology of party of the appointing president. The baseline panel type is a unified panel, that is, one on which all three judges were appointed by a president from the same party. Indicator variables are included for split panel, majority author, which indicates the author has one ideological ally on the panel, and counterjudge author, which indicates the author has no ideological allies on the panel...
+
+My primary hypotheses call for estimating the effect of an author's ideological distance to a precedent within each of the three panel types... [so] I use a more nuanced continuous measure of ideology, Judicial Common Space (JCS) scores. Ideological distance is the absolute value of the difference between the JCS score of the authoring judge in the treatment case and the court median for the precedent... higher values indicate greater ideological disparity. Ideological distance is interacted with panel type to examine whether an author's ideology has a different impact conditional on the panel configuration. Additionally, there is an explanatory variable to indicate whether the precedent in question was written by one of the nonauthoring judges on the panel...
+
+## Results
+
+...I now... evaluate whether panel effects influence such decisions. The specific aspect of opinion writing I examine is whether the author decides to negatively treat, disregard, or favorably cite each binding circuit precedent. I look for evidence that panel composition conditions the author's reliance on her own ideology in making these decisions... When an author is writing for a unified panel, ideology plays the expected role. The author is more likely to negatively treat ideologically distant precedents and less likely to favorably cite such precedents. Both of these patterns are statistically significant. The [results also show] that, as hypothesized, the effect of an author's ideology is dampened by the presence of colleagues appointed by a president from a different party. Furthermore, for the decision to favorably cite a precedent (rather than ignore it) the absence of any ideological allies on the panel appears to dampen the effect of the author's ideology more than having one such ally on the panel...
+
+For unified panels... moving ideological distance from zero to its highest value in the data increases the predicted probability of negative treatment by... 89%... The same change reduces the predicted probability of favorable citation by... 23%...
+
+In addition to ideological dampening when the panel is not unified, there is evidence that authors are influenced by the identity of their panel colleagues. Even after accounting for numerous other factors, an author is significantly more likely to favorably cite a precedent written by a fellow member of the panel than one written by a judge who is not on the panel. However, the presence of the precedent author on the panel does not have a statistically significant effect on negative treatment... a precedent written by a nonauthor panel member has a... 15% increase over the baseline probability of favorably citing a precedent written by a judge who is not serving on the relevant panel.
+
+## Discussion and Conclusions
+
+A long line of research on how circuit judges interact provides insight into the ways panel configuration influences case outcomes. judges do not vote in consistent patterns regardless of who else is serving with them on a panel. To the contrary, the institutional context creates an environment in which judges influence one another. The evidence provided here indicates that such influence extends beyond the conference discussion when the three judges sit in the same room to discuss the resolution of the case face-to-face. Even after the assigned author has returned to her own chambers in her own city, the identity and ideology of the other two panel members continue to play a role...
