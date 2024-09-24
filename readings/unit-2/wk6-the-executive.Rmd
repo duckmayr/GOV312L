@@ -1,0 +1,106 @@
+---
+title: "The Executive: Fundamentals and Research"
+author: "JBrandon Duck-Mayr"
+# date: "`r quack::american_date_format(Sys.Date())`"
+fontsize: 12pt
+header-includes:
+    - \usepackage{reading-fmts-cmds}
+    - \definecolor{BurntOrange}{RGB}{191, 87, 0}
+    - \definecolor{DarkGrey}{RGB}{51, 63, 72}
+    - \definecolor{White}{RGB}{255, 255, 255}
+    - \definecolor{LightOrange}{RGB}{248, 151, 31}
+    - \definecolor{Gold}{RGB}{255, 214, 0}
+    - \definecolor{LightGreen}{RGB}{166, 205, 87}
+    - \definecolor{DarkGreen}{RGB}{87, 157, 66}
+    - \definecolor{Teal}{RGB}{0, 169, 183}
+    - \definecolor{Blue}{RGB}{0, 95, 134}
+    - \definecolor{MidGrey}{RGB}{156, 173, 183}
+    - \definecolor{LightGrey}{RGB}{214, 210, 196}
+    - \definecolor{Purple}{RGB}{110, 50, 120}
+    - \definecolor{SoftPurple}{HTML}{af87af}
+    # - \definecolor{CustomGreen}{RGB}{55, 120, 18}
+    # - \definecolor{CustomGreen}{RGB}{44, 120, 33}
+    - \usepackage{sidebar}
+urlcolor: Blue
+linkcolor: SoftPurple
+output: quack::article
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Last unit, we started to discuss the powers of the executive.
+Now we'll flesh out the structure and power of the executive.
+After laying those constitutional foundations you'll find information about the bureaucracy.
+Then you'll be introduced to some modern political science research on The Executive.
+
+# Executive Branch Structure & Executive Power
+
+The Constitution does not give much detail as to the structure of the executive branch.
+We know there will be a President and Vice President (Article II \S\ 1).
+We also know the Framers had in mind some structure of "executive departments" (Article II \S\ 2).
+But that's it. As with the judiciary, Congress is largely the one that fills out the details.
+
+\begin{sidebar}[Blue]{Article II of the US Constitution (emphasis added)}
+\S 1: The executive power shall be vested in \textbf{\textcolor{BurntOrange}{a President of the United States of America}}. He shall hold his office during the term of four years\dots\ together with \textbf{\textcolor{Blue}{the Vice President}}
+
+\S 2: The President\dots\ may require the opinion, in writing, of \textbf{\textcolor{Purple}{the principal officer in each of the executive departments}}, upon any subject relating to the duties of their respective offices\dots
+\end{sidebar}
+
+\begin{quoteblock}{An act to establish... the Department of war. 1789\footnote{Full text at \url{https://www.loc.gov/item/2020767848/}}}
+
+An ACT to establish an Executive Department to be denominated the Department of War.
+
+BE IT ENACTED by the Senate Congress of the United States, That there shall be an Executive Department, to be denominated, “The Department of War,” and that there shall be a principal officer therein, to be called the Secretary for the Department of War, and who shall perform and execute such duties as shall... be... intrusted to him, by the President of the United States, agreeably to the Constitution, relative to... matters respecting military or naval affairs, as the President of the United States shall assign to the said department... And furthermore, That the said principal officer shall conduct the business of the said department, in such manner as the President of the United States shall, from time to time, order or instruct.
+
+And be it further enacted, That there shall be in the said department, an inferior officer, to be
+appointed by the said principal officer, to be employed therein as he shall deem proper... and who, whenever the said principal officer shall be removed from office by the President of the United States, or in any other case of vacancy, shall during such vacancy, have the charge and custody of all records, books and papers, appertaining to the said department...
+
+1789, June 27.
+\end{quoteblock}
+
+Very quickly, the first US Congress passed laws creating the Foreign Affairs Department (now Department of State), the War Department (now the Department of Defense), and the treasury department.
+And, over time, Congress began adding executive departments\footnote{Such as the Department of Agriculture, Department of Energy, Department of Education\dots} to help the President "take care that the laws be faithfully executed" (Article II \S\ 3).\footnote{Note that Congress' power to create executive agencies is an implied power.}
+More details about these departments will be discussed in \@ref(sec:bureaucracy), but in short the structure of the Executive Branch is the President at the top, the Vice President and the heads of executive departments underneath the President, and agency personnel below that.
+
+The Executive Power can cover a range of things, and there has historically been debate about what the phrase means.
+
+\begin{quoteblock}{In Re Neagle (1890)\footnote{Full text at \url{https://supreme.justia.com/cases/federal/us/135/1/}}}
+[At this time, appellate court panels included one Supreme Court justice. Each justice was assigned to one appellate ``circuit" (justices traveled in a circuitous path for this purpose). A death threat caused the President to appoint a US Marshal to protect the justice, though Congress passed no law authorizing that. Marshal Neagle killed the assassin and was charged with murder by California. A federal court granted Neagle a write of \textit{habeas corpus}, and California appealed.]
+
+\dots Mr. Justice Field, when attacked, was in the immediate discharge of his duty as judge of the Circuit Courts of the United States within California\dots\ and that the deputy marshal\dots\ was charged with a duty under the law of the United States to protect Field from\dots\ violence\dots\ which was intended to lead to Field's death\dots
+
+Mr. Justice Field was a member of the Supreme Court\dots\ for over a quarter of a century\dots\ he had become venerable for\dots\ his long and valuable service\dots\ The business of the Supreme Court has become so exacting\dots\ The term for each year, including\dots\ travel and preparations\dots\ has generally lasted from eight to nine months.
+
+But the justices of this court have\dots\ other duties\dots\
+
+So\dots\ a justice\dots\ is compelled\dots\ to [sit] on the Circuit Courts\dots\
+
+We have no doubt\dots\ Justice Field, when attacked\dots\ was engaged in the discharge of his duties\dots\ and was entitled to\dots\ protection\dots\
+
+[California urges] there [is] no statute authorizing\dots\ protection\dots
+
+In [our view] of the Constitution\dots\ any obligation\dots\ or any duty\dots\ derived from the general scope of his duties under the laws of the United States, is "a law" within the meaning of this phrase\dots
+
+Where\dots\ are we to look for the protection which we have shown Judge Field was entitled to\dots? Not to the courts\dots\ [Officers who execute courts' judgments] are marshals\dots\ and belong emphatically to the executive department of the government. They are appointed by the President, with the advice and consent of the Senate. They are removable from office at his pleasure\dots
+
+The legislative branch\dots\ can only protect the judicial officers by the enactment of laws\dots\ and the argument we are now combating assumes that no such law has been passed by Congress.
+
+If we turn to the executive\dots\ The Constitution\dots\ declares that the President "shall take care that the laws be faithfully executed," and he is provided with the means of [doing so] by his authority to [appoint executive officers]\dots\ The duties which are thus imposed upon him he is further enabled to perform by\dots\ the creation by acts of Congress, of executive departments, which have varied in number from four or five to seven or eight\dots\ thus he is enabled to fulfill the duty of his great department, expressed in the phrase that "he shall take care that the laws be faithfully executed"\dots
+
+That there is a peace of the United States, that a man assaulting a judge of the United States while in the discharge of his duties violates that peace, that, in such case, the marshal of the United States stands in the same relation to the peace of the United States which the sheriff of the county does to the peace of the State of California, are questions too clear to need argument to prove them\dots
+
+We have thus given, in this case, a most attentive consideration to all the questions of law and fact which we have thought to be properly involved in it\dots\ The result\dots\ is that, in the protection of the person and the life of Mr. Justice Field while in the discharge of his official duties,
+Neagle was authorized to resist the attack\dots\ [so] he was acting under the authority of the law of the United States, and was justified in so doing; and that he is not liable to answer in the courts of California on account of his part in that transaction.
+
+We therefore affirm the judgment of the circuit court authorizing his discharge from the custody of the sheriff of San Joaquin county.
+\end{quoteblock}
+
+\begin{sidebar}[Blue]{In re Neagle}
+The Constitution\dots\ declares that the President "shall take care that the laws be faithfully executed," and he is provided with the means of fulfilling this obligation by his authority to [appoint executive officers]\dots\ The duties which are thus imposed upon him he is further enabled to perform by\dots\ the creation by acts of Congress, of executive departments, which have varied in number from four or five to seven or eight\dots\ thus he is enabled to fulfill the duty of his great department, expressed in the phrase that "he shall take care that the laws be faithfully executed"\dots
+\end{sidebar}
+
+# The American Bureaucracy {#sec:bureaucracy}
+
+# Modern Research
