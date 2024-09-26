@@ -32,8 +32,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Last unit, we started to discuss the powers of the executive.
 Now we'll flesh out the structure and power of the executive.
-After laying those constitutional foundations you'll find information about the bureaucracy.
-Then you'll be introduced to some modern political science research on The Executive.
+After laying those constitutional foundations, you'll be introduced to some modern political science research on The Executive.
 
 # Executive Branch Structure & Executive Power
 
@@ -43,7 +42,7 @@ We also know the Framers had in mind some structure of "executive departments" (
 But that's it. As with the judiciary, Congress is largely the one that fills out the details.
 
 \begin{sidebar}[Blue]{Article II of the US Constitution (emphasis added)}
-\S 1: The executive power shall be vested in \textbf{\textcolor{BurntOrange}{a President of the United States of America}}. He shall hold his office during the term of four years\dots\ together with \textbf{\textcolor{Blue}{the Vice President}}
+\S 1 (Vesting Clause): The executive power shall be vested in \textbf{\textcolor{BurntOrange}{a President of the United States of America}}. He shall hold his office during the term of four years\dots\ together with \textbf{\textcolor{Blue}{the Vice President}}
 
 \S 2: The President\dots\ may require the opinion, in writing, of \textbf{\textcolor{Purple}{the principal officer in each of the executive departments}}, upon any subject relating to the duties of their respective offices\dots
 \end{sidebar}
@@ -61,8 +60,8 @@ appointed by the said principal officer, to be employed therein as he shall deem
 \end{quoteblock}
 
 Very quickly, the first US Congress passed laws creating the Foreign Affairs Department (now Department of State), the War Department (now the Department of Defense), and the treasury department.
-And, over time, Congress began adding executive departments\footnote{Such as the Department of Agriculture, Department of Energy, Department of Education\dots} to help the President "take care that the laws be faithfully executed" (Article II \S\ 3).\footnote{Note that Congress' power to create executive agencies is an implied power.}
-More details about these departments will be discussed in \@ref(sec:bureaucracy), but in short the structure of the Executive Branch is the President at the top, the Vice President and the heads of executive departments underneath the President, and agency personnel below that.
+Over time, Congress began adding executive departments\footnote{Such as the Department of Agriculture, Department of Energy, Department of Education\dots} to help the President "take care that the laws be faithfully executed" (Article II \S\ 3, also called the "Take Care Clause").\footnote{Note that Congress' power to create executive agencies is an implied power.}
+More details about these departments will be discussed in class, but in short the structure of the Executive Branch is the President at the top, the Vice President and the heads of executive departments underneath the President, and agency personnel below that.
 
 The Executive Power can cover a range of things, and there has historically been debate about what the phrase means.
 
@@ -101,6 +100,58 @@ We therefore affirm the judgment of the circuit court authorizing his discharge 
 The Constitution\dots\ declares that the President "shall take care that the laws be faithfully executed," and he is provided with the means of fulfilling this obligation by his authority to [appoint executive officers]\dots\ The duties which are thus imposed upon him he is further enabled to perform by\dots\ the creation by acts of Congress, of executive departments, which have varied in number from four or five to seven or eight\dots\ thus he is enabled to fulfill the duty of his great department, expressed in the phrase that "he shall take care that the laws be faithfully executed"\dots
 \end{sidebar}
 
-# The American Bureaucracy {#sec:bureaucracy}
+In addition to the power implied by the Vesting Clause and the Take Care Clause, there are specific powers of the presidency granted in the text of the Constitution. From Article II \S\ 2:
+
+- Commander in Chief of the military
+- Demand reports from executive agencies
+- Power to pardon (federal crimes only)
+- Make treaties (if ratified by 2/3 of the Senate)
+- Appoint ambassadors, federal judges and justices, and other officers (if ratified by 50% of the Senate + 1)
+- Make recess appointments without needing a Senate vote
+
+From Article II \S\ 3:
+
+- State of the Union speech
+- Convene Congress in an emergency
+- Receive ambassadors (also implying the power to recognize foreign states, or not)
+- "take Care that the laws be faithfully executed"
+- Commission all officers of the US
 
 # Modern Research
+
+Political science research on the executive covers a wide range of topics and uses a variety of methods.
+An important branch of research uses game theory to study how presidents exercise power unilaterally (e.g. [Howell 2003](https://doi.org/10.1515/9781400874392)).
+The president's control over the bureaucracy, their role as a party leader, and presidents in the electoral context are all significant topics.
+There is also some debate about who presidents serve...
+
+\begin{center}
+\href{https://www.jstor.org/stable/43655030}{\textrm{Presidential Particularism and Divide-the-Dollar Politics}}
+
+\textit{by Douglas L. Kriner and Andrew Reeves}
+\end{center}
+
+In articulating his stewardship theory of presidential power, Theodore Roosevelt emphasized that the president's national constituency rendered the office uniquely positioned in the American political system to pursue the interests of the nation as a whole. Woodrow Wilson echoed this view. Contrasting members of Congress who are "representatives of localities" and who are "voted for only by sections of voters" with presidents who are elected by the nation, Wilson concluded that the president "is the representative of no constituency, but of the whole people." When the president "speaks in his true character, he speaks for no special interest. If he rightly interprets the national thought and boldly insists upon it, he is irresistible" (Wilson 1908, 67–8).
+
+A century later, many scholars and pundits alike continue to embrace Roosevelt’s and Wilson’s contrast between congressional parochialism and presidential universalism...
+
+Others acknowledge that presidents, like members of Congress, pursue their political interests, such as reelection, but contend that the president’s national constituency incentivizes universalism...
+
+For example, game theoretic research by Howell, Jackman, and Rogowski (2013) posits that "presidents focus on the national implications of public policies while members of Congress monitor the effects of public policy on both the nation as a whole and their local constituencies."
+
+We argue that while the universalistic framework undoubtedly captures important differences between presidents and legislators, it misconstrues the forces driving presidential behavior. We argue that presidents face strong incentives to be particularistic: that is to prioritize the needs and desires of some citizens over others when pursuing their policy agendas. We test the explanatory power of universalism versus particularism in the context of divide-the-dollar politics. Universalism suggests that presidents will pursue budgetary policies that allocate federal spending to constituencies in a manner that is unrelated to their political characteristics; maximum efficiency and appealing to the national median voter is the president’s primary objective.
+
+Conversely, particularistic presidents geographically target federal spending to serve a number of ends. To maximize their prospects of reelection, presidents do not simply pursue nationally optimal outcomes or follow the preferences of the national median voter, as much universalistic scholarship argues. While the president has a national constituency, not all voters have equal influence in presidential elections; therefore presidents have incentives to respond disproportionately to the interests of Americans in constituencies with the most clout in the next presidential contest. Presidents also diverge from the norms of universalism to serve other goals. Building on research emphasizing the president's role as a partisan leader [numerous citations omitted], we show that presidents systematically reward constituencies that reliably vote for them and their party with disproportionate shares of federal largesse. Moreover, as Berry, Burden, and Howell (Reference Berry, Burden and Howell2010) argues, presidents can also strategically allocate funds to gain leverage vis-à-vis co-partisan members of the legislature. In stark contrast to the universalistic paradigm, which paints a picture of presidents providing a counterbalance to congressional parochial impulses, we reveal substantial presidentially induced inequalities favoring politically significant constituencies...
+
+\begin{center}
+Data and Methods
+\end{center}
+
+To what extent do presidents influence the distribution of federal grants across geographic constituencies in the United States? To answer this question, we follow Berry, Burden, and Howell (2010) and Kriner and Reeves (2012) and compile data from the Consolidated Federal Funds Report (CFFR) on every federal grant program from 1984 to 2008. For each program, the CFFR reports the amount of money spent in each county in a given year...
+
+If presidents do indeed strictly pursue the national interest and maximally efficient policy outcomes, then the share of federal grant dollars that a county receives should be unrelated to its political characteristics. However, if electoral, partisan, and coalition incentives encourage presidents to deviate from the norms of universalism, then presidents should seek to target federal dollars to politically valuable constituencies...
+
+\begin{center}
+Results
+\end{center}
+
+...we find strong evidence of presidential particularism with support for our swing state, core state, and co-partisan congressional hypotheses. The coefficients for these variables are all positive and statistically significant. These findings are inconsistent with the universalistic presidency model, which contends that the allocation of federal funds should not be related to political variables. Even in budgetary policymaking—a context where the president’s authority is checked by many other actors—we see strong evidence of presidential particularism as constituencies of greater political importance to the president secure significantly greater shares of federal dollars than other constituencies. These relationships are robust across multiple specifications...
