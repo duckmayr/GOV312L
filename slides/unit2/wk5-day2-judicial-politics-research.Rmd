@@ -1,0 +1,608 @@
+---
+title: "Research on American Courts"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+    - \definecolor{FireBrick3}{RGB}{205,38,38}
+    - \definecolor{midgreen}{RGB}{69,139,0}
+    - \definecolor{dodgerblue4}{RGB}{16,78,139}
+    - \usepackage{tikz}
+    - \usetikzlibrary{arrows.meta}
+    - \usepackage{wrapfig}
+    - \newcommand{\tcbf}[2]{\textcolor{#1}{\textbf{#2}}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+quack::attach_common_packages()
+theme_set(theme_bw())
+theme_update(axis.title = element_blank())
+theme_update(plot.caption = element_text(color = "#5f5f5f", hjust = 0))
+```
+
+## Judicial Politics Research
+
+. . .
+
+- Judicial politics research has evolved quite a bit
+  + The initial focus was completely on "public law"
+  + Then political scientists took some baby steps into empirical research about a century ago
+  + Quantitative methods became mainstream in judicial politics around 50 years ago
+  + Formal theoretic work became more common in the 90s
+- Covers a broad range of topics
+  + \textbf<14>{\textcolor<14>{BurntOrange}{Selecting judges}}
+  + \textbf<14>{\textcolor<14>{BurntOrange}{Agenda Setting}}
+  + Measuring ideology
+  + Assessing ideological effects in various settings
+  + \textbf<14>{\textcolor<14>{BurntOrange}{Effects of institutions like hierarchy and collegiality}}
+  + and more
+
+## Selecting Judges
+
+## Selecting judges: What do we want?
+
+## Selecting federal judges: How does it work?
+
+. . .
+
+::: {.block}
+### US Constitution Article II, Section 2
+...\textcolor<5>{BurntOrange}{\textbf<5>{[the president] shall nominate}}, \textcolor<6>{BurntOrange}{\textbf<6>{and by and with the advice and consent of the Senate, shall appoint}}... \textcolor<3>{BurntOrange}{\textbf<3>{judges of the Supreme Court}}, \textcolor<4>{BurntOrange}{\textbf<4>{and all other officers of the United States, whose appointments are not herein otherwise provided for, and which shall be established by law}}...
+
+&nbsp;
+
+\textcolor<7>{BurntOrange}{\textbf<7>{The President shall have power to fill up all vacancies that may happen during the recess of the Senate}}, \textcolor<8>{BurntOrange}{\textbf<8>{by granting commissions which shall expire at the end of their next session.}}
+:::
+
+## Selecting federal judges: How does it work?
+
+- So all federal judges are nominated by the president
+- If the Senate is in recess, they can unilaterally make a "recess appointment"
+  + But recess appointments expire at the end of the session
+- If not, the Senate must confirm the nomination
+  + This is by majority vote\invisible<5>{, but}
+  + various Senate procedures can prevent a vote
+
+\onslide<7>{
+\begin{block}{US Constitution Article I, Section 5}
+...Each House may determine the rules of its proceedings...
+\end{block}
+}
+
+## Picking candidates
+
+- White House, DOJ, & other executive staff help find & vet candidates
+- For lower courts, Senators & party leaders may propose candidates
+- Interest groups also play a role in finding & vetting candidates
+
+## Senate Confirmation Procedure
+
+- Upon nomination, it goes to the Senate Judiciary Committee
+- For District Court Judges, they consult home state senators ("blue slips") 
+- The next step is a Judiciary Committee hearing
+  + Often pro forma for lower courts, especially District Courts
+  + Much bigger deal for Supreme Court nominees
+- Then committee votes & sends recommendation to the full Senate
+- Then the Senate votes on the nominee (typically confirms)
+  + Though this has gotten more contentious...
+
+. . .
+
+## Confirmation Votes Over Time
+
+```{r scotus-nominations, out.width = "90%", fig.height = 2.67, fig.width = 4}
+dat = read_csv("scotus-nominations.csv") %>% 
+    mutate(Date = as.Date(ResultDate, format = "%b %d, %Y")) %>% 
+    filter(!is.na(Vote)) %>% 
+    mutate(Vote = ifelse(Vote == "V", "100-0", Vote)) %>% 
+    separate(col = "Vote", sep = "-", into = c("Yea", "Nay")) %>% 
+    mutate(across(Yea:Nay, as.numeric)) %>% 
+    mutate(Percent = 100 * Yea / (Yea + Nay)) %>% 
+    mutate(Result = ifelse(Percent > 50, "Confirmed", "Not"))
+ttl = "Percent of 'Yes' Votes on SCOTUS Nominees"
+cap = "Data from Senate.Gov"
+pal = c("Confirmed" = "#005f86", "Not" = "#bf5700")
+pts = c("Confirmed" = 19, "Not" = 17)
+map = aes(x = Date, y = Percent, color = Result, shape = Result)
+ggplot(data = dat, mapping = map) +
+    geom_point(size = 2, alpha = 3/4) +
+    scale_color_manual(values = pal, name = "") +
+    scale_shape_manual(values = pts, name = "") +
+    labs(title = ttl, caption = cap) +
+    ylim(0, 100) +
+    theme(legend.margin = margin())
+```
+
+## Confirmation Votes: Bork!
+
+. . .
+
+\only<2>{
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{Bork}
+\end{figure}
+}
+
+\only<3>{
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{Nixon}
+\end{figure}
+}
+
+\only<4>{
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{watergate-complex}
+\end{figure}
+}
+
+\only<5>{
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{saturday-night-massacre}
+\end{figure}
+}
+
+\only<6-11>{
+Red flags on Bork:
+\begin{itemize}
+\tightlist
+\item<6-11> Role in the ``Saturday Night Massacre''
+\item<7-11> Defended Virginia poll tax as ``a very small tax [that] was not discriminatory''
+\item<8-11> Described the Civil Rights Act of 1964 as state coercion
+\item<9-11> Opposed right to privacy
+\item<10-11> In other words, \textcolor<11>{BurntOrange}{\textbf<11>{some}} viewed him as an extremist with a taint of scandal
+\end{itemize}
+}
+
+\only<12>{
+Confirmation vote for Bork:
+\vspace*{\baselineskip}
+\begin{table}
+\begin{tabular}{lcc}
+                & Yea       & Nay       \\
+Republicans     & \tcbf{FireBrick3}{41} & \tcbf{FireBrick3}{6} \\
+Democrats       & \tcbf{DodgerBlue4}{2} & \tcbf{DodgerBlue4}{52}
+\end{tabular}
+\end{table}
+}
+
+## Confirmation Votes: Bork!
+
+```{r scotus-nominations2, out.width = "90%", fig.height = 2.67, fig.width = 4}
+dat = read_csv("scotus-nominations.csv") %>% 
+    mutate(Date = as.Date(ResultDate, format = "%b %d, %Y")) %>% 
+    filter(!is.na(Vote)) %>% 
+    mutate(Vote = ifelse(Vote == "V", "100-0", Vote)) %>% 
+    separate(col = "Vote", sep = "-", into = c("Yea", "Nay")) %>% 
+    mutate(across(Yea:Nay, as.numeric)) %>% 
+    mutate(Percent = 100 * Yea / (Yea + Nay)) %>% 
+    mutate(Result = ifelse(Percent > 50, "Confirmed", "Not"))
+ttl = "Percent of 'Yes' Votes on SCOTUS Nominees"
+cap = "Data from Senate.Gov"
+pal = c("Confirmed" = "#005f86", "Not" = "#bf5700")
+pts = c("Confirmed" = 19, "Not" = 17)
+map = aes(x = Date, y = Percent, color = Result, shape = Result)
+ggplot(data = dat, mapping = map) +
+    geom_point(size = 2, alpha = 3/4) +
+    geom_vline(
+        xintercept = as.Date("1987-10-23"),
+        linetype = "dashed", linewidth = 1
+    ) +
+    scale_color_manual(values = pal, name = "") +
+    scale_shape_manual(values = pts, name = "") +
+    labs(title = ttl, caption = cap) +
+    ylim(0, 100) +
+    theme(legend.margin = margin())
+```
+
+
+## Quantitative and theoretical research
+
+. . .
+
+- [Bird and McGee 2023](https://doi.org/10.1177/1532673X221109534)\only<2>{\small, "Going Nuclear: Federalist Society Affiliated Judicial Nominees’ Prospects and a New Era of Confirmation Politics"}
+- [Cameron et al 2013](https://doi.org/10.1017/S0022381613000017)\only<3>{\small, "Voting for Justices: Change and Continuity in Confirmation Voting 1937–2010"}
+- [Epstein et al 2006](https://doi.org/10.1111/j.1468-2508.2006.00407.x)\only<4>{\small, "The Changing Dynamics of Senate Voting on Supreme Court Nominees"}
+- [Cameron and Kastellec 2016](https://doi.org/10.1017/S0003055416000496)\only<5>{\small, "Are Supreme Court Nominations a Move-the-Median Game?"}
+- [Caldeira and Wright 1998](https://doi.org/10.2307/2991768)\only<6>{\small, "Lobbying for Justice: Organized Interests Supreme Court Nominations, and United States Senate"}
+- [Cameron and Park 2011]( https://doi.org/10.1111/j.1741-5705.2011.03881.x)\only<7>{\small, "Going Public When Opinion Is Contested: Evidence from Presidents' Campaigns for Supreme Court Nominees"}
+
+\invisible<1-8>{placeholder}
+
+## Who are these federal judges?
+
+\begin{itemize}
+\tightlist
+\item<2-> What are the official requirements to be a federal judge? \invisible<2>{\textcolor<3->{BurntOrange}{\textbf<3->{None}}}
+\item<4-> What about unofficial requirements?
+    \begin{itemize}
+    \tightlist
+    \item<5-> Ideology
+    \item<6-> Pedigree
+    \item<7-> Political activity
+    \item<8-> Others?
+    \end{itemize}
+\end{itemize}
+
+## Who are these federal judges?
+
+::: {.block}
+### Oliver Wendell Holmes, Jr., *The Common Law* (1881)
+The life of the law has not been logic; it has been experience.
+:::
+
+. . .
+
+Federal judges are disproportionately
+
+. . .
+
+- wealthy
+- from "elite" schools
+- from "elite" backgrounds
+- white, male, etc
+- prosecutors rather than defenders
+
+## Who are these federal judges?
+
+```{r judge-demos, out.width = "90%", fig.height = 2.67, fig.width = 4, fig.align = "center"}
+demos = read_csv("judge-demographics.csv")
+years_active = read_csv("judge-years-active.csv")
+dat = demos %>% left_join(years_active, by = "jid") %>% 
+    filter(!is.na(confirmed)) %>% 
+    mutate(year = purrr::map2(confirmed, terminated, seq)) %>% 
+    unnest(year) %>% 
+    group_by(year) %>% 
+    summarise(
+        percent_female = 100 * sum(Gender != "Male") / n(),
+        percent_nonwhite = 100 * sum(Race != "White") / n(),
+        percent_nonWM = 100 * sum(Race != "White" | Gender != "Male") / n()
+    ) %>%
+    pivot_longer(
+        cols = starts_with("percent"),
+        names_to = "group",
+        names_prefix = "percent_",
+        values_to = "percent"
+    ) %>% 
+    filter(year >= 1948)
+
+map = aes(x = year, y = percent, color = group, linetype = group)
+pal = c(female = "#0072b2", nonwhite = "#d55e00", nonWM = "black")
+lty = c(female = "solid", nonwhite = "dashed", nonWM = "dotted")
+nms = c("Female", "Non-white", "Not a white man")
+ttl = "% of federal judges that are not white/men"
+cap = "Data from the Federal Judicial Center"
+ggplot(data = dat, mapping = map) +
+    geom_hline(yintercept = 69.0, color = "#00000080") +
+    geom_hline(yintercept = 50.5, color = "#0072b280") +
+    geom_hline(yintercept = 38.4, color = "#d55e0080") +
+    geom_line(linewidth = 1) +
+    scale_color_manual(values = pal, labels = nms, name = "") +
+    scale_linetype_manual(values = lty, labels = nms, name = "") +
+    scale_y_continuous(limits = c(0, 100)) +
+    labs(title = ttl, caption = cap) +
+    theme(
+        axis.title = element_blank(),
+        plot.caption = element_text(hjust = 0, color = "#5f5f5f"),
+        legend.box.margin = margin(),
+        legend.box.spacing = unit(0, "in"),
+        legend.key.width = unit(0.4, "in"),
+        legend.position = "bottom",
+        legend.direction = "horizontal"
+    )
+```
+
+## Who are these federal judges?
+
+```{r judge-demos2, out.width = "90%", fig.height = 2.67, fig.width = 4, fig.align = "center"}
+backgrounds = read_csv("judge-backgrounds.csv")
+years_active = read_csv("judge-years-active.csv")
+top_law_schools = c("Harvard", "Yale", "Stanford", "Chicago", "Columbia")
+top_undergrads = c("Harvard", "Princeton", "Yale", "Stanford")
+levs = c("prosecutor", "defender", "elite_law_school", "elite_undergrad")
+match_any = function(text, targets) grepl(paste(targets, collapse = "|"), text)
+dat = backgrounds %>% left_join(years_active, by = "jid") %>% 
+    filter(terminated >= 2022) %>% 
+    mutate(elite_law_school = match_any(law_school, top_law_schools)) %>%
+    mutate(elite_undergrad  = match_any(undergrad,  top_undergrads)) %>%
+    summarise(
+        percent_elite_undergrad  = 100 * sum(elite_undergrad) / n(),
+        percent_elite_law_school = 100 * sum(elite_law_school) / n(),
+        percent_prosecutor = 100 * sum(prosecutor) / n(),
+        percent_defender = 100 * sum(defender) / n()
+    ) %>%
+    pivot_longer(
+        cols = starts_with("percent"),
+        names_to = "group",
+        names_prefix = "percent_",
+        values_to = "percent"
+    ) %>% 
+    mutate(type = ifelse(grepl("elite", group), "School", "Occupation")) %>% 
+    mutate(group = factor(group, levels = levs))
+
+map = aes(x = group, y = percent, fill = group)
+pal = c(
+    elite_law_school = "#56b4e9", elite_undergrad = "#009e73",
+    prosecutor = "#d55e00", defender = "#0072b2"
+)
+nms = c("Elite\nlaw school", "Elite\nundergrad", "Prosecutor", "Defender")
+ttl = "Backgrounds of current federal judiciary"
+cap = "Data from the Federal Judicial Center"
+x_labeller = function(x) tools::toTitleCase(sub("_", " ", sub("_", "\n", x)))
+ggplot(data = dat, mapping = map) +
+    facet_wrap(~type, scales = "free_x") +
+    geom_bar(stat = "identity") +
+    scale_fill_manual(values = pal, labels = nms, name = "") +
+    scale_y_continuous(limits = c(0, 50), labels = ~ sprintf("%d%%", .x)) +
+    scale_x_discrete(labels = x_labeller) +
+    labs(title = ttl, caption = cap) +
+    theme(
+        axis.title = element_blank(),
+        plot.caption = element_text(hjust = 0, color = "#5f5f5f"),
+        legend.position = "none"
+    )
+```
+
+## Agenda Setting
+
+The importance of agenda setting
+
+. . .
+
+- Answers to questions come only after deciding what questions *to* answer
+- Through agenda control, "some issues are organized into politics while others are organized out" (Schattschneider 1960)
+
+. . .
+
+Common topics in judicial agenda setting
+
+. . .
+
+- Why Supreme Court hears particular cases
+  + Role of organized interests
+  + Role of legal factors
+  + Role of ideology
+  + And more
+- How the composition of the Court's docket changes over time
+- Top-down versus bottom-up forces
+
+## Supreme Court Agenda Setting Process: Recap
+
+::: {.nonincremental}
+- Supreme Court has discretion over whether to hear almost all cases sent to it since the Supreme Court Case Selections Act of 1988
+- So first a party *asks* the Court to hear their case
+- Sometimes outside parties file *amici* briefs asking the Court to take the case (or not)
+- The petition is distributed to the "cert pool"
+- About 30% of petitions then go on the "discuss list"; all others summarily denied
+- If $\geq 4$ justices vote to hear the case, they hear it ("Rule of Four")
+:::
+
+## Supreme Court Agenda Setting: Shrinking Docket
+
+```{r full-hearing, out.width = "90%", fig.height = 2.67, fig.width = 4, fig.align = "center"}
+dat = read_csv("scotus-caseload.csv") %>%
+    filter(grepl("granted", category))
+ggplot(data = dat, mapping = aes(x = term, y = total)) +
+    geom_vline(xintercept = 1987, linetype = "dashed", alpha = 1/2) +
+    geom_line(linewidth = 1, color = "#005f86") +
+    scale_y_continuous(limits = c(0, NA)) +
+    ggtitle("# of cases given full hearing at SCOTUS")
+```
+
+## Supreme Court Agenda Setting: Shrinking Docket
+
+```{r grant-rate, out.width = "90%", fig.height = 2.67, fig.width = 4, fig.align = "center"}
+dat = read_csv("scotus-caseload.csv") %>%
+    filter(grepl("granted|Docketed", category)) %>% 
+    select(term, category, total) %>% 
+    mutate(category = ifelse(grepl("grant", category), "heard", "filed")) %>%
+    pivot_wider(names_from = "category", values_from = "total") %>% 
+    mutate(grant_rate = heard / filed)
+ggplot(data = dat, mapping = aes(x = term, y = grant_rate)) +
+    geom_vline(xintercept = 1987, linetype = "dashed", alpha = 1/2) +
+    geom_line(linewidth = 1, color = "#005f86") +
+    scale_y_continuous(limits = c(0, NA), labels = scales::percent) +
+    ggtitle("% of filings given full hearing")
+```
+
+## Role of organized interests
+
+. . .
+
+- Informational role as *amici* for cert (Caldeira and Wright 1988)
+- Role as litigants
+
+## Role of legal factors
+
+. . .
+
+- Things like "circuit splits" reliable predictors of cert
+- Can dampen ideological forces or provide opportunities (Black and Owens 2009)
+
+. . .
+
+::: {.block}
+### Perry (1991), 269; emphasis supplied
+I would say that [cert votes] are sometimes tentative votes on the merits. Now I would say that there are certain cases that I would vote for, for example, if there was a clear split in circuits, *I would vote for cert. without even looking at the merits*. But there are other cases I would have more of a notion of what the merits were.
+:::
+
+## Compositional studies
+
+. . .
+
+- We may care less about whether SCOTUS takes a specific case than relative time spent on economics versus civil liberties
+- A number of studies take this approach (e.g. Baird 2004; Peters 2007; Pacelle 1991; Flemming, Bohte, and Wood 1997; Flemming, Wood, and Bohte 1999; Hurwitz 2006)
+- For example, Baird (2004) finds that an increase in the number of cases the Court hears in a particular issue area influences the number of cases they hear in that area in the future
+
+## Bottom-up forces
+
+\only<2-4>{
+\begin{itemize}
+\tightlist
+\item<2-4> How much can the lower courts affect the Supreme Court's agenda?
+\item<3-4> Hurwitz (2006) finds when appellate courts hear more economic cases, afterward so does SCOTUS, while when SCOTUS hears more civil liberties cases, afterward so do the appellate courts
+\item<4> Duck-Mayr, Hansford, and Spriggs (2021) find directions in both directions for a different conception of agenda: attention paid to precedents
+\end{itemize}
+}
+
+\only<5>{
+Supreme Court precedents from 1946 to 1986 with each dynamic:
+
+\vspace*{\baselineskip}
+
+\begin{table}
+\centering
+\begin{tabular}{lccc}
+\toprule
+                    & SC Cites$_t$  & AC Cites$_t$  & DC Cites$_t$  \\
+\midrule
+SC Cites$_{t-1}$    & 652           & 422           & 458           \\
+AC Cites$_{t-1}$    & 1919          & 1317          & 1017          \\
+DC Cites$_{t-1}$    & 2185          & 1111          & 1696          \\
+\bottomrule
+\end{tabular}
+\end{table}
+}
+
+\only<6>{
+\begin{figure}
+    \centering
+    \begin{tikzpicture}[->]
+        \node (SC) at ( 0.0,  0.0) {Supreme Court};
+        \node (AC) at ( 4.8, -2.5) {Circuit Courts};
+        \node (DC) at (-4.8, -5.0) {District Courts};
+        \draw (SC) edge[bend left = 10] node[fill=white] {155} (AC); 
+        \draw (SC) edge[bend left = 10] node[fill=white] {158} (DC); 
+        \draw (AC) edge[bend left = 10] node[fill=white] {312} (SC); 
+        \draw (AC) edge[bend left = 10] node[fill=white] {509} (DC); 
+        \draw (DC) edge[bend left = 10] node[fill=white] {570} (SC); 
+        \draw (DC) edge[bend left = 10] node[fill=white] {661} (AC); 
+    \end{tikzpicture}
+\end{figure}
+}
+
+\only<7>{
+\begin{table}
+\centering
+\begin{tabular}{lc}
+\toprule
+& Time Series Granger Causes Both Other Series \\
+\cmidrule{2-2}
+SC Cites$_{t-1}$    & 15 \\
+AC Cites$_{t-1}$    & 63 \\
+DC Cites$_{t-1}$    & 97 \\
+\midrule
+& Time Series Granger Causes Both Other Series      \\
+& \emph{and} No Other Series Granger Causes Another \\
+\cmidrule{2-2}
+SC Cites$_{t-1}$    & 12 \\
+AC Cites$_{t-1}$    & 59 \\
+DC Cites$_{t-1}$    & 84 \\
+\midrule
+& Only Lag Coefficients in One Direction Differ From 0 \\
+\cmidrule{2-2}
+Top-Down    & 30  \\
+Bottom-Up   & 324 \\
+\bottomrule
+\end{tabular}
+\end{table}
+}
+
+## The "Hierarchy of Justice"
+
+```{=latex}
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\node[draw = black, fill = white, rectangle, rounded corners] (SC) at (0,  3) {US Supreme Court};
+\node[draw = black, fill = white, rectangle, rounded corners] (AC) at (0,  0) {US Courts of Appeals};
+\node[draw = black, fill = white, rectangle, rounded corners] (DC) at (0, -3) {US District Courts};
+\onslide<2>{
+\draw[->, thick, shorten >=0.1cm] (DC) edge node[fill=white] {Must obey} (AC.south);
+\draw[->, thick, shorten >=0.1cm] (AC) edge node[fill=white] {Must obey} (SC.south);
+}
+\end{tikzpicture}
+\end{figure}
+```
+
+## Principal-agent problems
+
+. . .
+
+- Often an agent are charged with working on behalf of a principal
+  + The appellate courts are the agents of the Supreme Court
+  + The district courts are the agents of the Supreme Court and the appellate court above them
+- However, the agent may have different preferences and the principal may not be able to monitor the agent perfectly
+- So sometimes delegation results in "agency loss"
+- In particular, sometimes lower courts don't obey higher courts even though they're supposed to
+- Several studies have looked at how disobedient lower courts are, under what circumstances, etc
+
+## What does it mean to be faithful to the principal?
+
+```{=latex}
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\node (P) at (0,  4) {\textit{Miranda v. Arizona}};
+\node[draw = black, fill = white, rectangle, rounded corners] (SC) at (0,  3) {1966 Supreme Court};
+\node[draw = black, fill = white, rectangle, rounded corners] (LC) at (0,  0) {1966 Lower Courts};
+\draw[->, thick, shorten >=0.1cm] (LC) edge node[fill=white] {Must obey} (SC.south);
+\onslide<2->{
+\node[draw = black, fill = white, rectangle, rounded corners] (SC2) at (6,  3) {2023 Supreme Court};
+\node[draw = black, fill = white, rectangle, rounded corners] (LC2) at (6,  0) {2023 Lower Courts};
+\draw[->, thick, shorten >=0.1cm] (LC2) edge node[fill=white] {Obey this?} (SC.south east);
+}
+\onslide<3->{
+\draw[->, thick, shorten >=0.1cm] (LC2) edge node[fill=white] {Or this?} (SC2.south);
+}
+\end{tikzpicture}
+\end{figure}
+
+\onslide<4>{
+\vspace*{\baselineskip}
+
+This is the issue brought up by Westerland et al (2010)
+}
+```
+
+## *Some* agency loss
+
+. . .
+
+- Overall, lower courts are mostly responsive to the Supreme Court
+- **But**, *some* "agency loss" occurs
+- Past lower court defiance can make future lower court defiance easier (Westerland et al 2010)
+
+## Informational functions of the hierarchy
+
+. . .
+
+- Clarification of issues as cases progress
+- Lower court allies can help signal which cases need error correction ([Kastellec 2007](https://doi.org/10.1093/jleo/ewm026); [Beim, Hirsch, and Kastellec 2014](https://doi.org/10.1111/ajps.12108))
+- Lower court allies can help justices understand implications of precedent ([Hansford, Spriggs, and Stenger 2013](https://doi.org/10.1017/S0022381613000686))
+
+## Collegiality
+
+. . .
+
+- Well-known issues of collegial judgment aggregation
+  + The "Doctrinal Paradox" ([Kornhauser 1992](https://www.jstor.org/stable/764863))
+  + Extension of the paradox to rulemaking ([Landa and Lax 2009](https://doi.org/10.1017/S0022381609090811))
+  + The paradox is exacerbated for mixed questions ([Duck-Mayr 2022](https://doi.org/10.1177/09516298211061159))
+- But there are other interesting effects too: "panel effects"
+  + The impact of circuit judges' ideology is muted by "counterjudges" ([Kastellec 2011](https://doi.org/10.1017/s0022381611000314))
+  + This could be because they want to avoid review ([Kastellec 2011](https://doi.org/10.1017/s0022381611000314); [Beim, Hirsch, and Kastellec 2014](https://doi.org/10.1111/ajps.12108))
+  + Or could be norms or workload considerations ([Epstein, Landes, and Posner 2011](https://www.hup.harvard.edu/catalog.php?isbn=9780674049895))
+  + Or even due to deliberation ([Spitzer and Talley 2013](https://doi.org/10.1093/jleo/ewr013))
+  + Identity of panel members affects opinion content ([Haire, Moyer, and Treier 2013](https://doi.org/10.1086/670724))
