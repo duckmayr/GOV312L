@@ -1,0 +1,479 @@
+---
+title: "The Executive Branch"
+author: "JBrandon Duck-Mayr"
+date: "October 1, 2024"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+    - \newcommand{\fullpic}[2]{\includegraphics[width=\linewidth,height=#1\textheight,keepaspectratio]{#2}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Announcements
+
+. . .
+
+- Vice Presidential debate
+  + 8 p.m. Central
+  + Can stream on Paramount+, Peacock, YouTube (e.g. PBS channel), etc
+- Voter registration
+  + Texas deadline on October 7
+  + <https://vote.gov/>
+- Congress research slides on Canvas
+- Next week's packet on Canvas
+- Exam next week on Thursday
+
+## "The Executive Power"
+
+\only<2>{\fullpic{0.9}{family-sep-order.png}}
+
+\only<3>{\fullpic{0.9}{obama-cnn.jpg}}
+
+\only<4>{\fullpic{0.9}{emancipation.jpg}}
+
+## Vesting the Executive Power
+
+\begin{block}{Article II \S 1}
+The executive power shall be vested in a President of the United States of America....
+\end{block}
+
+## Specified Powers of the Presidency
+
+\begin{block}{Article II \S 2 (bullets mine)}
+\begin{itemize}
+    \item The President shall be commander in chief of the Army and Navy of the United States, and of the militia of the several states, when called into the actual service of the United States;
+    \item he may require the opinion, in writing, of the principal officer in each of the executive departments, upon any subject relating to the duties of their respective offices,
+    \item and he shall have power to grant reprieves and pardons for offenses against the United States, except in cases of impeachment.
+\end{itemize}
+\end{block}
+
+## Specified Powers of the Presidency
+
+\begin{block}{Article II \S 2 (continued, bullets mine)}
+\begin{itemize}
+    \item He shall have power, by and with the advice and consent of the Senate, to make treaties, provided two thirds of the Senators present concur;
+    \item and he shall nominate, and by and with the advice and consent of the Senate, shall appoint ambassadors, other public ministers and consuls, judges of the Supreme Court, and all other officers of the United States, whose appointments are not herein otherwise provided for, and which shall be established by law: but the Congress may by law vest the appointment of such inferior officers, as they think proper, in the President alone, in the courts of law, or in the heads of departments.
+    \item The President shall have power to fill up all vacancies that may happen during the recess of the Senate, by granting commissions which shall expire at the end of their next session.
+\end{itemize}
+\end{block}
+
+## Specified Powers of the Presidency
+
+\begin{block}{Article II \S 3 (bullets mine)}
+\begin{itemize}
+    \item He shall from time to time give to the Congress information of the state of the union, and recommend to their consideration such measures as he shall judge necessary and expedient;
+    \item he may, on extraordinary occasions, convene both Houses, or either of them,
+    \item and in case of disagreement between them, with respect to the time of adjournment, he may adjourn them to such time as he shall think proper;
+    \item he shall receive ambassadors and other public ministers;
+    \item he shall take care that the laws be faithfully executed,
+    \item and shall commission all the officers of the United States.
+\end{itemize}
+\end{block}
+
+## Specified Powers of the Presidency
+
+\begin{block}{Article II \S 3 (bullets mine)}
+\begin{itemize}
+    \item He shall from time to time give to the Congress information of the state of the union, and recommend to their consideration such measures as he shall judge necessary and expedient;
+    \item he may, on extraordinary occasions, convene both Houses, or either of them,
+    \item and in case of disagreement between them, with respect to the time of adjournment, he may adjourn them to such time as he shall think proper;
+    \item he shall receive ambassadors and other public ministers;
+    \item \textbf{\textcolor{BurntOrange}{he shall take care that the laws be faithfully executed}} [also known as the Take Care Clause],
+    \item and shall commission all the officers of the United States.
+\end{itemize}
+\end{block}
+
+## In re Neagle
+
+## In re Neagle: Facts
+
+. . .
+
+- Sarah Hill sued multimillionaire William Sharon
+- David Terry represented her
+- Sharon denied even being married, so the trial court dismissed
+- Terry and Hill married
+- Sharon died & his heir sued to keep Hill from seeking the estate
+- Justice Field was one of the three judges who heard the case; they ruled in favor of Sharon
+- Terry & Hill got violent & were jailed for contempt
+- They threatened to kill Field
+- President Harrison through the Attorney General appointed U.S. Marshall Neagle to protect Field when he rode circuit
+- Later, while again riding circuit through California, Terry and Hill attempted to assault Field; Neagle intervened and killed Terry
+
+## In re Neagle: Procedure
+
+. . .
+
+- California authorities arrested and charged Neagle with murder
+- Neagle petitioned a federal court for a writ of habeas corpus
+- The court granted the writ, and California appealed
+
+## In re Neagle: Issue and Holding
+
+. . .
+
+- Did the president's executive order, and the U.S. Attorney General's appointment, constitute a valid authorization for Neagle to act as Field's body guard? \onslide<3->{\textbf{\textcolor{DarkGreen}{Yes.}}}
+
+\vspace{\baselineskip}
+
+\onslide<4->{(Because, if so, California must respect the writ of habeas corpus)}
+
+## In re Neagle: Issue and Holding
+
+- Did the president's executive order, and the U.S. Attorney General's appointment, constitute a valid authorization for Neagle to act as Field's body guard? 
+
+## In re Neagle: Rationale
+
+. . .
+
+\begin{block}{In re Neagle}
+The Constitution, section 3, Article 2, declares that the President "shall take care that the laws be faithfully executed," and he is provided with the means of fulfilling this obligation by his authority.... [The president] is enabled to fulfill the duty of his great department, expressed in the phrase that "he shall take care that the laws be faithfully executed." \vspace{0.5\baselineskip}
+
+Is this duty limited to the enforcement of acts of Congress or of treaties of the United States according to their express terms, or does it include the rights, duties and obligations growing out of the Constitution itself, our international relations, and all the protection implied by the nature of the government under the Constitution?
+\end{block}
+
+## In re Neagle: Rationale
+
+\begin{block}{In re Neagle}
+We cannot doubt the power of the President to take measures for the protection of a judge of one of the courts of the United States who, while in the discharge of the duties of his office, is threatened with a personal attack which may probably result in his death, and we think it clear that, where this protection is to be afforded through the civil power, the Department of Justice is the proper one to set in motion the necessary means of protection. 
+\end{block}
+
+## So... What is the Executive Power?
+
+\begin{block}{Article II \S 1}
+The executive power shall be vested in a President of the United States of America....
+\end{block}
+
+. . .
+
+There are two essential views:
+
+. . .
+
+- That the vesting of executive power represents a "mere designation of office"
+- That the vesting of executive power is a general grant of power
+
+## Two Views on Presidential Power
+
+\begin{tabular}{p{0.225\textwidth} | p{0.3\textwidth} | p{0.38\textwidth}}
+& \textbf{Mere Designation} & \textbf{General Grant} \\[0.5em]
+\hline
+\vspace{0.1em}Vesting Clause &
+\vspace{0.1em}\onslide<2->{Summarizes Article II specified powers} &
+\vspace{0.1em}\onslide<3->{Grants all power need to run the country, \textbf{except}\newline
+$\bullet$ powers prohibited by the Constitution, or\newline
+$\bullet$ powers (validly) prohibited by Congress.}
+\\[0.5em]
+\hline
+\vspace{0.1em}Take Care \newline Clause &
+\vspace{0.1em}\onslide<4->{Imposes duty on president to faithfully execute the laws, but does not confer any additional authority} &
+\vspace{0.1em}\onslide<5->{Empowers President to ``protect the operations of the federal government''\newline
+{\scriptsize(Goldsmith and Manning 2016, citing \textit{In re Neagle})}}
+\end{tabular}
+
+## The Veto Power
+
+## How a Bill Becomes a Law
+
+\begin{block}{Article I \S 7}
+\textbf<2>{\textcolor<2>{BurntOrange}{Every bill which shall have passed the House of Representatives and the Senate}}, \textbf<3>{\textcolor<3>{BurntOrange}{shall, before it become a law, be presented to the President of the United States}}; \textbf<4>{\textcolor<4>{BurntOrange}{if he approve he shall sign it}}, \textbf<5>{\textcolor<5>{BurntOrange}{but if not he shall return it, with his objections to that House in which it shall have originated}}, who shall enter the objections at large on their journal, and proceed to reconsider it. \textbf<6>{\textcolor<6>{BurntOrange}{If after such reconsideration two thirds of that House shall agree to pass the bill, it shall be sent, together with the objections, to the other House, by which it shall likewise be reconsidered, and if approved by two thirds of that House, it shall become a law}}.... \textbf<7>{\textcolor<7>{BurntOrange}{If any bill shall not be returned by the President within ten days (Sundays excepted) after it shall have been presented to him, the same shall be a law, in like manner as if he had signed it, unless the Congress by their adjournment prevent its return, in which case it shall not be a law.}}
+\end{block}
+
+## Clinton v. City of New York: Facts
+
+. . .
+
+- Congress passed the Line Item Veto Act, allowing the president to cancel any spending provision in a bill *after* it had been passed by Congress and signed by the president
+    + Congress could also pass a disapproval bill after that to cancel the cancellation
+- President Clinton used this power to cancel funds for New York City hospitals and a tax break for farmers in Idaho
+
+## Clinton v. City of NY: Procedure
+
+. . .
+
+- Several parties sued in federal district court; the cases were consolidated
+- The district court held the law was unconstitutional
+- A provision of the Line Item Veto Act allowed for direct appeal to the U.S. Supreme Court
+
+## Clinton v. City of NY: Issue and Holding
+
+. . .
+
+- Did the Line Item Veto Act violate the Presentment Clause? \onslide<3->{\textbf{\textcolor{DarkGreen}{Yes}}}
+
+## Clinton v. City of NY: Rationale
+
+. . .
+
+The president here is amending bills; that doesn't comply with the Presentment Clause:
+
+\begin{block}{Clinton v. City of New York}
+If the Line Item Veto Act were valid, it would authorize the President to create a different law---one whose text was not voted on by either House of Congress or presented to the President for signature.
+\end{block}
+
+## Clinton v. City of NY: Dissents
+
+. . .
+
+- Scalia: This is just the routine exercise of presidential discretion by another name
+- Breyer: This doesn't technically violate the language of the presentment clause, so we should let the political branches do this policy experiment
+
+## Appointment and Removal Power
+
+## The Power to Appoint
+
+\begin{block}{Article II \S 2}
+...[The President] shall nominate, and by and with the advice and consent of the Senate, shall appoint ambassadors, other public ministers and consuls, judges of the Supreme Court, and all other officers of the United States, whose appointments are not herein otherwise provided for, and which shall be established by law: but the Congress may by law vest the appointment of such inferior officers, as they think proper, in the President alone, in the courts of law, or in the heads of departments....
+\end{block}
+
+## What are "inferior officers"?
+
+\begin{block}{Morrison v. Olson}
+The following factors are informative:
+\begin{itemize}
+    \item Removability by some higher-ranked executive official
+    \item Limited duties
+    \item Limited jurisdiction
+    \item Limited tenure
+\end{itemize}
+\end{block}
+
+\begin{block}{Edmond v. United States}
+inferior Officers' are officers whose work is directed and supervised at some level by others who were appointed by Presidential nomination with the advice and consent of the Senate
+\end{block}
+
+## The Power to Remove
+
+. . .
+
+\begin{block}{Article II \S 4}
+The President, Vice President and all civil Officers of the United States, shall be removed from Office on Impeachment for, and Conviction of, Treason, Bribery, or other high Crimes and Misdemeanors.
+\end{block}
+
+## The Legislative Decision of 1789
+
+\begin{block}{Madison's Proposal}
+that there shall be established an executive department, to be denominated the department of foreign affairs; at the head of which there shall be an officer, to be called, the secretary to the department of foreign affairs, who shall be appointed by the president, by and with the advice and consent of the senate; and to be removable by the president...
+\end{block}
+
+## The Legislative Decision of 1789
+
+How can officials constitutionally be removed?
+
+- Impeachment alone
+- By and with advice and consent of the Senate
+- It's up to Congress
+- By the executive alone
+
+## The Legislative Decision of 1789
+
+\begin{block}{Theodorick Bland (Virginia)}
+The constitution declares that the president and the senate shall appoint, and it naturally follows, that the power which appoints shall remove also.
+\end{block}
+
+## The Legislative Decision of 1789
+
+\begin{block}{Roger Sherman (Connecticut)}
+As the officer is the mere creature of the legislature, we may form it under such regulations as we please, with such powers and duration as we think good policy require; we may say he shall hold his office during good behavior, or that he shall be annually elected; we may say he shall be displaced for neglect of duty, and point out how he should be convicted of it—without calling upon the president or senate.
+\end{block}
+
+## The Legislative Decision of 1789
+
+\begin{block}{James Madison (Virginia)}
+I conceive that if any power whatsoever is in its nature executive it is the power of appointing, overseeing and controlling those who executive the laws.  If the Constitution had not qualified the power of the president in appointing to office, by associating the senate with him in that business, would it not be clear that he would have the right by virtue of his executive power to make such an appointment?
+\end{block}
+
+## The Legislative Decision of 1789
+
+\begin{block}{Foreign Affairs Act (July 27, 1789)}
+1. Be it enacted by the Senate and House of Representatives of the United States of America, in Congress assembled , That there shall be an Executive department, to be denominated the department of foreign Affairs: and that there shall be a principal Officer therein, to be called the Secretary for the department of foreign Affairs... \vspace{0.5\baselineskip}
+
+2. And be it further enacted , That there shall be in the said department an inferior Officer, to be appointed by the said principal Officer, and to be employed therein as he shall deem proper, and to be called the chief Clerk in the department of foreign Affairs, and who, whenever the said principal Officer shall be removed from Office by the President of the United States, or in any other case of vacancy, shall during such Vacancy, have the charge and custody of all Records, Books, and Papers, appertaining to the said department.
+\end{block}
+
+## Myers v. United States: Facts and Procedure
+
+. . .
+
+- An 1867 law governed appointment of various post office positions
+- Myers was appointed to a position whose appointment **and** removal had to be by and with advice and consent of the Senate
+- Wilson found out Myers had engaged in corruption and removed him
+- Myers sued for lost wages in the U.S. Court of Federal Claims
+- Myers died during the litigation, and his wife continued the suit
+- The Court of Federal Claims ruled against Myers, and Myers appealed to the U.S. Supreme Court
+
+## Myers v. United States: Issue and Holding
+
+. . .
+
+- Did the 1867 Act unconstitutionally restrict the president's removal power? \onslide<3->{\textbf{\textcolor{DarkGreen}{Yes}}}
+
+## Myers v. United States: Rationale
+
+. . .
+
+\begin{block}{Myers v. United States}
+[The President's] cabinet officers must do his will. He must place in each member of his official family, and his chief executive subordinates, implicit faith. The moment that he loses confidence in the intelligence, ability, judgment or loyalty of anyone of them, he must have the power to remove him without delay. To require him to file charges and submit them to the consideration of the Senate might make impossible that unity and coordination in executive administration essential to effective action.
+\end{block}
+
+## Myers v. United States: Rationale
+
+\begin{block}{Myers v. United States}
+The duties of the heads of departments... are the most important in the whole field of executive action of the Government. There is nothing in the Constitution which permits a distinction between the removal of the head of a department... and the removal of executive officers engaged in the discharge of their other normal duties. The imperative reasons requiring an unrestricted power to remove [department heads] ... must, therefore, control the interpretation of the Constitution as to all appointed by him. \vspace{0.5\baselineskip}
+
+But this is not to say that there are not strong reasons why the President should have a like power to remove his appointees charged with other duties than those above described.
+\end{block}
+
+## Myers v. United States: Dissents
+
+. . .
+
+Congress has been doing this for some time, without challenge. Presidents have thought this is constitutional for decades.
+
+\begin{block}{Myers v. United States: Brandeis' Dissent}
+A persistent legislative practice which involves a delimitation of the respective powers of Congress and the President, and which has been so established and maintained, should be deemed tantamount to judicial construction in the absence of any decision by any court to the contrary.
+\end{block}
+
+## Humphrey's Executor v. US: Facts
+
+. . .
+
+- Humphrey was appointed to the Federal Trade Commission by Hoover
+- Roosevelt asked for his resignation
+- Statute restricted removal of FTC commissioners for cause
+- Humphrey died shortly after his dismissal
+
+## Humphrey's Executor v. US: Procedure
+
+- Humphrey's executor brought suit in the U.S. Court of Federal Claims seeking the lost pay
+- That court certified to the U.S. Supreme Court questions regarding the validity of the removal.
+
+## Humphrey's Executor v. US: Issue and Holding
+
+. . .
+
+- Did the FTC Act unconstitutionally restrict the president's removal power? \onslide<3->{\textbf{\textcolor{BurntOrange}{No}}}
+
+## Humphrey's Executor v. US: Rationale
+
+. . .
+
+\begin{block}{Humphrey's Executor v. United States}
+The office of a postmaster is so essentially unlike the office now involved that the decision in the Myers case cannot be accepted as controlling our decision here. A postmaster is an executive officer restricted to the performance of executive functions. He is charged with no duty at all related to either the legislative or judicial power. The actual decision in the Myers case finds support in the theory that such an officer is merely one of the units in the executive department, and, hence, inherently subject to the exclusive and illimitable power of removal by the Chief Executive, whose subordinate and aid he is. Putting aside dicta, which may be followed if sufficiently persuasive but which are not controlling, the necessary reach of the decision goes far enough to include all purely executive officers. It goes no farther; much less does it include an officer who occupies no place in the executive department, and who exercises no part of the executive power vested by the Constitution in the President.
+\end{block}
+
+## Humphrey's Executor v. US: Rationale
+\begin{block}{Humphrey's Executor v. United States}
+The Federal Trade Commission is an administrative body created by Congress to carry into effect legislative policies embodied in the statute in accordance with the legislative standard therein prescribed, and to perform other specified duties as a legislative or as a judicial aid. Such a body cannot in any proper sense be characterized as an arm or an eye of the executive.... [The FTC] acts in part quasi-legislatively and in part quasi-judicially....
+\end{block}
+
+## Humphrey's Executor v. US: Rationale
+
+\begin{block}{Humphrey's Executor v. United States}
+We think it plain under the Constitution that illimitable power of removal is not possessed by the President in respect of officers of the character of those just named. The authority of Congress, in creating quasi-legislative or quasi-judicial agencies, to require them to act in discharge of their duties independently of executive control cannot well be doubted, and that authority includes, as an appropriate incident, power to fix the period during which they shall continue in office, and to forbid their removal except for cause in the meantime. For it is quite evident that one who holds his office only during the pleasure of another cannot be depended upon to maintain an attitude of independence against the latter's will.
+\end{block}
+
+## Morrison v. Olson
+
+. . .
+
+- The Ethics in Government Act of 1978 required the Attorney General to investigate allegations against the President, Vice President, and certain other federal officials, and provided for the appointment of a special prosecutor (later called an independent counsel) by a three judge court upon request from the Attorney General
+- The special prosecutor was removable (other than impeachment) only for good cause, and only by the Attorney General (not the president)
+- Olson had been subpoenaed by such an Independent Counsel (Morrison); he challenged the subpoenas arguing the Ethics in Government Act of 1978 was unconstitutional
+- The U.S. Supreme Court upheld the constitutionality of the act, holding the appointment procedure did not violate the Appointments Clause and the removal procedure did not violate separation of powers
+
+## Morrison v. Olson
+
+\begin{block}{Morrison v. Olson}
+We  undoubtedly  did  rely  on  the  terms  "quasi-legislative"  and  "quasi-judicial"  to  distinguish the  officials involved  in \textit{Humphrey's  Executor}... but our present considered  view  is  that  the  determination  of whether  the  Constitution  allows  Congress  to impose  a  "good  cause"-type  restriction  on  the President's power to remove an official  cannot  be made to turn [only] on whether or not that official  is classified as "purely executive." The analysis  contained in our removal cases is designed not  to define rigid categories of those officials who  may  or  may  not  be  removed  at  will  by  the  President, but to ensure that Congress does not  interfere  with  the  President's  exercise  of  the  "executive   power"   and   his   constitutionally  appointed  duty  to  "take  care  that  the  laws  be  faithfully  executed"  under  Article  II.   Myers was  undoubtedly  correct  in  its  holding,  and  in  its   broader   suggestion   that   there   are   some  "purely   executive"   officials   who   must   be  removable by the President at will if he is to be  able  to  accomplish  his  constitutional  role. 
+\end{block}
+
+## Morrison v. Olson
+
+\begin{block}{Morrison v. Olson}
+\textit{Myers} was  undoubtedly  correct  in  its  holding,  and  in  its   broader   suggestion   that   there   are   some  "purely   executive"   officials   who   must   be  removable by the President at will if he is to be  able  to  accomplish  his  constitutional  role. But  as  the  Court  noted  in \textit{Wiener}: "The  assumption  was  short-lived  that  the Myers case   recognized   the   President's inherent  constitutional  power  to  remove officials no matter what  the relation of the executive  to  the  discharge  of  their  duties and  no  matter  what  restrictions  Congress may  have  imposed  regarding  the  nature  of their tenure."
+\end{block}
+
+## Morrison v. Olson
+
+\begin{block}{Morrison v. Olson}
+the real question is whether the removal  restrictions  are  of  such  a  nature  that they  impede  the  President's  ability  to  perform his constitutional duty, and the functions of the officials  in  question  must  be  analyzed  in  that light.... [W]e simply   do   not   see   how   the President's  need  to  control  the  exercise  of  [the independent counsel's] discretion is so central to the functioning of the Executive  Branch  as  to  require  as  a  matter  of constitutional    law    that    the counsel    be terminable at will by the President. 
+\end{block}
+
+## Morrison v. Olson
+
+\begin{block}{Scalia, J., dissenting}
+...Article II, \S 1, cl. 1, of the Constitution provides: \vspace{0.5\baselineskip}
+
+"The executive Power shall be vested in a President of the United States." \vspace{0.5\baselineskip}
+
+As I described at the outset of this opinion, this does not mean \textit{some} of the executive power, but \textit{all} of the executive power....\vspace{0.5\baselineskip}
+
+As far as I can discern from the Court's opinion, it is now open season upon the President's removal power for all executive officers, with not even the superficially principled restriction of Humphrey's Executor as cover.
+\end{block}
+
+## Morrison v. Olson
+
+Some suggest \textit{Morrison} was wrongly decided.\vspace{0.1\baselineskip}
+
+\begin{itemize}
+\tightlist
+\item<2-> When the law came up for renewal in 1999, AG Janet Reno testified before Congress that "I have come to believe\dots\ [the Act] is structurally flawed and [the] flaws cannot be corrected within our constitutional framework\dots\ I am paraphrasing\dots\ Scalia's dissent in \textit{Morrison}." (It was not renewed)
+\item<3-> At an event at Stanford Law, Justice Kagan ``called\dots\ Scalia's lone dissent in \textit{Morrison}\dots\ in which he argued that the Independent Counsel Act should be struck down because it was a wolf in wolf's clothing, 'one of the greatest dissents ever written and every year it gets better.'" (Stanford Lawyer Magazine, Issue 92)
+\end{itemize}
+\vspace{0.1\baselineskip}
+
+\onslide<4->{But it has never been overruled}\onslide<5->{, and is not the only time the Court upheld restrictions on removal of purely executive but inferior officers (see \textit{US v. Perkins}, 116 U. S. 483, (1886))}
+
+## Free Enterprise Fund v. PCAOB
+
+So what sort of "removal  restrictions  are  of  such  a  nature  that they  impede  the  President's  ability  to  perform his constitutional duty"?\vspace{0.5\baselineskip}
+
+In *Free Enterprise Fund v. PCAOB*, the Court held that a scheme where only officers who were themselves removable only for cause could remove other officers only for cause was too restrictive.
+
+## Free Enterprise Fund v. PCAOB
+
+\begin{block}{Free Enterprise Fund v. PCAOB}
+Since 1789, the Constitution has been understood to empower the President to keep these officers accountable--by removing them from office, if necessary. See generally \textit{Myers v. United States}, 272 U. S. 52 (1926). This Court has determined, however, that this authority is not without limit. In \textit{Humphrey's Executor v. United States}, 295 U. S. 602 (1935), we held that Congress can... create independent agencies run by principal officers appointed by the President, whom the President may not remove at will but only for good cause. Likewise, in \textit{United States v. Perkins}, 116 U. S. 483 (1886), and \textit{Morrison v. Olson}, 487 U. S. 654 (1988), the Court sustained similar restrictions on the power of principal executive officers--themselves responsible to the President--to remove their own inferiors. The parties do not ask us to reexamine any of these precedents, and we do not do so.
+\end{block}
+
+## Free Enterprise Fund v. PCAOB
+
+\begin{block}{Free Enterprise Fund v. PCAOB}
+We are asked, however, to consider a new situation not yet encountered by the Court. The question is whether these separate layers of protection may be combined. May the President be restricted in his ability to remove a principal officer, who is in turn restricted in his ability to remove an inferior officer, even though that inferior officer determines the policy and enforces the laws of the United States?
+\end{block}
+
+## Free Enterprise Fund v. PCAOB
+
+\begin{block}{Free Enterprise Fund v. PCAOB}
+As explained, we have previously upheld limited restrictions on the President's removal power. In those cases, however, only one level of protected tenure separated the President from an officer exercising executive power. It was the President--or a subordinate he could remove at will--who decided whether the officer’s conduct merited removal under the good-cause standard.\vspace{0.5\baselineskip}
+
+The Act before us does something quite different. It not only protects Board members from removal except for good cause, but withdraws from the President any decision on whether that good cause exists. That decision is vested instead in other tenured officers--the Commissioners--none of whom is subject to the President’s direct control. The result is a Board that is not accountable to the President, and a President who is not responsible for the Board.
+\end{block}
+
+## Free Enterprise Fund v. PCAOB
+
+So, the Court held the removal procedures were unconstitutional. However, the Court also held those provisions could be severed.
+
+\begin{block}{Free Enterprise Fund v. PCAOB}
+"Generally speaking, when confronting a constitutional flaw in a statute, we try to limit the solution to the problem," severing any "problematic portions while leaving the remainder intact." \textit{Ayotte v. Planned Parenthood of Northern New Eng.}, 546 U. S. 320, 328--329 (2006)....\vspace{0.5\baselineskip}
+
+Concluding that the removal restrictions are invalid leaves the Board removable by the Commission at will, and leaves the President separated from Board members by only a single level of good-cause tenure. The Commission is then fully responsible for the Board’s actions, which are no less subject than the Commission’s own functions to Presidential oversight.
+\end{block}
+
+## The Removal Power
+
+- Congres cannot limit the President's removal power in such a way to "impede  the  President's  ability  to  perform his constitutional duty...." *Morrison*; *Myers*
+- Sometimes this means Congress cannot limit removal power for purely executive officers, even inferior officers (*Myers*), but the Court has upheld giving removal power for some purely executive officers to someone other than the President *Morrison*
+    + "the real question is whether the removal  restrictions  are  of  such  a  nature  that they  impede  the  President's  ability  to  perform his constitutional duty, and the functions of the officials  in  question  must  be  analyzed  in  that light...." *Morrison*
+- However, Congress cannot stack layers of insulation from the President's power to remove. *Free Enterprise Fund*
+- If removal procedures violate the Constitution, it does not mean the whole agency must be scrapped, but just that offending protections will be severed. *Free Enterprise Fund*
