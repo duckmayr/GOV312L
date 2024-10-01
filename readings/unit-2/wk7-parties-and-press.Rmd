@@ -1,0 +1,236 @@
+---
+title: "Parties and the Press"
+author: "JBrandon Duck-Mayr"
+# date: "`r quack::american_date_format(Sys.Date())`"
+fontsize: 12pt
+header-includes:
+    - \usepackage{reading-fmts-cmds}
+    - \definecolor{BurntOrange}{RGB}{191, 87, 0}
+    - \definecolor{DarkGrey}{RGB}{51, 63, 72}
+    - \definecolor{White}{RGB}{255, 255, 255}
+    - \definecolor{LightOrange}{RGB}{248, 151, 31}
+    - \definecolor{Gold}{RGB}{255, 214, 0}
+    - \definecolor{LightGreen}{RGB}{166, 205, 87}
+    - \definecolor{DarkGreen}{RGB}{87, 157, 66}
+    - \definecolor{Teal}{RGB}{0, 169, 183}
+    - \definecolor{Blue}{RGB}{0, 95, 134}
+    - \definecolor{MidGrey}{RGB}{156, 173, 183}
+    - \definecolor{LightGrey}{RGB}{214, 210, 196}
+    - \definecolor{Purple}{RGB}{110, 50, 120}
+    - \definecolor{SoftPurple}{HTML}{af87af}
+    - \usepackage{sidebar}
+urlcolor: Blue
+linkcolor: SoftPurple
+output: quack::article
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+We round out our introductory survey of American political institutions with political parties and the press.
+Political parties organize action within government and provide voters with heuristics about candidates.
+The press transmits information to the public (thus affecting public opinion) and can serve in sort of an oversight role, exposing bad actions by politicians.
+Some basics about these institutions will be relayed, then a brief sampling of the political science research is presented.
+
+# Parties
+
+As we've discussed, at the time of the framing of the US Constitution, political parties were not a thing, and they were not planned for or taken into account during the drafting.
+Political parties very quickly formed after the new Constitution came into operation, but this can raise a lot of issues in the American system particularly.
+At the time the Constitution was drafted, it was assumed the different branches of the government would be pitched against each other pretty solidly.
+But with the advent of political parties, you can have actors with the same goals in all three branches of government.
+
+A lot of political science research considers why politicians might prefer to organize and give power to political parties, as well as what the effects of party influence are (or are not).
+A common argument or finding is that members of Congress (for example) prefer the institution of parties because it helps members present a "brand" to voters (among other things). <!-- citations -->
+Additionally, parties can help political actors organize within their institution to work together to achieve shared goals. <!-- citations -->
+Finally, some scholars argue there are little to no effects of party influence on American politicians, while others find evidence in favor of such influence (spoiler: both camps are a little right, but the "no party effects" camp is much less correct).
+
+## Why Parties?
+
+A lot[^1] of the parties literature focuses on the operation of parties in Congress.
+Recall that the chambers of Congress can make their own procedural rules & choose their own officers (Article I \S\ 5).
+So if the rules can be changed by a majority of members in a chamber, the existence of a procedural rule or an institution means that at least a majority of the majority party supports the rule/institution.
+This naturally leads to the question, "so why do politicians want parties?"
+
+[^1]: Don't read *too* much into that; there are also a lot of other studies.
+      But for some time Congress was the focus, so some seminal work is in the context of Congress.
+
+\begin{center}
+\href{https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991009990879706011}{\textrm{Why Parties?}}
+
+\textit{by John Aldrich}
+\end{center}
+
+...I will develop a theoretical account of the origins of political parties by demonstrating there exists a set of incentives for ambitious politicians to "turn to parties".
+In particular, a series of problems that necessarily arise in elections and in governance make it possible for politicians to win more of what they seek to win, more often, and over a longer period by creating political parties...
+
+Collective action is needed to secure nearly all public goods, and this is especially true in democracies, where governments all but invariably act collectively, such as in voting to select representatives or to pass legislation.
+Political parties, moreover, are collections of individuals, so that virtually everything they do involves collective action...
+
+[And forming parties allows you to construct winning coalitions more easily.]
+
+## What Power Do Parties Have?
+
+\begin{center}
+\href{https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_61278105}{\textrm{Where's the Party?}}
+
+\textit{by Keith Krehbiel}
+\end{center}
+
+Political parties can assume a variety of roles and responsibilities in society.
+The premise of this study is that one important legislative function of parties
+is to govern by passing laws that are different from those that would be passed
+in the absence of parties. An implication of this premise is that the majority
+party, while attempting to enact preferred policies, will try to organize the
+legislature in ways that place its members in strategically advantageous positions...
+
+How significant is party behaviour in the US
+House during this contemporary and allegedly partisan period of congressional
+history? Two seemingly partisan stages of decision making are analysed in
+terms of the definition of, and standards of evidence for, significant party behaviour. First I assess the degree to which significant party behaviour is manifested
+during the committee assignment phase of legislative organization. Next I
+extend the analysis to a subsequent and more bill-specific phase of legislative
+organization: the appointment of legislators to conference committees.
+
+Overall, the findings are at odds with much of the conventional wisdom
+about parties in legislatures. While parties and party leaders are extremely
+active in the legislative process, partisanship does not explain much variation
+in the observed stages of organizing the legislature. These findings suggest
+that theories of legislative politics with a party component - while perhaps
+more realistic than their more parsimonious non-partisan counterparts - are
+not necessarily superior predictors of observable legislative behaviour...
+
+\begin{center}
+\href{https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991058396298606011}{\textrm{Setting the Agenda: Responsible Party Government in the US House of Representatives}}
+
+\textit{by Gary W. Cox and Mathew D. McCubbins}
+\end{center}
+
+...whereas traditional theories stress the majority party’s ability to mar-
+shal a cohesive voting bloc as the source of its legislative power, our theory
+stresses the majority party’s ability to set the agenda as the key to its success.
+The importance of this distinction can be suggested by recalling that the most
+prominent line of criticism of partisan theories focuses directly on the issue of
+voting cohesion.
+
+Many prominent scholars, including Schattschneider (1942: 131–2),
+Mayhew (1974), and Kalt and Zupan (1990), view legislators’ votes as driven
+primarily by their constituents' and their own opinions, with partisan considerations playing a distinctly secondary role. Building on such views, Krehbiel
+(1993, 1998) argues that the two parties’ attempts to influence votes either are
+negligible or cancel each other out.
+
+If, as these theories suggest, party pressures cancel out, however, then the
+majority party cannot marshal its troops effectively, as required by traditional
+theorists of responsible party governance. Instead of being driven toward the
+platform promises of the majority party by the force of its discipline, policies
+in Congress will be driven to the center of congressional opinion by the logic
+of the famous median voter theorem.
+If one accepts the traditional view that parties are strong only to the extent
+that they can affect their members' behavior on substantive votes, and if one
+views congressional votes as positioning policy along a single left-right continuum, then Krehbiel’s argument is persuasive. In particular, given these two
+assumptions, majority parties matter only if they can secure nonmedian policy
+outcomes, and, in order to do this, they must engage in the unenviable and
+unlikely-to-succeed task of regularly pressuring their centrist members to vote
+against their constituents' and/or their own opinions.
+
+Our emphasis on agenda control deflects this canonical criticism of partisan
+theories in the following way. We do not model voting in Congress as if there
+were a single vote on a single dimension (per the standard unidimensional
+spatial model); rather, we envision a series of votes on different issues. This
+opens up the possibility that, even if the majority party were unable to secure
+a nonmedian outcome on any given issue considered in isolation – a debatable
+premise – it might nonetheless greatly affect the overall legislative outcome if
+it prevents some issues from being voted on at all...
+
+# Press
+
+\begin{sidebar}[Blue]{Amendment I to the US Constitution (emphasis added)}
+\textbf{\textcolor{Blue}{Congress shall make no law}} respecting an establishment of religion, or prohibiting the free exercise thereof; \textbf{\textcolor{Blue}{or abridging the freedom}} of speech, or \textbf{\textcolor{Blue}{of the press}}; or the right of the people peaceably to assemble, and to petition the government for a redress of grievances.
+\end{sidebar}
+
+\begin{center}
+\href{https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991054445609706011}{\textrm{The Nature and Origins of Mass Opinion}}
+
+\textit{by John Zaller}
+\end{center}
+
+The comprehensive analysis of public opinion requires attention to two phenomena: how citizens learn about matters that are for the most part beyond
+their immediate experience, and how they convert the information they acquire
+into opinions.
+This chapter proposes a model of both phenomena. The model does not provide a fully accurate account of how people process information and form attitude statements. No model that is both parsimonious and testable on typical
+mass opinion data - the two most important constraints on my enterprise -
+could possibly do so. But the proposed model, as I hope to persuade the reader,
+does a plausible job of approximating what must actually occur, and a quite excellent job of accounting for the available survey evidence across a wide range
+of phenomena...
+
+I begin the statement of the model with definitions of primitive terms. The first
+is consideration, which is defined as any reason that might induce an individual
+to decide a political issue one way or the other...
+
+Second, I define two types of political messages: persuasive messages and
+cueing messages. Persuasive messages are arguments or images providing a
+reason for taking a position or point of view; if accepted by an individual, they
+become considerations, as the term was just defined...
+
+Cueing messages... consist of "contextual information" about the ideological or partisan
+implications of a persuasive message. The importance of cueing messages is
+that, as suggested by Converse (1964), they enable citizens to perceive relationships between the persuasive messages they receive and their political predispositions, which in turn permits them to respond critically to the persuasive
+messages...
+
+The model itself consists of four assertions, or axioms, about how individuals
+respond to political information they may encounter. Each is stated first as
+a general theoretical position and then elaborated and justified in more
+precise terms...
+
+A1. RECEPTION AXIOM. The greater a person s level of cognitive engagement with an
+issue, the more likely he or she is to be exposed to and comprehend - in a word, to receive -political messages concerning that issue...
+
+The reader should note that the Reception Axiom, Al, indicates nothing
+about the sources of the political communications that shape mass opinion. As
+far as that axiom is concerned, political communications may originate in elite
+discourse, in purely personal exchanges among friends and neighbors, or in
+other ways. All that is claimed in Al is that reception of politically relevant
+communications, whatever their origin, is positively associated with intellectual
+engagement with a given issue. By extension, political awareness is assumed to
+capture propensity for reception of political communications generally, regardless of their point of origin...
+
+A2. RESISTANCE AXIOM. People tend to resist arguments that are inconsistent with
+their political predispositions, but they do so only to the extent that they possess the contextual information necessary to perceive a relationship between the message and their
+predispositions...
+
+Al and A2 together imply that the likelihood of resisting persuasive communications that are inconsistent with one's
+political predispositions rises with a person's level of political attentiveness...
+
+There is... solid empirical support for the assumption that citizens normally respond to new information on the basis of external cues concerning the
+implications of that information for their values and other predispositions, provided that, as Converse emphasizes, they are sufficiently attentive to politics to
+have learned the cues.
+
+Having stated a strong argument for why political awareness should be associated with resistance to persuasion, let me now state an equally strong caveat:
+The argument applies only to cases in which the contextual information necessary to evaluate an issue in light of one's predispositions is, for one reason or another, obscure...
+
+Generally speaking, the more abstract the link between a predisposition and a
+related policy issue, the greater the amount or obscurity of knowledge necessary
+to perceive the linkage, or the more complicated the chain of reasoning involved, the more important political awareness is likely to be in regulating individual responses to political communications on that issue...
+
+A3. ACCESSIBILITY AXIOM. The more recently a consideration has been called to
+mind or thought about, the less time it takes to retrieve that consideration or related considerations from memory and bring them to the top of the head for use...
+
+A4. RESPONSE AXIOM. Individuals answer survey questions by averaging across the
+considerations that are immediately salient or accessible to them...
+
+\begin{center}
+\href{https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991018596589706011}{\textrm{News That Matters:
+Television and American Opinion}}
+
+\textit{by Shanto Iyengar and Donald R. Kinder}
+\end{center}
+
+...Our purpose here is to establish that television news is in fact an educator virtually without peer, that it shapes the American public's conception of political life in pervasive ways; that television news is news that matters.
+
+Our argument begins with the observation that many Americans develop opinions toward an astonishing variety of issues that lie far outside their own experience... Because they take part in the grand events of politics so rarely, ordinary Americans must depend upon information and analysis provided by others---in modern times, upon information and analysis provided by mass media.
+
+This dependence gives the media and enormous capacity to shape public thinking...
+
+[Iyengar and Kinder will present a theory of mass media effects and test it using experiments.]... Our studies show specifically that *television news powerfully influence which problems viewers regard as the nation's most serious... [They also find] that lead stories [are] more influential merely because of their position [relative to stories that ran later in the broadcast, and that] the dramatic person vignettes that the networks commonly use to illustrate national problems [are not] influential...
+
+[They also study] "priming"... Priming presumes that when evaluating complex political objects... citizens do not take into account all that they know. They cannot, even if they were motivated to do so. What they do consider is what comes to mind, those bits and pieces of political memory that are available... By priming certain aspects of national life while ignoring others, television news sets the terms by which political judgments are rendered and political choices made...
