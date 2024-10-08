@@ -1,0 +1,82 @@
+---
+title: "Research on the Presidency and Bureaucracy"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## A Note On Political Science Journals & Books
+
+. . .
+
+- You've already heard my rant on peer review
+- But it does give *some* improvement in quality
+- Articles are better for specific points, books for overviews
+- Journal outlets of interest vary
+  + General interest
+    * "Top 3" ([American Political Science Review](https://www.cambridge.org/core/journals/american-political-science-review), [American Journal of Political Science](https://ajps.org/), [Journal of Politics](https://www.journals.uchicago.edu/toc/jop/current))
+    * Others ([Quarterly Journal of Political Science](https://www.nowpublishers.com/QJPS), [American Politics Research](https://journals.sagepub.com/home/apr))
+  + Subfield journals
+    * Courts ([Journal of Law and Courts](https://www.cambridge.org/core/journals/journal-of-law-and-courts))
+    * Methods ([Political Analysis](https://www.cambridge.org/core/journals/political-analysis); [Journal of Theoretical Politics](https://journals.sagepub.com/home/jtp))
+    * Presidents ([Presidential Studies Quarterly](https://onlinelibrary.wiley.com/journal/17415705))
+    * Congress ([Legislative Studies Quarterly](https://onlinelibrary.wiley.com/journal/19399162))
+    * The public ([Political Behavior](https://link.springer.com/journal/11109))
+
+## Presidential Power
+
+. . .
+
+- "The power to persuade" ([Neustadt 1990 [1960]](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991048705959706011))
+- Unilateral action ([Howell 2003](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991058328596006011); [Moe and Howell 1999](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_jstor_primary_3554947))
+- Political time ([Skowronek 1997](https://a.co/d/0ZDwENg))
+- Public appeals ([Cohen 2006](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_59734247))
+- Control of the bureaucracy ([Lewis 2008](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991057980406106011))
+- Party building ([Galvin 2010](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991057982656606011))
+
+## Presidents' Preferences
+
+. . .
+
+- Policy
+- Legacy
+- Electoral fortunes ([Kriner and Reeves 2015](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991057993137606011))
+- Public opinion ([Reeves and Rogowski 2016](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_uchicagopress_journals_683433))
+
+## The Basics of the Bureaucracy
+
+. . .
+
+- We have many regulatory agencies
+  + For example, the Food & Drug Administration (FDA)
+- These agencies issue regulations
+  + That is, laws
+  + For example, the FDA saying which drugs & food can be sold
+- Why can they do that? Stay tuned for Separation of Powers
+- Most relevant for us right now,
+  + They make law & settle some disputes
+  + Many of them answer ultimately to the President
+  + The President typically selects key personnel
+
+## Presidents' Control of the Bureaucracy
+
+. . .
+
+- Centralization and politicization
+  * Canonical book is [Lewis (2008)](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991057980406106011)
+  * Electoral connection ([Gordon 2011](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_crossref_primary_10_1017_S0003055411000438))
+  * Lobbying ([Haeder and Yackee 2015](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_1738474257))
+- Limits ([Selin 2015](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_crossref_primary_10_1111_ajps_12161)) (and see Separation of Powers)
+
