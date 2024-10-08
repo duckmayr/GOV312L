@@ -1,0 +1,91 @@
+---
+title: "Parties and the Press"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Political Parties
+
+. . .
+
+- Political parties help individuals achieve shared political goals
+- Parties were in some ways an unplanned for eventuality
+- There is debate about
+  + Why politicians want parties
+  + What power parties have
+  + What parties do (or do not do)
+
+\onslide<2->{
+\begin{block}{John Aldrich, \textit{Why Parties?}}
+\dots a series of problems that necessarily arise in elections and in governance make it possible for politicians to win more of what they seek to win, more often, and over a longer period by creating political parties\dots
+\end{block}
+}
+
+## Why Parties?
+
+. . .
+
+- Some say not much (e.g. Krehbiel 1993)
+- Others disagree (e.g. Cox and McCubbins 2005)
+  + Parties are ubiquitously involved in American politics
+  + Parties' impact in government is often at the agenda setting stage
+  + Parties can affect electoral outcomes
+
+## What Do Parties Do?
+
+. . .
+
+- Provide a brand, useful for both parties and voters
+- Shape electoral choices
+- Coordinate policy making activities
+- Affect behavior of government officials\onslide<6>{?}
+
+## Role in Congress
+
+. . .
+
+- Party discipline?
+- Choosing leaders
+- Agenda setting
+- Fundraising
+
+## Role in Elections
+
+. . .
+
+- Heuristic for voters
+- *The Party Decides* [(Cohen et al 2008)](https://www.amazon.com/Party-Decides-Presidential-Nominations-American/dp/0226112373)
+  + Parties are created and controlled by policy demanders
+  + They control who the party nominates
+    * Voter approval
+    * Endorsements
+    * Fundraising
+    * Success in early primaries/caucuses
+    * Invisible primary: Parties give preferred candidates more endorsements, fundraising, and network
+  + What about 2016? [MacWilliams (2016)](https://doi.org/10.1017/S1049096516001463)
+
+## Press
+
+. . .
+
+- First Amendment background
+- Role in American society and government
+- Research
+  * Zaller, *The Nature and Origins of Mass Opinion*
+    + RAS model
+  * Iyengar and Kinder, *News That Matters*
+  * News vs. other media ([Prior 2005](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_60673715); [Arceneaux et al 2013](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_webofscience_primary_000318340500003CitationCount))
+  * Polarization? [Fiorina et al](https://www.amazon.com/Culture-War-Myth-Polarized-America/dp/0205779883) vs [Abramowitz and Saunders](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_webofscience_primary_000259238700019)

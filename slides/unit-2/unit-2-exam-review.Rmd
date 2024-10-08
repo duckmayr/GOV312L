@@ -1,0 +1,142 @@
+---
+title: "Exam Two Review"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Logistics and format
+
+. . .
+
+- Just like last time
+- except it occurs on October 10, not September 12
+  + and as a reminder **must** be submitted by 11:59 p.m. on that day
+
+## Topics
+
+. . .
+
+- Congress
+- Judiciary
+- Executive
+- Parties and press
+
+## Topic: Congress
+
++ Powers
+  * Legislate (special attention to Commerce and Necessary & Proper Clauses)
+  * Investigate
++ Research
+  * Congress and elections
+  * Political ideology
+  * Accountability and representation
+
+## Topic: Judiciary
+
++ Power
+  * The power to "say what the law is"
+  * Decide cases and controversies
+  * Judicial review
++ Models of judicial decision making
++ Preferences
++ Constraints
++ Research
+  * Agenda setting
+  * Hierarchy
+  * Collegiality
+
+## Topic: Executive
+
++ Power (constituional foundations)
+  * Specified powers
+  * Implied power (if any) from the Vesting and Take Care Clauses
+  * Appointment and removal
++ Preferences
+  * Policy
+  * Public opinion
+  * Legacy
+  * Reelection (for first term presidents)
++ Nature of presidents' power
+  * The power to persuade
+  * Unilateral action
+  * Political time
+  
+## Topic: Executive
++ Bureaucracy
+  * Issue regulations and settle some disputes
+  * Centralization and politicization
+  * Electoral connections
+  * Lobbying
+  * Independence
+
+## Topic: Parties and Press
+
+- Why parties
+- Power of parties
+- Role in Congress
+- Role for voters
+- RAS model
+- News, news vs other entertainment
+
+## Multiple choice examples
+
+What are ways we’ve discussed that the President can control the bureaucracy?
+
+::: {.nonincremental}
+a. They can fire any personnel throughout the bureaucracy, a power they can use to bring executive branch personnel in line
+b. They can centralize policymaking by moving decisions into departments they can better control.
+c. They can politicize bureaucratic agencies by appointing loyal personnel, expanding the level of personnel in the agency that would be appointed by the President.
+d. A and B
+e. \textbf<2>{B and C}
+f. A and C
+g. All of the above
+h. None of the above
+:::
+
+## Multiple choice examples
+
+What does it mean to say members of Congress are “single-minded seekers of reelection”?
+
+::: {.nonincremental}
+a. \textbf<2>{Members of Congress care both about being in office and about policy, but before they can impact policy they must be elected, so election becomes their primary goal even if it isn’t their only goal.}
+b. Members of Congress really only care about being elected; it is their primary goal in the sense that they have no other goals in office.
+c. Member of Congress don’t actually care about being in office itself, rather they really care only about policy,  but before they can impact policy they must be elected, so election becomes their primary goal even if it isn’t otherwise a goal they’d pursue.
+d. This phrase actually was not mentioned in the course materials
+:::
+
+## Essay example
+
+We have discussed how public opinion might affect the choices that government officials such as justices or presidents, and we have studied how the news media can affect public opinion. Discuss how these topics interact, then present at least two examples of this, drawing the examples from either from things in the course materials or from actual events, explaining how those examples relate to the interaction between public opinion’s effect on officials and the news media’s effect on public opinion.
+
+## Essay example
+
+::: {.nonincremental}
+- Interrelation: 4 points
+  + 1 point: Discussion of how news media affects public opinion
+  + 1 point: Discussion of how public opinion affects officials
+  + 2 points: Discussion of how they interrelate
+- Examples: 4 points (5)
+  + Up to two points for each example
+  + Two points if it's linked really well to the course material
+  + One point if it's linked decently well to the course material
+  + Zero points if it the example is not given or isn't related to the course material
+  + Bonus point if more than two examples are given and well discussed.
+- Overall
+  + Two points if the essay is clear, organized, and argued well
+  + Zero points if the essay is incomprensible
+  + Be generous-ish
+:::
+
