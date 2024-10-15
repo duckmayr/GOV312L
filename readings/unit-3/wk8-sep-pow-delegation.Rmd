@@ -1,0 +1,538 @@
+---
+title: "Separation of Powers: Non-Delegation"
+author: "JBrandon Duck-Mayr"
+# date: "`r quack::american_date_format(Sys.Date())`"
+fontsize: 12pt
+header-includes:
+    - \definecolor{BurntOrange}{RGB}{191, 87, 0}
+    - \definecolor{Teal}{RGB}{0, 169, 183}
+    - \definecolor{Blue}{RGB}{0, 95, 134}
+urlcolor: Blue
+output: quack::article
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+\begin{center}
+\large
+\textbf{Gundy v. United States}, \href{https://www.supremecourt.gov/opinions/18pdf/17-6086_2b8e.pdf}{588 U.S.~ 128} (2019)
+\end{center}
+
+> 5--3 decision for United States (Kavanaugh took no part in case).
+
+> Justice Kagan wrote a *plurality* opinion;
+> her opinion got the most votes from other justices, but not majority support.
+> Justices Ginsburg, Brier, and Sotomayor joined Kagan's opinion.
+> Justice Alito supported the same outcome as Kagan, but filed a separate concurring opinion to explain his alternative reasoning.
+> Justice Gorsuch filed a dissent; Chief Justice Roberts and Justice Thomas joined him.
+
+\noindent \textbf{Judgment of the court, by Justice Kagan:}
+
+The nondelegation doctrine bars Congress from transferring its legislative power to another branch of Government.
+This case requires us to decide whether...
+<!-- 34 U.S.C. \S\ 20913(d), enacted as part of -->
+the Sex Offender Registration and Notification Act (SORNA), violates that doctrine.
+We hold it does not...
+<!-- Under \S\ 20913(d), -->
+the Attorney General must apply SORNA's registration requirements as soon as feasible to offenders convicted before the statute’s enactment.
+That delegation easily passes constitutional muster.
+
+\begin{center}
+    I.
+\end{center}
+
+[In 1994, Congress conditioned receipt of federal funds on states' adoption of sex offender] registration laws meeting prescribed minimum standards...
+<!-- % Two years later, Congress strengthened those standards, most notably by insisting that States inform local communities of registrants' addresses. -->
+<!-- % By that time, every State and the District of Columbia had enacted a sex-offender registration law. -->
+But the state statutes varied... and Congress came to realize that...
+<!-- their  -->
+loopholes...
+<!-- and deficiencies" -->
+had allowed over 100,000 sex offenders (about 20\% of the total) to escape registration.
+In 2006, to address those failings, Congress enacted SORNA.
+
+SORNA makes "more uniform and effective" the prior "patchwork" of...
+<!-- sex-offender registration -->
+systems.
+[Its] express "purpose" is "to protect the public from sex offenders..." by "establish[ing] a comprehensive national [registration] system..." \S\ 20901...
+<!-- % To that end, SORNA covers more sex offenders, and imposes more onerous registration requirements, than most States had before. -->
+<!-- % The Act also backs up those requirements with new criminal penalties. -->
+Any person required to register under SORNA who knowingly fails to do so (and who travels in interstate commerce) may be imprisoned for up to ten years...
+
+<!-- The basic registration scheme works as follows. -->
+<!-- A "sex offender" is defined as "an individual who was convicted of" specified criminal offenses. -->
+<!-- Such an individual must register---provide his name, address, and certain other information---in every State where he resides, works, or studies\ldots -->
+<!-- % And he must keep the registration current, and periodically report in person to a law enforcement office, for a period of between fifteen years and life (depending on the severity of his crime and his history of recidivism). See §§20915, 20918. -->
+
+Section 20913---the disputed provision here---elaborates the "[i]nitial registration" requirements for sex offenders.
+Subsection (b) sets out the general rule:
+An offender must register "before completing a sentence..."
+Two provisions down, subsection (d) addresses... the "[i]nitial registration of sex offenders unable to comply with subsection (b)."
+[It] states:
+
+> The Attorney General shall have the authority to specify the applicability...
+> [to those convicted before the law was passed]
+> and to prescribe rules for [their] registration...
+
+<!-- \begin{quote} -->
+<!-- The Attorney General shall have the authority to specify the applicability\dots\ -->
+<!-- % to sex offenders convicted before the enactment of this chapter\dots\ -->
+<!-- [to those convicted before the law was passed] -->
+<!-- and to prescribe rules for [their] registration\dots -->
+<!-- % of any such sex offenders\dots -->
+<!-- % and for other categories of sex offenders who are unable to comply with subsection (b). -->
+
+<!-- \end{quote} -->
+
+<!-- Subsection (d), in other words, focuses on individuals convicted of a sex offense before SORNA's enactment---a group we will call pre-Act offenders. -->
+<!-- Many of these individuals were unregistered at the time of SORNA's enactment, either because pre-existing law did not cover them or because they had successfully evaded that law\ldots -->
+<!-- And of those potential new registrants, many or most could not comply with subsection (b)'s registration rule because they had already completed their prison sentences. -->
+<!-- For the entire group of pre-Act offenders, once again, the Attorney General "shall have the authority" to "specify the applicability" of SORNA's registration requirements and "to prescribe rules for [their] registration." -->
+
+<!-- ...Under that delegated authority, -->
+[So] the Attorney General issued
+<!-- an interim -->
+[a] rule...
+<!-- in February 2007, -->
+<!-- specifying that -->
+[saying]
+SORNA's... requirements apply in full to
+<!-- "sex offenders -->
+"[those] convicted... prior to the enactment of that Act..."
+<!-- The final rule, issued in December 2010, reiterated -->
+<!-- that SORNA applies to all pre-Act offenders. -->
+<!-- That rule -->
+<!-- [this and] -->
+<!-- has remained the same to this day. -->
+
+Petitioner Herman Gundy is a pre-Act offender...
+<!-- The year before SORNA’s enactment, he pleaded guilty under Maryland law for sexually assaulting a minor. -->
+After his release...
+<!-- from prison in 2012, Gundy came to live in New York. -->
+<!-- But -->
+he never registered...
+<!-- there -->
+as a sex offender.
+A few years later, he was convicted for failing to register...<!--, in violation of \S\ 2250.-->
+He argued below... that Congress unconstitutionally delegated...
+<!-- legislative -->
+power when it authorized the Attorney General to "specify the applicability" of SORNA’s registration requirements to pre-Act offenders.
+[Lower courts have all disagreed with that argument].
+Today, we join the consensus and affirm.
+
+\begin{center}
+    II
+\end{center}
+
+Article I of the Constitution provides that ``[a]ll legislative Powers herein granted shall be vested in a Congress of the United States." \S\ 1.
+Accompanying that assignment of power to Congress is a bar on its further delegation.
+Congress, this Court explained early on, may not transfer to another branch "powers which are strictly and exclusively legislative."
+But the Constitution does not "deny[] to the Congress the necessary resources of flexibility and practicality [that enable it] to perform its function[s]."
+Congress may "obtain[] the assistance of its coordinate Branches"---and in particular, may confer substantial discretion on executive agencies to implement and enforce the laws...
+"[I]n our increasingly complex society, replete with ever changing and more technical problems," this Court has understood that "Congress simply cannot do its job absent an ability to delegate power under broad general directives."
+So we have held... that a statutory delegation is constitutional as long as Congress "lay[s] down by legislative act an intelligible principle to which the person or body authorized to [exercise the delegated authority] is directed to conform..."
+
+<!-- Given that standard, a nondelegation inquiry always begins (and often almost ends) with statutory interpretation. -->
+<!-- The constitutional question is whether Congress has supplied an intelligible principle to guide the delegee's use of discretion \ldots -->
+<!-- % So the answer requires construing the challenged statute to figure out what task it delegates and what instructions it provides. -->
+<!-- % Only after a court has determined a challenged statute’s meaning can it decide whether the law sufficiently guides executive discretion to accord with Article I. -->
+<!-- % And indeed, once a court interprets the statute, it may find that the constitutional question all but answers itself. -->
+
+<!-- % That is the case here, because -->
+<!-- \S 20913(d) does not give the Attorney General anything like the "unguided" and "unchecked" authority that Gundy says\ldots -->
+<!-- The text, -->
+[The law], considered alongside its context, purpose, and history, makes clear that the Attorney General's discretion extends only to...
+<!-- considering and addressing -->
+feasibility issues...
+<!-- Given that statutory meaning, Gundy’s constitutional claim must fail\ldots -->
+
+\begin{center}
+A
+\end{center}
+
+<!-- [In a previous case called *Reynolds*, the Court had to interpret this statute in a slightly different context. -->
+[The Court interpreted a different aspect of the law in an earlier case, *Reynolds*.
+It held Congress intended SORNA to apply to pre-Act offenders,
+but it wasn't effective until the AG found a way to feasibly do it.]
+
+<!-- This is not the first time this Court has had to interpret \S 20913(d). -->
+<!-- In \emph{Reynolds}, the Court considered whether SORNA’s registration requirements applied of their own force to pre-Act offenders or instead applied only once the Attorney General said they did. -->
+<!-- We read the statute as adopting the latter approach. -->
+<!-- But even as we did so, we made clear how far SORNA limited the Attorney General’s authority. -->
+<!-- And in that way, we effectively resolved the case now before us. -->
+
+<!-- Everything in \emph{Reynolds} started from the premise that Congress meant for SORNA's registration requirements to apply to pre-Act offenders\ldots -->
+<!-- %The majority recounted SORNA’s “basic statutory purpose,” found in its text, as follows: “the ‘establish[ment of] a comprehensive national system for the registration of [sex] offenders’ that includes offenders who committed their offenses before the Act became law.” 565 U. S., at 442 (quoting §20901; emphasis and alterations in original; citation omitted). That purpose, the majority further noted, informed SORNA’s “broad[ ]” definition of “sex offender,” which “include[s] any ‘individual who was convicted of a sex offense.’ ” Id., at 442 (quoting §20911(1); emphasis added). And those two provisions were at one with “[t]he Act’s history.” Id., at 442. Quoting statements from both the House and the Senate about the sex offenders then “lost” to the system, Reynolds explained that the Act’s “supporters placed considerable importance upon the registration of pre-Act offenders.” Ibid. In recognizing all this, the majority (temporarily) bonded with the dissenting Justices, who found it obvious that SORNA was “meant to cover pre-Act offenders.” Id., at 448 (Scalia, J., dissenting). And indeed, the dissent emphasized that common ground, remarking that “the Court acknowledges” and “rightly believes” that registration of pre-Act offenders was “what the statute sought to achieve.” Id., at 448–449.[1] -->
+
+<!-- But if that was so, why had Congress (as the majority held) conditioned the pre-Act offenders' duty to register on a prior "ruling from the Attorney General"? -->
+<!-- The majority had a simple answer: ``[I]nstantaneous registration" of pre-Act offenders "might not prove feasible"\ldots -->
+<!-- %or “[a]t least Congress might well have so thought.” Id., at 440–441, 443. Here, the majority explained that SORNA’s requirements diverged from prior state law. See id., at 440; supra, at 2. Some pre-Act offenders (as defined by SORNA) had never needed to register before; others had once had to register, but had fulfilled their old obligations. And still others (the “lost” or “missing” offenders) should have registered, but had escaped the system. As a result, SORNA created a “practical problem[ ]”: It would require “newly registering or reregistering a large number of pre-Act offenders.” Reynolds, 565 U. S., at 440 (internal quotation marks omitted). And attached to that broad feasibility concern was a more technical one. Recall that under SORNA “a sex offender must initially register before completing his ‘sentence of imprisonment.’ ” Id., at 439 (quoting §20913(b)); see supra, at 3. But many pre-Act offenders were already out of prison, so could not comply with that requirement. That inability raised questions about “how[] the new registration requirements applied to them.” 565 U. S., at 441. “Congress[’s] solution” to both those difficulties was the same: Congress “[a]sk[ed] the Department of Justice, charged with responsibility for implementation, to examine [the issues] and to apply the new registration requirements accordingly.” Ibid. -->
+
+<!-- On that understanding, the Attorney General's role under \S\ 20913(d) was important but limited: -->
+<!-- It was to apply SORNA to pre-Act offenders as soon as he thought it feasible to do so. -->
+<!-- That statutory delegation, the Court explained, would "involve[] implementation delay." Id., at 443. -->
+<!-- But no more than that\ldots\ -->
+<!-- %. Congress had made clear in SORNA’s text that the new registration requirements would apply to pre-Act offenders. See id., at 442–445. So (the Court continued) “there was no need” for Congress to worry about the “unrealistic possibility” that “the Attorney General would refuse to apply” those requirements on some excessively broad view of his authority under §20913(d). Id., at 444–445.  -->
+Reasonably read, SORNA enabled the Attorney General only to address...
+<!-- (as appropriate) -->
+the "practical problems" involving pre-Act offenders...
+<!-- before requiring them to register. -->
+<!-- The delegation was a stopgap, and nothing more\ldots -->
+
+<!-- % Gundy dismisses Reynolds’s relevance, but his arguments come up short. To begin, he contends that Rey- nolds spoke “tentative[ly]”—with “might[s], may[s], or could[s]”—about Congress’s reasons for enacting §20913(d). Reply Brief 11; see supra, at 7 (quoting such phrases). Gundy concludes from such constructions—which are indeed present—that the Court was “not offering a definitive reading of the statute.” Reply Brief 11. But the Court used those locutions to convey not its own uncertainty but Congress’s. The point of the opinion was that Congress had questions about how best to phase SORNA’s application to pre-Act offenders, so gave the Attorney General flexibility on timing. The “mights, mays, and coulds” were there to describe the legislative mindset responsible for §20913(d), and thus formed part of the Court’s own—yes, “definitive”—view of that provision’s meaning. Anticipating that explanation, -->
+Gundy
+<!-- %falls back on the claim -->
+[argues] that the Court’s account of Congress's motivations "cannot supply the intelligible principle Congress failed to enact into law."
+But the Court in \emph{Reynolds} did not invent a standard Congress omitted.
+Rather, the Court read the statute to contain a standard...
+And... we read [it] in the same way.
+
+\begin{center}
+    B
+\end{center}
+
+[This section is has great material on statutory interpretation, which we aren't studying, but that you may be interested in.
+It emphasizes that statutory interpretation looks at words *in their context*.
+Here it's clear Congress was trying to make sex offender registration universal, so the only discretion the Attorney General could have been given is practical feasibility implementation concerns.]
+
+\begin{center}
+    C
+\end{center}
+
+<!-- Now that we have determined what \S\ 20913(d) means, we can consider whether it violates the Constitution. -->
+<!-- The question becomes: -->
+...Did Congress make an impermissible delegation when it instructed the Attorney General to apply SORNA... to pre-Act offenders as soon as feasible?
+Under this Court’s long-established law...
+<!-- , that question is easy. Its -->
+[the] answer is no...
+
+<!-- As noted earlier, -->
+<!-- ...this Court has held that a delegation is constitutional so long as Congress has set out an "intelligible principle" to guide the delegee's exercise of authority\ldots -->
+<!-- % J. W. Hampton, Jr., & Co., 276 U. S., at 409; see supra, at 5. Or in a related formulation, the Court has stated that a delegation is permissible if Congress has made clear to the delegee “the general policy” he must pursue and the “boundaries of [his] authority.” American Power & Light, 329 U. S., at 105. Those standards, the Court has made clear, are not demanding. “[W]e have ‘almost never felt qualified to second-guess Congress regarding the permissible degree of policy judgment that can be left to those executing or applying the law.’ ” Whitman, 531 U. S., at 474–475 (quoting Mistretta, 488 U. S., at 416 (Scalia, J., dissenting)). -->
+Only twice in this country's history...
+<!-- (and that in a single year) -->
+have we found a delegation excessive---in each case because "Congress had failed to articulate any policy or standard" to confine discretion.
+<!-- % Mistretta, 488 U. S., at 373, n. 7 (emphasis added); see A. L. A. Schechter Poultry Corp. v. United States, 295 U.S. 495 (1935); Panama Refining Co. v. Ryan, 293 U.S. 388 (1935). -->
+By contrast, we have over and over upheld even very broad delegations...
+<!-- Here is a sample: -->
+We have approved delegations to various agencies to regulate in the "public interest..."
+<!-- % See, e.g., National Broadcasting Co., 319 U. S., at 216; New York Central Securities Corp. v. United States, 287 U.S. 12, 24 (1932). -->
+<!-- We have sustained authorizations for agencies to set "fair and equitable" prices and "just and reasonable" rates. -->
+<!-- % Yakus, 321 U. S., at 422, 427; FPC v. Hope Natural Gas Co., 320 U.S. 591 (1944). -->
+We... affirmed a delegation to an agency to issue whatever air quality standards are "requisite to protect the public health."
+<!-- % Whitman, 531 U. S., at 472 (quoting 42 U. S. C. §7409(b)(1)). -->
+<!-- And so forth. -->
+[Etc.]
+
+In that context, the delegation in SORNA easily passes muster...
+<!-- The statute conveyed Congress’s policy that the Attorney General require pre-Act offenders to register as soon as feasible... -->
+<!-- Under the law, the feasibility issues he could address were administrative---and, more specifically, transitional---in nature \ldots -->
+<!-- % Those issues arose, as Reynolds explained, from the need to “newly register[ ] or reregister[ ] ‘a large number’ of pre-Act offenders” not then in the system. 565 U. S., at 440; see supra, at 8. And they arose, more technically, from the gap between an initial registration requirement hinged on imprisonment and a set of pre-Act offenders long since released. See 565 U. S., at 441; see supra, at 8. Even for those limited matters, the Act informed the Attorney General that he did not have forever to work things out. -->
+By stating its demand for a "comprehensive" registration system and by defining the "sex offenders" required to register to include pre-Act offenders, Congress conveyed that the Attorney General had only temporary authority...
+<!-- % Or again, in the words of Reynolds, that he could prevent “instantaneous registration” and impose some “implementation delay.” 565 U. S., at 443. -->
+That statutory authority, as compared to the delegations we have upheld in the past, is distinctly small-bore. It falls well within constitutional bounds.
+
+Indeed, if SORNA’s delegation is unconstitutional, then most of Government is unconstitutional---dependent as Congress is on the need to give discretion to executive officials to implement its programs.
+Consider again this Court’s long-time recognition:
+"Congress simply cannot do its job absent an ability to delegate power under broad general directives..." *Mistretta*, 488 U. S., at 372...
+<!-- ; see supra, at 5. Or as the dissent in that case agreed: ``[S]ome judgments . . . must be left to the officers executing the law." 488 U. S., at 415 (opinion of Scalia, J.) \ldots -->
+<!-- Among the judgments often left to executive officials are ones involving feasibility \ldots -->
+<!-- % In fact, standards of that kind are ubiquitous in the U. S. Code. See, e.g., 12 U. S. C. §1701z–2(a) (providing that the Secretary of Housing and Urban Development “shall require, to the greatest extent feasible, the employment of new and improved technologies, methods, and materials in housing construction[ ] under [HUD] programs”); 47 U. S. C. §903(d)(1) (providing that “the Secretary of Commerce shall promote efficient and cost-effective use of the spectrum to the maximum extent feasible” in “assigning frequencies for mobile radio services”). -->
+In those delegations, Congress gives its delegee the flexibility to deal with real-world constraints in carrying out his charge. So too in SORNA.
+
+It is wisdom and humility alike that this Court has always upheld such "necessities of government." *Mistretta*, 488 U. S., at 416 (Scalia, J., dissenting)... We therefore affirm the judgment of the Court of Appeals.
+
+<!-- % It is so ordered. -->
+
+\clearpage
+
+\noindent \textbf{Justice Alito, concurring in the judgment:}
+
+The Constitution confers on Congress certain "legislative [p]owers," Art. I, \S\ 1, and does not permit Congress to delegate them to another branch of the Government.
+<!-- See Whitman v. American Trucking Assns., Inc., 531 U.S. 457, 472 (2001). -->
+Nevertheless, since 1935, the Court has uniformly rejected nondelegation arguments and has upheld provisions that authorized agencies to adopt important rules pursuant to extraordinarily capacious standards.
+<!-- See ibid. -->
+
+If a majority of this Court were willing to reconsider the approach we have taken for the past 84 years, I would support that effort. But because a majority is not willing to do that, it would be freakish to single out the provision at issue here for special treatment.
+
+Because I cannot say that the statute...
+<!-- lacks a discernable standard that is adequate -->
+[fails]
+under the approach this Court has taken for many years, I vote to affirm.
+
+\vspace*{\baselineskip}
+
+\noindent \textbf{Justice Gorsuch, dissenting (joined by Roberts and Thomas):}
+
+The Constitution promises that only the people's elected representatives may adopt new federal laws restricting liberty. Yet the statute before us...
+<!-- scrambles that design. It -->
+purpots to endow the
+<!-- nation’s chief prosecutor -->
+[AG] with the power to write his own criminal code...
+<!-- governing the lives of a half-million citizens... -->
+<!-- % Yes, those affected are some of the least popular among us. But if a single executive branch official can write laws restricting the liberty of this group of persons, what does that mean for the next? -->
+
+Today, a plurality...
+<!-- of an eight-member Court -->
+endorses this extraconstitutional arrangement but resolves nothing...
+<!-- % Working from an understanding of the Constitution at war with its text and history, the plurality reimagines the terms of the statute before us and insists there is nothing wrong with Congress handing off so much power to the Attorney General. -->
+But Justice Alito supplies the fifth vote for today's judgment...
+<!-- and he does not join either the plurality's constitutional or statutory analysis, indicating -->
+[but indicated]
+<!-- instead -->
+that he remains willing, in a future case with a full Court, to revisit these matters.
+Respectfully, I would not wait.
+
+\begin{center}
+I
+\end{center}
+
+For individuals convicted of sex offenses after Congress adopted [SORNA] in 2006, the statute offers detailed instructions... 
+<!-- % It requires them “to provide state governments with (and to update) information, such as names and current addresses, for inclusion on state and federal sex offender registries.”[1] The law divides offenders into three tiers based on the seriousness of their crimes: Some must register for 15 years, others for 25 years, and still others for life.[2] The statute proceeds to set registration deadlines: Offenders sentenced to prison must register before they’re released, while others must register within three business days after sentencing.[3] The statute explains when and how offenders must update their registrations.[4] And the statute specifies particular penalties for failing to comply with its commands.[5] On and on the statute goes for more than 20 pages of the U. S. Code. -->
+
+But what about those convicted of sex offenses before the Act's adoption...?
+<!-- At the time of SORNA's enactment, the nation's population of sex offenders exceeded 500,000, and -->
+Congress concluded that something had to be done about these "pre-Act" offenders too.
+But it seems Congress couldn't agree what that should be.
+The treatment of pre-Act offenders proved a "controversial issue with major policy significance and practical ramifications for states."
+Among other things, applying SORNA immediately to this group threatened to impose unpopular and costly burdens on States and localities...
+<!-- % by forcing them to adopt or overhaul their own sex offender registration schemes. -->
+So Congress simply passed the problem to the Attorney General...
+[T]he law says only this, in §20913(d):
+
+"The Attorney General shall have the authority to specify the applicability of the requirements...
+<!-- of this subchapter -->
+to sex offenders convicted before the enactment of this chapter... and to prescribe rules for the registration of any such sex offender."
+
+Yes, that’s it. The breadth of the authority Congress granted to the Attorney General in these few words can only be described as vast. As the Department of Justice itself has acknowledged...
+<!-- [in its brief to the Court in \emph{Reynolds}], -->
+SORNA "does not require the Attorney General" to impose registration requirements on pre-Act offenders "within a certain time frame...
+<!-- or by a date certain; it does not require him to -->
+[or even]
+act at all." If the Attorney General does choose to act, he can require all pre-Act offenders to register, or
+<!-- he can "require some but not all to register." -->
+[only some].
+For those he requires to register, the Attorney General may impose "some but not all of [SORNA’s] registration requirements," as he pleases. And he is free to change his mind...
+<!-- on any of these matters -->
+"at any given time..."
+<!-- or over the course of different [political] administrations." -->
+Congress thus gave the Attorney General free rein to write the rules for virtually the entire existing sex offender population...
+<!-- in this country-- -->
+a situation that promised to persist for years or decades until pre-Act offenders passed away or fulfilled...
+<!-- the terms of -->
+their registration obligations...
+<!-- and post-Act offenders came to predominate. -->
+
+Unsurprisingly, different [AGs] exercised their discretion in different ways...
+<!-- % For six months after SORNA’s enactment, Attorney General Gonzales left past offenders alone. -->
+<!-- % Then the pendulum swung the other direction when the Department of Justice issued an interim rule requiring pre-Act offenders to follow all the same rules as post-Act offenders. -->
+<!-- % A year later, Attorney General Mukasey issued more new guidelines, this time directing the States to register some but not all past offenders. -->
+<!-- % Three years after that, Attorney General Holder required the States to register only those pre-Act offenders convicted of a new felony after SORNA’s enactment. -->
+<!-- % Various Attorneys General have also taken different positions on whether pre-Act offenders might be entitled to credit for time spent in the community before SORNA was enacted. -->
+
+These unbounded policy choices have profound consequences...
+<!-- for the people they affect. -->
+<!-- Take our case... -->
+<!-- % Before SORNA’s enactment, Herman Gundy pleaded guilty in 2005 to a sexual offense. -->
+<!-- % After his release from prison five years later, he was arrested again, this time for failing to register as a sex offender according to the rules the Attorney General had then prescribed for pre-Act offenders. -->
+<!-- % As a result, -->
+Mr. Gundy faced an additional 10-year prison term---10 years more than if the Attorney General had, in his discretion, chosen to write the rules differently.
+
+\begin{center}
+    II
+
+    A
+\end{center}
+
+Our founding document begins by declaring that "We the People... ordain and establish this Constitution."
+At the time, that was a radical claim, an assertion that sovereignty belongs not to a person or institution or class but to the whole of the people...
+<!-- From that premise, -->
+the Constitution proceeded to vest...
+<!-- the authority to exercise -->
+different aspects of the people's sovereign power in distinct entities.
+In Article I, the Constitution entrusted all of the...
+<!-- federal government’s -->
+legislative power to Congress.
+In Article II, it assigned the executive power to the President.
+And in Article III, it gave independent judges the task of applying the laws to cases and controversies...
+
+<!-- To the framers, each of these vested powers had a distinct content. -->
+<!-- When it came to the legislative power, the framers understood it to mean the power to adopt generally applicable rules of conduct... -->
+
+The framers understood, too, that it would frustrate "the system of government ordained by the Constitution" if Congress could merely announce vague aspirations and then assign others the responsibility of adopting legislation to realize its goals.
+Through the Constitution, after all, the people had vested the power to prescribe rules limiting their liberties in Congress alone.
+No one, not even Congress, had the right to alter that arrangement...
+
+<!-- If Congress could pass off its legislative power to the executive branch, the ``[v]esting [c]lauses, and indeed the entire structure of the Constitution," would "make no sense." -->
+Without the involvement of representatives from across the country or the demands of bicameralism and presentment, legislation would risk becoming nothing more than the will of the current President...
+
+The framers warned us against permitting consequences like these.
+As Madison explained, `` `[t]here can be no liberty where the legislative and executive powers are united in the same person, or body of magistrates....' "
+<!-- The framers knew, too, that the job of keeping the legislative power confined to the legislative branch couldn't be trusted to self-policing by Congress; often enough, legislators will face rational incentives to pass problems to the executive branch... -->
+<!-- % Besides, enforcing the separation of powers isn't about protecting institutional prerogatives or governmental turf. -->
+<!-- % It's about respecting the people's sovereign choice to vest the legislative power in Congress alone. -->
+<!-- % And it's about safeguarding a structure designed to protect their liberties, minority rights, fair notice, and the rule of law. -->
+So when a case or controversy comes within the judicial competence, the Constitution does not permit judges to look the other way...
+<!-- ; we must call foul when the constitutional lines are crossed. -->
+Indeed, the framers afforded us independence from the political branches in large part to encourage exactly this kind of "fortitude... to do [our] duty as faithful guardians of the Constitution."
+
+\begin{center}
+    B
+\end{center}
+
+<!-- Accepting, then, that -->
+[Since] we have an obligation to decide [if] Congress has unconstitutionally
+<!-- divested itself of its -->
+[delegated]
+legislative responsibilities, the question follows: What’s the test?
+Madison acknowledged
+<!-- that "no skill in the science of government has -->
+[we have not]
+"yet been able to discriminate and define, with sufficient certainty, its three great provinces—the legislative, executive, and judiciary."
+Chief Justice Marshall agreed that policing the separation of powers "is a subject of delicate and difficult inquiry."
+Still, the framers took this responsibility seriously and offered us important guiding principles.
+
+First...
+<!-- , we know that -->
+as long as Congress makes the policy decisions when regulating private conduct, it may authorize another branch to "fill up the details..."
+
+Second, once Congress prescribes the rule governing private conduct, it may make the application of that rule depend on executive fact-finding...
+
+Third, Congress may assign the executive and judicial branches certain non-legislative responsibilities...
+<!-- While the Constitution vests all federal legislative power in Congress alone, -->
+Congress's legislative authority sometimes overlaps with authority...
+<!-- the Constitution separately vests in -->
+[of] another branch.
+So, for example, when a...
+<!-- congressional -->
+statute confers wide discretion to the executive,
+<!-- no separation-of-powers problem may arise -->
+[that is okay]
+if "the discretion is to be exercised over matters already within the scope of executive power."
+
+\begin{center}
+    C
+\end{center}
+
+Before the 1930s, federal statutes granting authority to the executive were [more] modest...
+<!-- and usually easily upheld. -->
+But then the federal government
+<!-- began to grow -->
+[grew]
+explosively[, bringing]
+<!-- . And with -->
+<!-- the proliferation of new executive programs -->
+<!-- [this] -->
+<!-- came -->
+new questions about the scope of congressional delegations.
+Twice
+<!-- the Court responded by striking -->
+[we struck]
+down statutes for violating the separation of powers...
+
+After \emph{Schechter Poultry} and \emph{Panama Refining}, Congress responded by writing a second wave of New Deal legislation more ``[c]arefully crafted..."
+<!-- to avoid the kind of problems that sank these early statutes. -->
+And since that time the Court hasn't held another statute to violate the separation of powers in the same way.
+Of course, no one thinks
+<!-- that the Court's quiescence -->
+[this]
+can be attributed to an unwavering new tradition of more scrupulously drawn statutes...
+<!-- % Some lament that the real cause may have to do with a mistaken "case of death by association" because Schechter Poultry and Panama Refining happened to be handed down during the same era as certain of the Court's now-discredited substantive due process decisions. -->
+<!-- % But maybe -->
+[T]he most likely explanation...
+<!-- of all lies in the story of the -->
+[is]
+evolving "intelligible principle" doctrine.
+
+This Court first used that phrase in 1928 in \emph{J. W. Hampton, Jr., \& Co. v. United States}, where it remarked that a statute "lay[ing] down by legislative act an intelligible principle to which the [executive official] is directed to conform" satisfies the separation of powers.
+No one at the time thought the phrase meant to effect some revolution...
+<!-- in this Court's understanding of the Constitution. -->
+While the exact line between policy and details...
+<!-- , lawmaking and fact-finding, and legislative and non-legislative functions  -->
+had sometimes invited reasonable debate, everyone agreed these were the relevant inquiries.
+And when Chief Justice Taft wrote of an "intelligible principle," it seems plain enough that he sought only to explain the operation of these traditional tests; he gave no hint of a wish to overrule or revise them...
+
+For two decades, no one thought to invoke the "intelligible principle" comment as a basis to uphold a statute that would have failed more traditional separation-of-powers tests.
+In fact, the phrase
+<!-- sat more or less silently entombed -->
+[wasn't used much]
+until the late 1940s.
+Only then did lawyers begin digging it up in earnest and arguing to this Court that it had somehow displaced...
+<!-- (sub silentio of course) -->
+all prior teachings in this area...
+
+This mutated version of
+<!-- the "intelligible principle" remark -->
+["intelligible principle"]
+has no basis in the original meaning of the Constitution, in history, or even in the decision [creating it]...
+<!-- from which it was plucked... -->
+
+Still, the scope of the problem can be overstated.
+At least some of the results the Court has reached under the banner of the abused "intelligible principle" doctrine may be consistent with more traditional teachings...
+
+To determine
+<!-- whether -->
+[if]
+a statute provides an intelligible principle, we must ask:
+Does
+<!-- the statute assign to the executive only the responsibility -->
+[it only authorize the executive] to make factual findings?
+Does it set forth the facts that the executive must consider and the criteria against which to measure them?
+And most importantly, did Congress, and not the Executive Branch, make the policy judgments?
+Only then can we fairly say that a statute contains the kind of intelligible principle the Constitution demands.
+
+While it's been some time since the Court last held that a statute improperly delegated the legislative power to another branch---thanks in no small measure to the intelligible principle misadventure---the Court has hardly abandoned the business of policing improper legislative delegations.
+When one legal doctrine becomes unavailable to do its intended work, the hydraulic pressures of our constitutional system sometimes shift the responsibility to different doctrines...
+<!-- And that's exactly what's happened here. -->
+We still regularly rein in Congress's efforts to delegate legislative power; we just call what we’re doing by different names...
+
+[Justice Gorsuch then explains how applications of some other doctrines can be re-framed as doing the work the non-delegation doctrine should be doing.]
+
+Nor have we abandoned...
+<!-- enforcing other sides of the separation-of-powers triangle between the legislative, executive, and judiciary.-->
+[other separation of powers issues].
+We have
+<!-- not hesitated to prevent -->
+[prevented]
+Congress from "confer[ring] the Government's `judicial Power' on entities outside Article III."
+We've forbidden the executive from encroaching on legislative functions by wielding a line-item veto.
+We've prevented Congress from delegating its collective legislative power to a single House.
+And we've policed legislative efforts to control executive branch officials.
+<!-- These cases show that, -->
+[This shows]
+when the separation of powers is at stake, we don't just throw up our hands...
+<!-- % In all these areas, we recognize that abdication is "not part of the constitutional design." -->
+<!-- % And abdication here would be no more appropriate. -->
+To leave this aspect of the constitutional structure alone undefended would serve only to accelerate the flight of power from the legislative to the executive branch, turning the latter into a vortex of authority that was constitutionally reserved for the people's representatives in order to protect their liberties.
+
+\begin{center}
+    III
+
+    A
+\end{center}
+
+Returning to SORNA...
+<!-- with this understanding... -->
+<!-- of our charge -->
+<!-- in hand, -->
+problems quickly emerge...
+It's hard to see how SORNA leaves the Attorney General with only details to fill up...
+<!-- % Of course, what qualifies as a detail can sometimes be difficult to discern and, as we've seen, this Court has upheld statutes that allow federal agencies to resolve even highly consequential details so long as Congress prescribes the rule governing private conduct. -->
+<!-- % But it's hard  to see how the statute before us could be described as leaving the Attorney General with only details to dispatch.  -->
+
+Nor can SORNA be described as an example of conditional legislation subject to executive fact-finding.
+To be sure, Congress could have easily written this law in that way.
+It might have required all pre-Act offenders to register, but then given the Attorney General the authority to make case-by-case exceptions...
+
+But SORNA did none of this.
+Instead, it gave the Attorney General unfettered discretion to decide which requirements to impose on which pre-Act offenders.
+
+In a future case with a full panel, I
+<!-- remain hopeful that the Court -->
+[hope we] may yet recognize that, while Congress can enlist considerable assistance from the executive branch in filling up details and finding facts, it may never hand off to the
+<!-- nation's chief prosecutor -->
+[AG]
+the power to write his own criminal code.
+That "is delegation running riot."
