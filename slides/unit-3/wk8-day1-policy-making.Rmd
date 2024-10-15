@@ -1,0 +1,85 @@
+---
+title: "Who Makes Policy, and How?"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Policy Making in the United States
+
+. . .
+
+- Congress passing bills
+- Presidents issuing executive orders
+- Courts handing down precedents
+- Bureaucratic rule making(?)
+- State and local regulation
+
+## How the Sausage (Agency Regulation) Gets Made
+
+. . .
+
+- "Notice and Comment" rule making
+  + Typically required by the Administrative Procedures Act
+  + Agency gives notice to the public they're considering a rule;
+    published at [Regulations.gov](https://Regulations.gov) and the Federal Register
+  + You can then submit comments on a proposed rule to the agency
+  + The agency considers (not necessarily) follows these comments when finalizing the rule
+- Exceptions and other processes
+  + If the agency has "good cause" to say the above procedure is "impracticable [or] unnecessary"
+    * Emergency threat to public health
+    * Minor technical corrections
+  + Internal agency procedures
+  + Rules affecting only federal employees or property (usually)
+  + "actual notice" to **everyone** that would be affected
+
+## Revisiting Policy Making On the Courts
+
+. . .
+
+- Before we _mostly_ talked about the US Supreme Court
+- But other courts can be more important
+  + Federal courts of appeals
+    * [Klein (2002)](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991058391892106011) is the canonical book on this
+    + Typically the last court that hears a case
+    + Make **much** more law than the Supreme Court
+  + State courts
+    * "There is no federal general common law" [*Erie* (1938)](https://supreme.justia.com/cases/federal/us/304/64/)
+    * Interpreting state statutes and constitutions
+
+## State Legislatures
+
+. . .
+
+- States have "general police powers"
+- States use this power to great effect
+  + Criminal law
+  + State regulations (especially California and Delaware)
+  + Taxation
+- Policy diffusion
+  + " a single courageous State may... serve as a laboratory; and try novel... experiments without risk to the rest of the country" [*New State Ice Co. v. Liebmann* (1932)](https://supreme.justia.com/cases/federal/us/285/262/) (Brandeis dissenting). 
+  + States often adopt policies from neighbors (Berry [1990](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_journals_214429972); [1992](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_webofscience_primary_A1992JM88200006CitationCount))
+  + Federal action can increase the chance of state action by weakening obstacles or providing resources [(Karch 2006)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_webofscience_primary_000238260400001)
+
+## Policy Feedback
+
+. . .
+
+- Existing policy affects subsequent policy by affecting lawmakers
+[(Campbell and Levi 2012)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_1126522091)
+- Policy affects the public, who in turn can affect the policy making process (Campbell and Levi 2012)
+- "policies make their own politics" [(Anzia and Moe 2017)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_webofscience_primary_000397262600002CitationCount)
+  * Bipartisanship in the face of an inattentive public
+  * Expanding the scope of conflict can dramatically alter things
