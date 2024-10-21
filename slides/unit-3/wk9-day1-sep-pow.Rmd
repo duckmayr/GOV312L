@@ -1,0 +1,488 @@
+---
+title: "Separation of Powers: Foreign Policy Issues"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{1pt}}
+    - \definecolor{DarkerGreen}{HTML}{409030}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Power Over U.S. Foreign Policy
+
+. . .
+
+- We first discussed each branch's power separately
+- Last week we talked about separation of powers in the domestic context
+- But who controls the foreign policy of the United States?
+
+## United States v. Curtiss-Wright: Background
+
+- Curtiss-Wright was a plane manufacturer
+- In the Depression, they didn't have enough domestic customers, so they sold abroad, including to foreign governments
+- Congress authorized the President to prohibit such sales via order; the President did so
+- Curtiss-Wright challenged the order.
+
+## Curtiss-Wright's Broad View of Executive Power
+
+\begin{block}{Art. II \S 2}
+The President shall be commander in chief of the Army and Navy of the United States, and of the militia of the several states, when called into the actual service of the United States....\vspace{0.5\baselineskip}
+
+He shall have power, by and with the advice and consent of the Senate, to make treaties, provided two thirds of the Senators present concur; and he shall nominate, and by and with the advice and consent of the Senate, shall appoint ambassadors, other public ministers and consuls....
+\end{block}
+
+\begin{block}{Art. II \S 3}
+...he shall receive ambassadors and other public ministers....
+\end{block}
+
+\vfill
+
+## Curtiss-Wright's Broad View of Executive Power
+
+\begin{block}{US v. Curtiss-Wright  (citations omitted)}
+In \textit{Burnet v. Brooks}, we said, "As a nation with all the attributes of sovereignty, the United States is vested with all the powers of government necessary to maintain an effective control of international relations."\vspace{0.5\baselineskip}
+
+Not only, as we have shown, is the federal power over external affairs in origin and essential character different from that over internal affairs, but participation in the exercise of the power is significantly limited. In this vast external realm... the President alone has the power to speak or listen as a representative of the nation.... As Marshall said in his great argument of March 7, 1800, in the House of Representatives, "The President is the sole organ of the nation in its external relations, and its sole representative with foreign nations."
+\end{block}
+
+\vfill
+
+## Curtiss-Wright's Broad View of Executive Power
+
+\begin{block}{US v. Curtiss-Wright (citations omitted)}
+It is quite apparent that if, in the maintenance of our international relations, embarrassment -- perhaps serious embarrassment -- is to be avoided and success for our aims achieved, congressional legislation which is to be made effective through negotiation and inquiry within the international field must often accord to the President a degree of discretion and freedom from statutory restriction which would not be admissible were domestic affairs alone involved. Moreover, he, not Congress, has the better opportunity of knowing the conditions which prevail in foreign countries, and especially is this true in time of war....
+\end{block}
+
+\vfill
+
+## Power Over U.S. Foreign Policy
+
+So, "The President is the sole organ of the nation in its external relations"...
+
+\vspace{\baselineskip}
+
+. . .
+
+However, things aren't that simple.
+
+\vspace{\baselineskip}
+
+. . .
+
+In what some call "an invitation to struggle," the Constitution allocates power over foreign policy and war to **both** the President **and** Congress.
+
+\vfill
+
+## Power Over U.S. Foreign Policy
+
+\begin{tabular}{p{0.45\textwidth} | p{0.45\textwidth}}
+\textbf{President} (Art. II \S 2)
+&
+\textbf{Congress} (Art. I \S 8)
+\\[0.5em]
+\hline
+\vspace{0.1em}
+$\bullet$ "commander in chief of the Army and Navy of the United States"
+&
+\vspace{0.1em}
+$\bullet$ "lay and collect taxes, duties, imposts and excises, to ... provide for the common defense"\newline
+$\bullet$ "declare war"\newline
+$\bullet$ "raise and support armies"\newline
+$\bullet$ "provide and maintain a navy"\newline
+$\bullet$ "make rules for the government and regulation of the land and naval forces"
+\end{tabular}
+
+\vfill
+
+## Power Over U.S. Foreign Policy
+
+\begin{tabular}{p{0.45\textwidth} | p{0.45\textwidth}}
+\textbf{President} (Art. II \S\S\ 2 and 3)
+&
+\textbf{Congress} (Art. I \S 8, Art. II \S 2)
+\\[0.5em]
+\hline
+\vspace{0.1em}
+$\bullet$ "appoint ambassadors, other public ministers and consuls"\newline
+$\bullet$ "receive ambassadors and other public ministers"\newline
+\vspace{0.1em}
+&
+\vspace{0.1em}
+$\bullet$ confirm appointments for ambassors (etc.)\newline
+\vspace{0.1em}
+\\[1em]
+\hline
+\vspace{0.1em}
+$\bullet$ "make treaties"\newline
+&
+\vspace{0.1em}
+$\bullet$ ratify treaties\newline
+$\bullet$ "define and punish piracies and felonies committed on the high seas, and offenses against the law of nations"\newline
+$\bullet$ "regulate commerce with foreign nations"\newline
+$\bullet$ "establish a uniform rule of naturalization"
+\end{tabular}
+
+## Power Over U.S. Foreign Policy
+
+What role does the Court take? \pause Does the answer change if we are at war or in a time of crisis?
+
+\vspace{0.5\baselineskip}
+
+. . .
+
+On one hand, the text of the Constitution does not change.
+
+\vspace{0.5\baselineskip}
+
+. . .
+
+On the other...
+
+\vspace{0.5\baselineskip}
+
+\begin{block}{Schenck v. United States (1919)}
+We admit that in many places and in ordinary times the defendants in saying all
+that was said in the circular would have been within their constitutional rights.
+But the character of every act depends upon the circumstances in which it is
+done... When a nation is at war many things that might be said in time of
+peace are such a hindrance to its effort that their utterance will not be endured
+so long as men fight and that no Court could regard them as protected by any
+constitutional right.
+\end{block}
+
+\vfill
+
+## Power Over U.S. Foreign Policy
+
+So we can consider two or three basic approaches:
+
+\begin{itemize}
+\tightlist
+\item<2-> There are two constitutions: one for war and one for peacetime (e.g., \textit{Schenck}). \onslide<3->{This could further be broken down into two different approaches:}\vspace{0.25\baselineskip}
+    \begin{itemize}
+    \tightlist
+    \item<4-> \textit{Inter arma enim silent leges}: In times of war, the Law falls silent.
+    \item<4-> "The laws will thus not be silent in time of war, but they will speak with a somewhat different voice." (Chief Justice Rehnquist, \textit{All the Laws but One: Civil Liberties in Wartime} (1998))\vspace{0.5\baselineskip}
+    \end{itemize}
+\item<5-> The Constitution is invariant
+\end{itemize}
+
+\vfill
+
+## The Prize Cases (1863)
+
+- Even before Lincoln's inauguration in March of 1861, states began seceding from the Union
+- On March 12, 1861, the Confederate army fired on Fort Sumter
+- Lincoln quickly and unilaterally imposed a blockade on Southern ports
+- Congress authorized Lincoln to declare a state of insurrection on July 13, 1861, and retroactively ratified all of Lincoln's military actions, including the blockade, on August 6, 1861.
+- The owners of ships seized before July 13 challenged the seizures, arguing that ships can't be seized as war prizes without a war, which may only be declared by Congress.
+- By a 5--4 decision, the U.S. Supreme Court held the President was able to institute the blockade even before Congress acted
+
+\vfill
+
+## The Prize Cases (1863)
+
+\begin{block}{The Prize Cases: Majority}
+If a war be made by invasion of a foreign nation, the President is not only authorized but bound to resist force by force. He does not initiate the war, but is bound to accept the challenge without waiting for any special legislative authority. And whether the hostile party be a foreign invader or States organized in rebellion, it is nonetheless a war although the declaration of it be "unilateral"....\vspace{0.5\baselineskip}
+
+The law of nations is also called the law of nature; it is founded on the common consent, as well as the common sense, of the world....
+\end{block}
+
+## The Prize Cases (1863)
+
+\begin{block}{The Prize Cases: Majority}
+Whether the President, in fulfilling his duties as Commander-in-chief in suppressing an insurrection, has met with such armed hostile resistance and a civil war of such alarming proportions as will compel him to accord to them the character of belligerents is a question to be decided by him, and this Court must be governed by the decisions and acts of the political department of the Government to which this power was entrusted. "He must determine what degree of force the crisis demands." The proclamation of blockade is itself official and conclusive evidence to the Court that a state of war existed which demanded and authorized a recourse to such a measure under the circumstances peculiar to the case....\vspace{0.5\baselineskip}
+
+...[T]herefore, we are of the opinion that the President had a right, jure belli, to institute a blockade of ports in possession of the States in rebellion which neutrals are bound to regard.
+\end{block}
+
+
+## The Prize Cases (1863)
+
+\begin{block}{The Prize Cases: Dissent}
+It is not to be denied ... that if a civil war existed between that portion of the people in organized insurrection to overthrow this Government at the time this vessel and cargo were seized, and if she was guilty of a violation of the blockade, she would be lawful prize of war. But before this insurrection against the established Government can be dealt with on the footing of a civil war... it must be recognized or declared by the war-making power of the Government. No power short of this can change the legal status of the Government or the relations of its citizens from that of peace to a state of war, or bring into existence all those duties and obligations of neutral third parties growing out of a state of war. The war power of the Government must be exercised before this changed condition of the Government and people and of neutral third parties can be admitted.
+\end{block}
+
+\vfill
+
+## Ex Parte Milligan (1866)
+
+\begin{block}{Art. I \S 9}
+The privilege of the writ of habeas corpus shall not be suspended, unless when in cases of rebellion or invasion the public safety may require it.
+\end{block}
+
+## Ex Parte Milligan (1866)
+
+- During the Civil War, Southern sympathizers (or "Copperheads") were undermining war efforts in the North.
+- Milligan and others were arrested in Indiana and charged with plotting to steal weapons and free Confederate soldiers.
+- A military court sentenced them to death.
+- They appealed sought release under the Constitution's right of habeas corpus.
+- A unanimous Supreme Court held the military trial unconstitutional, declaring the president had no power to set up military tribunals in secure areas where civil courts were functioning.
+- The majority also declared that Congress lacked such power.
+
+\vfill
+
+## Ex Parte Milligan (1866)
+
+\begin{block}{Ex Parte Milligan}
+The Constitution of the United States is a law for rulers and
+people, equally in war and in peace, and covers with the shield
+of its protection all classes of men, at all times and under all
+circumstances. No doctrine involving more pernicious
+consequences was ever invented by the wit of man than that
+any of its provisions can be suspended during any of the great
+exigencies of government. Such a doctrine leads directly to
+anarchy or despotism...
+\end{block}
+
+## Korematsu v. United States
+
+\only<1>{
+\begin{figure}
+\centering
+\includegraphics[width = 0.8\textwidth]{poster.jpg}
+\end{figure}
+}
+
+\only<2>{
+\begin{figure}
+\centering
+\includegraphics[width = 0.8\textwidth]{camp.jpg}
+\end{figure}
+}
+
+\only<3>{
+The Court held the exclusion order was constitutional.
+}
+
+## Korematsu v. United States: Rationale
+
+\begin{block}{Korematsu (majority)}
+It should be noted, to begin with, that all legal restrictions which curtail the civil rights of a single racial group are immediately suspect. That is not to say that all such restrictions are unconstitutional. It is to say that courts must subject them to the most rigid scrutiny. Pressing public necessity may sometimes justify the existence of such restrictions; racial antagonism never can....\vspace{0.5\baselineskip}
+\end{block}
+
+
+## Korematsu v. United States: Rationale
+
+\begin{block}{Korematsu (majority)}
+Like curfew, exclusion of those of Japanese origin was deemed necessary because of the presence of an unascertained number of disloyal members of the group, most of whom we have no doubt were loyal to this country. It was because we could not reject the finding of the military authorities that it was impossible to bring about an immediate segregation of the disloyal from the loyal that we sustained the validity of the curfew order as applying to the whole group. In the instant case, temporary exclusion of the entire group was rested by the military on the same ground. The judgment that exclusion of the whole group was, for the same reason, a military imperative answers the contention that the exclusion was in the nature of group punishment based on antagonism to those of Japanese origin....\vspace{0.5\baselineskip}
+
+We uphold the exclusion order as of the time it was made and when the petitioner violated it.
+\end{block}
+
+## Korematsu v. United States: Dissents
+
+\begin{block}{Fifth Amendment}
+No person shall... be deprived of life, liberty, or property, without due process of law....
+\end{block}
+
+\begin{block}{Fourteenth Amendment}
+ No state shall... deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.
+\end{block}
+
+## Korematsu v. United States: Dissents
+
+\begin{block}{Murphy's dissent}
+This exclusion of "all persons of Japanese ancestry, both alien and non-alien," from the Pacific Coast area on a plea of military necessity in the absence of martial law ought not to be approved. Such exclusion goes over "the very brink of constitutional power," and falls into the ugly abyss of racism....\vspace{0.5\baselineskip}
+
+The judicial test of whether the Government, on a plea of military necessity, can validly deprive an individual of any of his constitutional rights is whether the deprivation is reasonably related to a public danger that is so "immediate, imminent, and impending" as not to admit of delay and not to permit the intervention of ordinary constitutional processes to alleviate the danger....
+\end{block}
+
+## Korematsu v. United States: Dissents
+
+\begin{block}{Murphy's dissent}
+Civilian Exclusion Order No. 34... clearly does not meet that test. Being an obvious racial discrimination, the order deprives all those within its scope of the equal protection of the laws as guaranteed by the Fifth Amendment.... Yet no reasonable relation to an "immediate, imminent, and impending" public danger is evident to support this racial restriction, which is one of the most sweeping and complete deprivations of constitutional rights in the history of this nation in the absence of martial law....\vspace{0.5\baselineskip}
+
+I dissent, therefore, from this legalization of racism.
+\end{block}
+
+## Korematsu v. United States: Dissents
+
+\begin{block}{Jackson's dissent}
+A military order, however unconstitutional, is not apt to last longer than the military emergency. Even during that period, a succeeding commander may revoke it all. But once a judicial opinion rationalizes such an order to show that it conforms to the Constitution, or rather rationalizes the Constitution to show that the Constitution sanctions such an order, the Court for all time has validated the principle of racial discrimination in criminal procedure and of transplanting American citizens. The principle then lies about like a loaded weapon, ready for the hand of any authority that can bring forward a plausible claim of an urgent need.
+\end{block}
+
+## Youngstown: Background
+
+. . .
+
+- On June 25, 1950, North Korea invaded South Korea
+- The UN Security council voted to respond in force
+- On June 27, 1950, Truman ordered US forces into the conflict
+- In 1951, a labor dispute began in the steel industry
+- In December, the United Steelworkers Union announced it would call a strike at the end of its current contract
+- The Wage Stabilization Board tried unsuccessfully for months to resolve the dispute
+- On April 4, 1952, the strike's start date was set for April 9
+- Under the Taft-Hartley Act, the President could seek an injunction for an 80 day cooling-off period
+- Instead Truman ordered Commerce Secretary Sawyer to seize the steel mills to keep them in production
+- The owners sought an injunction in federal district court restraining the enforcement of the orders; the district court granted the injunction, but the court of appeals stayed it
+
+## Youngstown: Holding and Rationale
+
+. . .
+
+- The Court held the president did not have power to seize the steel mills
+- No Congressional statute authorized this seizure, or the President's ability to engage in any such seizures
+- Presidents don't derive that power from any provision of the Constitution, including their power as commander-in-chief
+- This is not an issue of exercising "broad powers... in a theater of war" or exercising any other constitutional power of the President, or executing any law of Congress; it is an order "direct[ing] that a presidential policy be executed in a manner prescribed by the President" in contravention of constitutional separation of powers
+
+## Youngstown: Jackson's Concurrence
+
+\begin{itemize}
+\tightlist
+\item<2-> Zenith: President with Congress
+\item<3-> Zone of twilight: President alone
+\item<4-> Nadir: President against Congress
+\end{itemize}
+
+\only<2-5>{
+\invisible<2-4>{
+\begin{block}{Jackson's Nadir}
+When the President acts pursuant to an express or implied authorization of Congress, his authority is at its maximum, for it includes all that he possesses in his own right plus all that Congress can delegate. In these circumstances, and in these only, may he be said (for what it may be worth) to personify the federal sovereignty. If his act is held unconstitutional under these circumstances, it usually means that the Federal Government as an undivided whole lacks power. [Such an action] by the President\dots\ would be supported by the strongest of presumptions and the widest latitude of judicial interpretation, and the burden of persuasion would rest heavily upon any who might attack it
+\end{block}
+}
+}
+
+\only<6>{
+\begin{block}{Jackson's Zenith}
+When the President takes measures incompatible with the expressed or implied will of Congress, his power is at its lowest ebb, for then he can rely only upon his own constitutional powers minus any constitutional powers of Congress over the matter\dots
+\end{block}
+\vspace*{7\baselineskip}
+}
+
+\only<7>{
+\begin{block}{Jackson's Zone of Twilight}
+When the President acts in absence of either a congressional grant or denial of authority, he can only rely upon his own independent powers, but there is a zone of twilight in which he and Congress may have concurrent authority, or in which its distribution is uncertain. Therefore, congressional inertia, indifference or quiescence may sometimes, at least as a practical matter, enable, if not invite, measures on independent presidential responsibility. In this area, any actual test of power is likely to depend on the imperatives of events and contemporary imponderables rather than on abstract theories of law
+\end{block}
+\vspace*{1.2\baselineskip}
+}
+
+## Crisis Cases Revisited
+
+\centering
+\begin{tabular}{p{0.2\textwidth} | p{0.3\textwidth} | p{0.3\textwidth}}
+    \multicolumn{1}{c|}{\textbf{Case}} &
+    \multicolumn{1}{c|}{\textbf{Category}} &
+    \multicolumn{1}{c}{\textbf{Result}} \\[0.5em]
+    \hline
+    \vspace{0.05em}\textit{Prize Cases}\newline &
+    \onslide<5->{\vspace{0.05em}\textcolor{Blue}{\textbf{Zone of Twilight}}} &
+    \onslide<5->{\vspace{0.05em}\textcolor{DarkerGreen}{\textbf{Constitutional}}} \\[0.5em]
+    \hline
+    \vspace{0.05em}\textit{Milligan}\newline &
+    \onslide<5->{\vspace{0.05em}\textcolor{Blue}{\textbf{Zone of Twilight}}} &
+    \onslide<5->{\vspace{0.05em}\textcolor{BurntOrange}{\textbf{Unconstitutional}}} \\[0.5em]
+    \hline
+    \vspace{0.05em}\textit{Curtiss-Wright}\newline &
+    \onslide<2->{\vspace{0.05em}\textcolor{DarkerGreen}{\textbf{Zenith}}} &
+    \onslide<2->{\vspace{0.05em}\textcolor{DarkerGreen}{\textbf{Constitutional}}} \\[0.5em]
+    \hline
+    \vspace{0.05em}\textit{Korematsu}\newline &
+    \onslide<3->{\vspace{0.05em}\textcolor{DarkerGreen}{\textbf{Zenith}}} &
+    \onslide<3->{\vspace{0.05em}\textcolor{DarkerGreen}{C\textbf{onstitutional}}} \\[0.5em]
+    \hline
+    \vspace{0.05em}\textit{Youngstown}\newline &
+    \onslide<4->{\vspace{0.05em}\textcolor{BurntOrange}{\textbf{Nadir}}} &
+    \onslide<4->{\vspace{0.05em}\textcolor{BurntOrange}{\textbf{Unconstitutional}}}
+\end{tabular}
+
+## Dames \& Moore v. Regan (1981)
+
+- On November 4, 1979, Iranians seized the U.S. embassy in Tehran and held its personnel hostage
+- President Carter froze all Iranian government assets held in the U.S. via Executive Order authorized by the International Emergency Economic Powers Act
+- Dames \& Moore sued the Iranian government in U.S. federal court, claiming Iran owed the company \$ 3.5 million, and asking for payment from the frozen assets
+- In January of 1981, the U.S. and Iran reached an agreement for the release of the hostages, including a provision that all lawsuits regarding the frozen Iran government assets would be terminated
+- The district court denied attachment of the frozen funds
+- Dames \& Moore then sued Treasury Secretary Don Regan, arguing Regan's orders pursuant to the agreement were outside his power
+
+## Dames \& Moore v. Regan (1981)
+
+- The Supreme Court ruled for the United States
+- Chief Justice Rehnquist followed Jackson's framework, finding
+  + Presidents "have some power to enter into executive agreements without... advice and consent of the Senate"
+  + "Congress has implicitly approved... of claim settlement by executive agreement... Congress placed its stamp of approval on such agreements"
+  + "Just as importantly, Congress has not disapproved of the action taken here"
+- So, the Court does "not decide that the President [has] plenary power to settle claims, even as against foreign governmental entities.... But... [if it is] necessary... to the resolution of a major foreign policy dispute... and... we can conclude that Congress acquiesced... we are not prepared to say that the President lacks the power to settle such claims."
+
+## War Powers Resolution of 1973 (Major Provisions)
+
+\begin{itemize}
+    \item[\S 2(c)] The constitutional powers of the President as Commander-in-Chief... are exercised only pursuant to (1) a declaration of war, (2) specific statutory authorization, or (3) a national emergency created by attack upon the United States....
+    \item[\S 3] The President in every possible instance shall consult with Congress before introducing United States Armed Forces into hostilities... and after every such introduction shall consult regularly with the Congress until United States Armed Forces are no longer engaged in hostilities....
+    \item[\S 4] In the absence of a declaration of war, in any case in which United States Armed Forces are introduced... into hostilities... the president shall submit within 48 hours to the [Congress] a report, in writing.... Whenever United States Armed Forces are introduced into hostilities... the President shall... report to the Congress periodically... but in no event shall he report to the Congress less often than once every six months.
+\end{itemize}
+
+## War Powers Resolution of 1973 (Major Provisions)
+
+\begin{itemize}
+    \item[\S 5(b)] Within sixty calendar days after a report is submitted... the President shall terminate any use of United States Armed Forces... unless the Congress (1) has declared war or has enacted a specific authorization for such use of United States Armed Forces, (2) has extended by law such sixty-day period, or (3) is physically unable to meet as a result of an armed attack...
+    \item[\S 5(c)] Notwithstanding subsection (b), at any time that United States Armed Forces are engaged in hostilities... without a declaration of war or specific statutory authorization, such forces shall be removed by the President if the Congress so directs by concurrent resolution.
+    \item[\S 8(a)] Authority to introduce United States Armed Forces into hostilities... shall not be inferred from any provision of law... [or] any treaty... [unless the law or treaty states] it is intended to constitute specific statutory authorization within the meaning of this joint resolution.
+\end{itemize}
+
+## AUMF
+
+\begin{itemize}
+    \item[\S 2(a)] That  the  President  is  authorized  to  use  all necessary  and  appropriate  force  against  those  nations,  organizations,  or  persons  he  determines  planned,  authorized,  committed, or  aided  the  terrorist  attacks  that  occurred  on  September  11,  2001, or  harbored  such  organizations  or  persons,  in  order  to  prevent any future acts of international terrorism against the United States by such nations, organizations or persons.
+    \item[\S 2(b)] Consistent  with section  8(a)(1)  of  the  War  Powers  Resolution,  the  Congress declares that this section is intended to constitute specific statutory  authorization  within  the  meaning  of  section  5(b)  of  the War Powers Resolution.
+\end{itemize}
+
+## War on Terror Cases
+
+- President Bush issued an executive order authorizing the detainment of enemy combatants in Guantanamo Bay and their trial by military tribunal, and did not allow challenge of the detention in court.
+- This was challenged by a detained U.S. citizen in *Hamdi v. Rumsfeld* (2004). The Court held the AUMF implied the detention power (Jackson Category 1 case), but that Hamdi had to be able to challenge his detention in court.
+- *Hamdan v. Rumsfeld* (2006) outlawed the use of military commissions, though the ruling left open the possibility that such commissions could be authorized by Congress
+- Congress did so in the Military Commissions Act, which also denied federal courts jurisdiction to hear detainees' habeas petitions, but in *Boumediene v. Bush* (2008), the Court struck down the jurisdiction provisions, holding Congress would have to comply with the Suspension Clause to deny habeas
+
+## Zivotofsky: Background
+
+. . .
+
+- Menachem Zivotofsky was born to US citizens living in Jerusalem
+- Foreign Relations Authorization Act \S 214(d): "[f]or purposes of the registration of birth, certification of nationality, or issuance of a passport of a United States citizen born in the city of Jerusalem, the Secretary shall, upon the request of the citizen or [their] legal guardian, record the place of birth as Israel."
+- Zivotofsky's parents sought to have his passport and a consular report of birth abroad list Israel as the place of birth
+- The State Department refused and Zivotofsky's parents sued
+- The trial court dismissed the suit as a political question, and the Court of Appeals for the DC Circuit affirmed, but the U.S. Supreme Court reversed, remanding the case for consideration of the merits
+- On remand, the Court of Appeals held \S 214(d) unconsitutional
+
+## Zivotofsky: Holding and Rationale
+
+. . .
+
+- The Court held the executive branch did not have to follow \S 214(d)
+- This case belongs in Jackson's third category
+- But, the President has the exclusive & conclusive power to recognize foreign states
+- This power stems from the Reception clause, as well as the President's power to make treaties and appoint ambassadors; while historical evidence is mixed on the exclusiveness of the President's power in this area, the Court was persuaded the power was exclusive.
+- Because the President has the exclusive power to grant formal recognition to a foreign sovereign, \S 214(d) infringes on the Executive’s consistent decision to withhold recognition with respect to Jerusalem.
+
+## Zivotofsky: Roberts' Dissent
+
+. . .
+
+\begin{block}{Roberts' dissent}
+Today’s decision is a first: Never before has this Court accepted a President’s direct defiance of an Act of Congress in the field of foreign affairs. We have instead stressed that the President’s power reaches "its lowest ebb" when he contravenes the express will of Congress, "for what is at stake is the equilibrium established by our constitutional system." \textit{Youngstown Sheet \& Tube Co. v. Sawyer}, 343 U. S. 579 –638 (1952) (Jackson, J.,concurring)....\vspace{0.5\baselineskip}
+
+In this case, the President claims the exclusive and preclusive power to recognize foreign sovereigns.... I have serious doubts about that position. The majority places great weight on the Reception Clause....\vspace{0.5\baselineskip}
+\end{block}
+
+## Zivotofsky: Roberts' Dissent
+
+\begin{block}{Roberts' dissent}
+The majority’s other asserted textual bases are even more tenuous....\vspace{0.5\baselineskip}
+
+Precedent and history lend no more weight to the Court’s position. The majority cites dicta suggesting an exclusive executive recognition power, but acknowledges contrary dicta suggesting that the power is shared....\vspace{0.5\baselineskip}
+
+As for history, the majority admits that it too points in both directions....\vspace{0.5\baselineskip}
+
+In sum, although the President has authority over recognition, I am not convinced that the Constitution provides the “conclusive and preclusive” power required to justify defiance of an express legislative mandate.
+\end{block}
