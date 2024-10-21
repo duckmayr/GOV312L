@@ -1,0 +1,1056 @@
+---
+title: "Separation of Powers: Non-Delegation"
+author: "JBrandon Duck-Mayr"
+# date: "`r quack::american_date_format(Sys.Date())`"
+fontsize: 12pt
+header-includes:
+    - \definecolor{BurntOrange}{RGB}{191, 87, 0}
+    - \definecolor{Teal}{RGB}{0, 169, 183}
+    - \definecolor{Blue}{RGB}{0, 95, 134}
+    - \usepackage{verbatim}
+urlcolor: Blue
+output: quack::article
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+\begin{center}
+\textbf{\large Youngstown Sheet \& Tube Co. v. Sawyer (1952)}
+\end{center}
+
+\begin{quote}
+    6-3 decision for Sawyer.
+
+    Justice Black delivered the opinion of the Court.
+    All five other justices in the majority wrote their own concurring opinion;
+    the opinions of Justices Frankfurter and Jackson are excerpted.
+    Chief Justice Vinson filed a dissenting opinion joined by Justices Reed \& Minton.
+\end{quote}
+\vspace{\baselineskip}
+
+\noindent\textbf{MR. JUSTICE BLACK delivered the opinion of the Court.}
+
+We are asked to decide whether the President was acting within his constitutional power
+when he issued an order directing the Secretary of Commerce
+to take possession of and operate most of the Nation's steel mills.
+The mill owners argue that the President's order amounts to lawmaking,
+a legislative function which the Constitution has expressly confided to the Congress,
+and not to the President.
+The Government's position is that the order was made on findings of the President
+that his action was necessary to avert a national catastrophe
+which would inevitably result from a stoppage of steel production,
+and that, in meeting this grave emergency,
+the President was acting within the aggregate of his constitutional powers
+as the Nation's Chief Executive and the Commander in Chief of the Armed Forces of the United States.
+The issue emerges here from the following series of events:
+
+In the latter part of 1951,
+a dispute arose between the steel companies and their employees
+over...
+<!-- terms and conditions that should be included in -->
+new collective bargaining agreements.
+Long-continued conferences failed to resolve the dispute.
+On December 18, 1951, the employees' representative...
+<!-- , United Steelworkers of America, CIO, -->
+gave notice of an intention to strike...
+<!-- when the existing bargaining agreements expired... -->
+<!-- on December 31. -->
+The Federal Mediation and Conciliation Service then intervened...
+<!-- in an effort to get labor and management to agree. -->
+This failing, the President on December 22, 1951, referred the dispute to the Federal Wage Stabilization Board
+to investigate and make recommendations for fair and equitable terms of settlement.
+This Board's report resulted in no settlement.
+On April 4, 1952, the Union gave notice of a nationwide strike called to begin at 12:01 a.m. April 9.
+The indispensability of steel as a component of substantially all weapons and other war materials
+led the President to believe that the proposed work stoppage would immediately jeopardize our national defense
+and that governmental seizure of the steel mills was necessary...
+<!-- in order to assure the continued availability of steel. -->
+Reciting these considerations for his action, the President, a few hours before the strike was to begin, issued Executive Order 10340...
+<!-- The order directed -->
+[directing] the Secretary of Commerce to take possession of most of the steel mills and keep them running...
+<!-- The Secretary immediately issued his own possessory orders, -->
+<!-- calling upon the presidents of the various seized companies to serve as operating managers for the United States. -->
+<!-- They were directed to carry on their activities in accordance with regulations and directions of the Secretary. -->
+The next morning the President sent a message to Congress reporting his action.
+Twelve days later, he sent a second message.
+Congress has taken no action.
+
+Obeying the Secretary's orders under protest,
+the companies brought proceedings against him in the District Court.
+Their complaints charged that the seizure was not authorized by an act of Congress or by any constitutional provisions.
+The District Court was asked to declare the orders of the President and the Secretary invalid...
+<!-- and to issue preliminary and permanent injunctions restraining their enforcement. -->
+Opposing the motion for preliminary injunction,
+the United States asserted that a strike disrupting steel production for even a brief period
+would so endanger the wellbeing and safety of the Nation that the President had "inherent power" to do what he had done---power "supported by the Constitution, by historical precedent, and by court decisions..."
+<!-- The Government also contended that, in any event, no preliminary injunction should be issued, -->
+<!-- because the companies had made no showing that their available legal remedies were inadequate -->
+<!-- or that their injuries from seizure would be irreparable. -->
+Holding against the Government on all points, the District Court, on April 30,
+issued a preliminary injunction...
+<!-- restraining the Secretary from ``continuing the seizure and possession of the plants... -->
+<!-- and from acting under the purported authority of Executive Order No. 10340.'' -->
+On the same day, the Court of Appeals stayed the District Court's injunction.
+Deeming it best that the issues raised be promptly decided by this Court,
+we granted certiorari...
+<!-- on May 3 and set the cause for argument on May 12. -->
+
+Two crucial issues have developed:
+First. Should final determination of the constitutional validity of the President's order
+be made in this case which has proceeded no further than the preliminary injunction stage?
+Second. If so, is the seizure order within the constitutional power of the President?
+
+\begin{center}
+I
+\end{center}
+
+\begin{comment}
+It is urged that there were nonconstitutional grounds upon which the District Court could have denied the preliminary injunction,
+and thus have followed the customary judicial practice of declining to reach and decide constitutional questions until compelled to do so.
+On this basis, it is argued that equity's extraordinary injunctive relief should have been denied because
+(a) seizure of the companies' properties did not inflict irreparable damages,
+and (b) there were available legal remedies adequate to afford compensation for any possible damages which they might suffer.
+While separately argued by the Government, these two contentions are here closely related, if not identical.
+Arguments as to both rest in large part on the Government's claim that, should the seizure ultimately be held unlawful,
+the companies could recover full compensation in the Court of Claims for the unlawful taking.
+Prior cases in this Court have cast doubt on the right to recover in the Court of Claims
+on account of properties unlawfully taken by government officials for public use
+as these properties were alleged to have been.
+Moreover, seizure and governmental operation of these going businesses were bound to result in many present and future damages of such nature as to be difficult,
+if not incapable, of measurement.
+Viewing the case this way, and in the light of the facts presented,
+the District Court saw no reason for delaying decision of the constitutional validity of the orders.
+We agree with the District Court, and can see no reason why that question was not ripe for determination on the record presented.
+We shall therefore consider and determine that question now.
+\end{comment}
+
+[The government argued the district court should have waited to answer the constitutional question,
+since a preliminary injunction was not needed because the steel mills could have just sued for whatever damages they suffered after the fact.
+The Court held the district court did not err in considering the constitutional question,
+and decided to proceed to consider the question itself.]
+
+\begin{center}
+II
+\end{center}
+
+The President's power, if any, to issue the order must stem either from an act of Congress or from the Constitution itself.
+There is no statute that expressly authorizes the President to take possession of property as he did here...
+<!-- Nor is there any act of Congress to which our attention has been directed from which such a power can fairly be implied. -->
+Indeed, we do not understand the Government to rely on statutory authorization for this seizure...
+<!-- There are two statutes which do authorize the President to take both personal and real property under certain conditions. -->
+<!-- However, the Government admits that these conditions were not met, and that the President's order was not rooted in either of the statutes. -->
+<!-- The Government refers to the seizure provisions of one of these statutes (§ 201(b) of the Defense Production Act) -->
+<!-- as ``much too cumbersome, involved, and time-consuming for the crisis which was at hand.'' -->
+
+Moreover, the use of the seizure technique to solve labor disputes in order to prevent work stoppages was not only unauthorized by any congressional enactment;
+prior to this controversy, Congress had refused to adopt that method of settling labor disputes...
+<!-- When the Taft-Hartley Act was under consideration in 1947, Congress rejected an amendment which would have authorized such governmental seizures in cases of emergency. -->
+Apparently it was thought that the technique of seizure...
+<!-- , like that of compulsory arbitration, -->
+would interfere with the process of collective bargaining.
+Consequently, the plan Congress adopted in that Act did not provide for seizure under any circumstances.
+Instead, the plan sought to bring about settlements by use of
+[various other tools]...
+<!-- the customary devices of mediation, conciliation, investigation by boards of inquiry, and public reports. -->
+<!-- In some instances, temporary injunctions were authorized to provide cooling-off periods. -->
+All this failing, unions were left free to strike...
+<!-- after a secret vote by employees as to whether they wished to accept their employers' final settlement offer. -->
+
+It is clear that, if the President had authority to issue the order he did, it must be found in some provision of the Constitution.
+And it is not claimed that express constitutional language grants this power to the President.
+The contention is that presidential power should be implied from the aggregate of his powers under the Constitution.
+Particular reliance is placed on provisions in Article II which say that
+"The executive Power shall be vested in a President...";
+that "he shall take Care that the Laws be faithfully executed",
+and that he "shall be Commander in Chief of the Army and Navy of the United States."
+
+The order cannot properly be sustained as an exercise of the President's military power as Commander in Chief of the Armed Forces...
+<!-- The Government attempts to do so by citing a number of cases upholding broad powers in military commanders engaged in day-to-day fighting in a theater of war. -->
+<!-- Such cases need not concern us here. -->
+Even though ``theater of war'' be an expanding concept,
+we cannot with faithfulness to our constitutional system hold that the Commander in Chief of the Armed Forces
+has the ultimate power as such to take possession of private property...
+<!-- in order to keep labor disputes from stopping production. -->
+This is a job for the Nation's lawmakers, not for its military authorities.
+
+Nor can the seizure order be sustained because of the several constitutional provisions that grant executive power to the President.
+In the framework of our Constitution, the President's power to see that the laws are faithfully executed refutes the idea that he is to be a lawmaker.
+The Constitution limits his functions in the lawmaking process to the recommending of laws he thinks wise and the vetoing of laws he thinks bad...
+<!-- And the Constitution is neither silent nor equivocal about who shall make laws which the President is to execute. -->
+<!-- The first section of the first article says that ``All legislative Powers herein granted shall be vested in a Congress of the United States\dots '' -->
+<!-- After granting many powers to the Congress, Article I goes on to provide that Congress may -->
+<!-- ``make all Laws which shall be necessary and proper for carrying into Execution the foregoing Powers, -->
+<!-- and all other Powers vested by this Constitution in the Government of the United States, or in any Department or Officer thereof.'' -->
+
+The President's order does not direct that a congressional policy be executed in a manner prescribed by Congress---it directs that a presidential policy be executed in a manner prescribed by the President...
+<!-- The preamble of the order itself, like that of many statutes, sets out reasons why the President believes certain policies should be adopted, proclaims these policies as rules of conduct to be followed, and again, like a statute, authorizes a government official to promulgate additional rules and regulations consistent with the policy proclaimed and needed to carry that policy into execution. -->
+The power of Congress to adopt such public policies as those proclaimed by the order is beyond question.
+It can authorize the taking of private property for public use.
+It can make laws regulating the relationships between employers and employees...
+<!-- , prescribing rules designed to settle labor disputes, -->
+<!-- and fixing wages and working conditions in certain fields of our economy. -->
+The Constitution does not subject this lawmaking power of Congress to presidential or military supervision or control.
+
+It is said that other Presidents, without congressional authority, have taken possession of private business enterprises in order to settle labor disputes.
+But even if this be true, Congress has not thereby lost its exclusive constitutional authority...
+<!-- to make laws necessary and proper -->
+<!-- to carry out the powers vested by the Constitution ``in the Government of the United States, or any Department or Officer thereof.'' -->
+
+The Founders of this Nation entrusted the lawmaking power to the Congress alone in both good and bad times.
+It would do no good to recall the historical events, the fears of power, and the hopes for freedom that lay behind their choice.
+Such a review would but confirm our holding that this seizure order cannot stand.
+
+The judgment of the District Court is
+
+\textit{Affirmed}.
+
+\vspace{\baselineskip}
+\textbf{MR. JUSTICE FRANKFURTER, concurring.}
+
+Although the considerations relevant to the legal enforcement of the principle of separation of powers
+seem to me more complicated and flexible than may appear from what MR. JUSTICE BLACK has written,
+I join his opinion because I thoroughly agree with the application of the principle to the circumstances of this case.
+Even though such differences in attitude toward this principle may be merely differences in emphasis and nuance,
+they can hardly be reflected by a single opinion for the Court.
+Individual expression of views in reaching a common result is therefore important\dots
+
+\vspace{\baselineskip}
+\textbf{MR. JUSTICE JACKSON, concurring.}
+
+<!-- That -->
+...comprehensive and undefined presidential powers hold both practical advantages and grave dangers for the country...
+<!-- will impress anyone who has served as legal adviser to a President in time of transition and public anxiety. While an interval of detached reflection may temper teachings of that experience, they probably are a more realistic influence on my views than the conventional materials of judicial decision which seem unduly to accentuate doctrine and legal fiction. But, as we approach the question of presidential power, we half overcome mental hazards by recognizing them. The opinions of judges, no less than executives and publicists, often suffer the infirmity of confusing the issue of a power's validity with the cause it is invoked to promote, of confounding the permanent executive office with its temporary occupant. -->
+The tendency is strong to emphasize transient results upon policies---such as wages or stabilization---and lose sight of enduring consequences upon the balanced power structure of our Republic.
+
+A judge...
+<!-- , like an executive adviser, -->
+may be surprised at the poverty of really useful and unambiguous authority applicable to concrete problems of executive power...
+<!-- as they actually present themselves. -->
+Just what our forefathers did envision, or would have envisioned had they foreseen modern conditions, must be divined from materials almost as enigmatic as the dreams Joseph was called upon to interpret for Pharaoh.
+A century and a half of partisan debate and scholarly speculation yields no net result, but only supplies more or less apt quotations from respected sources on each side of any question...
+<!-- They largely cancel each other. -->
+And court decisions are indecisive because of the judicial practice of dealing with the largest questions in the most narrow way.
+
+The actual art of governing under our Constitution does not, and cannot, conform to judicial definitions of the power of any of its branches based on isolated clauses...
+<!-- , or even single Articles torn from context. -->
+While the Constitution diffuses power the better to secure liberty, it also contemplates that practice will integrate the dispersed powers into a workable government. It enjoins upon its branches separateness but interdependence, autonomy but reciprocity...
+<!-- Presidential powers are not fixed but fluctuate depending upon their disjunction or conjunction with those of Congress. -->
+We may well begin by a somewhat over-simplified grouping of practical situations in which a President may doubt, or others may challenge, his powers, and by distinguishing roughly the legal consequences of this factor of relativity.
+
+1. When the President acts pursuant to an express or implied authorization of Congress, his authority is at its maximum, for it includes all that he possesses in his own right plus all that Congress can delegate.
+In these circumstances, and in these only, may he be said (for what it may be worth) to personify the federal sovereignty.
+If his act is held unconstitutional under these circumstances, it usually means that the Federal Government, as an undivided whole, lacks power.
+A seizure executed by the President pursuant to an Act of Congress would be supported by the strongest of presumptions and the widest latitude of judicial interpretation,
+and the burden of persuasion would rest heavily upon any who might attack it.
+
+2. When the President acts in absence of either a congressional grant or denial of authority, he can only rely upon his own independent powers, but there is a zone of twilight in which he and Congress may have concurrent authority, or in which its distribution is uncertain...
+<!-- Therefore, congressional inertia, indifference or quiescence may sometimes, at least, as a practical matter, enable, if not invite, measures on independent presidential responsibility. -->
+In this area, any actual test of power is likely to depend on the imperatives of events and contemporary imponderables, rather than on abstract theories of law.
+
+3. When the President takes measures incompatible with the expressed or implied will of Congress, his power is at its lowest ebb,
+for then he can rely only upon his own constitutional powers minus any constitutional powers of Congress over the matter.
+Courts can sustain exclusive presidential control in such a case only by disabling the Congress from acting upon the subject.
+Presidential claim to a power at once so conclusive and preclusive must be scrutinized with caution,
+for what is at stake is the equilibrium established by our constitutional system.
+
+Into which of these classifications does this executive seizure of the steel industry fit?
+It is eliminated from the first by admission, for it is conceded that no congressional authorization exists for this seizure...
+<!-- That takes away also the support of the many precedents and declarations which were made in relation, and must be confined, to this category. -->
+
+Can it then be defended under flexible tests available to the second category?
+It seems clearly eliminated from that class, because Congress has not left seizure of private property an open field,
+but has covered it by...
+<!-- %three -->
+statutory policies inconsistent with this seizure...
+\begin{comment}
+In cases where the purpose is to supply needs of the Government itself, two courses are provided:
+one, seizure of a plant which fails to comply with obligatory orders placed by the Government;
+another, condemnation of facilities, including temporary use under the power of eminent domain.
+The third is applicable where it is the general economy of the country that is to be protected, rather than exclusive governmental interests.
+None of these were invoked.
+In choosing a different and inconsistent way of his own,
+the President cannot claim that it is necessitated or invited by failure of Congress to legislate upon the occasions,
+grounds and methods for seizure of industrial properties.
+\end{comment}
+
+This leaves the current seizure to be justified only by the severe tests under the third grouping,
+where it can be supported only by any remainder of executive power after subtraction of such powers as Congress may have over the subject.
+In short, we can sustain the President only by holding that seizure of such strike-bound industries is within his domain and beyond control by Congress.
+Thus, this Court's first review of such seizures occurs under circumstances which leave presidential power most vulnerable to attack
+and in the least favorable of possible constitutional postures\dots
+
+\begin{comment}
+I did not suppose, and I am not persuaded, that history leaves it open to question, at least in the courts, that the executive branch,
+like the Federal Government as a whole, possesses only delegated powers.
+The purpose of the Constitution was not only to grant power, but to keep it from getting out of hand.
+However, because the President does not enjoy unmentioned powers does not mean that the mentioned ones should be narrowed by a niggardly construction.
+Some clauses could be made almost unworkable, as well as immutable, by refusal to indulge some latitude of interpretation for changing times.
+I have heretofore, and do now, give to the enumerated powers the scope and elasticity afforded by what seem to be reasonable, practical implications,
+instead of the rigidity dictated by a doctrinaire textualism.
+\end{comment}
+
+The Solicitor General seeks the power of seizure in three clauses of the Executive Article, the first
+<!-- reading, -->
+<!-- ``The executive Power shall be vested in a President of the United States of America.'' -->
+<!-- Lest I be thought to exaggerate, I quote the interpretation which his brief puts upon it: -->
+[being the Vesting Clause. The Solicitor General's brief says,]
+"In our view, this clause constitutes a grant of all the executive powers of which the Government is capable..."
+<!-- If that be true, it is difficult to see why the forefathers bothered to add several specific items, including some trifling ones... -->
+
+\begin{comment}
+The example of such unlimited executive power that must have most impressed the forefathers was the prerogative exercised by George III,
+and the description of its evils in the Declaration of Independence leads me to doubt that they were creating their new Executive in his image.
+Continental European examples were no more appealing.
+And, if we seek instruction from our own times, we can match it only from the executive powers in those governments we disparagingly describe as totalitarian.
+\end{comment}
+I cannot accept the view that this clause is a grant in bulk of all conceivable executive power,
+but regard it as an allocation to the presidential office of the generic powers thereafter stated.
+
+The clause on which the Government next relies is that "The President shall be Commander in Chief of the Army and Navy of the United States..."
+These cryptic words have given rise to some of the most persistent controversies in our constitutional history.
+Of course, they imply something more than an empty title.
+<!-- But just what authority goes with the name has plagued presidential advisers... who would not waive or narrow it by nonassertion, -->
+<!-- yet cannot say where it begins or ends. -->
+It undoubtedly puts the Nation's armed forces under presidential command...
+<!-- Hence, this loose appellation is sometimes advanced -->
+[which is used] as support for any presidential action, internal or external, involving use of force,
+the idea being that it vests power to do anything, anywhere, that can be done with an army or navy...
+
+\begin{comment}
+That seems to be the logic of an argument tendered at our bar---that the President having, on his own responsibility,
+sent American troops abroad derives from that act "affirmative power" to seize the means of producing a supply of steel for them.
+To quote, ``Perhaps the most forceful illustration of the scope of Presidential power in this connection is the fact that American troops in Korea,
+whose safety and effectiveness are so directly involved here, were sent to the field by an exercise of the President's constitutional powers.''
+
+Thus, it is said, he has invested himself with ``war powers.''
+\end{comment}
+
+I cannot foresee all that it might entail if the Court should indorse this argument.
+Nothing in our Constitution is plainer than that declaration of a war is entrusted only to Congress.
+Of course, a state of war may, in fact, exist without a formal declaration.
+But no doctrine that the Court could promulgate would seem to me more sinister and alarming than...
+<!-- that a President whose conduct of foreign affairs is so largely uncontrolled, and often even is unknown, -->
+<!-- can vastly enlarge -->
+[an unrestrained president growing] his mastery over the internal affairs of the country by his own commitment of the Nation's armed forces to some foreign venture...
+
+\begin{comment}
+I do not, however, find it necessary or appropriate to consider the legal status of the Korean enterprise to discountenance argument based on it.
+
+Assuming that we are in a war de facto, whether it is or is not a war de jure,
+does that empower the Commander in Chief to seize industries he thinks necessary to supply our army?
+The Constitution expressly places in Congress power "to raise and support Armies" and "to provide and maintain a Navy..."
+<!-- This certainly lays upon Congress primary responsibility for supplying the armed forces. -->
+<!-- Congress alone controls the raising of revenues and their appropriation, -->
+<!-- and may determine in what manner and by what means they shall be spent for military and naval procurement. -->
+I suppose no one would doubt that Congress can take over war supply as a Government enterprise.
+On the other hand, if Congress sees fit to rely on free private enterprise collectively bargaining with free labor for support and maintenance of our armed forces,
+can the Executive, because of lawful disagreements incidental to that process, seize the facility for operation upon Government-imposed terms?
+
+There are indications that the Constitution did not contemplate that the title Commander in Chief of the Army and Navy
+will constitute him also Commander in Chief of the country, its industries and its inhabitants.
+He has no monopoly of ``war powers,'' whatever they are.
+While Congress cannot deprive the President of the command of the army and navy, only Congress can provide him an army or navy to command.
+It is also empowered to make rules for the ``Government and Regulation of land and naval Forces,''
+by which it may, to some unknown extent, impinge upon even command functions.
+
+That military powers of the Commander in Chief were not to supersede representative government of internal affairs
+seems obvious from the Constitution and from elementary American history.
+Time out of mind, and even now, in many parts of the world, a military commander can seize private housing to shelter his troops.
+Not so, however, in the United States, for the Third Amendment says,
+``No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.''
+
+Thus, even in war time, his seizure of needed military housing must be authorized by Congress.
+It also was expressly left to Congress to ``provide for calling forth the Militia to execute the Laws of the Union, suppress Insurrections and repel Invasions\dots ''
+Such a limitation on the command power, written at a time when the militia, rather than a standing army,
+was contemplated as the military weapon of the Republic, underscores the Constitution's policy that Congress,
+not the Executive, should control utilization of the war power as an instrument of domestic policy.
+Congress, fulfilling that function, has authorized the President to use the army to enforce certain civil rights.
+On the other hand, Congress has forbidden him to use the army for the purpose of executing general laws
+except when expressly authorized by the Constitution or by Act of Congress. %%%%%%
+
+While broad claims under this rubric often have been made, advice to the President in specific matters usually has carried overtones that powers,
+even under this head, are measured by the command functions usual to the topmost officer of the army and navy.
+Even then, heed has been taken of any efforts of Congress to negative his authority.
+
+We should not use this occasion to circumscribe, much less to contract, the lawful role of the President as Commander in Chief.
+I should indulge the widest latitude of interpretation to sustain his exclusive function to command the instruments of national force,
+at least when turned against the outside world for the security of our society.
+But, when it is turned inward not because of rebellion, but because of a lawful economic struggle between industry and labor, it should have no such indulgence.
+His command power is not such an absolute as might be implied from that office in a militaristic system,
+but is subject to limitations consistent with a constitutional Republic whose law and policymaking branch is a representative Congress.
+The purpose of lodging dual titles in one man was to insure that the civilian would control the military
+ not to enable the military to subordinate the presidential office.
+ No penance would ever expiate the sin against free government of holding that a President can escape control of executive powers
+ by law through assuming his military role.
+ What the power of command may include I do not try to envision, but I think it is not a military prerogative,
+ without support of law, to seize persons or property because they are important or even essential for the military and naval establishment.
+\end{comment}
+
+The third clause in which the Solicitor General finds seizure powers is that "he shall take Care that the Laws be faithfully executed..."
+That authority must be matched against words of the Fifth Amendment that
+"No person shall be... deprived of life, liberty or property, without due process of law..."      
+<!-- One gives a governmental authority that reaches so far as there is law, the other gives a private right that authority shall go no farther. -->
+<!-- These signify about all there is of the principle that ours is a government of laws, not of men, and that we submit ourselves to rulers only if under rules. -->
+
+The Solicitor General lastly grounds support of the seizure upon nebulous, inherent powers never expressly granted,
+but said to have accrued to the office from the customs and claims of preceding administrations.
+The plea is for a resulting power to deal with a crisis or an emergency according to the necessities of the case,
+the unarticulated assumption being that necessity knows no law...
+
+\begin{comment}
+Loose and irresponsible use of adjectives colors all nonlegal and much legal discussion of presidential powers.
+``Inherent'' powers, ``implied'' powers, ``incidental'' powers, ``plenary'' powers, ``war'' powers and ``emergency'' powers are used,
+often interchangeably and without fixed or ascertainable meanings.
+
+The vagueness and generality of the clauses that set forth presidential powers afford a plausible basis for pressures within and without an administration
+for presidential action beyond that supported by those whose responsibility it is to defend his actions in court.
+The claim of inherent and unrestricted presidential powers has long been a persuasive dialectical weapon in political controversy.
+While it is not surprising that counsel should grasp support from such unadjudicated claims of power,
+a judge cannot accept self-serving press statements of the attorney for one of the interested parties as authority in answering a constitutional question,
+even if the advocate was himself. But prudence has counseled that actual reliance on such nebulous claims stop short of provoking a judicial test.
+
+The Solicitor General, acknowledging that Congress has never authorized the seizure here, says practice of prior Presidents has authorized it.
+He seeks color of legality from claimed executive precedents, chief of which is President Roosevelt's seizure, on June 9, 1941,
+of the California plant of the North American Aviation Company.
+Its superficial similarities with the present case, upon analysis, yield to distinctions so decisive that it cannot be regarded as even a precedent,
+much less an authority for the present seizure.
+\end{comment}
+
+The appeal...
+<!-- , however, -->
+that we declare the existence of inherent powers ex necessitate to meet an emergency asks us to do what many think would be wise,
+although it is something the forefathers omitted.
+They knew what emergencies were...
+<!-- , knew the pressures they engender for authoritative action, knew, too, how they afford a ready pretext for usurpation. -->
+<!-- We may also suspect that they suspected that emergency powers would tend to kindle emergencies. -->
+<!-- Aside from suspension of the privilege of the writ of habeas corpus in time of rebellion or invasion, when the public safety may require it, -->
+<!-- they made no express provision for exercise of extraordinary authority because of a crisis. -->
+<!-- I do not think we rightfully may so amend their work, and, if we could, I am not convinced it would be wise to do so, -->
+<!-- although many modern nations have forthrightly recognized that war and economic crises may upset the normal balance between liberty and authority\dots -->
+
+\begin{comment}
+Their experience with emergency powers may not be irrelevant to the argument here that we should say that the Executive, of his own volition,
+can invest himself with undefined emergency powers.
+
+Germany, after the First World War, framed the Weimar Constitution, designed to secure her liberties in the Western tradition.
+However, the President of the Republic, without concurrence of the Reichstag,
+was empowered temporarily to suspend any or all individual rights if public safety and order were seriously disturbed or endangered.
+This proved a temptation to every government, whatever its shade of opinion, and, in 13 years, suspension of rights was invoked on more than 250 occasions.
+Finally, Hitler persuaded President Von Hindenberg to suspend all such rights, and they were never restored.
+
+The French Republic provided for a very different kind of emergency government known as the ``state of siege.''
+It differed from the German emergency dictatorship, particularly in that emergency powers could not be assumed at will by the Executive,
+but could only be granted as a parliamentary measure. And it did not, as in Germany, result in a suspension or abrogation of law,
+but was a legal institution governed by special legal rules and terminable by parliamentary authority.
+
+Great Britain also has fought both World Wars under a sort of temporary dictatorship created by legislation.
+As Parliament is not bound by written constitutional limitations,
+it established a crisis government simply by delegation to its Ministers of a larger measure than usual of its own unlimited power,
+which is exercised under its supervision by Ministers whom it may dismiss.
+This has been called the ``high-water mark in the voluntary surrender of liberty,'' but, as Churchill put it,
+``Parliament stands custodian of these surrendered liberties,
+and its most sacred duty will be to restore them in their fullness when victory has crowned our exertions and our perseverance.''
+
+Thus, parliamentary control made emergency powers compatible with freedom.
+\end{comment}
+
+<!-- % This -->
+<!-- [C]ontemporary foreign experience may be inconclusive as to the wisdom of lodging emergency powers somewhere in a modern government. -->
+<!-- But it suggests that -->
+...emergency powers are consistent with free government only when their control is lodged elsewhere than in the Executive who exercises them.
+That is the safeguard that would be nullified by our adoption of the "inherent powers..."
+<!-- formula. Nothing in my experience convinces me that such risks are warranted by any real necessity, although such powers would, of course, be an executive convenience. -->
+
+In the practical working of our Government, we already have evolved a technique within the framework of the Constitution
+by which normal executive powers may be considerably expanded to meet an emergency.
+Congress may and has granted extraordinary authorities which lie dormant in normal times
+but may be called into play by the Executive in war or...
+<!-- upon proclamation of a -->
+national emergency...
+\begin{comment}
+In 1939, upon congressional request, the Attorney General listed ninety-nine such separate statutory grants by Congress of emergency or wartime executive powers.
+They were invoked from time to time as need appeared. Under this procedure,
+we retain Government by law---special, temporary law, perhaps, but law nonetheless.
+The public may know the extent and limitations of the powers that can be asserted,
+and persons affected may be informed from the statute of their rights and duties.
+\end{comment}
+
+In view of the ease...
+<!-- , expedition and safety -->
+with which Congress can grant and has granted large emergency powers...
+<!-- , certainly ample to embrace this crisis, -->
+I am quite unimpressed with the argument that we should affirm possession of them without statute.
+Such power either has no beginning or it has no end...
+<!-- If it exists, it need submit to no legal restraint. -->
+I am not alarmed that it would plunge us straightway into dictatorship, but it is at least a step in that wrong direction...
+
+<!--
+As to whether there is imperative necessity for such powers,
+it is relevant to note the gap that exists between the President's paper powers and his real powers.
+The Constitution does not disclose the measure of the actual controls wielded by the modern presidential office.
+That instrument must be understood as an Eighteenth-Century sketch of a government hoped for,
+not as a blueprint of the Government that is.
+Vast accretions of federal power, eroded from that reserved by the States,
+have magnified the scope of presidential activity.
+Subtle shifts take place in the centers of real power that do not show on the face of the Constitution.
+
+Executive power has the advantage of concentration in a single head in whose choice the whole Nation has a part,
+making him the focus of public hopes and expectations.
+In drama, magnitude and finality, his decisions so far overshadow any others that,
+almost alone, he fills the public eye and ear.
+No other personality in public life can begin to compete with him in access to the public mind through modern methods of communications.
+By his prestige as head of state and his influence upon public opinion,
+he exerts a leverage upon those who are supposed to check and balance his power which often cancels their effectiveness.
+
+Moreover, rise of the party system has made a significant extraconstitutional supplement to real executive power.
+No appraisal of his necessities is realistic which overlooks that he heads a political system, as well as a legal system.
+Party loyalties and interests, sometimes more binding than law, extend his effective control into branches of government other than his own,
+and he often may win, as a political leader, what he cannot command under the Constitution.
+Indeed, Woodrow Wilson, commenting on the President as leader both of his party and of the Nation, observed,
+"If he rightly interpret the national thought and boldly insist upon it, he is irresistible\dots\
+His office is anything he has the sagacity and force to make it."
+-->
+
+I cannot be brought to believe that this country will suffer if the Court refuses further to aggrandize the presidential office...
+<!-- , already so potent and so relatively immune from judicial review,at the expense of Congress. -->
+
+But I have no illusion that...
+<!-- any decision by -->
+this Court can keep power in the hands of Congress if it is not wise and timely in meeting its problems.
+A crisis that challenges the President...
+<!-- equally, or perhaps primarily, -->
+challenges Congress...
+<!-- If not good law, -->
+there was worldly wisdom in the maxim attributed to Napoleon that "The tools belong to the man who can use them."
+We may say that power to legislate for emergencies belongs
+<!-- in the hands of -->
+[to] Congress,
+but only Congress itself can prevent power from slipping through its fingers...
+
+\begin{comment}
+The essence of our free Government is ``leave to live by no man's leave, underneath the law''---to be governed by those impersonal forces which we call law.
+Our Government is fashioned to fulfill this concept so far as humanly possible.
+The Executive, except for recommendation and veto, has no legislative power.
+The executive action we have here originates in the individual will of the President, and represents an exercise of authority without law.
+No one, perhaps not even the President, knows the limits of the power he may seek to exert in this instance,
+and the parties affected cannot learn the limit of their rights.
+We do not know today what powers over labor or property would be claimed to flow from Government possession if we should legalize it,
+what rights to compensation would be claimed or recognized, or on what contingency it would end.
+With all its defects, delays and inconveniences,
+men have discovered no technique for long preserving free government except that the Executive be under the law,
+and that the law be made by parliamentary deliberations.
+
+Such institutions may be destined to pass away. But it is the duty of the Court to be last, not first, to give them up.
+\end{comment}
+
+\vspace{\baselineskip}
+\textbf{MR. CHIEF JUSTICE VINSON, dissenting.}
+
+\begin{comment}
+The President of the United States directed the Secretary of Commerce to take temporary possession of the Nation's steel mills during the existing emergency because
+
+"a work stoppage would immediately jeopardize and imperil our national defense and the defense of those joined with us in resisting aggression, and would add to the continuing danger of our soldiers, sailors, and airmen engaged in combat in the field."
+\end{comment}
+
+\dots
+The District Court ordered the mills returned to their private owners
+<!-- on the ground that -->
+[because] the President's action was beyond his powers under the Constitution.
+
+This Court affirms...
+<!-- \begin{comment} -->
+<!-- Some members of the Court are of the view that the President is without power to act in time of crisis in the absence of express statutory authorization. -->
+<!-- Other members of the Court affirm on the basis of their reading of certain statutes. -->
+<!-- \end{comment} -->
+<!-- Because we cannot agree that affirmance is proper on any ground, -->
+<!-- and because of the transcending importance of the questions presented not only in this critical litigation, -->
+<!-- but also to the powers of the President and of future Presidents to act in time of crisis, -->
+we are compelled to register this dissent\dots
+
+\begin{comment}
+I
+
+In passing upon the question of Presidential powers in this case, we must first consider the context in which those powers were exercised.
+
+Page 343 U. S. 668
+
+Those who suggest that this is a case involving extraordinary powers should be mindful that these are extraordinary times. A world not yet recovered from the devastation of World War II has been forced to face the threat of another and more terrifying global conflict.
+
+Accepting in full measure its responsibility in the world community, the United States was instrumental in securing adoption of the United Nations Charter, approved by the Senate by a vote of 89 to 2. The first purpose of the United Nations is to
+
+"maintain international peace and security, and, to that end, to take effective collective measures for the prevention and removal of threats to the peace, and for the suppression of acts of aggression or other breaches of the peace. . . . [Footnote 7/1]"
+
+In 1950, when the United Nations called upon member nations "to render every assistance" to repel aggression in Korea, the United States furnished its vigorous support. [Footnote 7/2] For almost two full years, our armed forces have been fighting in Korea, suffering casualties of over 108,000 men. Hostilities have not abated. The "determination of the United Nations to continue its action in Korea to meet the aggression" has been reaffirmed. [Footnote 7/3] Congressional support of the action in Korea has been manifested by provisions for increased military manpower and equipment and for economic stabilization, as hereinafter described.
+
+Further efforts to protect the free world from aggression are found in the congressional enactments of the Truman Plan for assistance to Greece and Turkey [Footnote 7/4] and
+
+Page 343 U. S. 669
+
+the Marshall Plan for economic aid needed to build up the strength of our friends in Western Europe. [Footnote 7/5] In 1949, the Senate approved the North Atlantic Treaty under which each member nation agrees that an armed attack against one is an armed attack against all. [Footnote 7/6] Congress immediately implemented the North Atlantic Treaty by authorizing military assistance to nations dedicated to the principles of mutual security under the United Nations Charter. [Footnote 7/7] The concept of mutual security recently has been extended by treaty to friends in the Pacific. [Footnote 7/8]
+
+Our treaties represent not merely legal obligations, but show congressional recognition that mutual security for the free world is the best security against the threat of aggression on a global scale. The need for mutual security is shown by the very size of the armed forces outside the free world. Defendant's brief informs us that the Soviet Union maintains the largest air force in the world, and maintains ground forces much larger than those presently available to the United States and the countries joined with us in mutual security arrangements. Constant international tensions are cited to demonstrate how precarious is the peace.
+
+Even this brief review of our responsibilities in the world community discloses the enormity of our undertaking. Success of these measures may, as has often been
+
+Page 343 U. S. 670
+
+observed, dramatically influence the lives of many generations of the world's peoples yet unborn. Alert to our responsibilities, which coincide with our own self-preservation through mutual security, Congress has enacted a large body of implementing legislation. As an illustration of the magnitude of the over-all program, Congress has appropriated \$130 billion for our own defense and for military assistance to our allies since the June, 1950, attack in Korea.
+
+In the Mutual Security Act of 1951, Congress authorized
+
+"military, economic, and technical assistance to friendly countries to strengthen the mutual security and individual and collective defenses of the free world. . . . [Footnote 7/9]"
+
+Over \$5 1/2 billion were appropriated for military assistance for fiscal year 1952, the bulk of that amount to be devoted to purchase of military equipment. [Footnote 7/10] A request for over \$7 billion for the same purpose for fiscal year 1953 is currently pending in Congress. [Footnote 7/11] In addition to direct shipment of military equipment to nations of the free world, defense production in those countries relies upon shipment of machine tools and allocation of steel tonnage from the United States. [Footnote 7/12]
+
+Congress also directed the President to build up our own defenses. Congress, recognizing the "grim fact . . . that the United States is now engaged in a struggle for survival" and that "it is imperative that we now take those necessary steps to make our strength equal to the peril of the hour," granted authority to draft men into
+
+Page 343 U. S. 671
+
+the armed forces. [Footnote 7/13] As a result, we now have over 3,500,000 men in our armed forces. [Footnote 7/14]
+
+Appropriations for the Department of Defense; which had averaged less than \$13 billion per year for the three years before attack in Korea, were increased by Congress to \$48 billion for fiscal year 1951 and to \$60 billion for fiscal year 1952. [Footnote 7/15] A request for \$51 billion for the Department of Defense for fiscal year 1953 is currently pending in Congress. [Footnote 7/16] The bulk of the increase is for military equipment and supplies -- guns, tanks, ships, planes and ammunition -- all of which require steel. Other defense programs requiring great quantities of steel include the large scale expansion of facilities for the Atomic Energy Commission [Footnote 7/17] and the expansion of the Nation's productive capacity affirmatively encouraged by Congress. [Footnote 7/18]
+
+Congress recognized the impact of these defense programs upon the economy. Following the attack in Korea, the President asked for authority to requisition property and to allocate and fix priorities for scarce goods. In the Defense Production Act of 1950, Congress granted the powers requested and, in addition, granted power to stabilize prices and wages and to provide for settlement
+
+Page 343 U. S. 672
+
+of labor disputes arising in the defense program. [Footnote 7/19] The Defense Production Act was extended in 1951, a Senate Committee noting that, in the dislocation caused by the programs for purchase of military equipment "lies the seed of an economic disaster that might well destroy the military might we are straining to build." [Footnote 7/20] Significantly, the Committee examined the problem "in terms of just one commodity, steel," and found "a graphic picture of the over-all inflationary danger growing out of reduced civilian supplies and rising incomes." Even before Korea, steel production at levels above theoretical 100\% capacity was not capable of supplying civilian needs alone. Since Korea, the tremendous military demand for steel has far exceeded the increases in productive capacity. This Committee emphasized that the shortage of steel, even with the mills operating at full capacity, coupled with increased civilian purchasing power, presented grave danger of disastrous inflation. [Footnote 7/21]
+
+The President has the duty to execute the foregoing legislative programs. Their successful execution depends upon continued production of steel and stabilized prices for steel. Accordingly, when the collective bargaining agreements between the Nation's steel producers and their employees, represented by the United Steel Workers, were due to expire on December 31, 1951, and a strike shutting down the entire basic steel industry was threatened, the President acted to avert a complete shutdown of steel production. On December 22, 1951, he certified the dispute to the Wage Stabilization Board, requesting that the Board investigate the dispute and promptly report its recommendation as to fair and equitable terms of settlement. The Union complied with the President's
+
+Page 343 U. S. 673
+
+request and delayed its threatened strike while the dispute was before the Board. After a special Board panel had conducted hearings and submitted a report, the full Wage Stabilization Board submitted its report and recommendations to the President on March 20, 1952.
+
+The Board's report was acceptable to the Union, but was rejected by plaintiffs. The Union gave notice of its intention to strike as of 12:01 a.m., April 9, 1952, but bargaining between the parties continued with hope of settlement until the evening of April 8, 1952. After bargaining had failed to avert the threatened shutdown of steel production, the President issued the following Executive Order:
+
+"WHEREAS on December 16, 1950, I proclaimed the existence of a national emergency which requires that the military, naval, air, and civilian defenses of this country be strengthened as speedily as possible to the end that we may be able to repel any and all threats against our national security and to fulfill our responsibilities in the efforts being made throughout the United Nations and otherwise to bring about a lasting peace; and"
+
+"WHEREAS American fighting men and fighting men of other nations of the United Nations are now engaged in deadly combat with the forces of aggression in Korea, and forces of the United States are stationed elsewhere overseas for the purpose of participating in the defense of the Atlantic Community against aggression; and"
+
+"WHEREAS the weapons and other materials needed by our armed forces and by those joined with us in the defense of the free world are produced to a great extent in this country, and steel is an indispensable component of substantially all of such weapons and materials; and "
+
+Page 343 U. S. 674
+
+"WHEREAS steel is likewise indispensable to the carrying out of programs of the Atomic Energy Commission of vital importance to our defense efforts; and"
+
+"WHEREAS a continuing and uninterrupted supply of steel is also indispensable to the maintenance of the economy of the United States, upon which our military strength depends; and"
+
+"WHEREAS a controversy has arisen between certain companies in the United States producing and fabricating steel and the elements thereof and certain of their workers represented by the United Steel Workers of America, CIO, regarding terms and conditions of employment; and"
+
+"WHEREAS the controversy has not been settled through the processes of collective bargaining or through the efforts of the Government, including those of the Wage Stabilization Board, to which the controversy was referred on December 22, 1951, pursuant to Executive Order No. 10233, and a strike has been called for 12:01 A. M., April 9, 1952; and"
+
+"WHEREAS a work stoppage would immediately jeopardize and imperil our national defense and the defense of those joined with us in resisting aggression, and would add to the continuing danger of our soldiers, sailors, and airmen engaged in combat in the field; and"
+
+"WHEREAS in order to assure the continued availability of steel and steel products during the existing emergency, it is necessary that the United States take possession of and operate the plants, facilities, and other property of the said companies as hereinafter provided: "
+
+"NOW, THEREFORE, by virtue of the authority vested in me by the Constitution and laws of the
+
+Page 343 U. S. 675
+
+United States, and as President of the United States and Commander in Chief of the armed forces of the United States, it is hereby ordered as follows: "
+
+"1. The Secretary of Commerce is hereby authorized and directed to take possession of all or such of the plants, facilities, and other property of the companies named in the list attached hereto, or any part thereof, as he may deem necessary in the interests of national defense, and to operate or to arrange for the operation thereof and to do all things necessary for, or incidental to, such operation. . . . [Footnote 7/22]"
+
+The next morning, April 9, 1952, the President addressed the following Message to Congress:
+
+To the Congress of the United States:
+
+"The Congress is undoubtedly aware of the recent events which have taken place in connection with the management-labor dispute in the steel industry. These events culminated in the action which was taken last night to provide for temporary operation of the steel mills by the Government."
+
+"I took this action with the utmost reluctance. The idea of Government operation of the steel mills is thoroughly distasteful to me, and I want to see it ended as soon as possible. However, in the situation which confronted me yesterday, I felt that I could make no other choice. The other alternatives appeared to be even worse -- so much worse that I could not accept them."
+
+"One alternative would have been to permit a shutdown in the steel industry. The effects of such a shut-down would have been so immediate and damaging with respect to our efforts to support our Armed Forces and to protect our national security that it made this alternative unthinkable. "
+
+Page 343 U. S. 676
+
+"The only way that I know of, other than Government operation, by which a steel shut-down could have been avoided was to grant the demands of the steel industry for a large price increase. I believed and the officials in charge of our stabilization agencies believed that this would have wrecked our stabilization program. I was unwilling to accept the incalculable damage which might be done to our country by following such a course."
+
+"Accordingly, it was my judgment that Government operation of the steel mills for a temporary period was the least undesirable of the courses of action which lay open. In the circumstances, I believed it to be, and now believe it to be, my duty and within my powers as President to follow that course of action."
+
+"It may be that the Congress will deem some other course to be wiser. It may be that the Congress will feel we should give in to the demands of the steel industry for an exorbitant price increase and take the consequences so far as resulting inflation is concerned."
+
+"It may be that the Congress will feel the Government should try to force the steel workers to continue to work for the steel companies for another long period, without a contract, even though the steel workers have already voluntarily remained at work without a contract for 100 days in an effort to reach an orderly settlement of their differences with management."
+
+"It may even be that the Congress will feel that we should permit a shut-down of the steel industry, although that would immediately endanger the safety of our fighting forces abroad and weaken the whole structure of our national security. "
+
+Page 343 U. S. 677
+
+"I do not believe the Congress will favor any of these courses of action, but that is a matter for the Congress to determine."
+
+"It may be, on the other hand, that the Congress will wish to pass legislation establishing specific terms and conditions with reference to the operation of the steel mills by the Government. Sound legislation of this character might be very desirable."
+
+"On the basis of the facts that are known to me at this time, I do not believe that immediate congressional action is essential; but I would, of course, be glad to cooperate in developing any legislative proposals which the Congress may wish to consider."
+
+"If the Congress does not deem it necessary to act at this time, I shall continue to do all that is within my power to keep the steel industry operating and at the same time make every effort to bring about a settlement of the dispute so the mills can be returned to their private owners as soon as possible. [Footnote 7/23]"
+
+Twelve days passed without action by Congress. On April 21, 1952, the President sent a letter to the President of the Senate in which he again described the purpose and need for his action and again stated his position that "The Congress can, if it wishes, reject the course of action I have followed in this matter." [Footnote 7/24] Congress has not so acted to this date.
+
+Meanwhile, plaintiffs instituted this action in the District Court to compel defendant to return possession of the steel mills seized under Executive Order 10340. In this litigation for return of plaintiffs' properties, we assume that defendant Charles Sawyer is not immune from judicial restraint, and that plaintiffs are entitled to equitable relief if we find that the Executive Order
+
+Page 343 U. S. 678
+
+under which defendant acts is unconstitutional. We also assume without deciding that the courts may go behind a President's finding of fact that an emergency exists. But there is not the slightest basis for suggesting that the President's finding in this case can be undermined. Plaintiffs moved for a preliminary injunction before answer or hearing. Defendant opposed the motion, filing uncontroverted affidavits of Government officials describing the facts underlying the President's order.
+
+Secretary of Defense Lovett swore that
+
+"a work stoppage in the steel industry will result immediately in serious curtailment of production of essential weapons and munitions of all kinds."
+
+He illustrated by showing that 84\% of the national production of certain alloy steel is currently used for production of military-end items and that 35\% of total production of another form of steel goes into ammunition, 80\% of such ammunition now going to Korea. The Secretary of Defense stated that: "We are holding the line [in Korea] with ammunition, and not with the lives of our troops."
+
+Affidavits of the Chairman of the Atomic Energy Commission, the Secretary of the Interior, defendant as Secretary of Commerce, and the Administrators of the Defense Production Administration, the National Production Authority, the General Services Administration and the Defense Transport Administration were also filed in the District Court. These affidavits disclose an enormous demand for steel in such vital defense programs as the expansion of facilities in atomic energy, petroleum, power, transportation and industrial production, including steel production. Those charged with administering allocations and priorities swore to the vital part steel production plays in our economy. The affidavits emphasize the critical need for steel in our defense program,
+
+Page 343 U. S. 679
+
+the absence of appreciable inventories of steel, and the drastic results of any interruption in steel production.
+
+One is not here called upon even to consider the possibility of executive seizure of a farm, a corner grocery store or even a single industrial plant. Such considerations arise only when one ignores the central fact of this case -- that the Nation's entire basic steel production would have shut down completely if there had been no Government seizure. Even ignoring for the moment whatever confidential information the President may possess as "the Nation's organ for foreign affairs," [Footnote 7/25] the uncontroverted affidavits in this record amply support the finding that "a work stoppage would immediately jeopardize and imperil our national defense."
+
+Plaintiffs do not remotely suggest any basis for rejecting the President's finding that any stoppage of steel production would immediately place the Nation in peril. Moreover, even self-generated doubts that any stoppage of steel production constitutes an emergency are of little comfort here. The Union and the plaintiffs bargained for 6 months with over 100 issues in dispute -- issues not limited to wage demands, but including the union shop and other matters of principle between the parties. At the time of seizure, there was not, and there is not now, the slightest evidence to justify the belief that any strike will be of short duration. The Union and the steel companies may well engage in a lengthy struggle. Plaintiffs' counsel tells us that "sooner or later" the mills will operate again. That may satisfy the steel companies and, perhaps, the Union. But our soldiers and our allies will hardly be cheered with the assurance that the ammunition upon which their lives depend will be forthcoming -- "sooner or later," or, in other words, "too little and too late."
+
+Page 343 U. S. 680
+
+Accordingly, if the President has any power under the Constitution to meet a critical situation in the absence of express statutory authorization, there is no basis whatever for criticizing the exercise of such power in this case.
+
+II
+
+The steel mills were seized for a public use. The power of eminent domain, invoked in this case, is an essential attribute of sovereignty, and has long been recognized as a power of the Federal Government. Kohl v. United States, 91 U. S. 367 (1876). Plaintiffs cannot complain that any provision in the Constitution prohibits the exercise of the power of eminent domain in this case. The Fifth Amendment provides: "nor shall private property be taken for public use, without just compensation." It is no bar to this seizure for, if the taking is not otherwise unlawful, plaintiffs are assured of receiving the required just compensation. United States v. Pewee Coal Co., 341 U. S. 114 (1951).
+
+Admitting that the Government could seize the mills, plaintiffs claim that the implied power of eminent domain can be exercised only under an Act of Congress; under no circumstances, they say, can that power be exercised by the President unless he can point to an express provision in enabling legislation. This was the view adopted by the District Judge when he granted the preliminary injunction. Without an answer, without hearing evidence, he determined the issue on the basis of his "fixed conclusion . . . that defendant's acts are illegal" because the President's only course in the face of an emergency is to present the matter to Congress and await the final passage of legislation which will enable the Government to cope with threatened disaster.
+
+Under this view, the President is left powerless at the very moment when the need for action may be most pressing and when no one, other than he, is immediately
+
+Page 343 U. S. 681
+
+capable of action. Under this view, he is left powerless because a power not expressly given to Congress is nevertheless found to rest exclusively with Congress'.
+
+Consideration of this view of executive impotence calls for further examination of the nature of the separation of powers under our tripartite system of Government.
+
+The Constitution provides:
+
+Art. I,
+
+Section 1. "All legislative Powers herein granted shall be vested in a Congress of the United States. . . ."
+
+Art. II,
+
+Section 1. "The executive Power shall be vested in a President of the United States of America. . . ."
+
+Section 2. "The President shall be Commander in Chief of the Army and Navy of the United States. . . ."
+
+"He shall have Power, by and with the Advice and Consent of the Senate, to make Treaties, provided two thirds of the Senators present concur; . . ."
+
+Section 3. "He shall from time to time give to the Congress Information of the State of the Union, and recommend to their Consideration such Measures as he shall judge necessary and expedient; . . . The shall take Care that the Laws be faithfully executed. . . ."
+
+Art. III,
+
+Section 1. "The judicial Power of the United States, shall be vested in one supreme Court, and in such inferior Courts as the Congress may from time to time ordain and establish."
+
+The whole of the "executive Power" is vested in the President. Before entering office, the President swears that he "will faithfully execute the Office of President of the
+
+Page 343 U. S. 682
+
+United States, and will to the best of [his] Ability, preserve, protect and defend the Constitution of the United States." Art. II, § 1.
+
+This comprehensive grant of the executive power to a single person was bestowed soon after the country had thrown the yoke of monarchy. Only by instilling initiative and vigor in all of the three departments of Government, declared Madison, could tyranny in any form be avoided. [Footnote 7/26] Hamilton added:
+
+"Energy in the Executive is a leading character in the definition of good government. It is essential to the protection of the community against foreign attacks; it is not less essential to the steady administration of the laws; to the protection of property against those irregular and high-handed combinations which sometimes interrupt the ordinary course of justice; to the security of liberty against the enterprises and assaults of ambition, of faction, and of anarchy. [Footnote 7/27]"
+
+It is thus apparent that the Presidency was deliberately fashioned as an office of power and independence. Of course, the Framers created no autocrat capable of arrogating any power unto himself at any time. But neither did they create an automaton impotent to exercise the powers of Government at a time when the survival of the Republic itself may be at stake.
+
+In passing upon the grave constitutional question presented in this case, we must never forget, as Chief Justice Marshall admonished, that the Constitution is "intended to endure for ages to come, and, consequently, to be adapted to the various crises of human affairs," and that "[i]ts means are adequate to its ends." [Footnote 7/28] Cases do arise presenting questions which could not have been foreseen by the Framers. In such cases, the Constitution has been treated as a living document adaptable to new situations. [Footnote 7/29]
+
+Page 343 U. S. 683
+
+But we are not called upon today to expand the Constitution to meet a new situation. For, in this case, we need only look to history and time-honored principles of constitutional law -- principles that have been applied consistently by all branches of the Government throughout our history. It is those who assert the invalidity of the Executive Order who seek to amend the Constitution in this case.
+
+III
+\end{comment}
+
+A review of executive action demonstrates that our Presidents have...
+<!-- on many occasions -->
+exhibited the leadership contemplated by the Framers when they made the President Commander in Chief, and imposed upon him the trust to "take Care that the Laws be faithfully executed." With or without explicit statutory authorization, Presidents have at such times dealt with national emergencies...
+<!-- by acting promptly and resolutely to enforce legislative programs, at least to save those programs until Congress could act. -->
+Congress and the courts have responded to such executive initiative with consistent approval.
+
+Our first President displayed at once the leadership contemplated by the Framers. When the national revenue laws were openly flouted in some sections of Pennsylvania, President Washington, without waiting for a call from the state government, summoned the militia and took decisive steps to secure the faithful execution of the laws. [Footnote 7/30] When international disputes engendered by the French revolution threatened to involve this country in war, and while congressional policy remained uncertain, Washington issued his Proclamation of Neutrality. Hamilton, whose defense of the Proclamation has endured the test of time, invoked the argument that the Executive has the duty to do that which will preserve peace until Congress acts...
+<!-- and, in addition, pointed to the need for keeping the Nation informed of the requirements of existing laws and treaties as part of the faithful execution of the laws\dots -->
+
+\begin{comment}
+President John Adams issued a warrant for the arrest of Jonathan Robbins in order to execute the extradition provisions of a treaty. This action was challenged in Congress on the ground that no specific statute prescribed the method to be used in executing the treaty. John Marshall, then a member of the House of Representatives, made the following argument in support of the President's action:
+
+"The treaty, which is a law, enjoins the performance of a particular object. The person who is to perform this object is marked out by the Constitution, since the person is named who conducts the foreign intercourse, and is to take care that the laws be faithfully executed. The means by which it is to be performed, the force of the nation, are in the hands of this person. Ought not this person to perform the object, although the particular mode of using the means has not been prescribed? Congress, unquestionably, may prescribe the mode, and Congress may devolve on others the whole execution of the contract; but, till this be done, it seems the duty of the Executive department to execute the contract by any means it possesses. [Footnote 7/32]"
+
+Efforts in Congress to discredit the President for his action failed. [Footnote 7/33] Almost a century later, this Court had
+
+Page 343 U. S. 685
+
+occasion to give its express approval to "the masterly and conclusive argument of John Marshall." [Footnote 7/34]
+
+Jefferson's initiative in the Louisiana Purchase, the Monroe Doctrine, and Jackson's removal of Government deposits from the Bank of the United States further serve to demonstrate by deed what the Framers described by word when they vested the whole of the executive power in the President.
+
+Without declaration of war, President Lincoln took energetic action with the outbreak of the War Between the States. He summoned troops and paid them out of the Treasury without appropriation therefor. He proclaimed a naval blockade of the Confederacy and seized ships violating that blockade. Congress, far from denying the validity of these acts, gave them express approval. The most striking action of President Lincoln was the Emancipation Proclamation, issued in aid of the successful prosecution of the War Between the States, but wholly without statutory authority. [Footnote 7/35]
+
+In an action furnishing a most apt precedent for this case, President Lincoln, without statutory authority, directed the seizure of rail and telegraph lines leading to Washington. [Footnote 7/36] Many months later, Congress recognized and confirmed the power of the President to seize railroads and telegraph lines and provided criminal penalties for interference with Government operation. [Footnote 7/37] This Act did not confer on the President any additional powers of seizure. Congress plainly rejected the view that the President's acts had been without legal sanction until
+
+Page 343 U. S. 686
+
+ratified by the legislature. Sponsors of the bill declared that its purpose was only to confirm the power which the President already possessed. [Footnote 7/38] Opponents insisted a statute authorizing seizure was unnecessary, and might even be construed as limiting existing Presidential powers. [Footnote 7/39]
+
+Other seizures of private property occurred during the War Between the States, just as they had occurred during previous wars. [Footnote 7/40] In United States v. Russell, 13 Wall. 623 (1872), three river steamers were seized by Army Quartermasters on the ground of "imperative military necessity." This Court affirmed an award of compensation, stating:
+
+"Extraordinary and unforeseen occasions arise, however, beyond all doubt, in cases of extreme necessity in time of war or of immediate and impending public danger, in which private property may be impressed into the public service, or may be seized and appropriated to the public use, or may even be destroyed without the consent of the owner."
+
+"* * * *"
+
+"Exigencies of the kind do arise in time of war or impending public danger, but it is the emergency, as was said by a great magistrate, that gives the right,
+
+Page 343 U. S. 687
+
+and it is clear that the emergency must be shown to exist before the taking can be justified. Such a justification may be shown, and, when shown, the rule is well settled that the officer taking private property for such a purpose, if the emergency is fully proved, is not a trespasser, and that the government is bound to make full compensation to the owner. [Footnote 7/41]"
+
+In In re Neagle, 135 U. S. 1 (1890), this Court held that a federal officer had acted in line of duty when he was guarding a Justice of this Court riding circuit. It was conceded that there was no specific statute authorizing the President to assign such a guard. In holding that such a statute was not necessary, the Court broadly stated the question as follows:
+
+"[The President] is enabled to fulfil the duty of his great department, expressed in the phrase that 'he shall take care that the laws be faithfully executed.'"
+
+"Is this duty limited to the enforcement of acts of Congress or of treaties of the United States according to their express terms, or does it include the rights, duties and obligations growing out of the Constitution itself, our international relations, and all the protection implied by the nature of the government under the Constitution? [Footnote 7/42]"
+
+The latter approach was emphatically adopted by the Court.
+
+President Hayes authorized the widespread use of federal troops during the Railroad Strike of 1877. [Footnote 7/43] President Cleveland also used the troops in the Pullman Strike,
+
+Page 343 U. S. 688
+
+of 1895 and his action is of special significance. No statute authorized this action. No call for help had issued from the Governor of Illinois; indeed Governor Altgeld disclaimed the need for supplemental forces. But the President's concern was that federal laws relating to the free flow of interstate commerce and the mails be continuously and faithfully executed without interruption. [Footnote 7/44] To further this aim, his agents sought and obtained the injunction upheld by this Court in In re Debs, 158 U. S. 564 (1895). The Court scrutinized each of the steps taken by the President to insure execution of the "mass of legislation" dealing with commerce and the mails and gave his conduct full approval. Congress likewise took note of this use of Presidential power to forestall apparent obstacles to the faithful execution of the laws. By separate resolutions, both the Senate and the House commended the Executive's action. [Footnote 7/45]
+
+President Theodore Roosevelt seriously contemplated seizure of Pennsylvania coal mines if a coal shortage necessitated such action. [Footnote 7/46] In his autobiography, President Roosevelt expounded the "Stewardship Theory" of Presidential power, stating that
+
+"the executive as subject only to the people, and, under the Constitution, bound to serve the people affirmatively in cases where the Constitution does not explicitly forbid him to render the service. [Footnote 7/47]"
+
+Because the contemplated seizure of the coal mines was based on this theory, then ex-President Taft criticized President Roosevelt in a passage in his book relied upon by the District Court in this case. Taft, Our Chief Magistrate and His Powers (1916), 139-147. In the same book, however, President Taft agreed that
+
+Page 343 U. S. 689
+
+such powers of the President as the duty to "take Care that the Laws be faithfully executed" could not be confined to "express Congressional statutes." Id. at 88. In re Neagle, supra, and In re Debs, supra, were cited as conforming with Taft's concept of the office, id. at pp. 88-94, as they were later to be cited with approval in his opinion as Chief Justice in Myers v. United States, 272 U. S. 52, 272 U. S. 133 (1926). [Footnote 7/48]
+
+In 1909, President Taft was informed that government-owned oil lands were being patented by private parties at such a rate that public oil lands would be depleted in a matter of months. Although Congress had explicitly provided that these lands were open to purchase by United States citizens, 29 Stat. 526 (1897), the President nevertheless ordered the lands withdrawn from sale "[i]n aid of proposed legislation." In United States v. Midwest Oil Co., 236 U. S. 459 (1915), the President's action was sustained as consistent with executive practice throughout our history. An excellent brief was filed in the case by the Solicitor General, Mr. John W. Davis, together with Assistant Attorney General Knaebel, later Reporter for this Court. In this brief, the situation confronting President Taft was described as "an emergency; there was no time to wait for the action of Congress." The brief then discusses the powers of the President under the Constitution in such a case:
+
+"Ours is a self-sufficient Government within its sphere. (Ex parte Siebold, 100 U. S. 371, 100 U. S. 395; In re Debs, 158 U. S. 564, 158 U. S. 578.) 'Its means are adequate to its ends' (McCulloch v. Maryland, 4
+
+Page 343 U. S. 690
+
+Wheat. 316, 17 U. S. 424), and it is rational to assume that its active forces will be found equal in most things to the emergencies that confront it. While perfect flexibility is not to be expected in a Government of divided powers, and while division of power is one of the principal features of the Constitution, it is the plain duty of those who are called upon to draw the dividing lines to ascertain the essential, recognize the practical, and avoid a slavish formalism which can only serve to ossify the Government and reduce its efficiency without any compensating good. The function of making laws is peculiar to Congress, and the Executive cannot exercise that function to any degree. But this is not to say that all of the subjects concerning which laws might be made are perforce removed from the possibility of Executive influence. The Executive may act upon things and upon men in many relations which have not, though they might have, been actually regulated by Congress. In other words, just as there are fields which are peculiar to Congress and fields which are peculiar to the Executive, so there are fields which are common to both, in the sense that the Executive may move within them until they shall have been occupied by legislative action. These are not the fields of legislative prerogative, but fields within which the lawmaking power may enter and dominate whenever it chooses. This situation results from the fact that the President is the active agent not of Congress, but of the Nation. As such, he performs the duties which the Constitution lays upon him immediately, and as such, also, he executes the laws and regulations adopted by Congress. He is the agent of the people of the United States, deriving all his powers from them and responsible directly to them. In no
+
+Page 343 U. S. 691
+
+sense is he the agent of Congress. He obeys and executes the laws of Congress not because Congress is enthroned in authority over him, but because the Constitution directs him to do so."
+
+"Therefore it follows that, in ways short of making laws or disobeying them, the Executive may be under a grave constitutional duty to act for the national protection in situations not covered by the acts of Congress, and in which, even, it may not be said that his action is the direct expression of any particular one of the independent powers which are granted to him specifically by the Constitution. Instances wherein the President has felt and fulfilled such a duty have not been rare in our history, though, being for the public benefit and approved by all, his acts have seldom been challenged in the courts. We are able, however, to present a number of apposite cases which were subjected to judicial inquiry."
+
+The brief then quotes from such cases as In re Debs, supra, and In re Neagle, supra, and continues:
+
+"As we understand the doctrine of the Neagle case, and the cases therein cited, it is clearly this: the Executive is authorized to exert the power of the United States when he finds this necessary for the protection of the agencies, the instrumentalities, or the property of the Government. This does not mean an authority to disregard the wishes of Congress on the subject when that subject lies within its control and when those wishes have been expressed, and it certainly does not involve the slightest semblance of a power to legislate, much less to 'suspend' legislation already passed by Congress. It involves the performance of specific acts not of a
+
+Page 343 U. S. 692
+
+legislative but purely of an executive character -- acts which are not in themselves laws, but which presuppose a 'law' authorizing him to perform them. This law is not expressed either in the Constitution or in the enactments of Congress, but reason and necessity compel that it be implied from the exigencies of the situation."
+
+"In none of the cases which we have mentioned, nor in the cases cited in the extracts taken from the Neagle case, was it possible to say that the action of the President was directed, expressly or impliedly, by Congress. The situations dealt with had never been covered by any act of Congress, and there was no ground whatever for a contention that the possibility of their occurrence had ever been specifically considered by the legislative mind. In none of those cases did the action of the President amount merely to the execution of some specific law."
+
+"Neither does any of them stand apart in principle from the case at bar, as involving the exercise of specific constitutional powers of the President in a degree in which this case does not involve them. Taken collectively, the provisions of the Constitution which designate the President as the official who must represent us in foreign relations, in commanding the Army and Navy, in keeping Congress informed of the state of the Union, in insuring the faithful execution of the laws and in recommending new ones, considered in connection with the sweeping declaration that the executive power shall be vested in him, completely demonstrate that his is the watchful eye, the active hand, the overseeing dynamic force of the United States. [Footnote 7/49] "
+
+Page 343 U. S. 693
+
+This brief is valuable not alone because of the caliber of its authors, but because it lays bare in succinct reasoning the basis of the executive practice which this Court approved in the Midwest Oil case.
+
+During World War I, President Wilson established a War Labor Board without awaiting specific direction by Congress. [Footnote 7/50] With William Howard Taft and Frank P. Walsh as co-chairmen, the Board had as its purpose the prevention of strikes and lockouts interfering with the production of goods needed to meet the emergency. Effectiveness of War Labor Board decision was accomplished by Presidential action, including seizure of industrial plants. [Footnote 7/51] Seizure of the Nation's railroads was also ordered by President Wilson. [Footnote 7/52]
+
+Beginning with the Bank Holiday Proclamation [Footnote 7/53] and continuing through World War II, executive leadership and initiative were characteristic of President Franklin D. Roosevelt's administration. In 1939, upon the outbreak
+
+Page 343 U. S. 694
+
+of war in Europe, the President proclaimed a limited national emergency for the purpose of strengthening our national defense. [Footnote 7/54] In May of 1941, the danger from the Axis belligerents having become clear, the President proclaimed "an unlimited national emergency" calling for mobilization of the Nation's defenses to repel aggression. [Footnote 7/55] The President took the initiative in strengthening our defenses by acquiring rights from the British Government to establish air bases in exchange for over-age destroyers. [Footnote 7/56]
+
+In 1941, President Roosevelt acted to protect Iceland from attack by Axis powers, when British forces were withdrawn, by sending our forces to occupy Iceland. Congress was informed of this action on the same day that our forces reached Iceland. [Footnote 7/57] The occupation of Iceland was but one of "at least 125 incidents" in our history in which Presidents,
+
+"without congressional authorization, and in the absence of a declaration of war, [have] ordered the Armed Forces to take action or maintain positions abroad. [Footnote 7/58]"
+\end{comment}
+
+Some six months before Pearl Harbor, a dispute at a single aviation plant...
+<!-- at Inglewood, California, -->
+interrupted a segment of the production of military aircraft. In spite of the comparative insignificance...
+<!-- of this work stoppage -->
+to total defense production...
+<!-- , as contrasted with the complete paralysis now threatened by a shutdown of the entire basic steel industry, -->
+and even though our armed forces were not then engaged in combat, President Roosevelt ordered the seizure of the plant ``pursuant to the powers vested in [him] by the Constitution and laws of the United States, as President of the United States of America and Commander in Chief of the Army and Navy of the United States.''
+
+The Attorney General... vigorously proclaimed that the President had the moral duty to keep this Nation's defense effort a ``going concern.''
+His ringing moral justification was coupled with a legal justification equally well stated:
+
+"The Presidential proclamation rests upon the aggregate of the Presidential powers derived from the Constitution
+<!-- itself and from -->
+[and] statutes enacted by the Congress..."
+
+\begin{comment}
+"The Constitution lays upon the President the duty 'to take care that the laws be faithfully executed.' Among the laws which he is required to find means to execute are those which direct him to equip an enlarged army, to provide for a strengthened navy, to protect Government property, to protect those who are engaged in carrying out the business of the Government, and to carry out the provisions of the Lend-Lease Act. For the faithful execution of such laws, the President has back of him not only each general law enforcement power conferred by the various acts of Congress, but the aggregate of all such laws plus that wide discretion as to method vested in him by the Constitution for the purpose of executing the laws."
+
+"The Constitution also places on the President the responsibility and vests in him the powers of Commander in Chief of the Army and of the Navy. These weapons for the protection of the continued existence of the Nation are placed in his sole command
+
+Page 343 U. S. 696
+
+and the implication is clear that he should not allow them to become paralyzed by failure to obtain supplies for which Congress has appropriated the money and which it has directed the President to obtain. [Footnote 7/60]"
+
+At this time, Senator Connally proposed amending the Selective Training and Service Act to authorize the President to seize any plant where an interruption of production would unduly impede the defense effort. [Footnote 7/61] Proponents of the measure in no way implied that the legislation would add to the powers already possessed by the President, [Footnote 7/62] and the amendment was opposed as unnecessary, since the President already had the power. [Footnote 7/63] The amendment relating to plant seizures was not approved at that session of Congress. [Footnote 7/64]
+
+Meanwhile, and also prior to Pearl Harbor, the President ordered the seizure of a shipbuilding company and an aircraft parts plant. [Footnote 7/65] Following the declaration of war, but prior to the Smith-Connally Act of 1943, five additional industrial concerns were seized to avert interruption
+
+Page 343 U. S. 697
+
+of needed production. [Footnote 7/66] During the same period, the President directed seizure of the Nation's coal mines to remove an obstruction to the effective prosecution of the war. [Footnote 7/67]
+
+The procedures adopted by President Roosevelt closely resembled the methods employed by President Wilson. A National War Labor Board, like its predecessor of World War I, was created by Executive Order to deal effectively and fairly with disputes affecting defense production. [Footnote 7/68] Seizures were considered necessary, upon disobedience of War Labor Board orders, to assure that the mobilization effort remained a "going concern," and to enforce the economic stabilization program.
+
+At the time of the seizure of the coal mines, Senator Connally's bill to provide a statutory basis for seizures and for the War Labor Board was again before Congress. As stated by its sponsor, the purpose of the bill was not to augment Presidential power, but to "let the country know that the Congress is squarely behind the President." [Footnote 7/69] As in the case of the legislative recognition of President Lincoln's power to seize, Congress again recognized that the President already had the necessary power, for there was no intention to "ratify" past actions of doubtful validity. Indeed, when Senator Tydings offered an amendment to the Connally bill expressly to confirm and validate the seizure of the coal mines, sponsors of the bill
+
+Page 343 U. S. 698
+
+opposed the amendment as casting doubt on the legality of the seizure, and the amendment was defeated. [Footnote 7/70] When the Connally bill, S. 796, came before the House, all parts after the enacting clause were stricken, and a bill introduced by Representative Smith of Virginia was substituted and passed. This action in the House is significant because the Smith bill did not contain the provisions authorizing seizure by the President, but did contain provisions controlling and regulating activities in respect to properties seized by the Government under statute "or otherwise." [Footnote 7/71] After a conference, the seizure provisions of the Connally bill, enacted as the Smith-Connally or War Labor Disputes Act of 1943, 57 Stat. 163, were agreed to by the House.
+
+Following passage of the Smith-Connally Act, seizures to assure continued production on the basis of terms recommended by the War Labor Board were based upon that Act as well as upon the President's power under the Constitution and the laws generally. A question did arise as to whether the statutory language relating to "any plant, mine, or facility equipped for the manufacture, production, or mining of any articles or materials" [Footnote 7/72] authorized the seizure of properties of Montgomery Ward & Co., a retail department store and mail-order concern. The Attorney General (Biddle) issued an opinion that the President possessed the power to seize Montgomery Ward properties to prevent a work stoppage whether or not the terms of the Smith-Connally Act authorized such a seizure. [Footnote 7/73] This opinion was in line with
+
+Page 343 U. S. 699
+
+the views on Presidential powers maintained by the Attorney General's predecessors (Murphy [Footnote 7/74] and Jackson [Footnote 7/75]) and his successor (Clark [Footnote 7/76]). Accordingly, the President ordered seizure of the Chicago properties of Montgomery Ward in April, 1944, when that company refused to obey a War Labor Board order concerning the bargaining representative of its employees in Chicago. [Footnote 7/77] In Congress, a Select Committee to Investigate Seizure of the Property of Montgomery Ward & Co., assuming that the terms of the Smith-Connally Act did not cover this seizure, concluded that the seizure "was not only within the constitutional power, but was the plain duty of the President." [Footnote 7/78] Thereafter, an election determined the bargaining representative for the Chicago employees and the properties were returned to Montgomery Ward & Co. In December, 1944, after continued defiance of a series of War Labor Board orders, President Roosevelt ordered the seizure of Montgomery Ward properties throughout the country. [Footnote 7/79] The Court of Appeals for the Seventh Circuit upheld this seizure on statutory grounds, and also indicated its disapproval of a lower court's denial of seizure power apart from express statute. [Footnote 7/80]
+
+Page 343 U. S. 700
+
+More recently, President Truman acted to repel aggression by employing our armed forces in Korea. [Footnote 7/81] Upon the intervention of the Chinese Communists, the President proclaimed the existence of an unlimited national emergency requiring the speedy build-up of our defense establishment. [Footnote 7/82] Congress responded by providing for increased manpower and weapons for our own armed forces, by increasing military aid under the Mutual Security Program, and by enacting economic stabilization measures, as previously described.
+
+This is but a cursory summary of executive leadership. But it amply demonstrates that Presidents have taken prompt action to enforce the laws and protect the country whether or not Congress happened to provide in advance for the particular method of execution. At the minimum, the executive actions reviewed herein sustain the action of the President in this case. And many of the cited examples of Presidential practice go far beyond the extent of power necessary to sustain the President's order to seize the steel mills. The fact that temporary executive seizures of industrial plants to meet an emergency have not been directly tested in this Court furnishes not the slightest suggestion that such actions have been illegal. Rather, the fact that Congress and the courts have consistently recognized and given their support to such executive action indicates that such a power of seizure has been accepted throughout our history.
+
+History bears out the genius of the Founding Fathers, who created a Government subject to law but not left subject to inertia when vigor and initiative are required.
+
+Page 343 U. S. 701
+
+IV
+\end{comment}
+
+Focusing now on the situation confronting the President...
+<!-- on the night of April 8, 1952, -->
+we cannot but conclude that the President was performing his duty...
+<!-- under the Constitution -->
+to "take Care that the Laws be faithfully executed..."
+\begin{comment}
+a duty described by President Benjamin Harrison as ``the central idea of the office.''
+
+The President reported to Congress the morning after the seizure that he acted because a work stoppage in steel production would immediately imperil the safety of the Nation by preventing execution of the legislative programs for procurement of military equipment. And, while a shutdown could be averted by granting the price concessions requested by plaintiffs, granting such concessions would disrupt the price stabilization program also enacted by Congress. Rather than fail to execute either legislative program, the President acted to execute both.
+
+Much of the argument in this case has been directed at straw men. We do not now have before us the case of a President acting solely on the basis of his own notions of the public welfare. Nor is there any question of unlimited executive power in this case. The President himself closed the door to any such claim when he sent his Message to Congress stating his purpose to abide by any action of Congress, whether approving or disapproving his seizure action. Here, the President immediately made sure that Congress was fully informed of the temporary action he had taken only to preserve the legislative programs from destruction until Congress could act.
+\end{comment}
+
+The absence of a specific statute authorizing seizure of the steel mills...
+<!-- as a mode of executing the laws... -->
+<!-- -- both the military procurement program and the anti-inflation program -- -->
+has not until today been thought to prevent the President from executing the laws. Unlike an administrative commission confined to the enforcement of the statute under which it was created...
+<!-- , or the head of a department when administering a particular statute, -->
+the President is a constitutional officer charged with taking care that a "mass of legislation" be executed. Flexibility as to mode of execution to meet critical situations is a matter of practical necessity. This practical construction of the "Take Care" clause, advocated by John Marshall, was adopted by this Court in \textit{In re Neagle}...
+<!-- , \textit{In re Debs} -->
+and other cases...
+<!-- cited supra\dots -->
+\begin{comment}
+See also Ex parte Quirin, 317 U. S. 1, 317 U. S. 26 (1942). Although more restrictive views of executive power, advocated in dissenting opinions of Justices Holmes, McReynolds and Brandeis, were emphatically rejected by this Court in Myers v. United States, supra, members of today's majority treat these dissenting views as authoritative.
+
+There is no statute prohibiting seizure as a method of enforcing legislative programs. Congress has in no wise indicated that its legislation is not to be executed by the taking of private property (subject, of course, to the payment of just compensation) if its legislation cannot otherwise be executed. Indeed, the Universal Military Training and Service Act authorizes the seizure of any plant that fails to fill a Government contract [Footnote 7/84] or the properties of any steel producer that fails to allocate steel as directed for defense production. [Footnote 7/85] And the Defense Production Act authorizes the President to requisition equipment and condemn real property needed without delay in the defense effort. [Footnote 7/86] Where Congress authorizes seizure in instances not necessarily crucial to the defense
+
+Page 343 U. S. 703
+
+program, it can hardly be said to have disclosed an intention to prohibit seizures where essential to the execution of that legislative program.
+
+Whatever the extent of Presidential power on more tranquil occasions, and whatever the right of the President to execute legislative programs as he sees fit without reporting the mode of execution to Congress, the single Presidential purpose disclosed on this record is to faithfully execute the laws by acting in an emergency to maintain the status quo, thereby preventing collapse of the legislative programs until Congress could act. The President's action served the same purposes as a judicial stay entered to maintain the status quo in order to preserve the jurisdiction of a court. In his Message to Congress immediately following the seizure, the President explained the necessity of his action in executing the military procurement and anti-inflation legislative programs and expressed his desire to cooperate with any legislative proposals approving, regulating or rejecting the seizure of the steel mills. Consequently, there is no evidence whatever of any Presidential purpose to defy Congress or act in any way inconsistent with the legislative will.
+
+In United States v. Midwest Oil Co., supra, this Court approved executive action where, as here, the President acted to preserve an important matter until Congress could act -- even though his action in that case was contrary to an express statute.
+\end{comment}
+<!-- %% The next sentence is really part of this paragraph -->
+
+In this case, there is no statute prohibiting the action taken by the President in a matter...
+<!-- not merely important, but -->
+threatening the very safety of the Nation.
+Executive inaction in such a situation, courting national disaster, is foreign to the concept of energy and initiative in the Executive as created by the Founding Fathers...
+<!-- % The Constitution was itself -->
+<!-- % ``adopted in a period of grave emergency\dots\ While emergency does not create power, emergency may furnish the occasion for the exercise of power.'' -->
+
+The Framers knew, as we should know in these times of peril, that there is real danger in Executive weakness\dots
+\begin{comment}
+There is no cause to fear Executive tyranny so long as the laws of Congress are being faithfully executed.
+Certainly there is no basis for fear of dictatorship when the Executive acts, as he did in this case, only to save the situation until Congress could act.
+
+V
+
+Plaintiffs place their primary emphasis on the Labor Management Relations Act of 1947, hereinafter referred to as the Taft-Hartley Act, but do not contend that that Act contains any provision prohibiting seizure.
+
+Under the Taft-Hartley Act, as under the Wagner Act, collective bargaining and the right to strike are at the heart of our national labor policy. Taft-Hartley preserves the right to strike in any emergency, however serious, subject only to an 80-day delay in cases of strikes imperiling the national health and safety. [Footnote 7/88] In such a case, the President may appoint a board of inquiry to report the facts of the labor dispute. Upon receiving that report, the President may direct the Attorney General to petition a District Court to enjoin the strike. If the injunction is granted, it may continue in effect for no more than 80 days, during which time the board of inquiry makes further report and efforts are made to settle the dispute. When the injunction is dissolved, the President is directed to submit a report to Congress together with his recommendations. [Footnote 7/89]
+
+Enacted after World War II, Taft-Hartley restricts the right to strike against private employers only to a limited
+
+Page 343 U. S. 705
+
+extent and for the sole purpose of affording an additional period of time within which to settle the dispute. Taft-Hartley in no way curbs strikes before an injunction can be obtained and after an 80-day injunction is dissolved.
+
+Plaintiffs admit that the emergency procedures of Taft-Hartley are not mandatory. Nevertheless, plaintiffs apparently argue that, since Congress did provide the 80-day injunction method for dealing with emergency strikes, the President cannot claim that an emergency exists until the procedures of Taft-Hartley have been exhausted. This argument was not the basis of the District Court's opinion, and, whatever merit the argument might have had following the enactment of Taft-Hartley, it loses all force when viewed in light of the statutory pattern confronting the President in this case.
+
+In Title V of the Defense Production Act of 1950, [Footnote 7/90] Congress stated:
+
+"It is the intent of Congress, in order to provide for effective price and wage stabilization pursuant to title IV of this Act and to maintain uninterrupted production, that there be effective procedures for the settlement of labor disputes affecting national defense."
+
+(§ 501.) Title V authorized the President to initiate labor-management conferences and to take action appropriate to carrying out the recommendations of such conferences and the provisions of Title V. (§ 502.) Due regard is to be given to collective bargaining practice and stabilization policies, and no action taken is to be inconsistent with Taft-Hartley and other laws. (§ 503.) The purpose of these provisions was to authorize the President "to establish a board, commission or other agency, similar
+
+Page 343 U. S. 706
+
+to the War Labor Board of World War II, to carry out the title." [Footnote 7/91]
+
+The President authorized the Wage Stabilization Board (WSB), which administers the wage stabilization functions of Title IV of the Defense Production Act, also to deal with labor disputes affecting the defense program. [Footnote 7/92] When extension of the Defense Production Act was before Congress in 1951, the Chairman of the Wage Stabilization Board described in detail the relationship between the Taft-Hartley procedures applicable to labor disputes imperiling the national health and safety and the new WSB disputes procedures especially devised for settlement of labor disputes growing out of the needs of the defense program. [Footnote 7/93] Aware that a technique separate from Taft-Hartley had been devised, members of Congress attempted to divest the WSB of its disputes powers. These attempts were defeated in the House, were not brought to a vote in the Senate, and the Defense Production Act was extended through June 30, 1952, without change in the disputes powers of the WSB. [Footnote 7/94]
+
+Page 343 U. S. 707
+
+Certainly this legislative creation of a new procedure for dealing with defense disputes negatives any notion that Congress intended the earlier and discretionary Taft-Hartley procedure to be an exclusive procedure.
+
+Accordingly, as of December 22, 1951, the President had a choice between alternate procedures for settling the threatened strike in the steel mills: one route created to deal with peacetime disputes; the other route specially created to deal with disputes growing out of the defense and stabilization program. There is no question of bypassing a statutory procedure, because both of the routes available to the President in December were based upon statutory authorization. Both routes were available in the steel dispute. The Union, by refusing to abide by the defense and stabilization program, could have forced the President to invoke Taft-Hartley at that time to delay the strike a maximum of 80 days. Instead, the Union agreed to cooperate with the defense program and submit the dispute to the Wage Stabilization Board.
+
+Plaintiffs had no objection whatever at that time to the President's choice of the WSB route. As a result, the strike was postponed, a WSB panel held hearings and reported the position of the parties and the WSB recommended the terms of a settlement which it found were fair and equitable. Moreover, the WSB performed a function which the board of inquiry contemplated by Taft-Hartley could not have accomplished when it checked the recommended wage settlement against its own wage stabilization regulations issued pursuant to its stabilization functions under Title IV of the Defense Production Act. Thereafter, the parties bargained on the basis of the WSB recommendation.
+
+When the President acted on April 8, he had exhausted the procedures for settlement available to him. Taft-Hartley was a route parallel to, not connected with, the WSB procedure. The strike had been delayed 99
+
+Page 343 U. S. 708
+
+days, as contrasted with the maximum delay of 80 days under Taft-Hartley. There had been a hearing on the issues in dispute and bargaining which promised settlement up to the very hour before seizure had broken down. Faced with immediate national peril through stoppage in steel production, on the one hand, and faced with destruction of the wage and price legislative programs, on the other, the President took temporary possession of the steel mills as the only course open to him consistent with his duty to take care that the laws be faithfully executed.
+
+Plaintiffs' property was taken and placed in the possession of the Secretary of Commerce to prevent any interruption in steel production. It made no difference whether the stoppage was caused by a union-management dispute over terms and conditions of employment, a union-Government dispute over wage stabilization, or a management-Government dispute over price stabilization. The President's action has thus far been effective not in settling the dispute, but in saving the various legislative programs at stake from destruction until Congress could act in the matter.
+
+VI
+
+The diversity of views expressed in the six opinions of the majority, the lack of reference to authoritative precedent, the repeated reliance upon prior dissenting opinions, the complete disregard of the uncontroverted facts showing the gravity of the emergency, and the temporary nature of the taking all serve to demonstrate how far afield one must go to affirm the order of the District Court.
+\end{comment}
+
+The broad executive power granted by Article II to an officer on duty 365 days a year cannot, it is said [by the Court], be invoked to avert disaster.
+Instead, the President must confine himself to sending a message to Congress recommending action.
+Under this messenger-boy concept of the Office,
+the President cannot even act to preserve legislative programs from destruction so that Congress will have something left to act upon\dots
+\begin{comment}
+There is no judicial finding that the executive action was unwarranted because there was, in fact, no basis for the President's finding of the existence of an emergency for, under this view, the gravity of the emergency and the immediacy of the threatened disaster are considered irrelevant as a matter of law.
+
+Seizure of plaintiffs' property is not a pleasant undertaking. Similarly unpleasant to a free country are the draft which disrupts the home and military procurement which causes economic dislocation and compels adoption of price controls, wage stabilization and allocation of materials. The President informed Congress that even a temporary Government operation of plaintiffs' properties was "thoroughly distasteful" to him, but was necessary to prevent immediate paralysis of the mobilization program.
+\end{comment}
+
+<!-- %% The next sentence is really part of this paragraph -->
+
+Presidents have been in the past, and any man worthy of the Office should be in the future, free to take at least interim action necessary to execute legislative programs essential to survival of the Nation. A sturdy judiciary should not be swayed by the unpleasantness or unpopularity of necessary executive action, but must independently determine for itself whether the President was acting, as required by the Constitution, to ``take Care that the Laws be faithfully executed''\dots
+
+\begin{comment}
+As the District Judge stated, this is no time for "timorous" judicial action. But neither is this a time for timorous executive action. Faced with the duty of executing the defense programs which Congress had enacted and the disastrous effects that any stoppage in steel production would have on those programs, the President acted to preserve those programs by seizing the steel mills.
+
+Page 343 U. S. 710
+
+There is no question that the possession was other than temporary in character, and subject to congressional direction -- either approving, disapproving, or regulating the manner in which the mills were to be administered and returned to the owners. The President immediately informed Congress of his action, and clearly stated his intention to abide by the legislative will. No basis for claims of arbitrary action, unlimited powers, or dictatorial usurpation of congressional power appears from the facts of this case. On the contrary, judicial, legislative and executive precedents throughout our history demonstrate that, in this case, the President acted in full conformity with his duties under the Constitution. Accordingly, we would reverse the order of the District Court.
+\end{comment}
