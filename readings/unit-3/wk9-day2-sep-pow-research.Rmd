@@ -1,0 +1,98 @@
+---
+title: "Separation of Powers Research"
+author: "JBrandon Duck-Mayr"
+fontsize: 12pt
+header-includes:
+    - \definecolor{BurntOrange}{RGB}{191, 87, 0}
+    - \definecolor{Blue}{RGB}{0, 95, 134}
+urlcolor: Blue
+output:
+    quack::article:
+        number_sections: false
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+\begin{center}
+\href{https://doi.org/10.1086/692731}{\textbf{Rule Significance and Interbranch Competition in Rulemaking Processes}}
+
+\textit{by Fang-Yi Chiou and Jonathan Klingler}
+\end{center}
+
+## Introduction
+
+In recent years, scholars have become increasingly interested in competition between the branches of the U.S. federal government, particularly between Congress and the president [*many* citations omitted]...
+<!-- While the U.S. federal government’s separation of powers into legislative, executive, and judicial branches generates interbranch competition over policy, few attempts have been devoted to examining the relative policymaking power of these branches or to which branch the agency is most responsive (Rosenbloom Reference Rosenbloom2000).Footnote 1 -->
+The constitutional separation of powers cannot be understood without considering the relative influences of the president and Congress.
+Independently from the appointment power, the federal rulemaking process provides all three branches with influence.
+Rulemaking offers an opportunity to uncover the relative influence of the president and Congress when the preferences of each are at odds and how that influence hinges on the significance of the matters under consideration.
+
+Federal rulemaking is an important component of policymaking in the United States, and there is little Americans consume that is not regulated by federal agencies...
+
+While final rules promulgated by agencies address diverse topics, the breadth of issues handled through the rulemaking process creates high variation in regulatory significance.
+In contrast with noteworthy rules...
+<!-- like the Clean Power Plan, -->
+many other rules are routine in nature and minimally influence the economy or society...
+
+[The authors develop a measure of significance of regulatory rules.]
+
+To illustrate the usefulness of our new measure, we apply it to study how federal agency rulemaking productivity depends on the separation of powers and rule significance...
+
+...we propose three competing models, in which the executive (the president) and legislative branches (the House and Senate medians) can each constitute the only veto players or jointly constitute veto players for a proposed rule, and we examine these models at various thresholds of rule significance. We find that the model in which the president serves as the only veto pivot best explains agency productivity for regulations laying below the political radar, while Congress has a dominant impact on rulemaking for highly significant rules...
+
+<!-- [Technical sections related to the measure they develop are omitted.] -->
+
+<!-- ## Empirical Application -->
+
+<!-- We now apply our measures to examine regulatory productivity across an array of agencies and rule significance thresholds. We first articulate a simple agenda-setting theory of agency rulemaking productivity... -->
+<!-- , as motivated and justified in in the “Introduction” section, -->
+<!-- to generate a hypothesis for predicting agency rulemaking volume. We show that the supported model is dependent on the significance threshold, contributing to our understanding of how the de facto veto powers of the president and Congress apply differently based on a rule’s significance. -->
+
+## Theoretical Model and Hypothesis
+
+<!-- [Technical details of the theoretical model are largely omitted.] -->
+
+<!-- [A veto player in American policymaking means an official involved in policymaking whose support is needed for a policy to be enacted.] -->
+<!-- To examine the relative influence of the two branches in rulemaking processes, we generate three competing models (they differ only in the set of veto players) from this theoretical framework as follows: -->
+
+<!-- 1. Congress (i.e., the medians of the House and Senate) acts as the only veto players (labeled as Model C). -->
+<!-- 2. The president constitutes the only veto player (Model P). -->
+<!-- 3. Congress and the president jointly function as the only veto players (Model CP)... -->
+
+...These competing models are related to hypotheses proposed by previous studies in several ways. For example, Potter and Shipan (2019) hypothesize that an agency is more productive when it is ideologically aligned with the president, which is quite consistent with Model P. Additionally, their congressional influence hypothesis (i.e., agency productivity would be lower when Congress is an agency’s strong opponent) can be derived from Model C. On the other hand, the hypothesis proposed by Yackee and Yackee (2009a) on divided government cannot be derived from any of these models. These hypotheses assume that implicit vetoes are exercised by both Congress and the president. One of the important advantages from our theoretical framework is that we more systematically and explicitly evaluate potential models and improve theoretical clarity.
+
+## Method and Data
+
+We examine the hypothesis derived from Proposition 1 using a dataset of 442 parent agency-Congress observations...
+<!-- , covering 55 parent agencies (hereafter referred to as agencies) -->
+from 1995 to 2012...
+
+To examine agency rule productivity, our dependent variables are the number of final rules with at least one [notice of proposed rulemaking] whose significance scores are at least as high as a given significance threshold and promulgated by an agency in a Congress...
+
+In order to test our hypotheses, our primary independent variable of interest is AGI[, or agency gridlock interval, which]
+<!-- According to the theoretical results of the “Theoretical Model and Hypothesis” section, AGI -->
+characterizes the location of the rule promulgating agency in relation to the relevant political actors in policy space...
+The AGI for each of the three models is...
+<!-- calculated according to Proposition 1, -->
+the interval bounded by the ideal point of an agency and the veto players stipulated in each of the three competing models...
+For instance, an agency’s gridlock interval of model CP for a Congress is the distance between ideal points of this agency, the chamber medians of the House and Senate, and the president during this given Congress...
+
+## Empirical Results
+
+We present our empirical results from testing our hypotheses for our three competing models. We start with our results from testing Model P, where the president constitutes the only veto player...
+the coefficient of the AGI, our key independent variable, is negative, as predicted, and statistically significant under a wide range of significance thresholds...
+These results suggest that the empirical support for Model P is obtained under moderate- or high-significance thresholds.
+
+The results for testing Model C (Congress functions as the only veto player)...
+diverge [from the Model P results]: the AGI is negative and statistically significant only under the thresholds
+<!-- equaling to 1.50 or higher... -->
+[higher than that for Model P...]
+
+While previous studies tend to find the effect of divided government is negative and statistically significant, we uncover more systematic evidence for this effect only with very low-significance thresholds under Model CP.
+This implies that agencies do not produce a lower number of moderately or highly significant final rules under divided government...
+
+## Conclusion
+
+...AGIs including the president alone predict rulemaking output for moderately significant regulations. Yet, for the most significant regulations, AGIs including only the House and Senate medians are predictive. We find not only that legislative and executive influence depends on the rule significance thresholds adopted to define the set of significant rules, but the effects of divided government, which previous studies focus on, hinge on significance thresholds. This finding addresses puzzling claims from the literature about whether or when the president or Congress has the upper hand over agency control. Furthermore, it highlights the need for scholars to consider the significance of policy proposals when studying both rulemaking and policymaking generally. In addition, our findings call for the need to take policy significance into account in examining interbranch competition in topics of recent interest, including, but not limited to, implicit legislative veto power over administrative activity (Acs 2019), bureaucratic assessments of presidential and legislative influence among federal executives (Clinton, Lewis, and Selin 2014), and public challenges by Congress to unilateral actions (Christenson and Kriner 2017).
