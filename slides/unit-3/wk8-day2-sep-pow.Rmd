@@ -1,0 +1,311 @@
+---
+title: "Separation of Powers: Domestic Issues"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{1pt}}
+    - \usepackage{tikz}
+    - \usetikzlibrary{arrows.meta}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Avoiding Tyranny Through Institutional Design
+
+Many Founders were influenced by a work by Charles-Louis de Secondat, Baron de La Brède et de Montesquieu, *De l'esprit des loix* (*Spirit of the Law*), including his articulation of a theory of separated powers; one political scientist finds Montesquieu to be the most cited thinker in the period from 1760--1805 ([Lutz 1984](https://www.jstor.org/stable/1961257?seq=1#page_scan_tab_contents)).
+
+\begin{block}{\textit{Spirit of the Law},  Montesquieu (1748), Nugent translation}
+When the legislative and executive powers are united in the same person, or in the same body of magistrates, there can be no liberty....\vspace{0.5\baselineskip}
+
+Again, there is no liberty, if the judiciary power be not separated from the legislative and executive.
+\end{block}
+
+## Avoiding Tyranny Through Institutional Design
+
+\begin{block}{\textit{Bowsher v. Synar},  (1986)}
+Even a cursory examination of the Constitution reveals the influence of Montesquieu's thesis that checks and balances were the foundation of a structure of government that would protect liberty. The Framers provided a vigorous Legislative Branch and a separate and wholly independent Executive Branch, with each branch responsible ultimately to the people. The Framers also provided for a Judicial Branch equally independent, with "[t]he judicial Power ... extend[ing] to all Cases, in Law and Equity, arising under this Constitution, and the Laws of the United States." Art. III, § 2.
+\end{block}
+
+## Avoiding Tyranny Through Institutional Design
+
+\only<1-2, 4, 6-9>{
+So, much of the debates at the Constitutional Convention were about giving the federal government the right amount of power while preventing any one person or branch from accumulating too much power. They did this through two things:
+
+\begin{itemize}
+\tightlist
+\item<2-> Giving each branch checks against the others
+\item<4-> Creating a system of separated powers
+    \begin{itemize}
+    \tightlist
+    \item<4-> We've started covering this already (e.g. Vesting Clauses)
+    \item<6-> Now we'll see how the Court has interpreted this system of separated powers
+        \begin{itemize}
+        \tightlist
+        \item<7-> Can Congress \textbf{delegate} its power to the executive?
+        \item<8-> Can Congress \textbf{take} other branches' power for itself (e.g., through a legislative veto)?
+        \item<9-> The Constitution dictates that Congress and the President will \textbf{share} power in the foreign affairs arena; how have Congress, the President, and the Court handled that?
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+}
+
+\only<3>{
+\begin{figure}
+\centering
+\begin{tikzpicture}
+    \node at (0, 0) {Congress};
+    \node at (5, -5) {Court};
+    \node at (-5, -5) {President};
+    \draw [-{Straight Barb[left]}] (0.2,-0.25)--(5.1,-4.75);
+    \draw [-{Straight Barb[left]}] (5,-4.75)--(0.1,-0.25);
+    \draw [-{Straight Barb[right]}] (-0.2,-0.25)--(-5.1,-4.75);
+    \draw [-{Straight Barb[right]}] (-5,-4.75)--(-0.1,-0.25);
+    \draw [-{Straight Barb[left]}] (-4.15,-4.97)--(4.5,-4.97);
+    \draw [-{Straight Barb[left]}] (4.5,-5.03)--(-4.15,-5.03);
+    \node[above] at (0, -5) {\footnotesize Appointment};
+    \node[below] at (0, -5) {\footnotesize Judicial Review};
+    \node[above, rotate=-42.5] at (2.5, -2.5) {\footnotesize Impeachment, Budget, Jurisdiction};
+    \node[below, rotate=-42.5] at (2.5, -2.5) {\footnotesize Judicial Review};
+    \node[above, rotate=42.5] at (-2.5, -2.5) {\footnotesize Impeachment, Investigation, Veto Override};
+    \node[below, rotate=42.5] at (-2.5, -2.5) {\footnotesize Veto};
+\end{tikzpicture}
+\end{figure}
+}
+
+\only<5>{
+\begin{block}{Article I \S 1}
+All legislative powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.
+\end{block}
+
+\begin{block}{Article II \S 1}
+The executive power shall be vested in a President of the United States of America....
+\end{block}
+
+\begin{block}{Article III \S 1}
+The judicial Power of the United States, shall be vested in one supreme Court, and in such inferior Courts as the Congress may from time to time ordain and establish.
+\end{block}
+}
+        
+## Approaches to Analyzing Separation of Powers
+
+We'll see the justices take different approaches to these issues. The two principal approaches to analyzing separation of powers issues are:
+
+. . .
+
+- Formalism
+    + Takes a "bright line approach"
+    + Considers that the Constitution creates three separate branches with distinct types of power and prohibits any departures from that scheme that are not specified in the Constitution
+- Functionalism
+    + We will still recognize the Constitution's scheme of separated powers -- extreme departures from this scheme are prohibited
+    + However, we will allow some departures because the Constitution should allow for some flexibility and experimentation
+
+## Congressional Delegation of Power
+
+Sometimes Congress delegates some of its power to others.\vspace{0.5\baselineskip}
+
+What about the Vesting Clause of Article I?
+
+\begin{block}{Article I \S 1}
+All legislative powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.
+\end{block}
+
+## Congressional Delegation of Power
+
+Why would it want to do that?\vspace{0.5\baselineskip}
+
+Why would the public want them to?\vspace{0.5\baselineskip}
+
+Are there any reasons to be concerned about it?\vspace{0.5\baselineskip}
+
+\begin{tabular}{p{0.222\textwidth} | p{0.3\textwidth} | p{0.38\textwidth}}
+& \textbf{Pros} & \textbf{Cons} \\[0.5em]
+\hline
+\vspace{0.1em}\textbf{Congress} &
+\vspace{0.1em}\onslide<2->{
+$\bullet$ Workload\newline
+$\bullet$ Expertise\newline
+$\bullet$ Politics (get credit, avoid blame)
+} &
+\vspace{0.1em}\onslide<3->{Less control?}
+\\[0.5em]
+\hline
+\vspace{0.1em}\textbf{People} &
+\vspace{0.1em}\onslide<4->{
+$\bullet$ Workload\newline
+$\bullet$ Expertise} &
+\vspace{0.1em}\onslide<5->{Lost accountability}
+\end{tabular}
+
+## Congressional Delegation of Power
+
+\only<1-3,5-7>{
+So what's the law? Obviously Congress \textbf{is} doing it; what's the law behind it?
+
+\begin{itemize}
+\tightlist
+\item<2-> The general rule: \only<2, 4->{The non-delegation doctrine} \only<3>{\textit{delegata potestas non potest delegari}}
+\item<5-> The exception that swallows the rule: Intelligible principle
+    \begin{itemize}
+    \tightlist
+    \item<6-> So, we have a "toothless" non-delegation doctrine
+    \item<7-> Why defang the non-delegation doctrine?
+    \end{itemize}
+\end{itemize}
+}
+
+\only<4>{
+\begin{block}{J.W. Hampton, Jr. \& Co. v. United States}
+The well-known maxim 'delegata potestas non potest delegari,' applicable to the law of agency in the general and common law, is well understood and has had wider application in the construction of our Federal and State Constitutions than it has in private law. The Federal Constitution and State Constitutions of this country divide the governmental power into three branches.... [I]n carrying out that constitutional division ... it is a breach of the National fundamental law if Congress gives up its legislative power and transfers it to the President, or to the Judicial branch....
+\end{block}
+}
+
+\only<8>{
+\begin{block}{Sunshine Anthracite Coal Co. v. Adkins (1940)}
+Delegation by Congress has long been recognized as necessary in order that the exertion of legislative power does not become a futility.
+\end{block}
+
+\begin{block}{Mistretta v. United States (1989)}
+[O]ur jurisprudence has been driven by a practical understanding that in our increasingly complex society, replete with ever changing and more technical problems, Congress simply cannot do its job absent an ability to delegate power under broad general directives.
+\end{block}
+}
+
+## Mistretta v. United States
+
+\only<2-5>{
+\begin{itemize}
+\tightlist
+\item<2-> Congress passed the Sentencing Reform Act of 1984, creating the Sentencing Commission
+\item<3-> The Commission was an independent body in the judicial branch charged with developing sentencing guidelines for federal judges
+\item<4-> Mistretta was convicted of selling cocaine in the U.S. District Court for the Western District of Missouri; he was sentenced to 18 months imprisonment under the sentencing guidelines created by the Commission
+\item<5-> The Court held the delegation was constitutional
+\end{itemize}
+}
+
+\only<6>{
+\begin{block}{Mistretta v. United States}
+In light of our approval of ... broad delegations, we harbor no doubt that Congress' delegation of authority to the Sentencing Commission is sufficiently specific and detailed to meet constitutional requirements. Congress charged the Commission with three goals.... Congress further specified four "purposes" of sentencing that the Commission must pursue in carrying out its mandate.... In addition, Congress prescribed the specific tool -- the guidelines system -- for the Commission to use in regulating sentencing.... To guide the Commission in its formulation of offense categories, Congress directed it to consider seven factors....\vspace{0.5\baselineskip}
+
+The Act sets forth more than merely an "intelligible principle" or minimal standards.
+\end{block}
+}
+
+## Gundy v. United States: Background
+
+. . .
+
+- States had differing sex offender registration requirements, and various loopholes resulted in more than 100,000 sex offenders not being on registries
+- Congress enacted SORNA to make registration complete and uniform
+- In \S 20913(d), it gave the Attorney General "the authority to specify the applicability of [SORNA's] requirements... to sex offenders convicted before [its] enactment... and to prescribe rules for the registration of any such sex offenders". The Attorney General issued a rule specifying SORNA applied to all pre-SORNA offenders.
+- Gundy was a sex offender convicted before SORNA and was not registered. He was convicted under SORNA.
+- Gundy argued \S 20913(d) was an unconstitutional delegation of Congressional power. The district and appellate courts rejected that claim, and Gundy petitioned the Court for cert.
+
+## Gundy v. United States: Holding and Rationale
+
+\only<2-5>{
+\begin{itemize}
+\item<2-> The Court held the delegation was constitutional
+\item<3-> In a prior case (\textit{Reynolds}), the Court held SORNA only applies to pre-Act offenders when the AG says it does
+\item<4-> \textbf{But}, the Court explains Congress intended SORNA to apply to all pre-Act offenders, and delegated to the AG only the power to delay implementation for \textit{feasability concerns}
+\item<5-> This is sufficient to pass the "intelligible principle" test
+\end{itemize}
+}
+
+\only<6>{
+\begin{block}{Gundy v. United States}
+The statute conveyed Congress's
+policy that the Attorney General require pre-Act offenders to register as soon as feasible.
+Under the law, the feasibility issues he could address were administrative---and, more specifically, transitional---in nature... By stating its demand for a "comprehensive" registration
+system and by defining the "sex offenders" required to register to include pre-Act offenders, Congress conveyed that the Attorney General had only temporary authority... That
+statutory authority, as compared to the delegations we have upheld in the past, is distinctly
+small-bore. It falls well within constitutional bounds.\vspace{0.5\baselineskip}
+
+Indeed, if SORNA's delegation is unconstitutional, then most of Government is unconstitutional---dependent as Congress is on the need to give discretion to executive officials to implement
+its programs.
+\end{block}
+}
+
+## Gundy v. United States: Concurrence
+
+\begin{block}{Gundy v. United States (Alito, Concurring)}
+If a majority of this Court were willing to reconsider the approach we have taken for the
+past 84 years, I would support that effort. But because a majority is not willing to do that,
+it would be freakish to single out the provision at issue here for special treatment.\vspace{0.5\baselineskip}
+
+Because I cannot say that the statute lacks a discernible standard that is adequate under
+the approach this Court has taken for many years, I vote to affirm.
+\end{block}
+
+## Gundy v. United States: Dissent (Gorsuch)
+
+. . .
+
+- The intelligible principle doctrine is wrong (at least as it has evolved/been applied)
+- The question is whether Congress is the one making the policy decisions. OK to let other branches "fill in the details" or make application dependent on executive fact-finding
+- Moreover, as applied to this case, SORNA gives the AG more discretion than the majority admits
+
+## Gundy: Still good law... for now
+
+::: {.block}
+### Allstates Refractory Contractors, LLC v. Su (Thomas dissenting)
+I continue to adhere to my view that the intelligible principle test “does not adequately reinforce the Constitution’s allocation of legislative power...” This case exemplifies the problem. Congress purported to empower an administrative agency to impose whatever workplace-safety standards it deems “appropriate.” That power extends to virtually every business in the United States...
+\vspace{\baselineskip}
+
+The Occupational Safety and Health Act may be the broadest delegation of power to an administrative agency found in the United States Code... If this far-reaching grant of authority does not impermissibly confer legislative power on an agency, it is hard to imagine what would.
+:::
+
+## Congressional Usurpation of Power
+
+\only<1-2, 4-5, 7>{
+Sometimes Congress attempts to exercise power held by the executive or judicial branches.\vspace{0.5\baselineskip}
+
+\begin{itemize}
+\tightlist
+\item<2-> After the Supreme Court's decision in \textit{Employment Division v. Smith} (1990), which laid out a standard for Free Exercise claims, Congress passed the Religious Freedom Restoration Act (RFRA) of 1993 dictating a different standard for courts to follow; the Court rejected this attempt by Congress to usurp the judicial power in \textit{City of Boerne v. Flores} (1997). \onslide<4->{(but see \textit{Gonzales v. O Centro Espirita Beneficente Uniao do Vegetal} (2006))}
+\item<5-> In \textit{Bowsher v. Synar} (1986), the Court held unconstitutional a deficit-reduction act by Congress. It empowered the Comptroller General, an official removable only by Congress, to enforce the law, in violation of the separation of powers.
+\item<7> Congress also set up many schemes where it retained a "legislative veto" over actions by agencies.
+\end{itemize}
+}
+
+\only<3>{
+\begin{block}{City of Boerne v. Flores}
+Our national experience teaches that the Constitution is preserved best when each part of the Government respects both the Constitution and the proper actions and determinations of the other branches. When the Court has interpreted the Constitution, it has acted within the province of the Judicial Branch, which embraces the duty to say what the law is. Marbury v. Madison, 1 Cranch, at 177. When the political branches of the Government act against the background of a judicial interpretation of the Constitution already issued, it must be understood that in later cases and controversies the Court will treat its precedents with the respect due them under settled principles, including stare decisis, and contrary expectations must be disappointed. RFRA was designed to control cases and controversies, such as the one before us; but as the provisions of the federal statute here invoked are beyond congressional authority, it is this Court's precedent, not RFRA, which must control.
+\end{block}
+}
+
+\only<6>{
+\begin{block}{Bowsher v. Synar}
+The Constitution does not contemplate an active role for Congress in the supervision of officers charged with the execution of the laws it enacts....\vspace{0.5\baselineskip}
+
+In light of [our] precedents, we conclude that Congress cannot reserve for itself the power of removal of an officer charged with the execution of the laws except by impeachment. To permit the execution of the laws to be vested in an officer answerable only to Congress would, in practical terms, reserve in Congress control over the execution of the laws.
+\end{block}
+}
+
+## INS v. Chadha: Background
+
+. . .
+
+- Chadha was in the United States on a student visa
+- After his visa expired, he remained in the United States
+- The INS began deportation proceedings, but Chadha successfully petitioned to have his deportation suspended
+- In the INA, Congress had retained a legislative veto over such suspensions, and exercised it in this case
+- Chadha appealed the deportation order to the Ninth Circuit, who ordered the deportation suspended
+
+## INS v. Chadha: Holding and Rationale
+
+. . .
+
+- Holding: The INA's legislative veto provision violates separation of powers
+- Rationale:
+  + Congress delegated authority to suspend deportations to the executive branch
+  + Once it does so, it can't take that power back except by following the requirements of Article I
+  + A one house veto violates Bicameralism
+  + The procedure as a whole violates Presentment
