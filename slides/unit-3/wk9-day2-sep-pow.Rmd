@@ -1,0 +1,61 @@
+---
+title: "Political Science Research on Separation of Powers"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{1pt}}
+    - \definecolor{DarkerGreen}{HTML}{409030}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Courts in the Separation of Powers
+
+. . .
+
+- Judicial independence
+  + Defining/measuring ([Linzer & Staton 2015](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_1761665009); [Brinks & Blass 2017](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_webofscience_primary_000405599200003CitationCount))
+  + Determinants ([Boston et al 2024](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_journals_3103247865))
+- Court curbing, public opinion, and judicial review [(Clark 2009)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_istex_primary_ark_67375_WNG_0XZXRLCR_T)
+  + Interviews with justices & clerks imply they see court-curbing as a signal of lack of public support
+  + When Congress passes more court-curbing bills the Court exercises judicial review less
+  + When public opinion turns against the Court the Court exercises judicial review less
+  + Data analyzed were constitutional cases
+- Agenda setting [(Owens 2010)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_jstor_primary_25652214)
+  + Justices do not consider legislators' preferences on *cert* votes
+  + Data analyzed were statutory construction cases
+- How and how much separation of powers concerns affect judicial decision making is not a simple question
+
+## Congress in the Separation of Powers
+
+. . .
+
+- Why does Congress give up power?
+  + To leverage expertise (e.g. [Epstein and O'Halloran 1999](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_journals_1750743880))
+    * Think about picking a policy $p$ on the left-right continuum
+    * The actual outcome $x$ from policy usually depends on real-world events $\omega$; e.g. $x = p + \omega$
+    * If Congress chooses $p$, $\omega$ could make the result far from their preference
+    * But if we say agencies can observe $\omega$ before choosing $p$, delegating can improve outcomes
+  + To avoid blame (e.g. [Fiorina 1982](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_60897185))
+    * [(Schoenbrod 1995)]()
+    * [(Fox and Jordan 2011)]()
+- How can Congress exercise oversight?
+  + "Police patrols" vs "fire alarms" [(McCubbins and Schwartz 1984)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_59355869)
+  + Congressional investigations significantly reduce presidential approval [(Kriner and Schickler 2014)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_webofscience_primary_000333199400023)
+
+## Presidents in the Separation of Powers
+
+. . .
+
+- Vetos are rarely exercised; are they important? [(Cameron 2000)](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991037177979706011)
+- Increased public approval increases presidents' legislative success **if** the issue both salient and voters don't have entrenched positions [(Canes-Wrone and de Marchi 2002)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_60641006)
+- Partisan conflict affects Congress' votes on presidents' priorities [(Lee 2013)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_1497641737)
