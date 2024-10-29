@@ -6,8 +6,9 @@ urlcolor: Blue
 header-includes:
     - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
     - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
-    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{1pt}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{2pt}}
     - \definecolor{DarkerGreen}{HTML}{409030}
+    - \usepackage{tikz}
 output:
     quack::presentation:
         toc: false
@@ -17,6 +18,49 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
+
+## Congress in the Separation of Powers
+
+. . .
+
+- Why does Congress give up power?
+  + To leverage expertise (e.g. [Epstein and O'Halloran 1999](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_journals_1750743880))
+    * Think about picking a policy $p$ on the left-right continuum
+    * The actual outcome $x$ from policy usually depends on real-world events $\omega$; e.g. $x = p + \omega$
+    * If Congress chooses $p$, $\omega$ could make the result far from their preference
+    * But if we say agencies can observe $\omega$ before choosing $p$, delegating can improve outcomes
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw<4->[thick] (0,0) -- (4,0);
+\node<4-> at (1,0) {$\bullet$};
+\node<4->[above] at (1,0) {$p$};
+\node<5-> at (3,0) {$\bullet$};
+\node<5->[above] at (3,0) {$x$};
+\node<5->[below] at (2,0) {$\omega$};
+\end{tikzpicture}
+\end{figure}
+
+\vfill
+
+## Congress in the Separation of Powers
+
+::: {.nonincremental}
+
+- Why does Congress give up power?
+  + To leverage expertise (e.g. [Epstein and O'Halloran 1999](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_journals_1750743880))
+    * Think about picking a policy $p$ on the left-right continuum
+    * The actual outcome $x$ from policy usually depends on real-world events $\omega$; e.g. $x = p + \omega$
+    * If Congress chooses $p$, $\omega$ could make the result far from their preference
+    * But if we say agencies can observe $\omega$ before choosing $p$, delegating can improve outcomes
+
+>  + They do it to avoid blame (e.g. [Fiorina 1982](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_60897185)), which can work [(Fox and Jordan 2011)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_uchicagopress_journals_S0022381611000491), which is arguably bad [(Schoenbrod 1993)](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991003480859706011)
+>- How can Congress exercise oversight?
+>  + "Police patrols" vs "fire alarms" [(McCubbins and Schwartz 1984)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_59355869)
+>  + Congressional investigations significantly reduce presidential approval [(Kriner and Schickler 2014)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_webofscience_primary_000333199400023)
+
+:::
 
 ## Courts in the Separation of Powers
 
@@ -34,23 +78,6 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
   + Justices do not consider legislators' preferences on *cert* votes
   + Data analyzed were statutory construction cases
 - How and how much separation of powers concerns affect judicial decision making is not a simple question
-
-## Congress in the Separation of Powers
-
-. . .
-
-- Why does Congress give up power?
-  + To leverage expertise (e.g. [Epstein and O'Halloran 1999](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_journals_1750743880))
-    * Think about picking a policy $p$ on the left-right continuum
-    * The actual outcome $x$ from policy usually depends on real-world events $\omega$; e.g. $x = p + \omega$
-    * If Congress chooses $p$, $\omega$ could make the result far from their preference
-    * But if we say agencies can observe $\omega$ before choosing $p$, delegating can improve outcomes
-  + To avoid blame (e.g. [Fiorina 1982](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_60897185))
-    * [(Schoenbrod 1995)]()
-    * [(Fox and Jordan 2011)]()
-- How can Congress exercise oversight?
-  + "Police patrols" vs "fire alarms" [(McCubbins and Schwartz 1984)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_59355869)
-  + Congressional investigations significantly reduce presidential approval [(Kriner and Schickler 2014)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_webofscience_primary_000333199400023)
 
 ## Presidents in the Separation of Powers
 

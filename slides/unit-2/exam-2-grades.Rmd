@@ -1,0 +1,64 @@
+---
+title: "Exam Two Grades"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+    - \setlength\belowcaptionskip{0pt}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+quack::attach_common_packages()
+scores = 5 * c(
+    16, 18, 18, 20, 19, 15, 19, 15, 18, 19, 19, 20, 19, 18, 18, 20, 20, 19, 19,
+    18, 16, 19, 20, 15, 15, 14, 17, 17, 18, 14, 19, 17, 19, 18, 19, 19, 19, 13,
+    17, 18, 17, 17, 20, 15, 16, 18, 18, 15, 19, 13, 14, 16, 16, 19, 18, 20, 19,
+    18, 17
+)
+grades = c(
+    78.59, 83.59, 90.48, 95.48, 77.19, 90.7, 80.7, 90.7, 78.4, 88.2, 95.24,
+    95.24, 100, 97.5, 95, 88.2, 100, 100, 95.24, 95.24, 92.74, 90, 92.98,
+    97.74, 87.5, 80.7, 73.59, 87.98, 90.24, 88.2, 73.59, 90.7, 85.7, 88.4,
+    90.48, 92.98, 86.09, 90.7, 73.59, 90.24, 88.2, 87.98, 83.4, 90.9, 78.4,
+    78.59, 85.9, 88.2, 82.98, 90.7, 73.59, 75.9, 80.9, 78.59, 88.4, 78.93,
+    95.48, 92.98, 90.48, 85.7
+)
+```
+
+## Grade Distribution
+
+```{r}
+cap = "Exam 2 Grades"
+dat = data.frame(
+    `25th Percentile` = floor(quantile(scores, probs = 0.25)),
+    Mean = floor(mean(scores)),
+    Median = floor(median(scores)),
+    `75th Percentile` = floor(quantile(scores, probs = 0.75)),
+    check.names = FALSE
+)
+kableExtra::kable(dat, booktabs = TRUE, row.names = FALSE, caption = cap) %>%
+    kableExtra::kable_styling(position = "center")
+```
+
+\vspace*{3\baselineskip}
+\pause
+
+```{r}
+cap = "Total Grades So Far"
+dat = data.frame(
+    `25th Percentile` = floor(quantile(grades, probs = 0.25)),
+    Mean = floor(mean(grades)),
+    Median = floor(median(grades)),
+    `75th Percentile` = floor(quantile(grades, probs = 0.75)),
+    check.names = FALSE
+)
+kableExtra::kable(dat, booktabs = TRUE, row.names = FALSE, caption = cap) %>%
+    kableExtra::kable_styling(position = "center")
