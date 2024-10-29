@@ -1,0 +1,155 @@
+---
+title: "Political Institutions and Public Policy"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{2pt}}
+    - \definecolor{DarkerGreen}{HTML}{409030}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Recap and setup
+
+. . .
+
+- We started off this unit with basic explanation of how institutions make policy
+- We then examined the constitutional bases and actual processes of interbranch relations
+  + American public policy is built by *all* our institutions
+- We also surveyed political science research on how separation of powers plays out
+- Today we'll bring it back full circle and put it all together
+
+## An overview of American policymaking
+
+. . .
+
+- The public and activists or interest groups are policy demanders
+  + Public opinion changes or events create a need
+  + Some members of the public are more motivated than others
+  + Interest groups represent business interests and politically engaged citizens,
+    and can make policy demands more efficiently and effectively
+- Each institution has policy making tools to meet that demand
+  + Congress legislates
+  + Bureaucrats regulate
+  + Courts issue judgments and precedents
+  + Presidents issue executive orders and influence bureaucrats
+  + These processes interact to generate policy
+- Public opinion and activist pressure then generate feedback
+
+## Public opinion and institutions' decisions
+
+. . .
+
+- Policy feedback ([Campbell and Levi 2012](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_miscellaneous_1126522091); Week 8, Day 1)
+- Thermostatic opinion [(Soroka and Wlezien 2012)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_ebookcentralchapters_471996_14_36)
+
+## The role of organized interests
+
+. . .
+
+- What are interest groups and lobbyists?
+- How do they pursue their members' or clients' interests?
+  + *Amici* at the Court
+  + Participation in bureaucratic rulemaking
+  + Traditional lobbying with other politicians
+
+## The importance of regulation
+
+. . .
+
+- Policy analysts and scholars often use game theory in their work, which can be useful for showing the benefit of regulation
+  + This is obviously not a game theory class
+  + All you need to know is a game theory model
+    * consists of players, their preferences, and the actions they can take, and
+    * its solution is a strategy for every player that is the best possible response to every other player's strategy
+
+## The importance of regulation
+
+- Consider the following scenario:
+  + You live with a roommate & must split cleaning duties
+  + You each prefer a clean space but also dislike cleaning
+  + It can be rational not to contribute even if you'd be better off with a clean space
+  + Regulation can solve such problems
+
+\invisible<1-2>{
+\begin{figure}
+\centering
+\includegraphics<1-4>[width = 0.75\textwidth]{roommates1}
+\includegraphics<5>[width = 0.75\textwidth]{roommates2}
+\end{figure}
+}
+
+## Models of change
+
+. . .
+
+- "There is an old saw in political science that difficult conditions become problems only when people come to see them as amenable to human action" [(Stone 1989)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_gale_incontextcollege_GICCO_A7823693)
+- "social construction of target populations... influence the policy agenda and the selection of policy tools..." [(Schneider and Ingram 1993)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_proquest_journals_214433416)
+- Punctuated equilibrium [(True, Jones, and Baumgartner 2007)](https://search.lib.utexas.edu/permalink/01UTAU_INST/apl7st/cdi_informaworld_taylorfrancisbooks_10_4324_9780367274689_6_version2)
+  + Issue definition
+  + Agenda setting and bounded rationality
+
+## Exam Review
+
+. . .
+
+- Your next exam is Thursday, October 31
+- Online, open everything, but must work alone
+- Open at 12:01 a.m. 10/31, **must** submit by 11:59 p.m. 10/31
+  + No other time limitations
+- 10 multiple choice questions, 1 essay question
+  + Partial credit now given for multiple multiples
+  + Two essay prompts, must choose one
+- Topics
+  + Institutions' individual powers and tools for policy making
+  + Constitutional separation of powers framework
+  + Separation of powers research
+  + Broader theories and issues in policy making
+
+## Exam Prep: Multiple Choice
+
+. . .
+
+Which of the following would be an exception that allows a bureaucratic agency to promulgate a rule without the “notice and comment” process?
+
+. . .
+
+```{=tex}
+\setbeamertemplate{enumerate items}[default]
+```
+
+::: {.nonincremental}
+
+a. The agency explains why they think they have good cause to say the notice and comment process is unnecessary in this case
+b. The agency identifies every person and entity that would be effected by the rule and gives them notice of the proposed rule individually
+c. The rule in question only pertains to internal agency procedures
+d. A and B
+e. A and C
+f. B and C
+g. \textbf<4>{\textcolor<4>{Blue}{All of the above}}
+h. None of the above
+
+:::
+
+## Exam Prep: Essay
+
+. . .
+
+Suppose the President of the United States decided to immediately deport every unauthorized immigrant in the United States.
+Further suppose that Congress immediately passed legislation allowing said immigrants to stay in the United States.
+An affected immigrant sues, seeking an injunction to prevent the President from enforcing their policy.
+The case reaches the Supreme Court; as if you were the justice writing the Court's opinion, explain why the President's action would be constitutional or unconstitutional.
+
+. . .
+
+- How does this fit into Justice Jackson's typology from *Youngstown*?
+- In light of that, how should we analyze the hypothetical?
