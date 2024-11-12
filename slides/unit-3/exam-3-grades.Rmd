@@ -1,0 +1,70 @@
+---
+title: "Exam Three Grades"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{3pt}\setskip{3pt}}
+    - \setlength\belowcaptionskip{0pt}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+quack::attach_common_packages()
+scores = 5 * c(
+    20, 19, 19, 19, 18.5, 9, 20, 19, 14, 19, 18, 19, 
+    18, 20, 20, 20, 19, 19, 17.25, 19, 19, 17.5, 17.5, 19, 18.5, 
+    18, 17, 18, 20, 19, 17, 17, 17, 18, 19, 19, 16, 16, 17, 17, 19, 
+    20, 17, 19, 17, 17.5, 17, 18, 17.5, 16, 17, 18, 14.25, 17.5, 
+    16, 20, 18, 18
+)
+grades = c(84.0666666666667, 87.4, 91.9833333333333, 94.4833333333333, 
+40.7333333333333, 93.8, 53.8, 92.1333333333333, 75.6, 90.4666666666667, 
+93.5, 63.5, 96.6666666666667, 98.3333333333333, 96.6666666666667, 
+92.1333333333333, 98.3333333333333, 98.3333333333333, 92.25, 
+95.1666666666667, 93.5, 89.1666666666667, 91.15, 96.8333333333333, 
+89.1666666666667, 53.8, 79.0666666666667, 86.9833333333333, 90.1666666666667, 
+92.1333333333333, 80.7333333333333, 88.8, 85.4666666666667, 87.2666666666667, 
+90.3166666666667, 93.65, 89.0666666666667, 87.1333333333333, 
+75.7333333333333, 88.5, 58.8, 86.9833333333333, 87.2666666666667, 
+93.9333333333333, 80.6, 84.0666666666667, 85.6, 87.9666666666667, 
+83.65, 90.4666666666667, 78.2333333333333, 77.2666666666667, 
+82.2666666666667, 82.4, 82.6833333333333, 81.7833333333333, 90.3166666666667, 
+95.3166666666667, 90.3166666666667, 87.1333333333333)
+```
+
+## Grade Distribution
+
+```{r}
+cap = "Exam 3 Grades"
+dat = data.frame(
+    `25th Percentile` = floor(quantile(scores, probs = 0.25)),
+    Mean = floor(mean(scores)),
+    Median = floor(median(scores)),
+    `75th Percentile` = floor(quantile(scores, probs = 0.75)),
+    check.names = FALSE
+)
+kableExtra::kable(dat, booktabs = TRUE, row.names = FALSE, caption = cap) %>%
+    kableExtra::kable_styling(position = "center")
+```
+
+\vspace*{3\baselineskip}
+\pause
+
+```{r}
+cap = "Total Grades So Far"
+dat = data.frame(
+    `25th Percentile` = floor(quantile(grades, probs = 0.25)),
+    Mean = floor(mean(grades)),
+    Median = floor(median(grades)),
+    `75th Percentile` = floor(quantile(grades, probs = 0.75)),
+    check.names = FALSE
+)
+kableExtra::kable(dat, booktabs = TRUE, row.names = FALSE, caption = cap) %>%
+    kableExtra::kable_styling(position = "center")

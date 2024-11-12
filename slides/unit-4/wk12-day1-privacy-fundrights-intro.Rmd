@@ -1,0 +1,170 @@
+---
+title: "Privacy and Fundamental Rights"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{2pt}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## What Rights Do Americans Have?
+
+. . .
+
+- There are many specific freedoms explicitly mentioned in the US Constitution
+  + The First Amendment protects freedom of expression, among others
+  + The Fourth Amendment grants freedom from unreasonable searches and seizures
+  + The list goes on
+- However, the Ninth Amendment *says* there might be unenumerated rights
+- What are they? How would we know?
+- The Court has recognized many such rights, but the state of the law here is in flux
+
+\onslide<6->{
+\begin{block}{Ninth Amendment to the US Constitution}
+The enumeration in the Constitution, of certain rights, shall not be construed to deny or disparage others retained by the people.
+\end{block}
+}
+
+## *Griswold v. Connecticut*: Background
+
+. . .
+
+- A Connecticut law prohibited the use of contraception
+- Estelle Griswold was the head of Planned Parenthood in CT
+- Dr. C. Lee Buxton was a gynecologist at the New Haven clinic
+- They advised married women about contraception
+- Griswold and Buxton were arrested under the anti-contraception law
+
+## *Griswold v. Connecticut*: Holding and Rationale
+
+. . .
+
+- There is no explicit right to contraception in the Constitution
+- But, we often infer more specific rights from constitutional provisions
+- The Ninth Amendment provides that there are implied rights
+- Many enumerated rights imply some right of privacy
+  + Fourth Amendment freedom from unreasonable searches and seizures
+  + Fifth Amendment freedom from self-incrimination
+  + etc
+- The privacy of marital relationships is protected under it
+- This law violates that privacy
+
+<!-- lie "within the zone of privacy created by several fundamental constitutional guarantees" -->
+
+## *Griswold v. Connecticut*: Holding and Rationale
+
+::: {.block}
+### *Griswold v. Connecticut* (whitespace added)
+[Previous] cases suggest that specific guarantees in the Bill of Rights have penumbras, formed by emanations from those guarantees that help give them life and substance...
+Various guarantees create zones of privacy...
+<!-- The right of association contained in the penumbra of the First Amendment is one... -->
+<!-- , as we have seen. -->
+
+\vspace*{\baselineskip}
+
+The Third Amendment, in its prohibition against the quartering of soldiers...
+<!-- "in any house" in time of peace without the consent of the owner, -->
+is [a] facet of that privacy.
+
+\vspace*{\baselineskip}
+
+The Fourth Amendment explicitly affirms the "right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures..."
+<!-- The Fifth Amendment... -->
+<!-- , in its Self-Incrimination Clause, -->
+<!-- enables the citizen to create a zone of privacy which government may not force him to surrender to his detriment. -->
+
+\vspace*{\baselineskip}
+
+The Ninth Amendment provides: "The enumeration in the Constitution, of certain rights, shall not be construed to deny or disparage others retained by the people."
+:::
+
+## *Griswold v. Connecticut*: Holding and Rationale
+
+::: {.block}
+### *Griswold v. Connecticut*
+The present case, then, concerns a relationship lying within the zone of privacy created by several fundamental constitutional guarantees.
+And it concerns a law which, in forbidding the use of contraceptives, rather than regulating their manufacture or sale, seeks to achieve its goals by means having a maximum destructive impact upon that relationship.
+Such a law cannot stand...
+
+\vspace*{\baselineskip}
+
+Would we allow the police to search the sacred precincts of marital bedrooms for telltale signs of the use of contraceptives? The very idea is repulsive to the notions of privacy surrounding the marriage relationship.
+:::
+
+## *Roe v. Wade*: Background
+
+. . .
+
+- In Texas (and many other states), abortion was prohibited
+- Norma McCorvey wanted an abortion
+- In March of 1970, she sued the DA for Dallas County challenging the law
+- In June, she gave birth to the baby
+
+## *Roe v. Wade*: Holding and Rationale
+
+. . .
+
+- Threshold issue: Is the case moot?
+  + The issue is "capable of repetition yet evading review"
+- The choice to have an abortion is protected by the right to privacy
+  + \textcolor{gray}{(This is about the reasoning in \textit{Roe}, not current law!)}
+- The state also has an interest in protecting "the potentiality of human life"
+- The Court balanced these interests by holding
+  + in the first trimester, the state can't prohibit abortion;
+  + in the second, it may impose some regulations for maternal health; and
+  + in the third, it may regulate or prohibit abortion completely
+- In subsequent cases (like *Planned Parenthood v. Casey*), this framework evolved but a constitutional right to abortion remained
+
+## *Dobbs v. Jackson Women's Health*: Background
+
+\only<1-5>{
+\begin{itemize}
+\tightlist
+\item<2-> The states developed a variety of abortion regulations
+\item<3-> In 2018, Mississippi instituted a ban at 15 weeks
+\item<4-> Jackson Women's Health was the only abortion provider in MS
+\item<5-> They sued seeking an injunction against enforcing the law
+\end{itemize}
+}
+
+\only<6>{
+\begin{figure}
+\centering
+\includegraphics[width = 0.9\textwidth]{dobbs}
+\end{figure}
+}
+
+\only<7>{
+\begin{figure}
+\centering
+\includegraphics[width = 0.9\textwidth]{dobbs-draft}
+\end{figure}
+}
+
+\only<8>{
+\begin{figure}
+\centering
+\includegraphics[width = 0.9\textwidth]{leak-investigation}
+\end{figure}
+}
+
+## *Dobbs*: Holding and Rationale
+
+. . .
+
+- Six justices voted to uphold the MS law; five voted to overturn *Roe*
+- Alito distinguishes abortion from other types of privacy cases; abortion is not protected by a right to privacy
+- The Fourteenth Amendment also protects "fundamental liberties"
+  + "rooted in the Nation's history and tradition"
+  + "essential" to our "scheme of ordered liberty"
+- The Court finds abortion is not a fundamental liberty in either analysis
