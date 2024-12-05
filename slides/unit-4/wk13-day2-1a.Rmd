@@ -1,0 +1,91 @@
+---
+title: "First Amendment Issues, continued"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{2pt}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Free Expression and Free Exercise
+
+. . .
+
+- *Kennedy v. Bremerton School District* highlighted how individuals' freedoms, such as the freedoms of speech and free exercise, can clash
+- Expression restrictions must typically meet strict scrutiny
+- However, there are exceptions and nuances, such as:
+  + Content-neutral time, place, and manner restrictions are okay
+  + Some types of speech are less protected
+    * Defamation laws are okay (with limits)
+    * Speech inciting imminent lawless action can be restricted (*Brandenburg*)
+    * "True" threats are not protected speech
+- The First Amendment generally protects religious exercise
+  + However, you must still follow "valid and neutral law[s] of general applicability" *Employment Division v. Smith*
+  + Non-neutral laws must meet strict scrutiny
+
+## Fulton v. City of Philadelphia
+
+. . .
+
+- Catholic Social Services (CSS) ran a foster care agency in Philadelphia
+- CSS would not place foster children with same-sex couples
+- In March of 2018, the Philadelphia Enquirer ran a story about it
+- The City of Philadelphia stopped contracting with CSS
+  + They said it violated a non-discrimination provision in their contract,
+    plus the city's Fair Practices Ordinance
+- CSS sued the city seeking renewal of their contract
+
+## Fulton v. City of Philadelphia
+
+. . .
+
+- The Court unanimously held the city violated CSS's Free Exercise rights
+  + The non-discrimination provisions allowed exceptions, at the "sole discretion" of the Commissioner
+  + This ability meant it wasn't generally applicable, thus it doesn't fall under *Smith*
+- Justices Alito, Gorsuch, and Thomas would have overruled *Smith*
+- Justice Barrett, joined by Kavanaugh, also criticized *Smith* but agreed with the majority that it wasn't implicated
+
+## Masterpiece Cake Shop v. CO Civil Rights Comm'n
+
+. . .
+
+- The Colorado Anti-Discrimination Act prohibited discrimination on sexual orientation
+- The owners of Masterpiece Cake Shop refused to bake a cake for a same-sex wedding
+- The Colorado Civil Rights Commission found against the owners and ordered several corrective measures
+- The Supreme Court was asked to find the CADA violated the First Amendment
+- The Court somewhat punted, holding the Commission affirmatively illustrated animus during its proceedings against Masterpiece Cake Shop
+
+## 303 Creative LLC v. Elenis
+
+. . .
+
+- Lorie Smith owned a design company, 303 Creative
+- She wanted to move into wedding websites
+- However, she did not want to make websites for same-sex weddings
+- This implicated another conflict with CADA
+- 303 Creative asked the Court to overturn *Smith*
+
+## 303 Creative LLC v. Elenis
+
+. . .
+
+- The Court instead limited the case to Free Expression questions
+- The Court held that Colorado can't force Smith "to create expressive designs speaking messages with which [she] disagrees"
+- Sotomayor disagreed with the Court's view:
+
+\onslide<4>{
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{sotomayor-dissent}
+\end{figure}
+}

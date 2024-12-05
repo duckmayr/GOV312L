@@ -1,0 +1,121 @@
+---
+title: "First Amendment Issues"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{2pt}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Contemporary Constitutional Conflicts
+
+. . .
+
+- In recent years, we've seen many common constitutional conflicts
+  + Structure and power
+  + Implied rights
+  + Conflicting rights
+- A common context for conflicting rights is the First Amendment
+
+## The Text
+
+::: {.block}
+### First Amendment to the US Constitution
+Congress shall make no law \textbf<3>{respecting an establishment of religion, or prohibiting the free exercise thereof}; or  \textbf<4-5>{abridging the freedom}  \textbf<4>{of speech}, or  \textbf<5>{of the press}; or  \textbf<6-7>{the right of the people}  \textbf<6>{peaceably to assemble}, and  \textbf<7>{to petition the government for a redress of grievances}.
+:::
+
+. . .
+
+The "Five Freedoms":
+
+. . .
+
+- Freedom of religion (establishment + free exercise)
+- Freedom of speech
+- Freedom of the press
+- Freedom of assembly
+- Right to petition
+
+## Interpreting the text
+
+. . .
+
+::: {.block}
+### Justice Hugo Black, NYU James Madison Lecture
+"No law" means "no law..."
+:::
+
+. . .
+
+::: {.block}
+### Black's Concurrence in *Smith v. California*
+Certainly the First Amendment’s language leaves no room for inference that abridgments of speech and press can be made just because they are slight. That Amendment provides, in simple words, that “Congress shall make no law … abridging the freedom of speech, or of the press.” I read “no law … abridging” to mean no law abridging.
+:::
+
+## Establishment of Religion
+
+\only<1>{
+What does it mean to make a law "respecting an establishment of religion"?
+}
+
+\only<2>{
+\begin{figure}
+\centering
+\includegraphics[height = 0.9\textheight]{wwi-cross}
+\end{figure}
+}
+
+\only<3>{
+\begin{figure}
+\centering
+\includegraphics[height = 0.9\textheight]{lemon-test}
+\end{figure}
+}
+
+## Kennedy v. Bremerton School District
+
+. . .
+
+- In 2008, Kennedy became a part-time coach at Bremerton High
+- After each football game, he prayed at the 50 yard line
+- At first it was alone, but players began joining him
+- An opposing school's coach told Bremerton's principal about it
+- In September 2015, the school district expressed disapproval
+- Kennedy initially stopped, but continued in October
+  + The district tried to negotiate other solutions
+  + Kennedy posted on Facebook he thought he'd be fired
+  + He informed the district he'd resume the prayers
+  + The prayers became a larger press spectacle
+  + Kennedy was put on paid leave, then his contract was not renewed
+
+## Kennedy v. Bremerton School District
+
+. . .
+
+- Should the prayer be protected as free exercise of religion?
+- Should it be protected as free speech?
+- Does such a prayer by a public school employee during school sports activities constitute establishment of religion?
+
+## Kennedy v. Bremerton School District
+
+. . .
+
+- Gorsuch for the majority:
+  + Kennedy's prayer was protected speech and religious exercise
+  + Kennedy's prayer was not "establishment of religion"
+    * The Court "abandons" the *Lemon* test
+    * Establishment Clause issues must be "interpreted by 'reference to historical practices and understandings'"
+    * The prayer was not coercive
+- Sotomayor in dissent:
+  + Majority ignores character of prayer (had become a spectacle)
+  + Peer pressure was demonstrated in the lower court proceedings
