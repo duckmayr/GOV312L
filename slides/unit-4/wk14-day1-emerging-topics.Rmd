@@ -1,0 +1,166 @@
+---
+title: "Emerging Topics"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{2pt}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## US v. Skrmetti
+
+. . .
+
+- Tennessee banned gender-affirming care for minors in 2023
+- The DOJ* sought an injunction to prevent the law's enforcement
+  + *The DOJ joined by transgender people, families, and doctors
+- The District Court issued a preliminary injunction
+- The Sixth Circuit Court of Appeals stayed the injunction
+  + The rationale was that access to gender-affirming care was not "deeply rooted in our history and traditions" 
+- The Supreme Court agreed to hear the case
+  + Oral arguments are tomorrow
+
+## Barnes v. Felix
+
+. . .
+
+- In Harris County in 2016, Officer Felix pulled Barnes over
+- After initial compliance, Barnes started to drive off
+- Felix fatally shot Barnes
+  + Felix grabbed onto the door frame
+  + His head was above the car's roof, so he couldn't see inside
+  + He pressed the gun to Barnes' head and fired, killing him
+- Barnes' mother sued for excessive force
+  + The trial court granted summary judgment for Felix
+  + Cited "moment of threat" doctrine (*Harris v. Serpas*, 5th Cir. 2014)
+    * You can only consider the moment of the shooting
+    * You can't consider the officer's actions leading up to it
+  + The Fifth Circuit affirmed
+  + Oral arguments are on January 22, 2025
+
+## Garland v VanDerStok
+
+. . .
+
+From the Gun Control Act of 1986 (GCA):
+
+::: {.block}
+### 18 U.S.C. \S 921(a)(3)
+The term “firearm” means (A) any weapon (including a starter gun) which will or is designed to or may readily be converted to expel a projectile by the action of an explosive; (B) the frame or receiver of any such weapon...
+:::
+
+::: {.nonincremental}
+::: {.block}
+### 18 U.S.C. \S 923
+a) No person shall engage in the business of importing, manufacturing, or dealing in firearms... until he has... received a license to do so from the Attorney General...
+
+<!-- -->
+
+i) Licensed importers [and] manufacturers shall identify by means of a serial number... on the receiver or frame... in such manner as the Attorney General shall by regulations prescribe, each firearm imported or manufactured...
+:::
+:::
+
+## Garland v. VanDerStok
+
+. . .
+
+- The GCA didn't define "frame or receiver"; ATF did by regulation
+- This definition was outdated, & allowed the sale of "ghost guns"
+  + They are also called privately made firearms or PMFs
+  + Ghost guns are essentially parts kits to make a gun at home
+- The ATF updated definitions by regulation
+  + "Firearm" now includes any parts kit with a frame or receiver
+  + "Frame or receiver" now has a very long, detailed definition
+  + They added a definition of "readily"; it wasn't there before
+    * "a process that is fairly or reasonably efficient, quick, and easy..."
+    * relevant factors are "time, ease, expertise, equipment, availability, expense, scope, and feasibility"
+- In combination, this requires ghost gun sellers to get an ATF license and add serial numbers
+
+## Garland v. VanDerStok
+
+. . .
+
+- Ghost gun sellers challenged the new regulation
+- The Court held [oral arguments](https://www.oyez.org/cases/2024/23-852) on October 8
+- The government relied on arguments that
+  + Regulations should uniformly apply to all firearms
+    * Respondents noted intra-state secondary sales are not regulated
+  + The purpose of the ATF is regulating access to firearms
+- Opponents argued incomplete frames or receivers can't be regulated
+  + Roberts and Barrett both did not seem to buy this at all
+
+\onslide<8->{
+\begin{block}{18 U.S.C. \S 921(a)(3)}
+The term “firearm” means (A) any weapon (including a starter gun) which will or is designed to or may readily be converted to expel a projectile by the action of an explosive; (B) the frame or receiver of any such weapon; (C)...
+\end{block}
+}
+
+## Free Speech Coalition v. Paxton
+
+. . .
+
+- Texas passed a law requiring pornography websites to verify users' age
+- A District Court granted an injunction against its enforcement
+- The Fifth Circuit reversed and stayed the injunction
+  + They argue regulations for *minors* only warrants "rational basis" review, not "strict scrutiny"
+- First Amendment activists and interest groups argue the case has more far-reaching implications
+- Oral arguments are on January 15, 2025
+
+## Recess Appointments
+
+. . .
+
+::: {.block}
+### Article II, \S 2, clause 3
+The President shall have power to fill up all vacancies that may happen during the recess of the Senate, by granting commissions which shall expire at the end of their next session.
+:::
+
+. . .
+
+::: {.block}
+### Article II, \S 3
+...[The President] may, on extraordinary occasions, convene both Houses, or either of them, and in case of disagreement between them, with respect to the time of adjournment, he may adjourn them to such time as he shall think proper...
+:::
+
+## Recess Appointments
+
+\begin{figure}
+\centering
+\href{https://apnews.com/article/supreme-court-trump-recess-appointments-senate-constitution-55004d00cfa7d4b4832e9701cad48a06}{\includegraphics[height = 0.85\textheight]{recess-appointments-conflict}}
+\end{figure}
+
+## Recess Appointments
+
+. . .
+
+- The only other case on it is *NLRB v. Noel Canning* (2014)
+- Senate met *pro forma* every 3 days from 12/2011 to 12/2012
+- On a day they didn't meet, Obama appointed 3 NLRB Members
+- The Court struck down the appointments
+- Majority opinion
+  + Breyer (author), Kennedy, Ginsburg, Sotomayor, Kagan
+  + OK for inter- *or* intra-session recesses
+  + It doesn't matter when the vacancy arose
+  + The recess has to be at least 10 days though
+- Scalia's concurrence
+  + Scalia (author), Roberts, Thomas, Alito
+  + They would have held only inter-session appointments are OK
+
+## Other Recent or Upcoming Issues
+
+. . .
+
+- Trump's charges
+- Birthright citizenship
+- The pardon power
+- DOGE
