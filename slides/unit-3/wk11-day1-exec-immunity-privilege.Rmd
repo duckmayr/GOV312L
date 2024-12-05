@@ -1,0 +1,307 @@
+---
+title: "Recent Developments in Presidential Immunity and Privilege"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{2pt}}
+    - "\\newcommand{\\fullpic}[2]{\\includegraphics[height=#1\\linewidth]{#2}}"
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Presidential immunity and privilege
+
+. . .
+
+The Court has held:
+
+. . .
+
+- "Executive privilege" means sometimes presidents need not give others evidence
+- "Presidential immunity" means in some contexts presidents cannot be sued or charged for some conduct
+
+## Executive Privilege
+
+\centering
+
+\only<1>{
+\fullpic{0.75}{refusal-headline.png}
+
+\fullpic{0.75}{refusal-para.png}
+}
+
+\only<2>{
+\fullpic{0.75}{trump-impeachment-obstruction-article.png}
+}
+
+## Executive Privilege
+
+. . .
+
+- Presidents have claimed "privilege," or the ability to withold information from other branches of government, from the beginning of the republic
+- "It is generally accepted that Congress does not have the power to compel the president to come before it to answer questions. Whether other executive department officials are covered by claims of privilege is a more open question." (Epstein and Walker, p. 236)
+- Where does this power come from?
+- What are its limits?
+
+## United States v. Nixon: Background
+
+\only<2>{
+\centering
+\fullpic{0.75}{watergate.jpg}
+}
+
+\only<3>{
+\centering
+\fullpic{0.75}{cox.jpg}
+}
+
+\only<4>{
+\centering
+\fullpic{0.65}{protest.jpg}
+
+\vspace{0.5\baselineskip}
+
+\scriptsize Credit: Thomas O'Halloran and Marion S. Trikosko
+}
+
+\only<5>{
+\centering
+\fullpic{0.5}{jaworski.jpeg}
+}
+
+## United States v. Nixon: Holding and Rationale
+
+. . .
+
+- Executive privilege does \textbf{\textcolor{BurntOrange}{not}} prevent the district court from authorizing the issuance of the subpoena?
+
+. . .
+
+\begin{block}{United States v. Nixon}
+In the performance of assigned constitutional duties, each branch of the Government must initially interpret the Constitution\dots\ [which] is due great respect from the others.... Many decisions of this Court, however, have unequivocally reaffirmed the holding of \textit{Marbury v. Madison} that "[i]t is emphatically the province and duty of the judicial department to say what the law is\dots\vspace{0.25\baselineskip}
+
+Notwithstanding the deference each branch must accord the others, the "judicial Power of the United States" vested in the federal courts\dots\ [and cannot be given to others]. Any other conclusion would be contrary to the basic concept of separation of powers\dots
+\end{block}
+
+## United States v. Nixon: Holding and Rationale
+
+\begin{block}{United States v. Nixon}
+A President and those who assist him must be free to explore alternatives in the process of shaping policies and making decisions, and to do so in a way many would be unwilling to express except privately. These are the considerations justifying a presumptive privilege for Presidential communications. The privilege is fundamental to the operation of Government, and inextricably rooted in the separation of powers under the Constitution. \vspace{0.5\baselineskip}
+
+\only<2>{But this presumptive privilege must be considered in light of our historic commitment to the rule of law.}
+\end{block}
+
+## United States v. Nixon: Holding and Rationale
+
+\begin{block}{United States v. Nixon}
+In this case, the President challenges a subpoena served on him as a third party requiring the production of materials for use in a criminal prosecution\dots\ He does not place his claim of privilege on the ground they are military or diplomatic secrets\dots\vspace{0.5\baselineskip}
+
+No case of the Court, however, has extended this high degree of deference to a President's generalized interest in confidentiality. Nowhere in the Constitution, as we have noted earlier, is there any explicit reference to a privilege of confidentiality, yet to the extent this interest relates to the effective discharge of a President's powers, it is constitutionally based.
+\end{block}
+
+
+## United States v. Nixon: Holding and Rationale
+
+\begin{block}{United States v. Nixon}
+We conclude that, when the ground for asserting privilege as to subpoenaed materials sought for use in a criminal trial is based only on the generalized interest in confidentiality, it cannot prevail over the fundamental demands of due process of law in the fair administration of criminal justice. The generalized assertion of privilege must yield to the demonstrated, specific need for evidence in a pending criminal trial.
+\end{block}
+
+## Trump v. Vance: Background
+
+. . .
+
+- The Manhattan District Attorney Cyrus Vance was investigating possible violations of New York state law by Donald Trump
+- Vance subpoenaed Mazars for Trump's tax returns
+- Trump sued Vance in federal court seeking to block the subpoena; both the District Court and the Second Circuit Court of Appeals ruled against Trump
+
+## Trump v. Vance: Holding and Rationale
+
+. . .
+
+- The Court \textbf{\textcolor{gray}{remanded}} the case
+- So, the Court did not decide whether Trump had to comply
+- There is no blanket immunity for U.S. presidents for state court subpoenas, though they can challenge them individually
+- Long tradition of being subject to federal subpoenas (\textit{Nixon})
+- While states can't "burden" the operations of the federal government (\textit{McCulloch}), this doesn't "rise to the level of constitutionally forbidden impairment of the Executive's ability to perform its constitutionally mandated functions"
+- It's not enough to say it would divert the president from their duties; if \textit{Jones} says presidents can be subject to state civil suits, this shouldn't be different
+- But presidents can argue individual subpoenas would be targeting or diversion
+
+## Trump v. Mazars: Background
+
+. . .
+
+- Congress investigated whether they should update ethics rules
+- Congress subpoenaed Mazars for Trump's tax returns
+- Trump sued Vance in federal court to block the subpoena
+- Both lower courts (District Court & DC Circuit) ruled for Trump
+- Congress subpoenaed to Deutsche Bank AG for other business records
+- The two cases went to the Supreme Court and were consolidated
+
+## Trump v. Mazars: Holding and Rationale
+
+. . .
+
+The Court \textcolor{gray}{remanded} the cases.
+
+. . .
+
+- Courts must take into account separation of powers issues subpoenaing the President's private information (like financial records)
+- The Court is reticent to allow the subpoena
+  + Courts must assess whether Congress' purpose warrants the subpoena
+    * It must help a valid legislative purpose
+    * Such a subpoena must be narrowly tailored
+  + The Court says "occasion[s] for constitutional confrontation between the two branches' should be avoided whenever possible" (*Nixon*)
+    * Congress can't subpoena the info if other info sources could work
+  + The subpoena can't overly burden the President
+
+## Executive Privilege
+
+. . .
+
+- There is no absolute executive privilege
+- When executive privilege is asserted on the grounds that the information sought are military/diplomatic secrets, a high degree of deference will be given
+    + But still, **there is no** _**absolute**_ **executive privilege**, even for military or diplomatic secrets
+- In general/domestic situations, less deference will be afforded
+    + Courts begin with the presumption of privilege
+    + But, the presumption can be rebutted by showing the interest does not "relate[] to the effective discharge of the President's powers", **or**
+    + by showing that need for the information trumps the interest in confidentiality
+
+## Executive Privilege
+
+\begin{block}{United States v. Nixon}
+Neither the doctrine of separation of powers nor the need for confidentiality of high-level communications, without more, can sustain an absolute, unqualified Presidential privilege....\vspace{0.5\baselineskip}
+
+[There are] considerations justifying a presumptive privilege for Presidential communications. The privilege is fundamental to the operation of Government, and inextricably rooted in the separation of powers under the Constitution....\vspace{0.5\baselineskip}
+
+[When privilege is asserted for] military or diplomatic secrets... the courts have traditionally shown the utmost deference to Presidential responsibilities....\vspace{0.5\baselineskip}
+\end{block}
+
+
+## Executive Privilege
+
+- There is no absolute executive privilege
+- When executive privilege is asserted on the grounds that the information sought are military/diplomatic secrets, a high degree of deference will be given
+    + But still, **there is no** _**absolute**_ **executive privilege**, even for military or diplomatic secrets
+- In general/domestic situations, less deference will be afforded
+    + Courts begin with the presumption of privilege
+    + But, the presumption can be rebutted by showing
+        * the interest does not "relate[] to the effective discharge of the President's powers", **or**
+        * by showing that need for the information trumps the interest in confidentiality
+    + The standard does not differ between state and federal courts (*Vance*)
+
+## Executive Immunity
+
+. . .
+
+- Presidents are **immune** from being sued or prosecuted in some contexts
+- What sorts of liability the President is immune from has evolved over time
+
+## Mississippi v. Johnson: Facts and Procedure
+
+. . .
+
+- Congress passed the Reconstruction Acts of 1867
+- President Andrew Johnson did not like the Acts and vetoed them
+- However, Congress overrode the veto
+- Mississippi sued President Johnson in the U.S. Supreme Court seeking to enjoin him from enforcing the Reconstruction Acts, arguing they were unconstitutional
+
+## Mississippi v. Johnson: Holding and Rationale
+
+. . .
+
+- The Court \textbf{\textcolor{BurntOrange}{cannot}} enjoin the President from enforcing the Acts
+- The Court may order exec officials to perform ministerial acts
+- However, "Very different is the duty of the President in the exercise of the power to see that the laws are faithfully executed...."
+
+## Nixon v. Fitzgerald: Background
+
+. . .
+
+- Fitzgerald was a civilian management analyst for the USAF
+- Congress investigated cost overruns & waste in gov spending
+- He testified to Congress on plane production overruns & waste 
+- He was fired
+  + The Air Force said it was part of a department reorganization
+  + Fitzgerald claimed it was in retaliation
+- He could not get a different job
+  + A memo said he wasn't loyal & "loyalty is the name of the game"
+- Nixon claimed the decision was his
+- Fitzgerald sued for damages against Nixon & several officials
+- Nixon argued he had absolute immunity
+- The claim was rejected, & Nixon appealed
+
+## Nixon v. Fitzgerald: Holding and Rationale
+
+. . .
+
+- The President \textbf{\textcolor{Blue}{is}} immune from civil suit for official acts
+- Other officials only have *qualified immunity* based on function
+  + Protected unless violation *clearly* violated rights
+- The President is claiming absolute immunity thought
+- Absolute immunity must be closely related to its justification
+- "In view of the special nature of the President's constitutional office and functions, we think it appropriate to recognize absolute Presidential immunity from damages liability for acts within the 'outer perimeter' of his official responsibility."
+- There's other checks on the President, like the media or threat of impeachment
+
+## Clinton v. Jones: Background
+
+. . .
+
+- While Bill Clinton was Governor of Arkansas, he made "abhorrent" sexual advances to Paula Jones, a state employee
+- She was then mistreated by her superiors & transferred to a position with less potential for advancement
+- Clinton was elected President of the United States
+- Jones sued in federal court in Arkansas seeking damages
+- Clinton sought dismissal, arguing he was immune
+- The trial judge refused to dismiss...
+- ...but he did postpone trial until after Clinton's term
+- The court of appeals held the trial should not be postponed
+
+## Clinton v. Jones: Holding and Rationale
+
+. . .
+
+- The president is \textbf{\textcolor{BurntOrange}{not immune}} from civil suit for unofficial acts
+- Presidents are immune from damages based on official acts
+  + Why?
+- *Nixon* is silent on immunity for unofficial acts
+- Since immunity for unofficial acts doesn't further the purpose of immunity, presidents are not immune from suit for unofficial acts
+
+## Trump v. United States: Background
+
+. . .
+
+- In 2022, Congress investigated Trump's actions around the 2020 election
+- They appointed Jack Smith as special counsel for the investigation
+- A grand jury indicted Trump on four charges
+- Trump argued he was immune from the charges
+
+## Trump v. United States: Holding and Rationale
+
+. . .
+
+- The Court held Presidents are absolutely immune for "core" powers
+  + Generally explicitly mentioned powers
+- There's a presumption of immunity for official but not "core" acts
+  + You can rebut the presumption by showing it "would pose no
+'dangers of intrusion on the authority and functions of the Executive
+Branch.'"
+- There is no immunity for unofficial acts
+- You cannot introduce evidence relating to immune acts
+
+## Immunity
+
+. . .
+
+- The President cannot be sued to prevent the execution of his or her duties. *Mississippi v. Johnson*.
+- The President's subordinates can. See, e.g., *Georgia v. Stanton*.
+- The President is entitled to absolute immunity against civil liability for official acts. *Nixon v. Fitzgerald*.
+- However, the President has no immunity from civil liability for unofficial conduct. *Clinton v. Jones*.
+- The President has absolute immunity from prosecution for core constitutional duties, a presumption of immunity for other official acts, and no immunity for unofficial acts; the government cannot introduce evidence related to immune acts. *Trump v. United States*.
