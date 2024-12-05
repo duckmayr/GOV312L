@@ -1,0 +1,222 @@
+---
+title: "Fundamental Rights"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{2pt}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Fundamental Rights: Introduction
+
+. . .
+
+- Last time we discussed the right to privacy and the idea of implied rights
+- You also saw *Dobbs* discusses "fundamental rights" when overruling *Roe*
+- To understand what that means, we'll briefly go over the history of its development
+- Then we'll talk about recent developments on this
+
+## Fundamental Rights: Overview
+
+. . .
+
+- Fundamental rights include
+  + Any right *specifically* mentioned in the Constitution
+  + Implied rights the Court says is required by Due Process
+  + Often if someone says "fundamental rights" without specifying, they mean the implied rights
+- The Due Process Clause requires respect for rights that are
+  + rooted in our nation's history and traditions
+  + are essential to our scheme of ordered liberty
+- Infringement of fundamental rights must pass *strict scrutiny*:
+  + The government action must serve a compelling interest, and
+  + must be narrowly tailored to serve that interest
+
+## Fundamental Rights: Background
+
+. . .
+
+::: {.block}
+### US Constitution, Article IV, \S 1, Privileges & Immunities Clause
+The citizens of each state shall be entitled to all privileges and immunities of citizens in the several states...
+:::
+
+::: {.block}
+### US Constitution, Amendment V, Due Process Clause
+No person shall be... deprived of life, liberty, or property, without due process of law...
+:::
+
+::: {.block}
+### US Constitution, Amendment XIV, Due Process Clause
+No state shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any state deprive any person of life, liberty, or property, without due process of law...
+:::
+
+## Fundamental Rights: Background
+
+- Some argue we should use P&I to recognize implied rights
+- However, the courts have relied on the Due Process Clauses
+- Due Process typically refers to *procedural due process*
+  + Notice
+  + Hearing
+  + Impartial decision maker
+- However, the courts also recognize *substantive due process*
+  + They root this in the phrase "of law" in "due process of law"
+  + If a regulation should be considered *not* law, we don't follow it
+
+## Fundamental Rights: Background
+
+- Initially the Court refused to recognize substantive due process
+  + See the *Sloughter House Cases* (1873)
+- However, by the 1900s, the Court recognized it
+  + *Specifically*, freedom of contract
+  + See *Locher v. New York* (1905)
+- Freedom of contract was abandoned in the New Deal era
+  + See *West Coast Hotel v. Parish* (1937)
+- But they recognize non-economic fundamental rights\only<9->{, like:}
+  + Marrying someone of a different race (*Loving v. Virginia*, 1967)
+  + Freedom from some involuntary commitment (*O'Connor v. Donaldson*, 1975)
+
+## Example: *Obergefell v. Hodges* (2015)
+
+. . .
+
+- The interested can find the full opinion here: [*Obergefell* on Justia](https://supreme.justia.com/cases/federal/us/576/644/#tab-opinion-3427255)
+- Before 2004, same-sex marriage was not legal in any state
+- Between 2004 and 2015, 38 states legalized it
+  <!-- + This was done a variety of ways, precedent, statute, or referendum -->
+- Same-sex couples in several states sued for the right to marry
+  + They argued the prohibition violated both the Due Process and Equal Protection Clauses of the 14th Amendment
+- The Court agreed, holding same-sex marriage was protected by Due Process
+
+## *Obergefell v. Hodges*: Rationale
+
+\only<2>{
+\begin{block}{\textit{Obergefell} majority opinion}
+The ancient origins of marriage confirm its centrality, but it has not stood in isolation from developments in law and society. The history of marriage is one of both continuity and change. That institution even as confined to opposite-sex relations has evolved over time.
+
+\vspace{\baselineskip}
+For example, marriage was once viewed as an arrangement by the couple's parents based on political, religious, and financial concerns [but has changed markedly as women gained rights]\dots
+
+\vspace{\baselineskip}      
+These new insights have strengthened, not weakened, the institution of marriage\dots
+\end{block}
+}
+
+\only<3>{
+\begin{block}{\textit{Obergefell} majority opinion}
+This Court first gave detailed consideration to the legal status of homosexuals in \textit{Bowersv. Hardwick}\dots [which upheld criminal prohibitions on "certain homosexual acts"]\dots Then, in 2003, the Court overruled \textit{Bowers}\dots
+
+\vspace{\baselineskip}
+Against this background, the legal question of same-sex marriage arose\dots
+
+\vspace{\baselineskip}
+After years of litigation, legislation, referenda, and the discussions that attended these public acts, the States are now divided on the issue of same-sex marriage.
+\end{block}
+}
+
+\only<4>{
+\begin{block}{\textit{Obergefell} majority opinion}
+The nature of injustice is that we may not always see it in our own times. The generations that wrote and ratified the Bill of Rights and the Fourteenth Amendment did not presume to know the extent of freedom in all of its dimensions, and so they entrusted to future generations a charter protecting the right of all persons to enjoy liberty as we learn its meaning. When new insight reveals discord between the Constitution's central protections and a received legal stricture, a claim to liberty must be addressed.
+
+\vspace{\baselineskip}
+Applying these established tenets, the Court has long held the right to marry is protected by the Constitution\dots
+\end{block}
+}
+
+\only<5>{
+\begin{block}{\textit{Obergefell} majority opinion}
+In defining the right to marry these cases have identified essential attributes of that right based in history, tradition, and other constitutional liberties inherent in this intimate bond. And in assessing whether the force and rationale of its cases apply to same-sex couples, the Court must respect the basic reasons why the right to marry has been long protected\dots
+
+\vspace{\baselineskip}
+This analysis compels the conclusion that same-sex couples may exercise the right to marry\dots
+
+\vspace{\baselineskip}
+A first premise of the Court's relevant precedents is that the right to personal choice regarding marriage is inherent in the concept of individual autonomy.
+This abiding connection between marriage and liberty is why \textit{Loving} invalidated interracial marriage bans under the Due Process Clause.
+\end{block}
+}
+
+## *Dobbs v. Jackson Women's Health* revisited
+
+\only<2>{
+\begin{block}{\textit{Dobbs} majority opinion syllabus}
+The Court's decisions have held that the Due Process Clause protects two categories of substantive rights---those rights guaranteed by the first eight Amendments to the Constitution and those rights deemed fundamental that are not mentioned anywhere in the Constitution. In deciding whether a right falls into either of these categories, the question is whether the right is ``deeply rooted in [our] history and tradition" and whether it is essential to this Nation's ``scheme of ordered liberty.''
+\end{block}
+}
+
+\only<3>{
+\begin{block}{\textit{Dobbs} majority opinion syllabus}
+Guided by the history and tradition that map the essential components of the Nation’s concept of ordered liberty, the Court finds the
+Fourteenth Amendment clearly does not protect the right to an abortion. Until the latter part of the 20th century, there was no support in
+American law for a constitutional right to obtain an abortion\dots
+
+\vspace{\baselineskip}
+Respondents' argument that this history does not matter flies in the face of the standard the Court has applied in determining whether an asserted right that is nowhere mentioned in the Constitution is nevertheless protected by the Fourteenth Amendment
+\end{block}
+}
+
+\only<4>{
+\begin{block}{\textit{Dobbs} majority opinion}
+Because the dissent cannot argue that the abortion right
+is rooted in this Nation’s history and tradition, it contends
+that the “constitutional tradition” is “not captured whole at
+a single moment,” and that its “meaning gains content from
+the long sweep of our history and from successive judicial
+precedents.”\dots
+
+\vspace{\baselineskip}
+without support in history or relevant precedent, Roe’s
+reasoning cannot be defended
+\end{block}
+}
+
+## *Dobbs v. Jackson Women's Health* revisited
+
+\only<1>{
+\begin{block}{\textit{Dobbs} majority opinion}
+the dissent draws between the abortion right and the
+rights recognized in Griswold (contraception), Eisenstadt
+(same), Lawrence (sexual conduct with member of the same
+sex), and Obergefell (same-sex marriage). Perhaps this is
+designed to stoke unfounded fear that our decision will imperil those other rights, but\dots\
+The exercise of the rights at issue in Griswold,
+Eisenstadt, Lawrence, and Obergefell does not destroy a “potential life,” but an abortion has that effect.
+
+\end{block}
+}
+
+\only<2>{
+\begin{block}{\textit{Dobbs}, Breyer's dissent}
+[In \textit{Obergefell}, the Court] confronted a claim, based on Washington v. Glucksberg, 521 U. S. 702 (1997), that the Fourteenth Amendment
+“must be defined in a most circumscribed manner, with central reference to specific historical practices”—exactly the
+view today’s majority follows\dots\ In doing so,
+the Court reflected on what the proposed, historically circumscribed approach would have meant for interracial
+marriage. See ibid. The Fourteenth Amendment’s ratifiers
+did not think it gave black and white people a right to marry
+each other. To the contrary, contemporaneous practice
+deemed that act quite as unprotected as abortion. Yet the
+Court in \textit{Loving}\dots\ read the
+Fourteenth Amendment to embrace the Lovings’ union.
+\end{block}
+}
+
+\only<3>{
+\begin{block}{\textit{Dobbs}, Breyer's dissent}
+The lone rationale for
+what the majority does today is that the right to elect an
+abortion is not “deeply rooted in history”: Not until Roe, the
+majority argues, did people think abortion fell within the
+Constitution’s guarantee of liberty. The same
+could be said, though, of most of the rights the majority
+claims it is not tampering with.
+\end{block}
+}

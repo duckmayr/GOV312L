@@ -1,0 +1,90 @@
+---
+title: "Course Conclusion and Review"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{2pt}}
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Zooming Back Out
+
+. . .
+
+- Constitutional law, interpretation, and development
+- American political institutions' structure and power
+- How institutions make policy, alone and together
+- Recent and ongoing constitutional issues \only<6>{($\leftarrow$ You are here)}
+
+## Final Exam
+
+. . .
+
+- Friday, December 13
+- Same as the previous exams
+  + Open at 12:01 a.m. CST, **must** be turned in by 11:59 p.m. CST
+  + No time limitations otherwise
+  + Open book, open notes, but must work alone
+  + 10 multiple choice or true/false questions, one essay question
+  + You'll have two essay prompts to choose one from
+  + Worth 20% of your grade
+  + Not necessarily or directly cumulative
+  + So, on contemporary issues in
+    * Executive power\onslide<13->{,}
+    * Privacy and fundamental rights\onslide<14->{,}
+    * First Amendment issues\onslide<15->{, and}
+    * The current and potential Supreme Court cases we discussed
+
+## Executive Power
+
+. . .
+
+- Privilege
+- Immunity
+- Presidential selection
+- *Chevron* deference and the "intelligible principle" doctrine
+
+## Privacy and Fundamental Rights
+
+. . .
+
+- Nature/source of implied constitutional rights
+- Privacy (*Griswold*, *Roe*, *Dobbs*)
+- Fundamental rights (textual, substantive due process, *Obergefell*, *Dobbs* revisited)
+
+## First Amendment Issues
+
+. . .
+
+- The text and the Five Freedoms
+- Establishment of religion
+- Free exercise of religion
+- Free expression
+
+## Emerging Cases
+
+. . .
+
+- *US v Skrmeti*
+- *Barnes v Felix*
+- *Garland v VanDerStok*
+- Recess appointments
+- DOGE
+
+## Closing Thoughts
+
+. . .
+
+- Political knowledge
+- Application, analysis
+- Thanks!
