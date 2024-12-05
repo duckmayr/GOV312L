@@ -1,0 +1,253 @@
+---
+title: "Presidential Selection and Changes to the Bureaucracy"
+author: "JBrandon Duck-Mayr"
+date: "`r quack::american_date_format(Sys.Date())`"
+urlcolor: Blue
+header-includes:
+    - \newcommand{\setsep}[1]{\setlength{\itemsep}{#1}}
+    - \newcommand{\setskip}[1]{\setlength{\parskip}{#1}}
+    - \renewcommand{\tightlist}{\setsep{1pt}\setskip{2pt}}
+    - \usepackage{subcaption}
+    # - "\\newcommand{\\fullpic}[2]{\\includegraphics[height=#1\\linewidth]{#2}}"
+output:
+    quack::presentation:
+        toc: false
+        incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Selecting the President
+
+. . .
+
+- The President must be (Article II \S\ 1 cl. 5)
+  + a "natural born citizen", or one when the Constitution was ratified
+  + 35 years old
+  + Resided in the US for 14 years
+- Presidents are elected for four year terms (Article II \S\ 1 cl. 1)
+  + Unless impeached and removed from office (Article II \S\ 4)
+- Presidents are elected by an "Electoral College"
+
+## The Electoral College (original)
+
+We originally had the following scheme for selecting the president:
+
+\begin{block}{Summary of the Original Article II \S 1, cl. 3}
+\begin{itemize}
+    \item Each elector casts two ballots for president
+    \item If only one person has a vote from a majority of electors, that person is selected as president
+    \item If more than one person has such a number of votes, the House of Representatives chooses the president (from that set of people)
+    \item If no one has such a number of votes, the House chooses from among the top five
+    \item Any voting by the House is by state delegation (each state gets one vote)
+    \item Then the person with the most votes becomes vice president; the Senate breaks ties
+\end{itemize}
+\end{block}
+
+## Federalists vs. Democratic-Republicans (Again)
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=0.3\linewidth,height=0.45\linewidth]{slides/unit-3/washington.jpg}
+        \includegraphics[width=0.3\linewidth,height=0.45\linewidth]{slides/unit-3/adams.jpg}
+        \includegraphics[width=0.3\linewidth,height=0.45\linewidth]{slides/unit-3/hamilton.jpg}
+        \caption*{Federalists}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=0.3\linewidth,height=0.45\linewidth]{slides/unit-3/jefferson.jpg}
+        \includegraphics[width=0.3\linewidth,height=0.45\linewidth]{slides/unit-3/burr.jpg}
+        \includegraphics[width=0.3\linewidth,height=0.45\linewidth]{slides/unit-3/madison.jpg}
+        \caption*{Democratic-Republicans}
+    \end{subfigure}
+\end{figure}
+
+## The Election of 1796
+
+- Adams got the most electoral votes
+- Jefferson got the second most
+- Under the original system, that meant Adams, a Federalist became president, and Jefferson, one of the founders of the Democratic-Republican party, became vice president
+
+## The Election of 1800
+
+- Jefferson and Burr ran as Democratic-Republican candidates; all Democratic-Republicans knew the intention was for Jefferson to be president and Burr to be vice president
+- However, they tied in the electoral college; so, it went to the House
+- The House vote failed to produce a winner for **35 ballots**
+- Eventually, through back-channel dealings, Jefferson was able to gain the support of 10 (of 18) states' delegations
+- Interestingly, Hamilton was among those pushing for Jefferson to win
+
+## A Tragic Epilogue
+
+\begin{center}
+    \includegraphics[height = 0.5\textheight]{slides/unit-3/duel.jpg}
+\end{center}
+
+## The Twelth Amendment
+
+Now we have the following scheme:
+
+\begin{block}{Summary of Amendment XII}
+\begin{itemize}
+    \item Each elector casts a ballot for president and a ballot for vice president
+    \item If a person has a majority of votes for president, that person is selected as president
+    \item If no one does, the House chooses from among the top three
+    \item Any voting by the House is by state delegation (each state gets one vote)
+    \item If a person has a majority of votes for vice president, that person is selected as vice president
+    \item If not, the Senate chooses from among the top two
+\end{itemize}
+\end{block}
+
+## Bush v. Gore: Facts
+
+. . .
+
+\begin{center}
+    \includegraphics[height = 0.9\textheight]{slides/unit-3/recount-paper}
+\end{center}
+
+## Bush v. Gore: Facts
+
+\begin{center}
+    \includegraphics[height = 0.85\textheight]{slides/unit-3/florida2000ballot.png}
+\end{center}
+
+## Bush v. Gore: Facts
+
+\begin{center}
+    \includegraphics[height = 0.85\textheight]{slides/unit-3/chads.jpg}
+\end{center}
+
+## Bush v. Gore: Facts
+
+\begin{center}
+    \includegraphics[height = 0.85\textheight]{slides/unit-3/chad-inspection.jpg}
+\end{center}
+
+## Bush v. Gore
+
+. . .
+
+- On December 8, 2000, the Florida Supreme Court ordered a recount of all contested ballots in Miami-Dade County and all "under-vote" ballots in Florida
+- The Court held oral arguments on the 11th and issued the opinion on the 12th
+- 7-2, the Court held that FL Supreme Court's standardless recount mandate violated the Equal Protection Clause
+- 5-4, the Court held that there was no time to implement a permissible recount method
+
+## Bush v. Gore: Criticisms: Others should decide
+
+\begin{center}
+\includegraphics[height = 0.5\textheight]{slides/unit-3/court-protest.jpg}
+\end{center}
+
+## Bush v. Gore: Criticisms: Politicians in robes
+
+\begin{center}
+\includegraphics[height = 0.5\textheight]{slides/unit-3/court-cartoon.jpg}
+\end{center}
+
+## Bush v. Gore: Criticisms: "Good for one day only"
+
+\begin{block}{Bush v. Gore}
+Our consideration is limited to the present circumstances....
+\end{block}
+
+## Bush v. Gore: Criticisms: "Good for one day only"
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.9\textwidth]{slides/unit-3/npr.png}
+\end{figure}
+
+## Bush v. Gore: Criticisms: "Good for one day only"
+
+\begin{block}{From the transcript}
+HANSEN: This is an interesting concept, the idea that the case can't be used as precedent. Isn't that one of the foundations of our legal system and it even has a Latin term? \vspace{0.5\baselineskip}
+
+Prof. WESSON: Stari decisis, that's right. And almost everyone who's thought about what we call the rule of law, which is something we're really proud of in this country, agrees that a court's obligation to follow its own precedents - or at least to acknowledge them and explain why it's chosen not to follow them - is one of the most important features of the rule of law. Now, that's not to say that it's never justified for a court to overrule its own precedents.... \vspace{0.5\baselineskip}
+
+So it's that contrary aspect of Bush vs. Gore, the Court's announcement that it was not going to treat its own work as precedential, that shocked and dismayed a lot of Court observers. 
+\end{block}
+
+## Bush v. Gore: Criticisms: "Good for one day only"
+
+\includegraphics[width = 0.9\textwidth]{slides/unit-3/not-named.png}
+
+## Controversy Over the Electoral College
+
+. . .
+
+\begin{center}
+\includegraphics[height = 0.85\textheight]{slides/unit-3/trump-headline.png}
+\end{center}
+
+## Controversy Over the Electoral College
+
+```{r kable, echo=FALSE}
+table_df = data.frame(Election = c(1824, 1876, 1888, 2000, 2016),
+                      President = c("John Quincy Adams",
+                                    "Rutherford B. Hayes",
+                                    "Benjamin Harrison",
+                                    "George W. Bush",
+                                    "Donald J. Trump"),
+                      `Electoral College` = c(32.18, 50.14, 58.1, 50.37, 55.5),
+                      `Popular Vote` = c(30.92, 47.92, 47.8, 47.87, 46.09),
+                      `Popular Margin` = c(-10.44, -3.02, -0.79, -0.51, -2.1))
+table_heads = c("Election", "President", "EC (%)", "Pop. Vote (%)",
+                "Margin")
+library(knitr)
+kable(table_df, col.names = table_heads)
+```
+
+## Controversy Over the Electoral College
+
+\begin{center}
+\includegraphics[height = 0.85\textheight]{slides/unit-3/ec-critique.png}
+\end{center}
+
+## Controversy Over the Electoral College
+
+\begin{center}
+\includegraphics[height = 0.4\textheight]{slides/unit-3/trump-ec-tweet1.png}
+\end{center}
+
+## Controversy Over the Electoral College
+
+\begin{center}
+\includegraphics[height = 0.5\textheight]{slides/unit-3/trump-ec-tweet2.png}
+\end{center}
+
+## Controversy Over the Electoral College: Next?
+
+. . .
+
+- Who does the Electoral College disproportionately favor?
+- National Popular Vote Interstate Compact (NPVIC)
+- So far, Donald Trump is on track to win the popular vote for 2024
+  + Some suggest coalitions supporting/opposing EC may shift
+  + Stay tuned...
+
+<!-- ## Foreign Policy -->
+
+<!-- . . . -->
+
+<!-- -  -->
+
+## The Bureaucracy
+
+. . .
+
+- The bureaucracy
+  + is a tool for presidential power, and
+  + often considered necessary in modern times (*Mistretta v. U.S.*)
+- Cracks have formed in the "intelligible principle" doctrine
+  + *Gundy v. U.S.*
+- The Court has now also eliminated "*Chevron* deference"
+  + Bureaucrats sometimes have to interpret their enabling legislation
+  + In *Chevron v. NRDC* the Court held judges defer to them if
+    * the statute has an ambiguity, and
+    * the interpretation is reasonable
+  + In *Loper Bright Enterprises v. Raimondo*, the Court overruled *Chevron*
+    * A "court shall decide all relevant questions of law" 5 U.S.C. \S 706
+    * *Chevron* falsely assumed Congress *intends* to delegate interpretative authority
+    * Further, *Chevron* was often applied inconsistently
